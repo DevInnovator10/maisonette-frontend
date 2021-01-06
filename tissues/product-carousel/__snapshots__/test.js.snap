@@ -1,0 +1,1707 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a multi image product carousel renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: -15px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-area: product-carousel;
+  max-width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.emotion-2:hover {
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .emotion-2 {
+    margin-bottom: 0px;
+  }
+}
+
+.emotion-4 {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+@media (max-width:768px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button {
+    display: none;
+  }
+}
+
+@media (min-width:769px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button+.flickity-page-dots {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-6 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-6 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-6 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-6 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-6 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-6 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-6 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-6:not(.no-dots) {
+  margin: 0 3rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  background: #2F4DA1;
+}
+
+@media screen and (min-width:769px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    margin-top: 25px;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-6:not(.no-dots) .carousel-cell {
+  padding: 2rem;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) {
+    margin: 0rem;
+  }
+
+  .emotion-6:not(.no-dots) .carousel-cell {
+    padding: 2rem 0rem;
+  }
+}
+
+.emotion-8 {
+  background: transparent;
+  border: none;
+  min-height: 400px;
+}
+
+.emotion-8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-8:hover {
+  cursor: pointer;
+}
+
+.emotion-12 {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow: auto;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-12::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media (min-width:992px) {
+  .emotion-12 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-height: 490px;
+    overflow-x: initial;
+    overflow-y: auto;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .emotion-12 {
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (max-width:768px) {
+  .emotion-14 .emotion-17 {
+    display: none;
+  }
+}
+
+.emotion-16 {
+  opacity: 1;
+  -webkit-transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  margin: 0 1rem;
+}
+
+.emotion-16:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-16 img {
+  border: 0.1rem solid #3150A2;
+  display: block;
+  height: 4rem;
+  padding: 0.5rem;
+  width: 4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-16 {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .emotion-16:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-18 {
+  opacity: 0.6;
+  -webkit-transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  margin: 0 1rem;
+}
+
+.emotion-18:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-18 img {
+  border: 0.1rem solid #3150A2;
+  display: block;
+  height: 4rem;
+  padding: 0.5rem;
+  width: 4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .emotion-18:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="ProductCarousel"
+      >
+        <section
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class="emotion-6 emotion-7 flickity-enabled"
+              tabindex="0"
+            >
+              <div
+                class="flickity-viewport"
+                style="height: 0px;"
+              >
+                <div
+                  class="flickity-slider"
+                  style="left: 0px;"
+                >
+                  <button
+                    class="carousel-cell emotion-8 emotion-9 is-selected"
+                    data-test-id="ProductCarousel"
+                    style="position: absolute;"
+                    type="button"
+                  >
+                    <img
+                      alt="1"
+                      src="/spree/products/5/product_large/wqewq.png?1562866358"
+                    />
+                  </button>
+                  <button
+                    aria-hidden="true"
+                    class="carousel-cell  emotion-8 emotion-9"
+                    data-test-id="ProductCarousel"
+                    style="position: absolute;"
+                    type="button"
+                  >
+                    <img
+                      alt="2"
+                      src="/spree/products/8/small/elephant-3728225__480.jpg?1562961908"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                aria-label="Previous"
+                class="flickity-button flickity-prev-next-button previous"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  class="flickity-button-icon"
+                  viewBox="0 0 100 100"
+                >
+                  <path
+                    class="arrow"
+                    d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Next"
+                class="flickity-button flickity-prev-next-button next"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  class="flickity-button-icon"
+                  viewBox="0 0 100 100"
+                >
+                  <path
+                    class="arrow"
+                    d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                    transform="translate(100, 100) rotate(180) "
+                  />
+                </svg>
+              </button>
+              <ol
+                class="flickity-page-dots"
+              />
+            </div>
+          </div>
+        </section>
+        <div
+          class="emotion-12 emotion-13"
+        >
+          <ul
+            class="emotion-14 emotion-15"
+          >
+            <li
+              aria-label="carousel image thumbnail 1"
+              aria-pressed="true"
+              class="emotion-16 emotion-17"
+              data-test-id="ProductCarousel"
+              role="button"
+              tabindex="0"
+            >
+              <img
+                alt="1"
+                draggable="false"
+                src="/spree/products/5/small/wqewq.png?1562866358"
+              />
+            </li>
+            <li
+              aria-label="carousel image thumbnail 2"
+              aria-pressed="false"
+              class="emotion-18 emotion-17"
+              data-test-id="ProductCarousel"
+              role="button"
+              tabindex="0"
+            >
+              <img
+                alt="2"
+                draggable="false"
+                src="/spree/products/8/small/elephant-3728225__480.jpg?1562961908"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: -15px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-area: product-carousel;
+  max-width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.emotion-2:hover {
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .emotion-2 {
+    margin-bottom: 0px;
+  }
+}
+
+.emotion-4 {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+@media (max-width:768px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button {
+    display: none;
+  }
+}
+
+@media (min-width:769px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button+.flickity-page-dots {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-6 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-6 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-6 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-6 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-6 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-6 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-6 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-6:not(.no-dots) {
+  margin: 0 3rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  background: #2F4DA1;
+}
+
+@media screen and (min-width:769px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    margin-top: 25px;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-6:not(.no-dots) .carousel-cell {
+  padding: 2rem;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) {
+    margin: 0rem;
+  }
+
+  .emotion-6:not(.no-dots) .carousel-cell {
+    padding: 2rem 0rem;
+  }
+}
+
+.emotion-8 {
+  background: transparent;
+  border: none;
+  min-height: 400px;
+}
+
+.emotion-8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-8:hover {
+  cursor: pointer;
+}
+
+.emotion-12 {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow: auto;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-12::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media (min-width:992px) {
+  .emotion-12 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-height: 490px;
+    overflow-x: initial;
+    overflow-y: auto;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .emotion-12 {
+    padding-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (max-width:768px) {
+  .emotion-14 .emotion-17 {
+    display: none;
+  }
+}
+
+.emotion-16 {
+  opacity: 1;
+  -webkit-transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  margin: 0 1rem;
+}
+
+.emotion-16:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-16 img {
+  border: 0.1rem solid #3150A2;
+  display: block;
+  height: 4rem;
+  padding: 0.5rem;
+  width: 4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-16 {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .emotion-16:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-18 {
+  opacity: 0.6;
+  -webkit-transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: opacity 400ms cubic-bezier(0.550,0.085,0.68,0.530);
+  margin: 0 1rem;
+}
+
+.emotion-18:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-18 img {
+  border: 0.1rem solid #3150A2;
+  display: block;
+  height: 4rem;
+  padding: 0.5rem;
+  width: 4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .emotion-18:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="ProductCarousel"
+    >
+      <section
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class="emotion-6 emotion-7 flickity-enabled"
+            tabindex="0"
+          >
+            <div
+              class="flickity-viewport"
+              style="height: 0px;"
+            >
+              <div
+                class="flickity-slider"
+                style="left: 0px;"
+              >
+                <button
+                  class="carousel-cell emotion-8 emotion-9 is-selected"
+                  data-test-id="ProductCarousel"
+                  style="position: absolute;"
+                  type="button"
+                >
+                  <img
+                    alt="1"
+                    src="/spree/products/5/product_large/wqewq.png?1562866358"
+                  />
+                </button>
+                <button
+                  aria-hidden="true"
+                  class="carousel-cell  emotion-8 emotion-9"
+                  data-test-id="ProductCarousel"
+                  style="position: absolute;"
+                  type="button"
+                >
+                  <img
+                    alt="2"
+                    src="/spree/products/8/small/elephant-3728225__480.jpg?1562961908"
+                  />
+                </button>
+              </div>
+            </div>
+            <button
+              aria-label="Previous"
+              class="flickity-button flickity-prev-next-button previous"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="flickity-button-icon"
+                viewBox="0 0 100 100"
+              >
+                <path
+                  class="arrow"
+                  d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Next"
+              class="flickity-button flickity-prev-next-button next"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="flickity-button-icon"
+                viewBox="0 0 100 100"
+              >
+                <path
+                  class="arrow"
+                  d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                  transform="translate(100, 100) rotate(180) "
+                />
+              </svg>
+            </button>
+            <ol
+              class="flickity-page-dots"
+            />
+          </div>
+        </div>
+      </section>
+      <div
+        class="emotion-12 emotion-13"
+      >
+        <ul
+          class="emotion-14 emotion-15"
+        >
+          <li
+            aria-label="carousel image thumbnail 1"
+            aria-pressed="true"
+            class="emotion-16 emotion-17"
+            data-test-id="ProductCarousel"
+            role="button"
+            tabindex="0"
+          >
+            <img
+              alt="1"
+              draggable="false"
+              src="/spree/products/5/small/wqewq.png?1562866358"
+            />
+          </li>
+          <li
+            aria-label="carousel image thumbnail 2"
+            aria-pressed="false"
+            class="emotion-18 emotion-17"
+            data-test-id="ProductCarousel"
+            role="button"
+            tabindex="0"
+          >
+            <img
+              alt="2"
+              draggable="false"
+              src="/spree/products/8/small/elephant-3728225__480.jpg?1562961908"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`a single image product carousel renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: -15px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-area: product-carousel;
+  max-width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.emotion-2:hover {
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .emotion-2 {
+    margin-bottom: 0px;
+  }
+}
+
+.emotion-4 {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+@media (max-width:768px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button {
+    display: none;
+  }
+}
+
+@media (min-width:769px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button+.flickity-page-dots {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-6 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-6 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-6 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-6 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-6 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-6 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-6 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-6:not(.no-dots) {
+  margin: 0 3rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  background: #2F4DA1;
+}
+
+@media screen and (min-width:769px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    margin-top: 25px;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-6:not(.no-dots) .carousel-cell {
+  padding: 2rem;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) {
+    margin: 0rem;
+  }
+
+  .emotion-6:not(.no-dots) .carousel-cell {
+    padding: 2rem 0rem;
+  }
+}
+
+.emotion-8 {
+  background: transparent;
+  border: none;
+  min-height: 400px;
+}
+
+.emotion-8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-8:hover {
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="ProductCarousel"
+      >
+        <section
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class="emotion-6 emotion-7 flickity-enabled"
+              tabindex="0"
+            >
+              <div
+                class="flickity-viewport"
+                style="height: 0px;"
+              >
+                <div
+                  class="flickity-slider"
+                  style="left: 0px;"
+                >
+                  <button
+                    class="carousel-cell emotion-8 emotion-9 is-selected"
+                    data-test-id="ProductCarousel"
+                    style="position: absolute;"
+                    type="button"
+                  >
+                    <img
+                      alt="1"
+                      src="/spree/products/5/product_large/wqewq.png?1562866358"
+                    />
+                  </button>
+                </div>
+              </div>
+              <button
+                aria-label="Previous"
+                class="flickity-button flickity-prev-next-button previous"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  class="flickity-button-icon"
+                  viewBox="0 0 100 100"
+                >
+                  <path
+                    class="arrow"
+                    d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Next"
+                class="flickity-button flickity-prev-next-button next"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  class="flickity-button-icon"
+                  viewBox="0 0 100 100"
+                >
+                  <path
+                    class="arrow"
+                    d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                    transform="translate(100, 100) rotate(180) "
+                  />
+                </svg>
+              </button>
+              <ol
+                class="flickity-page-dots"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: -15px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-area: product-carousel;
+  max-width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-2 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.emotion-2:hover {
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .emotion-2 {
+    margin-bottom: 0px;
+  }
+}
+
+.emotion-4 {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+@media (max-width:768px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button {
+    display: none;
+  }
+}
+
+@media (min-width:769px) {
+  .emotion-4 .flickity-button.flickity-prev-next-button+.flickity-page-dots {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  position: relative;
+}
+
+.emotion-6 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-6 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-6 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-6 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-6 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-6 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-6 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-6:not(.no-dots) {
+  margin: 0 3rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot::before {
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-6:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  background: #2F4DA1;
+}
+
+@media screen and (min-width:769px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-6:not(.no-dots) .flickity-page-dots {
+    margin-top: 25px;
+  }
+}
+
+.emotion-6:not(.no-dots) .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-6:not(.no-dots) .carousel-cell {
+  padding: 2rem;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-6:not(.no-dots) {
+    margin: 0rem;
+  }
+
+  .emotion-6:not(.no-dots) .carousel-cell {
+    padding: 2rem 0rem;
+  }
+}
+
+.emotion-8 {
+  background: transparent;
+  border: none;
+  min-height: 400px;
+}
+
+.emotion-8 img {
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-8:hover {
+  cursor: pointer;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="ProductCarousel"
+    >
+      <section
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class="emotion-6 emotion-7 flickity-enabled"
+            tabindex="0"
+          >
+            <div
+              class="flickity-viewport"
+              style="height: 0px;"
+            >
+              <div
+                class="flickity-slider"
+                style="left: 0px;"
+              >
+                <button
+                  class="carousel-cell emotion-8 emotion-9 is-selected"
+                  data-test-id="ProductCarousel"
+                  style="position: absolute;"
+                  type="button"
+                >
+                  <img
+                    alt="1"
+                    src="/spree/products/5/product_large/wqewq.png?1562866358"
+                  />
+                </button>
+              </div>
+            </div>
+            <button
+              aria-label="Previous"
+              class="flickity-button flickity-prev-next-button previous"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="flickity-button-icon"
+                viewBox="0 0 100 100"
+              >
+                <path
+                  class="arrow"
+                  d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Next"
+              class="flickity-button flickity-prev-next-button next"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="flickity-button-icon"
+                viewBox="0 0 100 100"
+              >
+                <path
+                  class="arrow"
+                  d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                  transform="translate(100, 100) rotate(180) "
+                />
+              </svg>
+            </button>
+            <ol
+              class="flickity-page-dots"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
