@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the AppleAppStoreDownload component renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background: #1F3E8F;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  padding: 1.6rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    margin-top: 2.4rem;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.emotion-8 {
+  max-height: 4rem;
+  max-width: 12rem;
+  margin: auto 0 auto 1rem;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="AppleAppStoreDownload"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <h4
+            class="emotion-4 emotion-5"
+          >
+            Download the app
+          </h4>
+          <p
+            class="emotion-6 emotion-7"
+          >
+            Download our official app from the app store
+          </p>
+        </div>
+        <a
+          class="emotion-8 emotion-9"
+          href="https://apps.apple.com/app/apple-store/id1607354539?pt=118811622&ct=Website%20Footer&mt=8"
+          rel="noopener"
+          target="_blank"
+        >
+          <img
+            alt="View the Maisonette App at the Apple App Store"
+            class="emotion-10 emotion-11"
+            src="https://assets.stg.env.maisonette.com/images/apple-app-store-button.svg"
+          />
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background: #1F3E8F;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  padding: 1.6rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    margin-top: 2.4rem;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.emotion-8 {
+  max-height: 4rem;
+  max-width: 12rem;
+  margin: auto 0 auto 1rem;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="AppleAppStoreDownload"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <h4
+          class="emotion-4 emotion-5"
+        >
+          Download the app
+        </h4>
+        <p
+          class="emotion-6 emotion-7"
+        >
+          Download our official app from the app store
+        </p>
+      </div>
+      <a
+        class="emotion-8 emotion-9"
+        href="https://apps.apple.com/app/apple-store/id1607354539?pt=118811622&ct=Website%20Footer&mt=8"
+        rel="noopener"
+        target="_blank"
+      >
+        <img
+          alt="View the Maisonette App at the Apple App Store"
+          class="emotion-10 emotion-11"
+          src="https://assets.stg.env.maisonette.com/images/apple-app-store-button.svg"
+        />
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
