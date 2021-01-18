@@ -1,0 +1,704 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`an account section renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background: #FCF8E8;
+  height: 6rem;
+}
+
+.emotion-2 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+  background-color: #FCF8E8;
+  border: 0;
+  display: block;
+  height: 6rem;
+  margin: 0 auto;
+  outline: 0;
+  width: auto;
+}
+
+.emotion-2:active {
+  outline: 0;
+}
+
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-2:focus,
+  .emotion-2 textarea:focus,
+  .emotion-2 input:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2 {
+    display: none;
+  }
+}
+
+.emotion-4 {
+  display: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-4 {
+    display: block;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -5px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  cursor: pointer;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 1rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-6:hover {
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -5px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  cursor: pointer;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 1rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+.emotion-10:hover {
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+.emotion-19 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -5px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  cursor: pointer;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 1rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  max-height: 6rem;
+}
+
+.emotion-19:active {
+  outline: 0;
+}
+
+.emotion-19:hover {
+  opacity: 0.75;
+}
+
+.emotion-19[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-19:hover {
+  opacity: 1;
+}
+
+.emotion-19:hover {
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+<body>
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="AccountNavigation"
+      >
+        <select
+          class="emotion-2 emotion-3"
+          name="account-navigation"
+        >
+          <option
+            data-test-id="AccountNavigation"
+            value="/account"
+          >
+            Settings
+          </option>
+          <option
+            data-test-id="AccountNavigation"
+            value="/orders"
+          >
+            Orders
+          </option>
+          <option
+            data-test-id="AccountNavigation"
+            value="/returns"
+          >
+            Returns
+          </option>
+          <option
+            data-test-id="AccountNavigation"
+            value="/credits"
+          >
+            Credits
+          </option>
+          <option
+            data-test-id="AccountNavigation"
+            value="/lists/wishlist"
+          >
+            Wishlist
+          </option>
+          <option
+            data-test-id="AccountNavigation"
+            value="/petite-profiles"
+          >
+            Petite Profiles
+          </option>
+          <option
+            value="logout"
+          >
+            Sign Out
+          </option>
+        </select>
+        <nav
+          class="emotion-4 emotion-5"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/account"
+          >
+            Settings
+          </a>
+          <a
+            class="emotion-6 emotion-7"
+            href="/orders"
+          >
+            Orders
+          </a>
+          <a
+            active="true"
+            class="emotion-10 emotion-7"
+            href="/returns"
+          >
+            Returns
+          </a>
+          <a
+            class="emotion-6 emotion-7"
+            href="/credits"
+          >
+            Credits
+          </a>
+          <a
+            class="emotion-6 emotion-7"
+            href="/lists/wishlist"
+          >
+            Wishlist
+          </a>
+          <a
+            class="emotion-6 emotion-7"
+            href="/petite-profiles"
+          >
+            Petite Profiles
+          </a>
+          <button
+            class="emotion-18 emotion-19 emotion-20"
+            type="button"
+          >
+            Log Out
+          </button>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background: #FCF8E8;
+  height: 6rem;
+}
+
+.emotion-2 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+  background-color: #FCF8E8;
+  border: 0;
+  display: block;
+  height: 6rem;
+  margin: 0 auto;
+  outline: 0;
+  width: auto;
+}
+
+.emotion-2:active {
+  outline: 0;
+}
+
+.emotion-2[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-2:focus,
+  .emotion-2 textarea:focus,
+  .emotion-2 input:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2 {
+    display: none;
+  }
+}
+
+.emotion-4 {
+  display: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-4 {
+    display: block;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -5px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  cursor: pointer;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 1rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-6:hover {
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -5px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  cursor: pointer;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 1rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+.emotion-10:hover {
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+.emotion-19 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -5px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  cursor: pointer;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 1rem;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: all 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  max-height: 6rem;
+}
+
+.emotion-19:active {
+  outline: 0;
+}
+
+.emotion-19:hover {
+  opacity: 0.75;
+}
+
+.emotion-19[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-19:hover {
+  opacity: 1;
+}
+
+.emotion-19:hover {
+  color: #9CB1DC;
+  background-position: bottom center;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="AccountNavigation"
+    >
+      <select
+        class="emotion-2 emotion-3"
+        name="account-navigation"
+      >
+        <option
+          data-test-id="AccountNavigation"
+          value="/account"
+        >
+          Settings
+        </option>
+        <option
+          data-test-id="AccountNavigation"
+          value="/orders"
+        >
+          Orders
+        </option>
+        <option
+          data-test-id="AccountNavigation"
+          value="/returns"
+        >
+          Returns
+        </option>
+        <option
+          data-test-id="AccountNavigation"
+          value="/credits"
+        >
+          Credits
+        </option>
+        <option
+          data-test-id="AccountNavigation"
+          value="/lists/wishlist"
+        >
+          Wishlist
+        </option>
+        <option
+          data-test-id="AccountNavigation"
+          value="/petite-profiles"
+        >
+          Petite Profiles
+        </option>
+        <option
+          value="logout"
+        >
+          Sign Out
+        </option>
+      </select>
+      <nav
+        class="emotion-4 emotion-5"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/account"
+        >
+          Settings
+        </a>
+        <a
+          class="emotion-6 emotion-7"
+          href="/orders"
+        >
+          Orders
+        </a>
+        <a
+          active="true"
+          class="emotion-10 emotion-7"
+          href="/returns"
+        >
+          Returns
+        </a>
+        <a
+          class="emotion-6 emotion-7"
+          href="/credits"
+        >
+          Credits
+        </a>
+        <a
+          class="emotion-6 emotion-7"
+          href="/lists/wishlist"
+        >
+          Wishlist
+        </a>
+        <a
+          class="emotion-6 emotion-7"
+          href="/petite-profiles"
+        >
+          Petite Profiles
+        </a>
+        <button
+          class="emotion-18 emotion-19 emotion-20"
+          type="button"
+        >
+          Log Out
+        </button>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
