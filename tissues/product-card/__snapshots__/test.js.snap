@@ -1,0 +1,1078 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a product card renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": @keyframes animation-0 {
+  from {
+    -webkit-transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05,1.05,1.05);
+    -ms-transform: scale3d(1.05,1.05,1.05);
+    transform: scale3d(1.05,1.05,1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+  }
+}
+
+.emotion-0 {
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0.--pulse .emotion-3 {
+  -webkit-animation: animation-0 400ms;
+  animation: animation-0 400ms;
+}
+
+.emotion-2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2 .emotion-9 {
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-2:hover .emotion-9 {
+  opacity: 0;
+}
+
+.emotion-2:hover .emotion-9+.emotion-9 {
+  opacity: 1;
+}
+
+.emotion-2:hover .emotion-12,
+.emotion-2:focus .emotion-12,
+.emotion-2:hover .emotion-16,
+.emotion-2:focus .emotion-16 {
+  opacity: 1;
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-6 {
+  margin-bottom: 3rem;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.emotion-6 .emotion-9+.emotion-9 {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 4rem;
+  }
+}
+
+.emotion-8 {
+  left: 0;
+  max-width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.emotion-13 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  bottom: .6rem;
+  display: none;
+  height: calc(3rem);
+  left: 50%;
+  line-height: 1;
+  opacity: 0;
+  outline: 0;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),-webkit-transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-13:active {
+  outline: 0;
+}
+
+.emotion-13:hover {
+  opacity: 0.75;
+}
+
+.emotion-13[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-13:focus {
+  opacity: 1;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-13 {
+    display: block;
+    max-width: 16rem;
+    width: 100%;
+  }
+}
+
+.emotion-15 {
+  -webkit-appearance: none;
+  background: rgba(255,255,255,0.65);
+  border-radius: 100%;
+  border: 0 none;
+  cursor: pointer;
+  display: none;
+  height: 4rem;
+  line-height: 1;
+  margin: 0;
+  opacity: 0;
+  outline: 0;
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 4rem;
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),-webkit-transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-15 svg {
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  transform: scale(0.75);
+}
+
+.emotion-15:hover {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.emotion-15:focus {
+  opacity: 1;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-15 {
+    display: block;
+  }
+}
+
+.emotion-17 {
+  fill: #FFFFFF;
+  stroke: #3150A2;
+}
+
+.emotion-17.active {
+  fill: #3150A2;
+}
+
+.emotion-19 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 2.2rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+
+.emotion-21 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #5971B4;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.emotion-25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 12px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  margin-top: 3px;
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-25 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-29 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 0 none;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 2.8rem;
+  margin-top: .5rem;
+  outline: 0;
+}
+
+.emotion-29:active {
+  outline: 0;
+}
+
+.emotion-29:hover {
+  opacity: 0.75;
+}
+
+.emotion-29[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-29 svg {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  fill: transparent;
+  stroke: #3150A2;
+  height: 2.7rem;
+  width: 2.7rem;
+  margin-right: 1rem;
+}
+
+.emotion-29 svg {
+  height: 2.2rem;
+  margin-right: 0.25rem;
+  width: 2.2rem;
+}
+
+.emotion-29 i {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-29 {
+    display: none;
+  }
+}
+
+.emotion-33 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+}
+
+<body>
+    <div>
+      <article
+        class=" emotion-0 emotion-1"
+        data-test-id="quick-shop-card"
+      >
+        <a
+          class="emotion-2 emotion-3"
+          href="/product/women-lucia-viola"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <figure
+              class="emotion-6 emotion-7"
+            >
+              <img
+                alt="Women Lucia, Viola"
+                class="lazyload emotion-8 emotion-9"
+                data-id="image"
+                data-src="https://maisonette-prod-app-dependenci-s3maisonetteassets-1gmo1ldvtvuqp.s3.amazonaws.com/media/products/378278/product/yvtxtdtvzokibhcjhs5o.jpg?1540570233"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              />
+              <img
+                alt="Women Lucia, Viola"
+                class="lazyload emotion-8 emotion-9"
+                data-id="image"
+                data-src="https://maisonette-prod-app-dependenci-s3maisonetteassets-1gmo1ldvtvuqp.s3.amazonaws.com/media/products/378279/product/fbhb0b83byowuo6kybbm.jpg?1540570252"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+              />
+            </figure>
+            <button
+              aria-label="open Women Lucia, Viola, quick shop"
+              class="emotion-12 emotion-13 emotion-14"
+              data-id="quickshop"
+              type="button"
+            >
+              Quick Shop
+            </button>
+          </div>
+          <button
+            aria-label="add Women Lucia, Viola, to wishlist"
+            class="emotion-15 emotion-16"
+            data-id="wishlist"
+          >
+            <svg
+              class=" emotion-17 emotion-18"
+            />
+          </button>
+          <header
+            class="emotion-19 emotion-20"
+            data-test-id="ProductTitle"
+          >
+            <h2
+              class="emotion-21 emotion-22"
+            >
+              Women Lucia, Viola
+            </h2>
+            <h3
+              class="emotion-23 emotion-24"
+            >
+              Mott50 x Margherita Missoni
+            </h3>
+            <div
+              class="emotion-25 emotion-26"
+              data-test-id="Price"
+            >
+              $175.00
+            </div>
+          </header>
+        </a>
+        <button
+          class=" emotion-27 emotion-28 emotion-29 emotion-14"
+          data-test-id="IconButton"
+          type="button"
+        >
+          <svg
+            class=" emotion-17 emotion-18"
+          />
+          <i
+            class="emotion-33 emotion-34"
+          >
+            Wishlist
+          </i>
+        </button>
+      </article>
+    </div>
+  </body>,
+  "container": @keyframes animation-0 {
+  from {
+    -webkit-transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05,1.05,1.05);
+    -ms-transform: scale3d(1.05,1.05,1.05);
+    transform: scale3d(1.05,1.05,1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+  }
+}
+
+.emotion-0 {
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-0.--pulse .emotion-3 {
+  -webkit-animation: animation-0 400ms;
+  animation: animation-0 400ms;
+}
+
+.emotion-2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2 .emotion-9 {
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-2:hover .emotion-9 {
+  opacity: 0;
+}
+
+.emotion-2:hover .emotion-9+.emotion-9 {
+  opacity: 1;
+}
+
+.emotion-2:hover .emotion-12,
+.emotion-2:focus .emotion-12,
+.emotion-2:hover .emotion-16,
+.emotion-2:focus .emotion-16 {
+  opacity: 1;
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-6 {
+  margin-bottom: 3rem;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.emotion-6 .emotion-9+.emotion-9 {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 4rem;
+  }
+}
+
+.emotion-8 {
+  left: 0;
+  max-width: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.emotion-13 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  bottom: .6rem;
+  display: none;
+  height: calc(3rem);
+  left: 50%;
+  line-height: 1;
+  opacity: 0;
+  outline: 0;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),-webkit-transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-13:active {
+  outline: 0;
+}
+
+.emotion-13:hover {
+  opacity: 0.75;
+}
+
+.emotion-13[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-13:focus {
+  opacity: 1;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-13 {
+    display: block;
+    max-width: 16rem;
+    width: 100%;
+  }
+}
+
+.emotion-15 {
+  -webkit-appearance: none;
+  background: rgba(255,255,255,0.65);
+  border-radius: 100%;
+  border: 0 none;
+  cursor: pointer;
+  display: none;
+  height: 4rem;
+  line-height: 1;
+  margin: 0;
+  opacity: 0;
+  outline: 0;
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 4rem;
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),-webkit-transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 600ms cubic-bezier(0.390,0.575,0.565,1.000),transform 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-15 svg {
+  -webkit-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  transform: scale(0.75);
+}
+
+.emotion-15:hover {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.emotion-15:focus {
+  opacity: 1;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-15 {
+    display: block;
+  }
+}
+
+.emotion-17 {
+  fill: #FFFFFF;
+  stroke: #3150A2;
+}
+
+.emotion-17.active {
+  fill: #3150A2;
+}
+
+.emotion-19 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 2.2rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+
+.emotion-21 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #5971B4;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.emotion-25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 12px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  margin-top: 3px;
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-25 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-29 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 0 none;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 2.8rem;
+  margin-top: .5rem;
+  outline: 0;
+}
+
+.emotion-29:active {
+  outline: 0;
+}
+
+.emotion-29:hover {
+  opacity: 0.75;
+}
+
+.emotion-29[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-29 svg {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  fill: transparent;
+  stroke: #3150A2;
+  height: 2.7rem;
+  width: 2.7rem;
+  margin-right: 1rem;
+}
+
+.emotion-29 svg {
+  height: 2.2rem;
+  margin-right: 0.25rem;
+  width: 2.2rem;
+}
+
+.emotion-29 i {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-29 {
+    display: none;
+  }
+}
+
+.emotion-33 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+}
+
+<div>
+    <article
+      class=" emotion-0 emotion-1"
+      data-test-id="quick-shop-card"
+    >
+      <a
+        class="emotion-2 emotion-3"
+        href="/product/women-lucia-viola"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <figure
+            class="emotion-6 emotion-7"
+          >
+            <img
+              alt="Women Lucia, Viola"
+              class="lazyload emotion-8 emotion-9"
+              data-id="image"
+              data-src="https://maisonette-prod-app-dependenci-s3maisonetteassets-1gmo1ldvtvuqp.s3.amazonaws.com/media/products/378278/product/yvtxtdtvzokibhcjhs5o.jpg?1540570233"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+            />
+            <img
+              alt="Women Lucia, Viola"
+              class="lazyload emotion-8 emotion-9"
+              data-id="image"
+              data-src="https://maisonette-prod-app-dependenci-s3maisonetteassets-1gmo1ldvtvuqp.s3.amazonaws.com/media/products/378279/product/fbhb0b83byowuo6kybbm.jpg?1540570252"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+            />
+          </figure>
+          <button
+            aria-label="open Women Lucia, Viola, quick shop"
+            class="emotion-12 emotion-13 emotion-14"
+            data-id="quickshop"
+            type="button"
+          >
+            Quick Shop
+          </button>
+        </div>
+        <button
+          aria-label="add Women Lucia, Viola, to wishlist"
+          class="emotion-15 emotion-16"
+          data-id="wishlist"
+        >
+          <svg
+            class=" emotion-17 emotion-18"
+          />
+        </button>
+        <header
+          class="emotion-19 emotion-20"
+          data-test-id="ProductTitle"
+        >
+          <h2
+            class="emotion-21 emotion-22"
+          >
+            Women Lucia, Viola
+          </h2>
+          <h3
+            class="emotion-23 emotion-24"
+          >
+            Mott50 x Margherita Missoni
+          </h3>
+          <div
+            class="emotion-25 emotion-26"
+            data-test-id="Price"
+          >
+            $175.00
+          </div>
+        </header>
+      </a>
+      <button
+        class=" emotion-27 emotion-28 emotion-29 emotion-14"
+        data-test-id="IconButton"
+        type="button"
+      >
+        <svg
+          class=" emotion-17 emotion-18"
+        />
+        <i
+          class="emotion-33 emotion-34"
+        >
+          Wishlist
+        </i>
+      </button>
+    </article>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
