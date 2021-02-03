@@ -1,0 +1,1688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`an order product card with a monogram renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-2 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-2.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-6>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-12 .emotion-15:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-14>span {
+  color: #3150A2;
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-18~.emotion-18 {
+  margin-top: 0.5rem;
+}
+
+.emotion-20 {
+  color: #008000;
+}
+
+.emotion-24 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-24 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-26 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-28 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+<body>
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="order-product-card"
+        tabindex="0"
+      >
+        <img
+          alt="Anna Dress"
+          class="emotion-2 emotion-3"
+          src="https://d1tlpgo3r360y6.cloudfront.net/media/products/565022/small/b455dwbm3wpqsu3orny5.jpg?1561048377"
+        />
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+            data-test-id="order-product-title"
+          >
+            <a
+              class="emotion-8 emotion-9"
+              href="/brands/lindsey-berns"
+            >
+              Lindsey Berns
+            </a>
+            <a
+              class="emotion-10 emotion-11"
+              href="/product/anna-dress"
+            >
+              Anna Dress
+            </a>
+          </div>
+          <span
+            class="emotion-12 emotion-13"
+            data-test-id="order-product-info"
+          >
+            <p
+              class="emotion-14 emotion-15"
+            >
+              Size
+              :
+              2y
+            </p>
+            <p
+              class="emotion-14 emotion-15"
+              data-test-id="order-product-qty"
+            >
+              Qty:
+               
+              1
+            </p>
+          </span>
+          <p
+            class="emotion-18 emotion-19"
+            data-test-id="order-product-monogram"
+          >
+            Monogram:
+             
+            Text:
+             "
+            <span
+              class="emotion-20 emotion-32"
+            >
+              Boop!!!
+            </span>
+            ",
+            Style: "Modern Upper Full"
+          </p>
+          <p
+            class="emotion-18 emotion-19"
+            data-test-id="order-product-lead-time"
+          >
+            Shipping Note: Ships within
+             
+            1 week and 3 days
+          </p>
+        </div>
+        <div
+          class="emotion-24 emotion-25"
+        >
+          <p
+            class="emotion-26 emotion-27"
+            data-test-id="order-product-price"
+            title="original price"
+          >
+            $17.65
+          </p>
+        </div>
+        <div
+          class="emotion-28 emotion-33"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-2 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-2.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-6>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-12 .emotion-15:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-14>span {
+  color: #3150A2;
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-18~.emotion-18 {
+  margin-top: 0.5rem;
+}
+
+.emotion-20 {
+  color: #008000;
+}
+
+.emotion-24 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-24 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-26 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-28 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="order-product-card"
+      tabindex="0"
+    >
+      <img
+        alt="Anna Dress"
+        class="emotion-2 emotion-3"
+        src="https://d1tlpgo3r360y6.cloudfront.net/media/products/565022/small/b455dwbm3wpqsu3orny5.jpg?1561048377"
+      />
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <div
+          class=" emotion-6 emotion-7"
+          data-test-id="order-product-title"
+        >
+          <a
+            class="emotion-8 emotion-9"
+            href="/brands/lindsey-berns"
+          >
+            Lindsey Berns
+          </a>
+          <a
+            class="emotion-10 emotion-11"
+            href="/product/anna-dress"
+          >
+            Anna Dress
+          </a>
+        </div>
+        <span
+          class="emotion-12 emotion-13"
+          data-test-id="order-product-info"
+        >
+          <p
+            class="emotion-14 emotion-15"
+          >
+            Size
+            :
+            2y
+          </p>
+          <p
+            class="emotion-14 emotion-15"
+            data-test-id="order-product-qty"
+          >
+            Qty:
+             
+            1
+          </p>
+        </span>
+        <p
+          class="emotion-18 emotion-19"
+          data-test-id="order-product-monogram"
+        >
+          Monogram:
+           
+          Text:
+           "
+          <span
+            class="emotion-20 emotion-32"
+          >
+            Boop!!!
+          </span>
+          ",
+          Style: "Modern Upper Full"
+        </p>
+        <p
+          class="emotion-18 emotion-19"
+          data-test-id="order-product-lead-time"
+        >
+          Shipping Note: Ships within
+           
+          1 week and 3 days
+        </p>
+      </div>
+      <div
+        class="emotion-24 emotion-25"
+      >
+        <p
+          class="emotion-26 emotion-27"
+          data-test-id="order-product-price"
+          title="original price"
+        >
+          $17.65
+        </p>
+      </div>
+      <div
+        class="emotion-28 emotion-33"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`an order product card with adjustments renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-2 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-2.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-6>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-12 .emotion-15:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-14>span {
+  color: #3150A2;
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-18~.emotion-18 {
+  margin-top: 0.5rem;
+}
+
+.emotion-20 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-20 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.emotion-24 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #4B8B52;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.emotion-26 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-28 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+<body>
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="order-product-card"
+        tabindex="0"
+      >
+        <img
+          alt="Anna Dress"
+          class="emotion-2 emotion-3"
+          src="https://d1tlpgo3r360y6.cloudfront.net/media/products/565022/small/b455dwbm3wpqsu3orny5.jpg?1561048377"
+        />
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+            data-test-id="order-product-title"
+          >
+            <a
+              class="emotion-8 emotion-9"
+              href="/brands/lindsey-berns"
+            >
+              Lindsey Berns
+            </a>
+            <a
+              class="emotion-10 emotion-11"
+              href="/product/anna-dress"
+            >
+              Anna Dress
+            </a>
+          </div>
+          <span
+            class="emotion-12 emotion-13"
+            data-test-id="order-product-info"
+          >
+            <p
+              class="emotion-14 emotion-15"
+            >
+              Size
+              :
+              2y
+            </p>
+            <p
+              class="emotion-14 emotion-15"
+              data-test-id="order-product-qty"
+            >
+              Qty:
+               
+              1
+            </p>
+          </span>
+          <p
+            class="emotion-18 emotion-19"
+            data-test-id="order-product-lead-time"
+          >
+            Shipping Note: Ships within
+             
+            1 week
+          </p>
+        </div>
+        <div
+          class="emotion-20 emotion-21"
+        >
+          <p
+            class="emotion-22 emotion-23"
+            data-test-id="order-product-price"
+            title="original price"
+          >
+            $17.65
+          </p>
+          <p
+            class="emotion-24 emotion-25"
+            data-test-id="order-product-adjustment"
+            title="adj1 adjustment"
+          >
+            -
+             
+            $10.00
+          </p>
+          <p
+            class="emotion-26 emotion-23"
+            data-test-id="order-product-adjusted-price"
+            title="total adjusted price"
+          >
+            $7.65
+          </p>
+        </div>
+        <div
+          class="emotion-28 emotion-33"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-2 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-2.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-6>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-12 .emotion-15:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-14>span {
+  color: #3150A2;
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-18~.emotion-18 {
+  margin-top: 0.5rem;
+}
+
+.emotion-20 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-20 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.emotion-24 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #4B8B52;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.emotion-26 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-28 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="order-product-card"
+      tabindex="0"
+    >
+      <img
+        alt="Anna Dress"
+        class="emotion-2 emotion-3"
+        src="https://d1tlpgo3r360y6.cloudfront.net/media/products/565022/small/b455dwbm3wpqsu3orny5.jpg?1561048377"
+      />
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <div
+          class=" emotion-6 emotion-7"
+          data-test-id="order-product-title"
+        >
+          <a
+            class="emotion-8 emotion-9"
+            href="/brands/lindsey-berns"
+          >
+            Lindsey Berns
+          </a>
+          <a
+            class="emotion-10 emotion-11"
+            href="/product/anna-dress"
+          >
+            Anna Dress
+          </a>
+        </div>
+        <span
+          class="emotion-12 emotion-13"
+          data-test-id="order-product-info"
+        >
+          <p
+            class="emotion-14 emotion-15"
+          >
+            Size
+            :
+            2y
+          </p>
+          <p
+            class="emotion-14 emotion-15"
+            data-test-id="order-product-qty"
+          >
+            Qty:
+             
+            1
+          </p>
+        </span>
+        <p
+          class="emotion-18 emotion-19"
+          data-test-id="order-product-lead-time"
+        >
+          Shipping Note: Ships within
+           
+          1 week
+        </p>
+      </div>
+      <div
+        class="emotion-20 emotion-21"
+      >
+        <p
+          class="emotion-22 emotion-23"
+          data-test-id="order-product-price"
+          title="original price"
+        >
+          $17.65
+        </p>
+        <p
+          class="emotion-24 emotion-25"
+          data-test-id="order-product-adjustment"
+          title="adj1 adjustment"
+        >
+          -
+           
+          $10.00
+        </p>
+        <p
+          class="emotion-26 emotion-23"
+          data-test-id="order-product-adjusted-price"
+          title="total adjusted price"
+        >
+          $7.65
+        </p>
+      </div>
+      <div
+        class="emotion-28 emotion-33"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`an order product card without adjustments renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-2 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-2.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-6>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-12 .emotion-15:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-14>span {
+  color: #3150A2;
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-18~.emotion-18 {
+  margin-top: 0.5rem;
+}
+
+.emotion-20 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-20 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-24 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+<body>
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="order-product-card"
+        tabindex="0"
+      >
+        <img
+          alt="Anna Dress"
+          class="emotion-2 emotion-3"
+          src="https://d1tlpgo3r360y6.cloudfront.net/media/products/565022/small/b455dwbm3wpqsu3orny5.jpg?1561048377"
+        />
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+            data-test-id="order-product-title"
+          >
+            <a
+              class="emotion-8 emotion-9"
+              href="/brands/lindsey-berns"
+            >
+              Lindsey Berns
+            </a>
+            <a
+              class="emotion-10 emotion-11"
+              href="/product/anna-dress"
+            >
+              Anna Dress
+            </a>
+          </div>
+          <span
+            class="emotion-12 emotion-13"
+            data-test-id="order-product-info"
+          >
+            <p
+              class="emotion-14 emotion-15"
+            >
+              Size
+              :
+              2y
+            </p>
+            <p
+              class="emotion-14 emotion-15"
+              data-test-id="order-product-qty"
+            >
+              Qty:
+               
+              1
+            </p>
+          </span>
+          <p
+            class="emotion-18 emotion-19"
+            data-test-id="order-product-lead-time"
+          >
+            Shipping Note: Ships within
+             
+            1 week and 2 days
+          </p>
+        </div>
+        <div
+          class="emotion-20 emotion-21"
+        >
+          <p
+            class="emotion-22 emotion-23"
+            data-test-id="order-product-price"
+            title="original price"
+          >
+            $17.65
+          </p>
+        </div>
+        <div
+          class="emotion-24 emotion-33"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-2 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-2.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-6>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-12 .emotion-15:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-14>span {
+  color: #3150A2;
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-18~.emotion-18 {
+  margin-top: 0.5rem;
+}
+
+.emotion-20 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-20 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-24 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="order-product-card"
+      tabindex="0"
+    >
+      <img
+        alt="Anna Dress"
+        class="emotion-2 emotion-3"
+        src="https://d1tlpgo3r360y6.cloudfront.net/media/products/565022/small/b455dwbm3wpqsu3orny5.jpg?1561048377"
+      />
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <div
+          class=" emotion-6 emotion-7"
+          data-test-id="order-product-title"
+        >
+          <a
+            class="emotion-8 emotion-9"
+            href="/brands/lindsey-berns"
+          >
+            Lindsey Berns
+          </a>
+          <a
+            class="emotion-10 emotion-11"
+            href="/product/anna-dress"
+          >
+            Anna Dress
+          </a>
+        </div>
+        <span
+          class="emotion-12 emotion-13"
+          data-test-id="order-product-info"
+        >
+          <p
+            class="emotion-14 emotion-15"
+          >
+            Size
+            :
+            2y
+          </p>
+          <p
+            class="emotion-14 emotion-15"
+            data-test-id="order-product-qty"
+          >
+            Qty:
+             
+            1
+          </p>
+        </span>
+        <p
+          class="emotion-18 emotion-19"
+          data-test-id="order-product-lead-time"
+        >
+          Shipping Note: Ships within
+           
+          1 week and 2 days
+        </p>
+      </div>
+      <div
+        class="emotion-20 emotion-21"
+      >
+        <p
+          class="emotion-22 emotion-23"
+          data-test-id="order-product-price"
+          title="original price"
+        >
+          $17.65
+        </p>
+      </div>
+      <div
+        class="emotion-24 emotion-33"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
