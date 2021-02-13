@@ -1,0 +1,1380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a size guide tab renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  border-bottom: 1px solid #9CB1DC;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 0.7rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  color: #9CB1DC;
+}
+
+.emotion-2.emotion-2 {
+  font-size: 1.1rem;
+}
+
+.emotion-2:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-2:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-2:hover {
+  color: #9CB1DC;
+}
+
+.emotion-2:hover {
+  color: #9CB1DC;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 0.7rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-4.emotion-4 {
+  font-size: 1.1rem;
+}
+
+.emotion-4:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-4:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-4:hover {
+  color: #9CB1DC;
+}
+
+.emotion-10 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: block;
+  margin: 3rem auto;
+  max-width: 20rem;
+  outline: 0;
+}
+
+.emotion-10:active {
+  outline: 0;
+}
+
+.emotion-10[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-10:focus,
+  .emotion-10 textarea:focus,
+  .emotion-10 input:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-10~.emotion-14 {
+  border-top: 1px solid #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-10 {
+    display: none;
+  }
+
+  .emotion-10~.emotion-14 {
+    border-top: none;
+  }
+}
+
+.emotion-12 {
+  overflow: auto;
+}
+
+.emotion-15 {
+  border-top: 1px solid #3150A2;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-top: none;
+}
+
+.emotion-15 tbody tr:first-of-type td {
+  padding-top: 2rem;
+}
+
+.emotion-15 td {
+  color: #3150A2;
+}
+
+.emotion-15 tr {
+  border-bottom: 1px solid #9CB1DC;
+}
+
+.emotion-17 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  border-bottom: 1px solid #3150A2;
+  -webkit-letter-spacing: 0.24rem;
+  -moz-letter-spacing: 0.24rem;
+  -ms-letter-spacing: 0.24rem;
+  letter-spacing: 0.24rem;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+}
+
+.emotion-17:not(:last-child) {
+  padding-right: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-17 {
+    padding-right: 0;
+  }
+}
+
+.emotion-29 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  padding: 1rem 0;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.emotion-29:not(:last-child) {
+  padding-right: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-29 {
+    padding-right: 0;
+  }
+}
+
+<body>
+    <div>
+      <div
+        data-test-id="SizeGuideTab"
+      >
+        <nav
+          class="emotion-0 emotion-1"
+        >
+          <button
+            active="true"
+            class="emotion-2 emotion-3"
+            data-test-id="SizeGuideTab"
+            id="Apparel-tab"
+            type="button"
+          >
+            Apparel
+          </button>
+          <button
+            class="emotion-4 emotion-3"
+            data-test-id="SizeGuideTab"
+            id="Hats-tab"
+            type="button"
+          >
+            Hats
+          </button>
+          <button
+            class="emotion-4 emotion-3"
+            data-test-id="SizeGuideTab"
+            id="Socks & Booties-tab"
+            type="button"
+          >
+            Socks & Booties
+          </button>
+          <button
+            class="emotion-4 emotion-3"
+            data-test-id="SizeGuideTab"
+            id="Shoes-tab"
+            type="button"
+          >
+            Shoes
+          </button>
+        </nav>
+        <select
+          class="emotion-10 emotion-11"
+          name="size-select-mobile"
+        >
+          <option
+            data-test-id="SizeGuideTab"
+            value="Apparel"
+          >
+            Apparel
+          </option>
+          <option
+            data-test-id="SizeGuideTab"
+            value="Hats"
+          >
+            Hats
+          </option>
+          <option
+            data-test-id="SizeGuideTab"
+            value="Socks & Booties"
+          >
+            Socks & Booties
+          </option>
+          <option
+            data-test-id="SizeGuideTab"
+            value="Shoes"
+          >
+            Shoes
+          </option>
+        </select>
+        <div
+          class="emotion-12 emotion-13"
+        >
+          <table
+            class=" emotion-14 emotion-15 emotion-16"
+            data-test-id="Table"
+            media=""
+          >
+            <thead>
+              <tr>
+                <th
+                  class="emotion-17 emotion-18"
+                  data-test-id="Table"
+                >
+                  Size
+                </th>
+                <th
+                  class="emotion-17 emotion-18"
+                  data-test-id="Table"
+                >
+                  Age
+                </th>
+                <th
+                  class="emotion-17 emotion-18"
+                  data-test-id="Table"
+                >
+                  Height
+                </th>
+                <th
+                  class="emotion-17 emotion-18"
+                  data-test-id="Table"
+                >
+                  Weight
+                </th>
+                <th
+                  class="emotion-17 emotion-18"
+                  data-test-id="Table"
+                >
+                  Chest
+                </th>
+                <th
+                  class="emotion-17 emotion-18"
+                  data-test-id="Table"
+                >
+                  Waist
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                data-test-id="Table"
+              >
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  Up to 7lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  Up to 7lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  Up to 20.5"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  Up to 7 lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  15.5"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  16.125"
+                </td>
+              </tr>
+              <tr
+                data-test-id="Table"
+              >
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  0 - 3 M
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  0 - 3 Months
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  20.5 - 24"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  7 - 14 lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  15.5 - 17"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  16.125 - 17.375"
+                </td>
+              </tr>
+              <tr
+                data-test-id="Table"
+              >
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  3 - 6 M
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  3 - 6 Months
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  24 - 27"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  14 - 18 lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  17 - 18"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  17.375 - 18.5"
+                </td>
+              </tr>
+              <tr
+                data-test-id="Table"
+              >
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  6 - 9 M
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  6 - 9 Months
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  27 - 29"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  18 - 22 lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  18 - 18.5"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  18.5 - 19"
+                </td>
+              </tr>
+              <tr
+                data-test-id="Table"
+              >
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  9 - 12 M
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  9 - 12 Months
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  29 - 30.5"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  22 - 26 lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  18.5 - 19"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  19 - 19.5"
+                </td>
+              </tr>
+              <tr
+                data-test-id="Table"
+              >
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  12 - 18 M
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  12 - 18 Months
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  30.5 - 32"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  26 - 28 lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  19 - 19.75"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  19.5 - 20.25"
+                </td>
+              </tr>
+              <tr
+                data-test-id="Table"
+              >
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  18 - 24 M
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  18 - 24 Months
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  32 - 33.5"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  28 - 30 lbs
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  19.75 - 20"
+                </td>
+                <td
+                  class="emotion-29 emotion-30"
+                  data-test-id="Table"
+                >
+                  20.25 - 20.5"
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  border-bottom: 1px solid #9CB1DC;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 0.7rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  color: #9CB1DC;
+}
+
+.emotion-2.emotion-2 {
+  font-size: 1.1rem;
+}
+
+.emotion-2:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-2:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-2:hover {
+  color: #9CB1DC;
+}
+
+.emotion-2:hover {
+  color: #9CB1DC;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 0.7rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-4.emotion-4 {
+  font-size: 1.1rem;
+}
+
+.emotion-4:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-4:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-4:hover {
+  color: #9CB1DC;
+}
+
+.emotion-10 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: block;
+  margin: 3rem auto;
+  max-width: 20rem;
+  outline: 0;
+}
+
+.emotion-10:active {
+  outline: 0;
+}
+
+.emotion-10[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-10:focus,
+  .emotion-10 textarea:focus,
+  .emotion-10 input:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-10~.emotion-14 {
+  border-top: 1px solid #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-10 {
+    display: none;
+  }
+
+  .emotion-10~.emotion-14 {
+    border-top: none;
+  }
+}
+
+.emotion-12 {
+  overflow: auto;
+}
+
+.emotion-15 {
+  border-top: 1px solid #3150A2;
+  display: table;
+  width: 100%;
+  position: relative;
+  border-top: none;
+}
+
+.emotion-15 tbody tr:first-of-type td {
+  padding-top: 2rem;
+}
+
+.emotion-15 td {
+  color: #3150A2;
+}
+
+.emotion-15 tr {
+  border-bottom: 1px solid #9CB1DC;
+}
+
+.emotion-17 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  border-bottom: 1px solid #3150A2;
+  -webkit-letter-spacing: 0.24rem;
+  -moz-letter-spacing: 0.24rem;
+  -ms-letter-spacing: 0.24rem;
+  letter-spacing: 0.24rem;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+}
+
+.emotion-17:not(:last-child) {
+  padding-right: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-17 {
+    padding-right: 0;
+  }
+}
+
+.emotion-29 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  padding: 1rem 0;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.emotion-29:not(:last-child) {
+  padding-right: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-29 {
+    padding-right: 0;
+  }
+}
+
+<div>
+    <div
+      data-test-id="SizeGuideTab"
+    >
+      <nav
+        class="emotion-0 emotion-1"
+      >
+        <button
+          active="true"
+          class="emotion-2 emotion-3"
+          data-test-id="SizeGuideTab"
+          id="Apparel-tab"
+          type="button"
+        >
+          Apparel
+        </button>
+        <button
+          class="emotion-4 emotion-3"
+          data-test-id="SizeGuideTab"
+          id="Hats-tab"
+          type="button"
+        >
+          Hats
+        </button>
+        <button
+          class="emotion-4 emotion-3"
+          data-test-id="SizeGuideTab"
+          id="Socks & Booties-tab"
+          type="button"
+        >
+          Socks & Booties
+        </button>
+        <button
+          class="emotion-4 emotion-3"
+          data-test-id="SizeGuideTab"
+          id="Shoes-tab"
+          type="button"
+        >
+          Shoes
+        </button>
+      </nav>
+      <select
+        class="emotion-10 emotion-11"
+        name="size-select-mobile"
+      >
+        <option
+          data-test-id="SizeGuideTab"
+          value="Apparel"
+        >
+          Apparel
+        </option>
+        <option
+          data-test-id="SizeGuideTab"
+          value="Hats"
+        >
+          Hats
+        </option>
+        <option
+          data-test-id="SizeGuideTab"
+          value="Socks & Booties"
+        >
+          Socks & Booties
+        </option>
+        <option
+          data-test-id="SizeGuideTab"
+          value="Shoes"
+        >
+          Shoes
+        </option>
+      </select>
+      <div
+        class="emotion-12 emotion-13"
+      >
+        <table
+          class=" emotion-14 emotion-15 emotion-16"
+          data-test-id="Table"
+          media=""
+        >
+          <thead>
+            <tr>
+              <th
+                class="emotion-17 emotion-18"
+                data-test-id="Table"
+              >
+                Size
+              </th>
+              <th
+                class="emotion-17 emotion-18"
+                data-test-id="Table"
+              >
+                Age
+              </th>
+              <th
+                class="emotion-17 emotion-18"
+                data-test-id="Table"
+              >
+                Height
+              </th>
+              <th
+                class="emotion-17 emotion-18"
+                data-test-id="Table"
+              >
+                Weight
+              </th>
+              <th
+                class="emotion-17 emotion-18"
+                data-test-id="Table"
+              >
+                Chest
+              </th>
+              <th
+                class="emotion-17 emotion-18"
+                data-test-id="Table"
+              >
+                Waist
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              data-test-id="Table"
+            >
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                Up to 7lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                Up to 7lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                Up to 20.5"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                Up to 7 lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                15.5"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                16.125"
+              </td>
+            </tr>
+            <tr
+              data-test-id="Table"
+            >
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                0 - 3 M
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                0 - 3 Months
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                20.5 - 24"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                7 - 14 lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                15.5 - 17"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                16.125 - 17.375"
+              </td>
+            </tr>
+            <tr
+              data-test-id="Table"
+            >
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                3 - 6 M
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                3 - 6 Months
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                24 - 27"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                14 - 18 lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                17 - 18"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                17.375 - 18.5"
+              </td>
+            </tr>
+            <tr
+              data-test-id="Table"
+            >
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                6 - 9 M
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                6 - 9 Months
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                27 - 29"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                18 - 22 lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                18 - 18.5"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                18.5 - 19"
+              </td>
+            </tr>
+            <tr
+              data-test-id="Table"
+            >
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                9 - 12 M
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                9 - 12 Months
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                29 - 30.5"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                22 - 26 lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                18.5 - 19"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                19 - 19.5"
+              </td>
+            </tr>
+            <tr
+              data-test-id="Table"
+            >
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                12 - 18 M
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                12 - 18 Months
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                30.5 - 32"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                26 - 28 lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                19 - 19.75"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                19.5 - 20.25"
+              </td>
+            </tr>
+            <tr
+              data-test-id="Table"
+            >
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                18 - 24 M
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                18 - 24 Months
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                32 - 33.5"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                28 - 30 lbs
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                19.75 - 20"
+              </td>
+              <td
+                class="emotion-29 emotion-30"
+                data-test-id="Table"
+              >
+                20.25 - 20.5"
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
