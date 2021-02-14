@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a product detail accordion tab renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  border-bottom: 1px solid rgba(43,70,152,.1);
+  overflow: hidden;
+  -webkit-transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  max-height: 35px;
+}
+
+.emotion-0~dl {
+  border-top: 0;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHdpZHRoPSIxMCIgaGVpZ2h0PSI3IiB2aWV3Ym94PSIwIDAgMTAgNSIgZmlsbD0ibm9uZSIgIHZlcnNpb249JzEuMScgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgPHBhdGggZD0iTTEgMS41TDUgNS41TDkgMS41IiBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  color: #2F4DA1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3.5rem;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: .8rem;
+}
+
+.emotion-4 {
+  padding-bottom: 2.4rem;
+}
+
+<body>
+    <div>
+      <dl
+        class="emotion-0 emotion-1"
+      >
+        <dt
+          class="emotion-2 emotion-3"
+        >
+          Accordion Title
+          
+        </dt>
+        <dd
+          class="emotion-4 emotion-5"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet justo risus, vitae convallis sem hendrerit a. Cras vitae enim diam. Donec ornare ex lectus, nec porta felis tincidunt eget. Vestibulum massa ex, mollis quis malesuada nec, pretium non neque. Sed vel pulvinar magna, vitae laoreet arcu. Curabitur convallis magna ut nunc pharetra aliquet. Mauris dignissim tincidunt nunc. Aenean eget erat mauris. Phasellus id fringilla nunc, dictum fermentum eros. Pellentesque vel augue vitae odio semper cursus pharetra et urna. Nulla fermentum, justo vitae viverra sodales, nisl tortor suscipit lectus, et mollis sapien leo vel ligula. Nullam dapibus nunc nec rhoncus pretium. Phasellus non placerat nunc. Curabitur vitae magna quis sem gravida auctor. Nullam id massa in ligula lobortis posuere. Sed eget accumsan velit, nec viverra dolor.
+        </dd>
+      </dl>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  border-bottom: 1px solid rgba(43,70,152,.1);
+  overflow: hidden;
+  -webkit-transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  max-height: 35px;
+}
+
+.emotion-0~dl {
+  border-top: 0;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHdpZHRoPSIxMCIgaGVpZ2h0PSI3IiB2aWV3Ym94PSIwIDAgMTAgNSIgZmlsbD0ibm9uZSIgIHZlcnNpb249JzEuMScgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgPHBhdGggZD0iTTEgMS41TDUgNS41TDkgMS41IiBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  color: #2F4DA1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3.5rem;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: .8rem;
+}
+
+.emotion-4 {
+  padding-bottom: 2.4rem;
+}
+
+<div>
+    <dl
+      class="emotion-0 emotion-1"
+    >
+      <dt
+        class="emotion-2 emotion-3"
+      >
+        Accordion Title
+        
+      </dt>
+      <dd
+        class="emotion-4 emotion-5"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet justo risus, vitae convallis sem hendrerit a. Cras vitae enim diam. Donec ornare ex lectus, nec porta felis tincidunt eget. Vestibulum massa ex, mollis quis malesuada nec, pretium non neque. Sed vel pulvinar magna, vitae laoreet arcu. Curabitur convallis magna ut nunc pharetra aliquet. Mauris dignissim tincidunt nunc. Aenean eget erat mauris. Phasellus id fringilla nunc, dictum fermentum eros. Pellentesque vel augue vitae odio semper cursus pharetra et urna. Nulla fermentum, justo vitae viverra sodales, nisl tortor suscipit lectus, et mollis sapien leo vel ligula. Nullam dapibus nunc nec rhoncus pretium. Phasellus non placerat nunc. Curabitur vitae magna quis sem gravida auctor. Nullam id massa in ligula lobortis posuere. Sed eget accumsan velit, nec viverra dolor.
+      </dd>
+    </dl>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
