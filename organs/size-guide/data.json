@@ -1,0 +1,2072 @@
+{
+  "Baby": {
+    "Apparel": [
+      {
+        "Size": "Up to 7lbs",
+        "Age": "Up to 7lbs",
+        "Height": "Up to 20.5\"",
+        "Weight": "Up to 7 lbs",
+        "Chest": "15.5\"",
+        "Waist": "16.125\""
+      },
+      {
+        "Size": "0 - 3 M",
+        "Age": "0 - 3 Months",
+        "Height": "20.5 - 24\"",
+        "Weight": "7 - 14 lbs",
+        "Chest": "15.5 - 17\"",
+        "Waist": "16.125 - 17.375\""
+      },
+      {
+        "Size": "3 - 6 M",
+        "Age": "3 - 6 Months",
+        "Height": "24 - 27\"",
+        "Weight": "14 - 18 lbs",
+        "Chest": "17 - 18\"",
+        "Waist": "17.375 - 18.5\""
+      },
+      {
+        "Size": "6 - 9 M",
+        "Age": "6 - 9 Months",
+        "Height": "27 - 29\"",
+        "Weight": "18 - 22 lbs",
+        "Chest": "18 - 18.5\"",
+        "Waist": "18.5 - 19\""
+      },
+      {
+        "Size": "9 - 12 M",
+        "Age": "9 - 12 Months",
+        "Height": "29 - 30.5\"",
+        "Weight": "22 - 26 lbs",
+        "Chest": "18.5 - 19\"",
+        "Waist": "19 - 19.5\""
+      },
+      {
+        "Size": "12 - 18 M",
+        "Age": "12 - 18 Months",
+        "Height": "30.5 - 32\"",
+        "Weight": "26 - 28 lbs",
+        "Chest": "19 - 19.75\"",
+        "Waist": "19.5 - 20.25\""
+      },
+      {
+        "Size": "18 - 24 M",
+        "Age": "18 - 24 Months",
+        "Height": "32 - 33.5\"",
+        "Weight": "28 - 30 lbs",
+        "Chest": "19.75 - 20\"",
+        "Waist": "20.25 - 20.5\""
+      }
+    ],
+    "Hats": [
+      {
+        "Size": "0 - 6 Months",
+        "Age": "0 - 6 Months",
+        "Head Circumference": "17.75\""
+      },
+      {
+        "Size": "6 - 12 Months",
+        "Age": "6 - 12 Months",
+        "Head Circumference": "18.5\""
+      },
+      {
+        "Size": "12 - 18 Months",
+        "Age": "12 - 18 Months",
+        "Head Circumference": "19\""
+      }
+    ],
+    "Socks & Booties": [
+      {
+        "Size": "0 - 6 Months",
+        "U.S. shoe size": "0 - 6 Months",
+        "EUR Shoe Size": "16 - 17",
+        "Foot length": "3.75 - 4\""
+      },
+      {
+        "Size": "6 - 12 Months",
+        "U.S. shoe size": "6 - 12M - 5",
+        "EUR Shoe Size": "18 - 21",
+        "Foot length": "4 - 4.5\""
+      },
+      {
+        "Size": "12 - 18 Months",
+        "U.S. shoe size": "6",
+        "EUR Shoe Size": "22",
+        "Foot length": "4.5 - 4.75\""
+      }
+    ],
+    "Shoes": [
+      {
+        "Age": "0-1 months",
+        "Foot length": 8.6,
+        "EU": 15,
+        "US": 0
+      },
+      {
+        "Age": "0-3 months",
+        "Foot length": 9.3,
+        "EU": 16,
+        "US": 1
+      },
+      {
+        "Age": "3-6 months",
+        "Foot length": 10,
+        "EU": 17,
+        "US": 2
+      },
+      {
+        "Age": "6-9 months",
+        "Foot length": 11,
+        "EU": 18,
+        "US": 3
+      },
+      {
+        "Age": "6-9 months",
+        "Foot length": 11.6,
+        "EU": 19,
+        "US": 4
+      },
+      {
+        "Age": "9-12 months",
+        "Foot length": 12.3,
+        "EU": 20,
+        "US": 5
+      }
+    ]
+  },
+  "Toddler": {
+    "Tops": [
+      {
+        "Size": "6 - 9 M",
+        "Age": "6 - 9 Months",
+        "Height": "27 - 29\"",
+        "Weight": "18 - 22 lbs",
+        "Chest": "18 - 18.5\"",
+        "Waist": "18.5 - 19\""
+      },
+      {
+        "Size": "9 - 12 M",
+        "Age": "9 - 12 Months",
+        "Height": "29 - 30.5\"",
+        "Weight": "22 - 26 lbs",
+        "Chest": "18.5 - 19\"",
+        "Waist": "19 - 19.5\""
+      },
+      {
+        "Size": "12 - 18 M",
+        "Age": "12 - 18 Months",
+        "Height": "30.5 - 32\"",
+        "Weight": "26 - 28 lbs",
+        "Chest": "19 - 19.75\"",
+        "Waist": "19.5 - 20.25\""
+      },
+      {
+        "Size": "18 - 24 M",
+        "Age": "18 - 24 Months",
+        "Height": "32 - 33.5\"",
+        "Weight": "28 - 30 lbs",
+        "Chest": "19.75 - 20\"",
+        "Waist": "20.25 - 20.5\""
+      },
+      {
+        "Size": "2T",
+        "Age": "2 Years",
+        "Height": "33.5 - 35\"",
+        "Weight": "30 - 32 lbs",
+        "Chest": "20 - 20.5\"",
+        "Waist": "20.5 - 21\""
+      },
+      {
+        "Size": "3T",
+        "Age": "3 Years",
+        "Height": "35 - 38\"",
+        "Weight": "32 - 35 lbs",
+        "Chest": "20.5 - 21\"",
+        "Waist": "21 - 21.5\""
+      },
+      {
+        "Size": "4T",
+        "Age": "4 Years",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Chest": "21 - 22\"",
+        "Waist": "21.5 - 22\""
+      },
+      {
+        "Size": "5T",
+        "Age": "5 Years",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Chest": "22 - 23\"",
+        "Waist": "22 - 22.5\""
+      }
+    ],
+    "Dresses": [
+      {
+        "Size": "6 - 9 M",
+        "Age": "6 - 9 Months",
+        "Height": "27 - 29\"",
+        "Weight": "18 - 22 lbs",
+        "Chest": "18 - 18.5\"",
+        "Waist": "18.5 - 19\"",
+        "Hip": "18.5 - 19\""
+      },
+      {
+        "Size": "9 - 12 M",
+        "Age": "9 - 12 Months",
+        "Height": "29 - 30.5\"",
+        "Weight": "22 - 26 lbs",
+        "Chest": "18.5 - 19\"",
+        "Waist": "19 - 19.5\"",
+        "Hip": "19 - 19.5\""
+      },
+      {
+        "Size": "12 - 18 M",
+        "Age": "12 - 18 Months",
+        "Height": "30.5 - 32\"",
+        "Weight": "26 - 28 lbs",
+        "Chest": "19 - 19.75\"",
+        "Waist": "19.5 - 20.25\"",
+        "Hip": "19.5 - 20.25\""
+      },
+      {
+        "Size": "18 - 24 M",
+        "Age": "18 - 24 Months",
+        "Height": "32 - 33.5\"",
+        "Weight": "28 - 30 lbs",
+        "Chest": "19.75 - 20\"",
+        "Waist": "20.25 - 20.5\"",
+        "Hip": "20.25 - 20.5\""
+      },
+      {
+        "Size": "2T",
+        "Age": "2 Years",
+        "Height": "33.5 - 35\"",
+        "Weight": "30 - 32 lbs",
+        "Chest": "20 - 20.5\"",
+        "Waist": "20.5 - 21\"",
+        "Hip": "20.5 - 21\""
+      },
+      {
+        "Size": "3T",
+        "Age": "3 Years",
+        "Height": "35 - 38\"",
+        "Weight": "32 - 35 lbs",
+        "Chest": "20.5 - 21\"",
+        "Waist": "21 - 21.5\"",
+        "Hip": "21 - 22\""
+      },
+      {
+        "Size": "4T",
+        "Age": "4 Years",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Chest": "21 - 22\"",
+        "Waist": "21.5 - 22\"",
+        "Hip": "22 - 23\""
+      },
+      {
+        "Size": "5T",
+        "Age": "5 Years",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Chest": "22 - 23\"",
+        "Waist": "22 - 22.5\"",
+        "Hip": "23 - 24\""
+      }
+    ],
+    "Bottoms": [
+      {
+        "Size": "6 - 9 M",
+        "Age": "6 - 9 Months",
+        "Height": "27 - 29\"",
+        "Weight": "18 - 22 lbs",
+        "Waist": "18.5 - 19\"",
+        "Hip": "18.5 - 19\"",
+        "Inseam": "10 - 11.25\""
+      },
+      {
+        "Size": "9 - 12 M",
+        "Age": "9 - 12 Months",
+        "Height": "29 - 30.5\"",
+        "Weight": "22 - 26 lbs",
+        "Waist": "19 - 19.5\"",
+        "Hip": "19 - 19.5\"",
+        "Inseam": "11.25 - 12\""
+      },
+      {
+        "Size": "12 - 18 M",
+        "Age": "12 - 18 Months",
+        "Height": "30.5 - 32\"",
+        "Weight": "26 - 28 lbs",
+        "Waist": "19.5 - 20.25\"",
+        "Hip": "19.5 - 20.25\"",
+        "Inseam": "12 - 13.5\""
+      },
+      {
+        "Size": "18 - 24 M",
+        "Age": "18 - 24 Months",
+        "Height": "32 - 33.5\"",
+        "Weight": "28 - 30 lbs",
+        "Waist": "20.25 - 20.5\"",
+        "Hip": "20.25 - 20.5\"",
+        "Inseam": "13.5 - 14\""
+      },
+      {
+        "Size": "2T",
+        "Age": "2 Years",
+        "Height": "33.5 - 35\"",
+        "Weight": "30 - 32 lbs",
+        "Waist": "20.5 - 21\"",
+        "Hip": "20.5 - 21\"",
+        "Inseam": "14 - 14.75\""
+      },
+      {
+        "Size": "3T",
+        "Age": "3 Years",
+        "Height": "35 - 38\"",
+        "Weight": "32 - 35 lbs",
+        "Waist": "21 - 21.5\"",
+        "Hip": "21 - 22\"",
+        "Inseam": "14.75 - 15.5\""
+      },
+      {
+        "Size": "4T",
+        "Age": "4 Years",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Waist": "21.5 - 22\"",
+        "Hip": "22 - 23\"",
+        "Inseam": "15.5 - 17\""
+      },
+      {
+        "Size": "5T",
+        "Age": "5 Years",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Waist": "22 - 22.5\"",
+        "Hip": "23 - 24\"",
+        "Inseam": "17 - 18.75\""
+      }
+    ],
+    "Shoes": [
+      {
+        "Age": "12-18 months",
+        "Foot length": 13,
+        "EU": 21,
+        "US": 5.5
+      },
+      {
+        "Age": "18-24 months",
+        "Foot length": 13.7,
+        "EU": 22,
+        "US": 6
+      },
+      {
+        "Age": "2 years",
+        "Foot length": 14.4,
+        "EU": 23,
+        "US": 7
+      },
+      {
+        "Age": "",
+        "Foot length": 15,
+        "EU": 24,
+        "US": 8
+      },
+      {
+        "Age": "3 years",
+        "Foot length": 15.6,
+        "EU": 25,
+        "US": 9
+      },
+      {
+        "Age": "",
+        "Foot length": 16.3,
+        "EU": 26,
+        "US": 9.5
+      },
+      {
+        "Age": "4 years",
+        "Foot length": 17,
+        "EU": 27,
+        "US": 10
+      },
+      {
+        "Age": "5 years",
+        "Foot length": 17.7,
+        "EU": 28,
+        "US": 11
+      }
+    ],
+    "Belts": [
+      {
+        "Size": "6 - 18M",
+        "Age": "6 - 18 Months",
+        "Waist": "18.5 - 20.25\""
+      },
+      {
+        "Size": "24M - 4T",
+        "Age": "24 Months - 4 Years",
+        "Waist": "20.5 - 22\""
+      }
+    ],
+    "Gloves & Mittens": [
+      {
+        "Size": "S (12 - 24M)",
+        "Age": "12 - 24 Months",
+        "Palm Circumference": "4.5 - 5\""
+      },
+      {
+        "Size": "M (2T - 3T)",
+        "Age": "2 - 3 Years",
+        "Palm Circumference": "5 - 5.25\""
+      },
+      {
+        "Size": "L (4T - 5T)",
+        "Age": "4 - 5 Years",
+        "Palm Circumference": "5.25 - 5.5\""
+      }
+    ],
+    "Hats": [
+      {
+        "": "Cold Weather/Molded",
+        "Size": "XS (6 - 12 Months)",
+        "Age": "6 - 12 Months",
+        "HEAD Circumference": "18.5\""
+      },
+      {
+        "": "",
+        "Size": "S (12 - 24 Months)",
+        "Age": "12 - 24 Months",
+        "HEAD Circumference": "20\""
+      },
+      {
+        "": "",
+        "Size": "M (2 - 3T)",
+        "Age": "2 - 3 Years",
+        "HEAD Circumference": "20.25\""
+      },
+      {
+        "": "",
+        "Size": "L (4 - 5T)",
+        "Age": "4 - 5 Years",
+        "HEAD Circumference": "20.75\""
+      },
+      {
+        "": "Soft/Knit",
+        "Size": "XS (6 - 24 Months)",
+        "Age": "6 - 24 Months",
+        "HEAD Circumference": "20\""
+      },
+      {
+        "": "",
+        "Size": "S/M (24 Months - 3T)",
+        "Age": "24 Months - 3 Years",
+        "HEAD Circumference": "20.25\""
+      },
+      {
+        "": "",
+        "Size": "M/L (3 - 5T)",
+        "Age": "3 - 5 Years",
+        "HEAD Circumference": "20.75\""
+      }
+    ],
+    "Socks": [
+      {
+        "Size": "6-12 Months",
+        "U.S. Shoe Size": "6 - 12M - 5",
+        "EUR Shoe Size": "18 - 21",
+        "Foot Length": "4 - 4.5\""
+      },
+      {
+        "Size": "12-24 Months",
+        "U.S. Shoe Size": "6 - 7",
+        "EUR Shoe Size": "22 - 23.5",
+        "Foot Length": "4.5 - 5.25\""
+      },
+      {
+        "Size": "2T-3T",
+        "U.S. Shoe Size": "8 - 9",
+        "EUR Shoe Size": "25 - 26\"",
+        "Foot Length": "5.25 - 6\""
+      },
+      {
+        "Size": "3T-4T",
+        "U.S. Shoe Size": "10 - 11",
+        "EUR Shoe Size": "27.5 - 28.5\"",
+        "Foot Length": "6 - 6.75\""
+      }
+    ],
+    "Tights & Legwear": [
+      {
+        "Size": "6 - 12 M",
+        "Height": "27 - 30.5\"",
+        "Weight": "18 - 26 lbs",
+        "Hips": "18.5 - 19.5\""
+      },
+      {
+        "Size": "12 - 24 M",
+        "Height": "30.5 - 33.5\"",
+        "Weight": "26 - 30 lbs",
+        "Hips": "19.5 - 21\""
+      },
+      {
+        "Size": "2T - 3T",
+        "Height": "33.5 - 38\"",
+        "Weight": "30 - 35 lbs",
+        "Hips": "21 - 22\""
+      },
+      {
+        "Size": "3T - 4T",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Hips": "22 - 23\""
+      }
+    ],
+    "Underwear": [
+      {
+        "Size": "2T - 3T",
+        "Height": "33.5 - 38\"",
+        "Weight": "30 - 35 lbs",
+        "Chest": "20 - 21\"",
+        "Waist": "20.5 - 21.5\""
+      },
+      {
+        "Size": "4T - 5T",
+        "Height": "38 - 44\"",
+        "Weight": "35 - 45 lbs",
+        "Chest": "21 - 23\"",
+        "Waist": "21.5 - 22.5\""
+      }
+    ]
+  },
+  "Boys": {
+    "Tops": [
+      {
+        "Size": "4",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Chest": "21 - 22\"",
+        "Waist": "21.5 - 22\""
+      },
+      {
+        "Size": "5",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Chest": "22 - 23\"",
+        "Waist": "22 - 22.5\""
+      },
+      {
+        "Size": "6",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "45 - 50 lbs",
+        "Chest": "23 - 24\"",
+        "Waist": "22.5 - 23\""
+      },
+      {
+        "Size": "7",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 49.5\"",
+        "Weight": "50 - 58 lbs",
+        "Chest": "24 - 25.5\"",
+        "Waist": "23 - 23.5\""
+      },
+      {
+        "Size": "8",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "49.5 - 52\"",
+        "Weight": "58 - 68 lbs",
+        "Chest": "25.5 - 26.5\"",
+        "Waist": "23.5 - 24.5\""
+      },
+      {
+        "Size": "10",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52 - 55.5\"",
+        "Weight": "68 - 87 lbs",
+        "Chest": "26.5 - 27.5\"",
+        "Waist": "24.5 - 25.5\""
+      },
+      {
+        "Size": "12",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55.5 - 58.5\"",
+        "Weight": "87 - 100 lbs",
+        "Chest": "27.5 - 28.5\"",
+        "Waist": "25.5 - 26.5\""
+      },
+      {
+        "Size": "14",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58.5 - 61.5\"",
+        "Weight": "100 - 110 lbs",
+        "Chest": "28.5 - 30.5\"",
+        "Waist": "26.5 - 28\""
+      },
+      {
+        "Size": "16",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61.5 - 64\"",
+        "Weight": "110 - 120 lbs",
+        "Chest": "30.5 - 32\"",
+        "Waist": "28 - 29.5\""
+      },
+      {
+        "Size": "18*",
+        "": "XXXL",
+        "Age": "12 - 13",
+        "Height": "64 - 65.5\"",
+        "Weight": "120 - 125 lbs",
+        "Chest": "32 - 33.5\"",
+        "Waist": "29.5 - 31\""
+      }
+    ],
+    "Bottoms - Regular": [
+      {
+        "Size": "4",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Waist": "21.5 - 22\"",
+        "Hip": "22 - 23\"",
+        "Inseam": "15.5 - 17\""
+      },
+      {
+        "Size": "5",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Waist": "22 - 22.5\"",
+        "Hip": "23 - 24\"",
+        "Inseam": "17 - 18.75\""
+      },
+      {
+        "Size": "6",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "45 - 50 lbs",
+        "Waist": "22.5 - 23\"",
+        "Hip": "24 - 25\"",
+        "Inseam": "18.75 - 20.25\""
+      },
+      {
+        "Size": "7",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 49.5\"",
+        "Weight": "50 - 58 lbs",
+        "Waist": "23 - 23.5\"",
+        "Hip": "25 - 26.5\"",
+        "Inseam": "20.25 - 23.25\""
+      },
+      {
+        "Size": "8",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "49.5 - 52\"",
+        "Weight": "58 - 68 lbs",
+        "Waist": "23.5 - 24.5\"",
+        "Hip": "26.5 - 27.75\"",
+        "Inseam": "23.25 - 24.25\""
+      },
+      {
+        "Size": "10",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52 - 55.5\"",
+        "Weight": "68 - 87 lbs",
+        "Waist": "24.5 - 25.5\"",
+        "Hip": "27.75 - 29\"",
+        "Inseam": "24.25 - 25.5\""
+      },
+      {
+        "Size": "12",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55.5 - 58.5\"",
+        "Weight": "87 - 100 lbs",
+        "Waist": "25.5 - 26.5\"",
+        "Hip": "29 - 30.5\"",
+        "Inseam": "25.5 - 27.25\""
+      },
+      {
+        "Size": "14",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58.5 - 61.5\"",
+        "Weight": "100 - 110 lbs",
+        "Waist": "26.5 - 28\"",
+        "Hip": "30.5 - 32\"",
+        "Inseam": "27.25 - 29.75\""
+      },
+      {
+        "Size": "16",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61.5 - 64\"",
+        "Weight": "110 - 120 lbs",
+        "Waist": "28 - 29.5\"",
+        "Hip": "32 - 33.5\"",
+        "Inseam": "29.75 - 31\""
+      },
+      {
+        "Size": "18*",
+        "": "XXXL",
+        "Age": "12 - 13",
+        "Height": "64 - 65.5\"",
+        "Weight": "120 - 125 lbs",
+        "Waist": "29.5 - 31\"",
+        "Hip": "33.5 - 35\"",
+        "Inseam": "31 - 31.5\""
+      }
+    ],
+    "Bottoms - Slim": [
+      {
+        "Size": "4S",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "32 - 35 lbs",
+        "Waist": "19.5 - 20\"",
+        "Hip": "20 - 21\"",
+        "Inseam": "15.5 - 17\""
+      },
+      {
+        "Size": "5S",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "35 - 39 lbs",
+        "Waist": "20 - 20.5\"",
+        "Hip": "21 - 22\"",
+        "Inseam": "17 - 18.75\""
+      },
+      {
+        "Size": "6S",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "39 - 45 lbs",
+        "Waist": "20.5 - 21\"",
+        "Hip": "22 - 23\"",
+        "Inseam": "18.75 - 20.25\""
+      },
+      {
+        "Size": "7S",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 49.5\"",
+        "Weight": "45 - 50 lbs",
+        "Waist": "21 - 21.5\"",
+        "Hip": "23 - 24.5\"",
+        "Inseam": "20.25 - 23.25\""
+      },
+      {
+        "Size": "8S",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "49.5 - 52\"",
+        "Weight": "50 - 58 lbs",
+        "Waist": "21.5 - 22.25\"",
+        "Hip": "24.5 - 25.75\"",
+        "Inseam": "23.25 - 24.25\""
+      },
+      {
+        "Size": "10S",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52 - 55.5\"",
+        "Weight": "58 - 68 lbs",
+        "Waist": "22.5 - 23.5\"",
+        "Hip": "23.75 - 27\"",
+        "Inseam": "24.25 - 25.5\""
+      },
+      {
+        "Size": "12S",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55.5 - 58.5\"",
+        "Weight": "68 - 87 lbs",
+        "Waist": "23.5 - 24.5\"",
+        "Hip": "27 - 28.5\"",
+        "Inseam": "25.5 - 27.25\""
+      },
+      {
+        "Size": "14S",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58.5 - 61.5\"",
+        "Weight": "87 - 100 lbs",
+        "Waist": "24.5 - 26\"",
+        "Hip": "28.5 - 30\"",
+        "Inseam": "27.25 - 29.75\""
+      },
+      {
+        "Size": "16S",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61.5 - 64\"",
+        "Weight": "100 - 110 lbs",
+        "Waist": "26 - 27.5\"",
+        "Hip": "30 - 31.5\"",
+        "Inseam": "29.75 - 31\""
+      },
+      {
+        "Size": "18S*",
+        "": "XXXL",
+        "Age": "12 - 13",
+        "Height": "64 - 65.5\"",
+        "Weight": "110 - 120 lbs",
+        "Waist": "27.5 - 29\"",
+        "Hip": "31.5 - 33\"",
+        "Inseam": "31 - 31.5\""
+      }
+    ],
+    "Bottoms - Plus": [
+      {
+        "Size": "4H",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "45 - 50 lbs",
+        "Waist": "24 - 24.5\"",
+        "Hip": "24.5 - 25.5\"",
+        "Inseam": "15 - 16.5\""
+      },
+      {
+        "Size": "5H",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "50 - 58 lbs",
+        "Waist": "24.5 - 25\"",
+        "Hip": "25.5 - 26.5\"",
+        "Inseam": "16.5 - 18.25\""
+      },
+      {
+        "Size": "6H",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "58 - 68 lbs",
+        "Waist": "25 - 25.5\"",
+        "Hip": "26.5 - 27.5\"",
+        "Inseam": "18.25 - 19.75\""
+      },
+      {
+        "Size": "7H",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 49.5\"",
+        "Weight": "68 - 87 lbs",
+        "Waist": "25.5 - 26\"",
+        "Hip": "27.5 - 29\"",
+        "Inseam": "19.75 - 22.75\""
+      },
+      {
+        "Size": "8H",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "49.5 - 52\"",
+        "Weight": "87 - 100 lbs",
+        "Waist": "26 - 27\"",
+        "Hip": "29 - 30.25\"",
+        "Inseam": "22.75 - 23.75\""
+      },
+      {
+        "Size": "10H",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52 - 55.5\"",
+        "Weight": "100 - 110 lbs",
+        "Waist": "27 - 28\"",
+        "Hip": "30.25 - 31.5\"",
+        "Inseam": "23.75 - 25\""
+      },
+      {
+        "Size": "12H",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55.5 - 58.5\"",
+        "Weight": "110 - 120 lbs",
+        "Waist": "28 - 29\"",
+        "Hip": "31.5 - 33\"",
+        "Inseam": "25 - 26.75\""
+      },
+      {
+        "Size": "14H",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58.5 - 61.5\"",
+        "Weight": "120 - 125 lbs",
+        "Waist": "29 - 30.5\"",
+        "Hip": "33 - 34.5\"",
+        "Inseam": "26.75 - 29.25\""
+      },
+      {
+        "Size": "16H",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61.5 - 64\"",
+        "Weight": "125 - 134 lbs",
+        "Waist": "30.5 - 32\"",
+        "Hip": "34.5 - 36\"",
+        "Inseam": "29.25 - 30.5\""
+      },
+      {
+        "Size": "18H*",
+        "": "XXXL",
+        "Age": "12 - 13",
+        "Height": "64 - 65.5\"",
+        "Weight": "134 - 143 lbs",
+        "Waist": "32 - 33.5\"",
+        "Hip": "36 - 37.5\"",
+        "Inseam": "30.5 - 31\""
+      }
+    ],
+    "Shoes": [
+      {
+        "Age": "6 years",
+        "Foot length": 18.4,
+        "EU": 29,
+        "US": 12
+      },
+      {
+        "Age": "7 years",
+        "Foot length": 19,
+        "EU": 30,
+        "US": 13
+      },
+      {
+        "Age": "8 years",
+        "Foot length": 19.7,
+        "EU": 31,
+        "US": 13.5
+      },
+      {
+        "Age": "",
+        "Foot length": 20.4,
+        "EU": 25,
+        "US": 1
+      },
+      {
+        "Age": "9 years",
+        "Foot length": 21,
+        "EU": 33,
+        "US": 2
+      },
+      {
+        "Age": "10 years",
+        "Foot length": 21.7,
+        "EU": 34,
+        "US": 3
+      },
+      {
+        "Age": "11 years",
+        "Foot length": 22.3,
+        "EU": 35,
+        "US": 3.5
+      },
+      {
+        "Age": "12 years",
+        "Foot length": 23,
+        "EU": 36,
+        "US": 4
+      },
+      {
+        "Age": "13 years",
+        "Foot length": 23.6,
+        "EU": 37,
+        "US": 5
+      },
+      {
+        "Age": "14 years",
+        "Foot length": 24.3,
+        "EU": 38,
+        "US": 6
+      },
+      {
+        "Age": "15 years",
+        "Foot length": 25,
+        "EU": 39,
+        "US": 7
+      },
+      {
+        "Age": "16 years",
+        "Foot length": 25.7,
+        "EU": 40,
+        "US": 7.5
+      },
+      {
+        "Age": "",
+        "Foot length": 26.4,
+        "EU": 41,
+        "US": 9
+      },
+      {
+        "Age": "",
+        "Foot length": 27.1,
+        "EU": 42,
+        "US": 10
+      },
+      {
+        "Age": "",
+        "Foot length": 27.8,
+        "EU": 43,
+        "US": 11
+      },
+      {
+        "Age": "",
+        "Foot length": 28.5,
+        "EU": 44,
+        "US": 12
+      },
+      {
+        "Age": "",
+        "Foot length": 29.2,
+        "EU": 45,
+        "US": 13
+      }
+    ],
+    "Belts": [
+      {
+        "Size": "4 - 7",
+        "Age": "4 - 7",
+        "Waist": "21.5 - 23.5\""
+      },
+      {
+        "Size": "8 - 14",
+        "Age": "8 - 14",
+        "Waist": "24 - 28\""
+      }
+    ],
+    "Gloves & Mittens": [
+      {
+        "Size": "S/M (4 - 7)",
+        "Age": "4 - 7",
+        "Palm Circumference": "5.25 - 6\""
+      },
+      {
+        "Size": "L/XL (8+)",
+        "Age": "8+",
+        "Palm Circumference": "6.25 - 6.75\""
+      }
+    ],
+    "Hats": [
+      {
+        "": "Cold Weather & Baseball",
+        "Size": "S/M (4 - 7)",
+        "Age": "3 - 7",
+        "Head Circumference": "20.5 - 21.25\""
+      },
+      {
+        "": "",
+        "Size": "L/XL (8+)",
+        "Age": "8+",
+        "Head Circumference": "21.5 - 22.5\""
+      },
+      {
+        "": "Other",
+        "Size": "S/M (4 - 6)",
+        "Age": "3 - 6",
+        "Head Circumference": "20.5 - 21\""
+      },
+      {
+        "": "",
+        "Size": "M (7 - 8)",
+        "Age": "6 - 8",
+        "Head Circumference": "21.25 - 21.5\""
+      },
+      {
+        "": "",
+        "Size": "L (10+)",
+        "Age": "8+",
+        "Head Circumference": "21.75 - 22.5\""
+      }
+    ],
+    "Socks": [
+      {
+        "Size": "Small",
+        "U.S. Shoe Size": "11 - 13",
+        "EUR Shoe Size": "29 - 31",
+        "Foot Length": "7 - 7.75\""
+      },
+      {
+        "Size": "Medium",
+        "U.S. Shoe Size": "1 - 2",
+        "EUR Shoe Size": "32.5 - 33.5",
+        "Foot Length": "8 - 8.25\""
+      },
+      {
+        "Size": "Large",
+        "U.S. Shoe Size": "3 - 5",
+        "EUR Shoe Size": "35 - 37.5\"",
+        "Foot Length": "8.75 - 9.25\""
+      }
+    ],
+    "Ties & Bowties": [
+      {
+        "Size": "4 - 7",
+        "Age": "4 - 7 Years",
+        "Neck Circumference": "10.75 - 11.5\""
+      },
+      {
+        "Size": "8+",
+        "Age": "8+ Years",
+        "Neck Circumference": "12 - 13.75\""
+      }
+    ],
+    "Underwear": [
+      {
+        "Size": "XXS (2 - 3)",
+        "Height": "33.5 - 38\"",
+        "Weight": "30 - 35 lbs",
+        "Chest": "20 - 21\"",
+        "Waist": "20.5 - 21.5\""
+      },
+      {
+        "Size": "XS (4)",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Chest": "21 - 22\"",
+        "Waist": "21.5 - 22\""
+      },
+      {
+        "Size": "S (5 - 6)",
+        "Height": "41 - 46.5\"",
+        "Weight": "39 - 50 lbs",
+        "Chest": "22 - 24\"",
+        "Waist": "22 - 23\""
+      },
+      {
+        "Size": "M (7 - 8)",
+        "Height": "46.5 - 52\"",
+        "Weight": "50 - 68 lbs",
+        "Chest": "24 - 26.5\"",
+        "Waist": "23 - 24.5\""
+      },
+      {
+        "Size": "L (10 - 12)",
+        "Height": "52 - 58.5\"",
+        "Weight": "68 - 100 lbs",
+        "Chest": "26.5 - 28.5\"",
+        "Waist": "24.5 - 26.5\""
+      },
+      {
+        "Size": "XL (14)",
+        "Height": "58.5 - 61.5\"",
+        "Weight": "100 - 110 lbs",
+        "Chest": "28.5 - 30.5\"",
+        "Waist": "26.5 - 28\""
+      }
+    ]
+  },
+  "Girls": {
+    "Tops": [
+      {
+        "Size": "4",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Chest": "21 - 22\"",
+        "Waist": "21.5 - 22\""
+      },
+      {
+        "Size": "5",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Chest": "22 - 23\"",
+        "Waist": "22 - 22.5\""
+      },
+      {
+        "Size": "6",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "45 - 50 lbs",
+        "Chest": "23 - 24\"",
+        "Waist": "22.5 - 23\""
+      },
+      {
+        "Size": "6X / 7",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 50.5\"",
+        "Weight": "50 - 57 lbs",
+        "Chest": "24 - 26\"",
+        "Waist": "23 - 23.5\""
+      },
+      {
+        "Size": "8",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "50.5 - 52.5\"",
+        "Weight": "57 - 65 lbs",
+        "Chest": "26 - 27\"",
+        "Waist": "23.5 - 24.25\""
+      },
+      {
+        "Size": "10",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52.5 - 55\"",
+        "Weight": "65 - 75 lbs",
+        "Chest": "27 - 28.5\"",
+        "Waist": "24.25 - 25\""
+      },
+      {
+        "Size": "12",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55 - 58\"",
+        "Weight": "75 - 86 lbs",
+        "Chest": "28.5 - 30\"",
+        "Waist": "25 - 26\""
+      },
+      {
+        "Size": "14",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58 - 61\"",
+        "Weight": "86 - 100 lbs",
+        "Chest": "30 - 31.5\"",
+        "Waist": "26 - 28\""
+      },
+      {
+        "Size": "16",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61 - 62.5\"",
+        "Weight": "100 - 108 lbs",
+        "Chest": "31.5 - 33.5\"",
+        "Waist": "28 - 30\""
+      }
+    ],
+    "Dresses": [
+      {
+        "Size": "4",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Chest": "21 - 22\"",
+        "Waist": "21.5 - 22\"",
+        "Hip": "22 - 23\""
+      },
+      {
+        "Size": "5",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Chest": "22 - 23\"",
+        "Waist": "22 - 22.5\"",
+        "Hip": "23 - 24\""
+      },
+      {
+        "Size": "6",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "45 - 50 lbs",
+        "Chest": "23 - 24\"",
+        "Waist": "22.5 - 23\"",
+        "Hip": "24 - 25\""
+      },
+      {
+        "Size": "6X / 7",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 50.5\"",
+        "Weight": "50 - 57 lbs",
+        "Chest": "24 - 26\"",
+        "Waist": "23 - 23.5\"",
+        "Hip": "25 - 27.5\""
+      },
+      {
+        "Size": "8",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "50.5 - 52.5\"",
+        "Weight": "57 - 65 lbs",
+        "Chest": "26 - 27\"",
+        "Waist": "23.5 - 24.25\"",
+        "Hip": "27.5 - 28.5\""
+      },
+      {
+        "Size": "10",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52.5 - 55\"",
+        "Weight": "65 - 75 lbs",
+        "Chest": "27 - 28.5\"",
+        "Waist": "24.25 - 25\"",
+        "Hip": "28.5 - 30\""
+      },
+      {
+        "Size": "12",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55 - 58\"",
+        "Weight": "75 - 86 lbs",
+        "Chest": "28.5 - 30\"",
+        "Waist": "25 - 26\"",
+        "Hip": "30 - 32\""
+      },
+      {
+        "Size": "14",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58 - 61\"",
+        "Weight": "86 - 100 lbs",
+        "Chest": "30 - 31.5\"",
+        "Waist": "26 - 28\"",
+        "Hip": "32 - 34\""
+      },
+      {
+        "Size": "16",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61 - 62.5\"",
+        "Weight": "100 - 108 lbs",
+        "Chest": "31.5 - 33.5\"",
+        "Waist": "28 - 30\"",
+        "Hip": "34 - 36\""
+      }
+    ],
+    "Bottoms - Regular": [
+      {
+        "Size": "4",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Waist": "21.5 - 22\"",
+        "Hip": "22 - 23\"",
+        "Inseam": "15.5 - 17\""
+      },
+      {
+        "Size": "5",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "39 - 45 lbs",
+        "Waist": "22 - 22.5\"",
+        "Hip": "23 - 24\"",
+        "Inseam": "17 - 18.75\""
+      },
+      {
+        "Size": "6",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "45 - 50 lbs",
+        "Waist": "22.5 - 23\"",
+        "Hip": "24 - 25\"",
+        "Inseam": "18.75 - 20.25\""
+      },
+      {
+        "Size": "6X / 7",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 50.5\"",
+        "Weight": "50 - 57 lbs",
+        "Waist": "23 - 23.5\"",
+        "Hip": "25 - 27.5\"",
+        "Inseam": "20.25 - 23\""
+      },
+      {
+        "Size": "8",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "50.5 - 52.5\"",
+        "Weight": "57 - 65 lbs",
+        "Waist": "23.5 - 24.25\"",
+        "Hip": "27.5 - 28.5\"",
+        "Inseam": "23 - 24.25\""
+      },
+      {
+        "Size": "10",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52.5 - 55\"",
+        "Weight": "65 - 75 lbs",
+        "Waist": "24.25 - 25\"",
+        "Hip": "28.5 - 30\"",
+        "Inseam": "24.25 - 26\""
+      },
+      {
+        "Size": "12",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55 - 58\"",
+
+        "Weight": "75 - 86 lbs",
+        "Waist": "25 - 26\"",
+        "Hip": "30 - 32\"",
+        "Inseam": "26 - 27.5\""
+      },
+      {
+        "Size": "14",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58 - 61\"",
+        "Weight": "86 - 100 lbs",
+        "Waist": "26 - 28\"",
+        "Hip": "32 - 34\"",
+        "Inseam": "27.5 - 29\""
+      },
+      {
+        "Size": "16",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61 - 62.5\"",
+        "Weight": "100 - 108 lbs",
+        "Waist": "28 - 30\"",
+        "Hip": "34 - 36\"",
+        "Inseam": "29 - 29.5\""
+      }
+    ],
+    "Bottoms - Slim": [
+      {
+        "Size": "4S",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "32 - 35 lbs",
+        "Waist": "19.5 - 20\"",
+        "Hip": "20 - 21\"",
+        "Inseam": "15.5 - 17\""
+      },
+      {
+        "Size": "5S",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "35 - 39 lbs",
+        "Waist": "20 - 20.5\"",
+        "Hip": "21 - 22\"",
+        "Inseam": "17 - 18.75\""
+      },
+      {
+        "Size": "6S",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "39 - 45 lbs",
+        "Waist": "20.5 - 21\"",
+        "Hip": "22 - 23\"",
+        "Inseam": "18.75 - 20.25\""
+      },
+      {
+        "Size": "6X / 7S",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 50.5\"",
+        "Weight": "45 - 50 lbs",
+        "Waist": "21 - 21.5\"",
+        "Hip": "23 - 25.5\"",
+        "Inseam": "20.25 - 23\""
+      },
+      {
+        "Size": "8S",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "50.5 - 52.5\"",
+        "Weight": "50 - 57 lbs",
+        "Waist": "21.5 - 22.25\"",
+        "Hip": "25.5 - 26.5\"",
+        "Inseam": "23 - 24.25\""
+      },
+      {
+        "Size": "10S",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52.5 - 55\"",
+        "Weight": "57 - 65 lbs",
+        "Waist": "22.25 - 23\"",
+        "Hip": "26.5 - 28\"",
+        "Inseam": "24.25 - 26\""
+      },
+      {
+        "Size": "12S",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55 - 58\"",
+        "Weight": "65 - 75 lbs",
+        "Waist": "23 - 24\"",
+        "Hip": "28 - 30\"",
+        "Inseam": "26 - 27.5\""
+      },
+      {
+        "Size": "14S",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58 - 61\"",
+        "Weight": "75 - 86 lbs",
+        "Waist": "24 - 26\"",
+        "Hip": "30 - 32\"",
+        "Inseam": "27.5 - 29\""
+      },
+      {
+        "Size": "16S",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61 - 62.5\"",
+        "Weight": "86 - 100 lbs",
+        "Waist": "26 - 28\"",
+        "Hip": "32 - 34\"",
+        "Inseam": "29 - 29.5\""
+      }
+    ],
+    "Bottoms - Plus": [
+      {
+        "Size": "4P",
+        "": "XS",
+        "Age": "3 - 4",
+        "Height": "38 - 41\"",
+        "Weight": "45 - 50 lbs",
+        "Waist": "24 - 24.5\"",
+        "Hip": "24.5 - 25.5\"",
+        "Inseam": "15 - 16.5\""
+      },
+      {
+        "Size": "5P",
+        "": "S",
+        "Age": "4 - 5",
+        "Height": "41 - 44\"",
+        "Weight": "50 - 57 lbs",
+        "Waist": "24.5 - 25\"",
+        "Hip": "25.5 - 26.5\"",
+        "Inseam": "16.5 - 18.25\""
+      },
+      {
+        "Size": "6P",
+        "": "S",
+        "Age": "5 - 6",
+        "Height": "44 - 46.5\"",
+        "Weight": "57 - 65 lbs",
+        "Waist": "25 - 25.5\"",
+        "Hip": "26.5 - 27.5\"",
+        "Inseam": "18.25 - 19.75\""
+      },
+      {
+        "Size": "6X / 7P",
+        "": "M",
+        "Age": "6 - 7",
+        "Height": "46.5 - 50.5\"",
+        "Weight": "65 - 75 lbs",
+        "Waist": "25.5 - 26\"",
+        "Hip": "27.5 - 30\"",
+        "Inseam": "19.75 - 22.5\""
+      },
+      {
+        "Size": "8P",
+        "": "M",
+        "Age": "7 - 8",
+        "Height": "50.5 - 52.5\"",
+        "Weight": "75 - 86 lbs",
+        "Waist": "26 - 26.75\"",
+        "Hip": "30 - 31\"",
+        "Inseam": "22.5 - 23.75\""
+      },
+      {
+        "Size": "10P",
+        "": "L",
+        "Age": "8 - 9",
+        "Height": "52.5 - 55\"",
+        "Weight": "86 - 100 lbs",
+        "Waist": "26.75 - 27.5\"",
+        "Hip": "31 - 32.5\"",
+        "Inseam": "23.75 - 25.5\""
+      },
+      {
+        "Size": "12P",
+        "": "L",
+        "Age": "9 - 10",
+        "Height": "55 - 58\"",
+        "Weight": "100 - 108 lbs",
+        "Waist": "27.5 - 28.5\"",
+        "Hip": "32.5 - 34.5\"",
+        "Inseam": "25.5 - 27\""
+      },
+      {
+        "Size": "14P",
+        "": "XL",
+        "Age": "10 - 11",
+        "Height": "58 - 61\"",
+        "Weight": "108 - 117 lbs",
+        "Waist": "28.5 - 30.5\"",
+        "Hip": "34.5 - 36.5\"",
+        "Inseam": "27 - 28.5\""
+      },
+      {
+        "Size": "16P",
+        "": "XXL",
+        "Age": "11 - 12",
+        "Height": "61 - 62.5\"",
+        "Weight": "117 - 126 lbs",
+        "Waist": "30.5 - 32.5\"",
+        "Hip": "36.5 - 38.5\"",
+        "Inseam": "28.5 - 29\""
+      }
+    ],
+    "Shoes": [
+      {
+        "Age": "6 years",
+        "Foot length": 18.4,
+        "EU": 29,
+        "US": 12
+      },
+      {
+        "Age": "7 years",
+        "Foot length": 19,
+        "EU": 30,
+        "US": 13
+      },
+      {
+        "Age": "8 years",
+        "Foot length": 19.7,
+        "EU": 31,
+        "US": 13.5
+      },
+      {
+        "Age": "",
+        "Foot length": 20.4,
+        "EU": 25,
+        "US": 1
+      },
+      {
+        "Age": "9 years",
+        "Foot length": 21,
+        "EU": 33,
+        "US": 2
+      },
+      {
+        "Age": "10 years",
+        "Foot length": 21.7,
+        "EU": 34,
+        "US": 3
+      },
+      {
+        "Age": "11 years",
+        "Foot length": 22.3,
+        "EU": 35,
+        "US": 3.5
+      },
+      {
+        "Age": "12 years",
+        "Foot length": 23,
+        "EU": 36,
+        "US": 4
+      },
+      {
+        "Age": "13 years",
+        "Foot length": 23.6,
+        "EU": 37,
+        "US": 5
+      },
+      {
+        "Age": "14 years",
+        "Foot length": 24.3,
+        "EU": 38,
+        "US": 6
+      },
+      {
+        "Age": "15 years",
+        "Foot length": 25,
+        "EU": 39,
+        "US": 7
+      },
+      {
+        "Age": "16 years",
+        "Foot length": 25.7,
+        "EU": 40,
+        "US": 7.5
+      },
+      {
+        "Age": "",
+        "Foot length": 26.4,
+        "EU": 41,
+        "US": 9
+      },
+      {
+        "Age": "",
+        "Foot length": 27.1,
+        "EU": 42,
+        "US": 10
+      },
+      {
+        "Age": "",
+        "Foot length": 27.8,
+        "EU": 43,
+        "US": 11
+      },
+      {
+        "Age": "",
+        "Foot length": 28.5,
+        "EU": 44,
+        "US": 12
+      },
+      {
+        "Age": "",
+        "Foot length": 29.2,
+        "EU": 45,
+        "US": 13
+      }
+    ],
+    "Belts": [
+      {
+        "Size": "4 - 7",
+        "Age": "4 - 7",
+        "Waist": "21.5 - 23.5\""
+      },
+      {
+        "Size": "8 - 14",
+        "Age": "8 - 14",
+        "Waist": "24 - 28\""
+      }
+    ],
+    "Gloves & Mittens": [
+      {
+        "Size": "S/M (4 - 7)",
+        "Age": "4 - 7",
+        "Palm Circumference": "5.25 - 6\""
+      },
+      {
+        "Size": "L/XL (8+)",
+        "Age": "8+",
+        "Palm Circumference": "6.25 - 6.75\""
+      }
+    ],
+    "Hats": [
+      {
+        "": "Cold Weather & Baseball",
+        "Size": "S/M (4 - 7)",
+        "Age": "3 - 7",
+        "Head Circumference": "20.5 - 21.25\""
+      },
+      {
+        "": "",
+        "Size": "L/XL (8+)",
+        "Age": "8+",
+        "Head Circumference": "21.5 - 22.5\""
+      },
+      {
+        "": "Other",
+        "Size": "S/M (4 - 6)",
+        "Age": "3 - 6",
+        "Head Circumference": "20.5 - 21\""
+      },
+      {
+        "": "",
+        "Size": "M (7 - 8)",
+        "Age": "6 - 8",
+        "Head Circumference": "21.25 - 21.5\""
+      },
+      {
+        "": "",
+        "Size": "L (10+)",
+        "Age": "8+",
+        "Head Circumference": "21.75 - 22.5\""
+      }
+    ],
+    "Socks": [
+      {
+        "Size": "Small",
+        "U.S. Shoe Size": "11 - 13",
+        "EUR Shoe Size": "29 - 31",
+        "Foot Length": "7 - 7.75\""
+      },
+      {
+        "Size": "Medium",
+        "U.S. Shoe Size": "1 - 2",
+        "EUR Shoe Size": "32.5 - 33.5",
+        "Foot Length": "8 - 8.25\""
+      },
+      {
+        "Size": "Large",
+        "U.S. Shoe Size": "3 - 5",
+        "EUR Shoe Size": "35 - 37.5\"",
+        "Foot Length": "8.75 - 9.25\""
+      }
+    ],
+    "Ties & Bowties": [
+      {
+        "Size": "4 - 5",
+        "Height": "38 - 44\"",
+        "Weight": "35 - 45 lbs",
+        "Hips": "22 - 24\""
+      },
+      {
+        "Size": "6 - 7",
+        "Height": "44 - 50.5\"",
+        "Weight": "45 - 57 lbs",
+        "Hips": "24 - 27.5\""
+      },
+      {
+        "Size": "8 - 10",
+        "Height": "50.5 - 55\"",
+        "Weight": "57 - 75 lbs",
+        "Hips": "27.5 - 30\""
+      },
+      {
+        "Size": "12 - 14",
+        "Height": "55 - 61\"",
+        "Weight": "75 - 100 lbs",
+        "Hips": "30 - 34\""
+      }
+    ],
+    "Underwear": [
+      {
+        "Size": "XXS (2 - 3)",
+        "Height": "33.5 - 38\"",
+        "Weight": "30 - 35 lbs",
+        "Chest": "20 - 21\"",
+        "Waist": "20.5 - 21.5\""
+      },
+      {
+        "Size": "XS (4)",
+        "Height": "38 - 41\"",
+        "Weight": "35 - 39 lbs",
+        "Chest": "21 - 22\"",
+        "Waist": "21.5 - 22\""
+      },
+      {
+        "Size": "S (5 - 6)",
+        "Height": "41 - 46.5\"",
+        "Weight": "39 - 50 lbs",
+        "Chest": "22 - 24\"",
+        "Waist": "22 - 23\""
+      },
+      {
+        "Size": "M (7 - 8)",
+        "Height": "46.5 - 52.5\"",
+        "Weight": "50 - 65 lbs",
+        "Chest": "24 - 27\"",
+        "Waist": "23 - 24.25\""
+      },
+      {
+        "Size": "L (10 - 12)",
+        "Height": "52.5 - 58\"",
+        "Weight": "65 - 86 lbs",
+        "Chest": "27 - 30\"",
+        "Waist": "24.25 - 26\""
+      },
+      {
+        "Size": "XL (14)",
+        "Height": "58 - 61\"",
+        "Weight": "86 - 100 lbs",
+        "Chest": "30 - 31.5\"",
+        "Waist": "26 - 28\""
+      }
+    ]
+  },
+  "Shoes": [
+    {
+      "AGE": "0-1 months",
+      "FOOT LENGTH": 8.6,
+      "EU": 15,
+      "US": "0"
+    },
+    {
+      "AGE": "0-3 months",
+      "FOOT LENGTH": 9.3,
+      "EU": 16,
+      "US": "1"
+    },
+    {
+      "AGE": "3-6 months",
+      "FOOT LENGTH": 10,
+      "EU": 17,
+      "US": "2"
+    },
+    {
+      "AGE": "6-9 months",
+      "FOOT LENGTH": 11,
+      "EU": 18,
+      "US": "3, C3, or Mini 2"
+    },
+    {
+      "AGE": "9-12 months",
+      "FOOT LENGTH": 11.6,
+      "EU": 19,
+      "US": "4, C4, or Mini 3"
+    },
+    {
+      "AGE": "12-18  months",
+      "FOOT LENGTH": 12.3,
+      "EU": 20,
+      "US": "5, 5C, C5, or Mini 4"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": 13,
+      "EU": 21,
+      "US": "5.5"
+    },
+    {
+      "AGE": "2 years",
+      "FOOT LENGTH": 13.7,
+      "EU": 22,
+      "US": "6, 6C, C6, or Mini 5"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": 14.4,
+      "EU": 23,
+      "US": "7, 7C, C7, or Mini 6"
+    },
+    {
+      "AGE": "2-3 years",
+      "FOOT LENGTH": 15,
+      "EU": 24,
+      "US": "8, 8C, C8, or Mini 7"
+    },
+    {
+      "AGE": "3 years",
+      "FOOT LENGTH": 15.6,
+      "EU": 25,
+      "US": "9, 9C, C9, or Mini 8"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": 16.3,
+      "EU": 26,
+      "US": "9.5"
+    },
+    {
+      "AGE": "4 years",
+      "FOOT LENGTH": 17,
+      "EU": 27,
+      "US": "10, 10C, C10, J10, or Mini 9"
+    },
+    {
+      "AGE": "4-5 years",
+      "FOOT LENGTH": 17.7,
+      "EU": 28,
+      "US": "11, 11C, J11, or Mini 10"
+    },
+    {
+      "AGE": "5-6 years",
+      "FOOT LENGTH": 18.5,
+      "EU": 29,
+      "US": "12, 12C, C12, J12, or Mini 11"
+    },
+    {
+      "AGE": "6 years",
+      "FOOT LENGTH": 19,
+      "EU": 30,
+      "US": "13, 13C, J13, or Mini 12"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": 19.25,
+      "EU": 31,
+      "US": "13.5"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": 20,
+      "EU": 32,
+      "US": "1, 1Y, or Youth 1"
+    },
+    {
+      "AGE": "7 years",
+      "FOOT LENGTH": 21,
+      "EU": 33,
+      "US": "2, 2Y, J2, or Youth 2"
+    },
+    {
+      "AGE": "7.5 years",
+      "FOOT LENGTH": 22,
+      "EU": 34,
+      "US": "3, 3Y, J3, or Youth 3"
+    },
+    {
+      "AGE": "8+ years",
+      "FOOT LENGTH": 23,
+      "EU": 35,
+      "US": "4, 4Y, J4, or Youth 4"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 36,
+      "US": "5 or J5"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 37,
+      "US": "6 or J6"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 38,
+      "US": "7"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 39,
+      "US": "8"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 40,
+      "US": "9"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 41,
+      "US": "10"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 42,
+      "US": "11"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 43,
+      "US": "12"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 44,
+      "US": "13"
+    },
+    {
+      "AGE": "",
+      "FOOT LENGTH": null,
+      "EU": 45,
+      "US": "14"
+    }
+  ]
+}
