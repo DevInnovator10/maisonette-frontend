@@ -1,0 +1,987 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the registration form renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .emotion-2>div {
+    -webkit-flex: 0 50%;
+    -ms-flex: 0 50%;
+    flex: 0 50%;
+  }
+
+  .emotion-2>div:first-of-type {
+    margin-right: 1rem;
+  }
+
+  .emotion-2>div:last-of-type {
+    margin-left: 1rem;
+  }
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column-reverse;
+  -ms-flex-flow: column-reverse;
+  flex-flow: column-reverse;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .4rem 0;
+  position: relative;
+}
+
+.emotion-5>span {
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.emotion-5>input {
+  z-index: 2;
+}
+
+.emotion-5 .emotion-8 {
+  color: #9CB1DC;
+}
+
+.emotion-5 input::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.emotion-5 input::-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.emotion-5 .emotion-8,
+.emotion-5 input {
+  touch-action: manipulation;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.emotion-5 input:placeholder-shown~.emotion-8 {
+  -webkit-transform: translate(0,2.8rem);
+  -ms-transform: translate(0,2.8rem);
+  transform: translate(0,2.8rem);
+}
+
+.emotion-5 input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-5 input:focus::-moz-placeholder {
+  opacity: 1;
+}
+
+.emotion-5 input:not(:placeholder-shown)~.emotion-8,
+.emotion-5 input:focus~.emotion-8 {
+  color: #3150A2;
+  -webkit-transform: translate(0,0.75rem);
+  -ms-transform: translate(0,0.75rem);
+  transform: translate(0,0.75rem);
+}
+
+.emotion-5 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+  background: transparent;
+  border-bottom: 2px solid #3150A2;
+  border-radius: 0;
+  padding: 0;
+}
+
+.emotion-5 input::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-5 input::invalid {
+  box-shadow: none;
+}
+
+.emotion-5 input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-5 input~.emotion-5 input {
+  margin-top: 1rem;
+}
+
+@media (max-width:992px) {
+  .emotion-5 input {
+    font-size: 16px;
+  }
+}
+
+.emotion-5 input.masked-mobile {
+  padding-left: 8.5rem;
+}
+
+.emotion-5 input.masked {
+  padding-left: 8.5rem;
+}
+
+.emotion-5 .e11k6jdq0+input {
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-7 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1;
+  z-index: 1;
+}
+
+.emotion-29 {
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  margin-top: 2.4rem;
+}
+
+.emotion-29::after,
+.emotion-29::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-29::after {
+  background: #3150A2;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  left: -1px;
+  opacity: 0;
+  top: 13px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: calc(1em + 2px);
+}
+
+.emotion-29::before {
+  border-color: #3150A2;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-29::after {
+  opacity: 1;
+}
+
+.emotion-29::before {
+  border-color: #3150A2;
+}
+
+.emotion-29 input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-29.is-hidden {
+  display: none;
+}
+
+.emotion-31 {
+  display: block;
+  height: 4rem;
+  width: 100%;
+}
+
+.emotion-34 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  outline: 0;
+  width: 100%;
+}
+
+.emotion-34:active {
+  outline: 0;
+}
+
+.emotion-34:hover {
+  opacity: 0.75;
+}
+
+.emotion-34[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <form
+        action="#"
+        class="emotion-0 emotion-1"
+        data-test-id="SignupForm"
+      >
+        <div
+
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class=" emotion-4 emotion-5 emotion-6"
+            data-test-id="InputWrapper"
+          >
+            <input
+              autocomplete="given-name"
+              id="signup-fname"
+              name="user.first_name"
+              placeholder="John"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-7 emotion-8"
+              for="signup-fname"
+            >
+              First Name (required)
+            </label>
+          </div>
+          <div
+            class=" emotion-4 emotion-5 emotion-6"
+            data-test-id="InputWrapper"
+          >
+            <input
+              autocomplete="family-name"
+              id="signup-lname"
+              name="user.last_name"
+              placeholder="Smith"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-7 emotion-8"
+              for="signup-lname"
+            >
+              Last Name (required)
+            </label>
+          </div>
+        </div>
+        <div
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="InputWrapper"
+        >
+          <input
+            autocomplete="email"
+            id="signup-email"
+            name="user.email"
+            placeholder="email@example.com"
+            type="email"
+            value=""
+          />
+          <label
+            class="emotion-7 emotion-8"
+            for="signup-email"
+          >
+            Email Address (required)
+          </label>
+        </div>
+        <div
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="InputWrapper"
+        >
+          <input
+            autocomplete="new-password"
+            id="signup-password"
+            name="user.password"
+            placeholder="••••••••"
+            type="password"
+            value=""
+          />
+          <label
+            class="emotion-7 emotion-8"
+            for="signup-password"
+          >
+            Password (required)
+          </label>
+        </div>
+        <div
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="InputWrapper"
+        >
+          <input
+            autocomplete="new-password"
+            id="signup-password-confirmation"
+            name="user.password_confirmation"
+            placeholder="••••••••"
+            type="password"
+            value=""
+          />
+          <label
+            class="emotion-7 emotion-8"
+            for="signup-password-confirmation"
+          >
+            Password Confirmation (required)
+          </label>
+        </div>
+        <label
+          class="emotion-29 emotion-30"
+          for="signup-subscribe-checkbox"
+        >
+          <input
+            checked=""
+            id="signup-subscribe-checkbox"
+            name="subscribe"
+            type="checkbox"
+            value="true"
+          />
+          I would like to receive emails from Maisonette
+        </label>
+        <span
+          class="emotion-31 emotion-32"
+        />
+        <button
+          class="emotion-33 emotion-34 emotion-35"
+          type="submit"
+        >
+          Sign Up
+        </button>
+      </form>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .emotion-2>div {
+    -webkit-flex: 0 50%;
+    -ms-flex: 0 50%;
+    flex: 0 50%;
+  }
+
+  .emotion-2>div:first-of-type {
+    margin-right: 1rem;
+  }
+
+  .emotion-2>div:last-of-type {
+    margin-left: 1rem;
+  }
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column-reverse;
+  -ms-flex-flow: column-reverse;
+  flex-flow: column-reverse;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .4rem 0;
+  position: relative;
+}
+
+.emotion-5>span {
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+
+.emotion-5>input {
+  z-index: 2;
+}
+
+.emotion-5 .emotion-8 {
+  color: #9CB1DC;
+}
+
+.emotion-5 input::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.emotion-5 input::-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.emotion-5 .emotion-8,
+.emotion-5 input {
+  touch-action: manipulation;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.emotion-5 input:placeholder-shown~.emotion-8 {
+  -webkit-transform: translate(0,2.8rem);
+  -ms-transform: translate(0,2.8rem);
+  transform: translate(0,2.8rem);
+}
+
+.emotion-5 input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.emotion-5 input:focus::-moz-placeholder {
+  opacity: 1;
+}
+
+.emotion-5 input:not(:placeholder-shown)~.emotion-8,
+.emotion-5 input:focus~.emotion-8 {
+  color: #3150A2;
+  -webkit-transform: translate(0,0.75rem);
+  -ms-transform: translate(0,0.75rem);
+  transform: translate(0,0.75rem);
+}
+
+.emotion-5 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+  background: transparent;
+  border-bottom: 2px solid #3150A2;
+  border-radius: 0;
+  padding: 0;
+}
+
+.emotion-5 input::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-5 input:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-5 input::invalid {
+  box-shadow: none;
+}
+
+.emotion-5 input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-5 input~.emotion-5 input {
+  margin-top: 1rem;
+}
+
+@media (max-width:992px) {
+  .emotion-5 input {
+    font-size: 16px;
+  }
+}
+
+.emotion-5 input.masked-mobile {
+  padding-left: 8.5rem;
+}
+
+.emotion-5 input.masked {
+  padding-left: 8.5rem;
+}
+
+.emotion-5 .e11k6jdq0+input {
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-7 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1;
+  z-index: 1;
+}
+
+.emotion-29 {
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  margin-top: 2.4rem;
+}
+
+.emotion-29::after,
+.emotion-29::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-29::after {
+  background: #3150A2;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  left: -1px;
+  opacity: 0;
+  top: 13px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: calc(1em + 2px);
+}
+
+.emotion-29::before {
+  border-color: #3150A2;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-29::after {
+  opacity: 1;
+}
+
+.emotion-29::before {
+  border-color: #3150A2;
+}
+
+.emotion-29 input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-29.is-hidden {
+  display: none;
+}
+
+.emotion-31 {
+  display: block;
+  height: 4rem;
+  width: 100%;
+}
+
+.emotion-34 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  outline: 0;
+  width: 100%;
+}
+
+.emotion-34:active {
+  outline: 0;
+}
+
+.emotion-34:hover {
+  opacity: 0.75;
+}
+
+.emotion-34[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <form
+      action="#"
+      class="emotion-0 emotion-1"
+      data-test-id="SignupForm"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="InputWrapper"
+        >
+          <input
+            autocomplete="given-name"
+            id="signup-fname"
+            name="user.first_name"
+            placeholder="John"
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-7 emotion-8"
+            for="signup-fname"
+          >
+            First Name (required)
+          </label>
+        </div>
+        <div
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="InputWrapper"
+        >
+          <input
+            autocomplete="family-name"
+            id="signup-lname"
+            name="user.last_name"
+            placeholder="Smith"
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-7 emotion-8"
+            for="signup-lname"
+          >
+            Last Name (required)
+          </label>
+        </div>
+      </div>
+      <div
+        class=" emotion-4 emotion-5 emotion-6"
+        data-test-id="InputWrapper"
+      >
+        <input
+          autocomplete="email"
+          id="signup-email"
+          name="user.email"
+          placeholder="email@example.com"
+          type="email"
+          value=""
+        />
+        <label
+          class="emotion-7 emotion-8"
+          for="signup-email"
+        >
+          Email Address (required)
+        </label>
+      </div>
+      <div
+        class=" emotion-4 emotion-5 emotion-6"
+        data-test-id="InputWrapper"
+      >
+        <input
+          autocomplete="new-password"
+          id="signup-password"
+          name="user.password"
+          placeholder="••••••••"
+          type="password"
+          value=""
+        />
+        <label
+          class="emotion-7 emotion-8"
+          for="signup-password"
+        >
+          Password (required)
+        </label>
+      </div>
+      <div
+        class=" emotion-4 emotion-5 emotion-6"
+        data-test-id="InputWrapper"
+      >
+        <input
+          autocomplete="new-password"
+          id="signup-password-confirmation"
+          name="user.password_confirmation"
+          placeholder="••••••••"
+          type="password"
+          value=""
+        />
+        <label
+          class="emotion-7 emotion-8"
+          for="signup-password-confirmation"
+        >
+          Password Confirmation (required)
+        </label>
+      </div>
+      <label
+        class="emotion-29 emotion-30"
+        for="signup-subscribe-checkbox"
+      >
+        <input
+          checked=""
+          id="signup-subscribe-checkbox"
+          name="subscribe"
+          type="checkbox"
+          value="true"
+        />
+        I would like to receive emails from Maisonette
+      </label>
+      <span
+        class="emotion-31 emotion-32"
+      />
+      <button
+        class="emotion-33 emotion-34 emotion-35"
+        type="submit"
+      >
+        Sign Up
+      </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
