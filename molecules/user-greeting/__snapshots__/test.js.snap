@@ -1,0 +1,603 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a logged in user greeting renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-1:active {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  opacity: 0.75;
+}
+
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-1 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-1 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: #3150A2;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-1 svg {
+    display: none;
+  }
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #3150A2;
+}
+
+@media (min-width:1200px) {
+  .emotion-5 {
+    display: block;
+  }
+}
+
+<body>
+    <div>
+      <button
+        class="emotion-0 emotion-1 emotion-2"
+        data-test-id="UserGreeting"
+        name="Eric"
+        type="button"
+      >
+        <svg
+          class="emotion-3 emotion-4"
+        />
+        <span
+          class="emotion-5 emotion-6"
+          name="Eric"
+        >
+          Hi, Eric
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": .emotion-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-1:active {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  opacity: 0.75;
+}
+
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-1 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-1 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: #3150A2;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-1 svg {
+    display: none;
+  }
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #3150A2;
+}
+
+@media (min-width:1200px) {
+  .emotion-5 {
+    display: block;
+  }
+}
+
+<div>
+    <button
+      class="emotion-0 emotion-1 emotion-2"
+      data-test-id="UserGreeting"
+      name="Eric"
+      type="button"
+    >
+      <svg
+        class="emotion-3 emotion-4"
+      />
+      <span
+        class="emotion-5 emotion-6"
+        name="Eric"
+      >
+        Hi, Eric
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`a logged out user greeting renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-1:active {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  opacity: 0.75;
+}
+
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-1 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-1 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-1 svg {
+    display: none;
+  }
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #C84D19;
+}
+
+@media (min-width:1200px) {
+  .emotion-5 {
+    display: block;
+  }
+}
+
+<body>
+    <div>
+      <button
+        class="emotion-0 emotion-1 emotion-2"
+        data-test-id="UserGreeting"
+        name="Eric"
+        type="button"
+      >
+        <svg
+          class="emotion-3 emotion-4"
+        />
+        <span
+          class="emotion-5 emotion-6"
+          name="Eric"
+        >
+          Sign In
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": .emotion-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-1:active {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  opacity: 0.75;
+}
+
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-1 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-1 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-1 svg {
+    display: none;
+  }
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #C84D19;
+}
+
+@media (min-width:1200px) {
+  .emotion-5 {
+    display: block;
+  }
+}
+
+<div>
+    <button
+      class="emotion-0 emotion-1 emotion-2"
+      data-test-id="UserGreeting"
+      name="Eric"
+      type="button"
+    >
+      <svg
+        class="emotion-3 emotion-4"
+      />
+      <span
+        class="emotion-5 emotion-6"
+        name="Eric"
+      >
+        Sign In
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
