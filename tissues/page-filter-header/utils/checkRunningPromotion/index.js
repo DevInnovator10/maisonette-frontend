@@ -24,6 +24,7 @@ export const promotionDates = [
     start: '01 Nov 2022 16:00:00 GMT',
     end: '08 Nov 2022 08:00:00 GMT'
   },
+
   {
     salePromotion: 'last-minute-holiday-gift-sale-2022',
     edits_slug: {
