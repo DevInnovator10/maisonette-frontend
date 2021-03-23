@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the checkout payment step renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  grid-area: payment;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #9CB1DC;
+  color: #9CB1DC;
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.9297rem;
+  width: 100%;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  line-height: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  padding: 0;
+  margin: 0 0 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  outline: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-9 {
+  margin: 3rem 0;
+}
+
+.emotion-9 .emotion-12 {
+  color: #9CB1DC;
+}
+
+.emotion-11 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+<body>
+    <div>
+      <form
+        class="emotion-0 emotion-1"
+        id="payment"
+        tabindex="0"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <legend
+            aria-level="2"
+            class="emotion-4 emotion-5"
+            role="heading"
+            step="3"
+          >
+            3. Payment
+          </legend>
+          <button
+            aria-label="edit payment details"
+            class="emotion-6 emotion-7 emotion-8"
+            type="button"
+          >
+            Edit
+          </button>
+        </div>
+        <div
+          class="emotion-9 emotion-10"
+        >
+          <p
+            class="emotion-11 emotion-12"
+          >
+            Payment Method
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  grid-area: payment;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #9CB1DC;
+  color: #9CB1DC;
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.9297rem;
+  width: 100%;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  line-height: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  padding: 0;
+  margin: 0 0 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  outline: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-9 {
+  margin: 3rem 0;
+}
+
+.emotion-9 .emotion-12 {
+  color: #9CB1DC;
+}
+
+.emotion-11 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+<div>
+    <form
+      class="emotion-0 emotion-1"
+      id="payment"
+      tabindex="0"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <legend
+          aria-level="2"
+          class="emotion-4 emotion-5"
+          role="heading"
+          step="3"
+        >
+          3. Payment
+        </legend>
+        <button
+          aria-label="edit payment details"
+          class="emotion-6 emotion-7 emotion-8"
+          type="button"
+        >
+          Edit
+        </button>
+      </div>
+      <div
+        class="emotion-9 emotion-10"
+      >
+        <p
+          class="emotion-11 emotion-12"
+        >
+          Payment Method
+        </p>
+      </div>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
