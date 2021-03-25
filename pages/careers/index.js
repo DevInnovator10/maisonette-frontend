@@ -19,7 +19,7 @@ import BuiltInNyc from '../../tissues/built-in-nyc';
 import SocialProof from '../../tissues/social-proof';
 
 const Careers = (props) => {
-  const ref = useRef();
+    const ref = useRef();
 
   const scrollToOpenRoles = () => {
     // eslint-disable-next-line no-unused-expressions
