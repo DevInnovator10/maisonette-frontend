@@ -27,6 +27,7 @@ const handler = async (req, res) => {
   let response;
 
   switch (method) {
+
     case 'GET':
       response = await api.setPath('/api/orders/mine', { page }).get();
       res.status(response?.status ?? 500).json(response?.data ?? null);
