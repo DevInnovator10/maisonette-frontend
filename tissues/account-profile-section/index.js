@@ -6,7 +6,7 @@ import Typography from '../../atoms/typography';
 import Link from '../../atoms/anchor';
 
 const Password = styled.div`
-  align-items: center;
+    align-items: center;
   border-top: 1px solid ${(props) => props.theme.color.brandLight};
   display: flex;
   flex-direction: row;
@@ -32,6 +32,7 @@ const ChangePasswordLink = styled(Link)`
 
 const EditLink = styled(Link)`
   position: absolute;
+
   right: 0;
   top: 1rem;
 `;

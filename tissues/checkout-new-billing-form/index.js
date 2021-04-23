@@ -48,6 +48,7 @@ const PlusSign = styled.div`
       #2F4DA1),
     linear-gradient(
       #2F4DA1,
+
       #2F4DA1);
   background-position:center;
   background-size: 16.14px 2px,2px 16.14px;
