@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="cross" data-name="cross" viewBox="0 0 100 100">
+    <title>cross</title>
+    <line x1="1" y1="1" x2="99" y2="99"/>
+    <line x1="99" y1="1" x2="1" y2="99"/>
+</svg>
