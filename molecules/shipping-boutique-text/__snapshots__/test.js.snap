@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shipping boutique text renders correctly 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  line-height: 1.3;
+  min-height: 2rem;
+}
+
+.emotion-0 img[role="img"] {
+  display: inline-block;
+}
+
+.emotion-0>p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-2>span {
+  color: #3150A2;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+}
+
+<div>
+  <div
+    class=" emotion-0 emotion-1"
+  >
+    <p
+      class="emotion-2 emotion-3"
+    >
+      <span
+        class="emotion-4 emotion-5"
+      >
+        Ships from:
+      </span>
+       
+      Chronicle Books
+       
+      <span>
+        US
+      </span>
+    </p>
+  </div>
+</div>
+`;
