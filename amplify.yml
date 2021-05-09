@@ -1,0 +1,80 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Amplify.yml executed from branch $AWS_BRANCH"
+        - TEMP_VAR=${AWS_BRANCH}
+        - CLIENT_HOST=$(echo $TEMP_VAR | tr '[:upper:]' '[:lower:]')
+        - CLIENT_HOST_FINAL=$(echo $CLIENT_HOST | tr // -)
+        # - AWS_APP_ID=${AWS_APP_ID}
+        # - PULL_REQUEST_ID=${AWS_PULL_REQUEST_ID}
+
+        # not executing on master branch
+        - if [ "${AWS_BRANCH}" = "master" ]; then exit 1; fi
+        - if [ "${AWS_BRANCH}" = "develop" ]; then DOMAIN_URL="https://${CLIENT_HOST_FINAL}.${AWS_APP_ID}.amplifyapp.com"; else DOMAIN_URL="https://pr-${AWS_PULL_REQUEST_ID}.${AWS_APP_ID}.amplifyapp.com"; fi
+        - echo "${DOMAIN_URL}"
+        - export DOMAIN_URL
+        - NEXT_PUBLIC_CLIENT_HOST=$DOMAIN_URL
+        - export NEXT_PUBLIC_CLIENT_HOST
+        - NEXT_PUBLIC_ASSET_HOST=$DOMAIN_URL
+        - export NEXT_PUBLIC_ASSET_HOST
+        - echo "CMS_HOST=$CMS_HOST" >> .env
+        - echo "NEXT_PUBLIC_CLIENT_HOST=$NEXT_PUBLIC_CLIENT_HOST" >> .env
+        - echo "DD_APPLICATION_ID=$DD_APPLICATION_ID" >> .env
+        - echo "DD_CLIENT_TOKEN=$DD_CLIENT_TOKEN" >> .env
+        - echo "FORTER_SITE_ID=$FORTER_SITE_ID" >> .env
+        - echo "GA_TRACKING_ID=$GA_TRACKING_ID" >> .env
+        - echo "JWT_SECRET=$JWT_SECRET" >> .env
+        - echo "KLAVIYO_COMPANY_ID=$KLAVIYO_COMPANY_ID" >> .env
+        - echo "KUSTOMER_API_KEY=$KUSTOMER_API_KEY" >> .env
+        - echo "NEXT_PUBLIC_AFTERPAY_SDK=$NEXT_PUBLIC_AFTERPAY_SDK" >> .env
+        - echo "NEXT_PUBLIC_ALGOLIA_APP_ID=$NEXT_PUBLIC_ALGOLIA_APP_ID" >> .env
+        - echo "NEXT_PUBLIC_ALGOLIA_CONTENTS_INDEX=$NEXT_PUBLIC_ALGOLIA_CONTENTS_INDEX" >> .env
+        - echo "NEXT_PUBLIC_ALGOLIA_PRODUCTS_FREQUENTLY_BOUGHT=$NEXT_PUBLIC_ALGOLIA_PRODUCTS_FREQUENTLY_BOUGHT" >> .env
+        - echo "NEXT_PUBLIC_ALGOLIA_PRODUCTS_INDEX=$NEXT_PUBLIC_ALGOLIA_PRODUCTS_INDEX" >> .env
+        - echo "NEXT_PUBLIC_ALGOLIA_PRODUCTS_QUERY_SUGGESTIONS_INDEX=$NEXT_PUBLIC_ALGOLIA_PRODUCTS_QUERY_SUGGESTIONS_INDEX" >> .env
+        - echo "NEXT_PUBLIC_ALGOLIA_PRODUCTS_RECOMMENDED=$NEXT_PUBLIC_ALGOLIA_PRODUCTS_RECOMMENDED" >> .env
+        - echo "NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY=$NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY" >> .env
+        - echo "NEXT_PUBLIC_AMPLITUDE_KEY=$NEXT_PUBLIC_AMPLITUDE_KEY" >> .env
+        - echo "NEXT_PUBLIC_ASSET_HOST=$NEXT_PUBLIC_CLIENT_HOST" >> .env
+        - echo "NEXT_PUBLIC_BRAINTREE_TOKEN=$NEXT_PUBLIC_BRAINTREE_TOKEN" >> .env
+        - echo "NEXT_PUBLIC_COOKIE_MAX_AGE=$NEXT_PUBLIC_COOKIE_MAX_AGE" >> .env
+        - echo "NEXT_PUBLIC_GMAPS_KEY=$NEXT_PUBLIC_GMAPS_KEY" >> .env
+        - echo "NEXT_PUBLIC_JIFITI_HOST=$NEXT_PUBLIC_JIFITI_HOST" >> .env
+        - echo "NEXT_PUBLIC_KUSTOMER_ACTIVE=$NEXT_PUBLIC_KUSTOMER_ACTIVE" >> .env
+        - echo "NEXT_PUBLIC_LAZY_SRC=$NEXT_PUBLIC_LAZY_SRC" >> .env
+        - echo "NEXT_PUBLIC_LOAD_WUNDERKIND=$NEXT_PUBLIC_LOAD_WUNDERKIND" >> .env
+        - echo "NEXT_PUBLIC_PAYPAL_ENV=$NEXT_PUBLIC_PAYPAL_ENV" >> .env
+        - echo "NEXT_PUBLIC_PREVIEW_ASSET_HOST=$NEXT_PUBLIC_PREVIEW_ASSET_HOST" >> .env
+        - echo "NEXT_PUBLIC_RELEASE=$NEXT_PUBLIC_RELEASE" >> .env
+        - echo "NEXT_PUBLIC_SENTRY_DSN=$NEXT_PUBLIC_SENTRY_DSN" >> .env
+        - echo "NODE_ENV=$NODE_ENV" >> .env
+        - echo "PAYPAL_CLIENT_ID=$PAYPAL_CLIENT_ID" >> .env
+        - echo "SENTRY_AUTH_TOKEN=$SENTRY_AUTH_TOKEN" >> .env
+        - echo "SENTRY_ORG=$SENTRY_ORG" >> .env
+        - echo "SENTRY_PROJECT=$SENTRY_PROJECT" >> .env
+        - echo "SEO_MODE_ON=$SEO_MODE_ON" >> .env
+        - echo "SOLIDUS_HOST=$SOLIDUS_HOST" >> .env
+        - echo "SOLIDUS_HOST_SEO=$SOLIDUS_HOST_SEO" >> .env
+        - echo "SPEED_CURVE_ID=$SPEED_CURVE_ID" >> .env
+        - echo "ZENDESK_API_KEY=$ZENDESK_API_KEY" >> .env
+        - echo "_LIVE_UPDATES=$_LIVE_UPDATES" >> .env
+        - echo "AMPLIFY_NEXTJS_EXPERIMENTAL_TRACE=$AMPLIFY_NEXTJS_EXPERIMENTAL_TRACE" >> .env
+        - cat .env
+        # - printenv
+        - nvm install 14.19.3
+        - nvm use 14.19.3
+        - npm install
+    build:
+      commands:
+        - nvm use 14.19.3
+        - node -v
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
