@@ -6,7 +6,7 @@ import Link from '../../utils/link';
 import Button from '../../atoms/button';
 
 const Wrapper = styled.section`
-  color: ${({ theme }) => theme.color.brand};
+    color: ${({ theme }) => theme.color.brand};
   margin-bottom: ${({ theme }) => theme.modularScale.sixtyFour};
 
   @media (min-width: ${({ theme }) => theme.breakpoint.medium}) {
