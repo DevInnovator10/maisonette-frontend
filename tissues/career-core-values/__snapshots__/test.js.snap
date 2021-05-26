@@ -1,0 +1,837 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-2 {
+  padding-top: 4.4rem;
+  padding-bottom: 1.2rem;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 6.4rem;
+  }
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-4 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-4 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-6 {
+  color: #2F4DA1;
+  display: grid;
+  gap: 4.8rem;
+  grid-template-columns: repeat(1,1fr);
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+.emotion-10 {
+  margin-bottom: 1rem;
+}
+
+.emotion-11 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  line-height: 4rem;
+  text-transform: capitalize;
+}
+
+@media (min-width:992px) {
+  .emotion-11 {
+    font-size: 3.2rem;
+  }
+}
+
+.emotion-13 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+}
+
+.emotion-50 {
+  color: #2F4DA1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 2.4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-50 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-52 {
+  margin-bottom: 1.5rem;
+}
+
+.emotion-52 img {
+  max-width: 100%;
+}
+
+@media (min-width:992px) {
+  .emotion-52 {
+    width: 40%;
+    margin-right: 6%;
+    margin-bottom: 0;
+  }
+}
+
+.emotion-54 {
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-54 {
+    width: 54%;
+    text-align: left;
+  }
+}
+
+.emotion-56 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+  padding-top: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-56 {
+    font-size: 4.8rem;
+    margin-bottom: 3.2rem;
+    line-height: 56px;
+  }
+}
+
+.emotion-58 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+}
+
+@media (max-width:992px) {
+  .emotion-58 {
+    font-size: 1.8rem;
+  }
+}
+
+.emotion-60 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  display: block;
+  margin-bottom: 3.2rem;
+  text-underline-position: under;
+  text-underline-offset: 4px;
+  -webkit-text-decoration-thickness: 0.075em;
+  text-decoration-thickness: 0.075em;
+}
+
+@media (max-width:992px) {
+  .emotion-60 {
+    font-size: 1.6rem;
+  }
+}
+
+.emotion-62 {
+  background: url('/images/icon/Arrow-Next.svg') right 2px no-repeat;
+  padding-right: 38px;
+}
+
+@media (max-width:992px) {
+  .emotion-62 {
+    background-size: 20px;
+    padding-right: 28px;
+  }
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="Content"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <h1
+            class="emotion-4 emotion-5"
+          >
+            Core Values
+          </h1>
+          <div
+            class="emotion-6 emotion-7"
+            data-test-id="Blocks"
+          >
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="Blocks"
+            >
+              <svg
+                class="emotion-10"
+              />
+              <h5
+                class="emotion-11 emotion-12"
+              >
+                Family matters
+              </h5>
+              <p
+                class="emotion-13 emotion-14"
+              >
+                We believe in the power of families. Take care of yourself and the people you love.
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="Blocks"
+            >
+              <svg
+                class="emotion-10"
+              />
+              <h5
+                class="emotion-11 emotion-12"
+              >
+                Make magic
+              </h5>
+              <p
+                class="emotion-13 emotion-14"
+              >
+                Be transformational, not just transactional. Bring joy, surprise-and-delight into every day.
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="Blocks"
+            >
+              <svg
+                class="emotion-10"
+              />
+              <h5
+                class="emotion-11 emotion-12"
+              >
+                Be brave
+              </h5>
+              <p
+                class="emotion-13 emotion-14"
+              >
+                Try things and take risks. Learn from wins and losses and don’t be afraid to pivot.
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="Blocks"
+            >
+              <svg
+                class="emotion-10"
+              />
+              <h5
+                class="emotion-11 emotion-12"
+              >
+                Respect and conviction
+              </h5>
+              <p
+                class="emotion-13 emotion-14"
+              >
+                Healthy debate and honest conversations make us stronger. Engage respectfully and commit to a path forward.
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="Blocks"
+            >
+              <svg
+                class="emotion-10"
+              />
+              <h5
+                class="emotion-11 emotion-12"
+              >
+                Be the solution
+              </h5>
+              <p
+                class="emotion-13 emotion-14"
+              >
+                Run towards problems and solve them. Be an owner; raise your hand when nobody else will.
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="Blocks"
+            >
+              <svg
+                class="emotion-10"
+              />
+              <h5
+                class="emotion-11 emotion-12"
+              >
+                Make a mark
+              </h5>
+              <p
+                class="emotion-13 emotion-14"
+              >
+                Be a force for good. Inspire the people you work with, the community you inhabit, and the industry at large.
+              </p>
+            </div>
+          </div>
+          <div
+            class="emotion-50 emotion-51"
+          >
+            <div
+              class="emotion-52 emotion-53"
+            >
+              <img
+                alt="Be an ally"
+                src="/images/core-values/Ally-img.png"
+              />
+            </div>
+            <div
+              class="emotion-54 emotion-55"
+            >
+              <h1
+                class="emotion-56 emotion-57"
+              >
+                Be an ally
+              </h1>
+              <p
+                class="emotion-58 emotion-59"
+              >
+                We value the beauty and power of diversity, equity, and inclusion. We are individually and collectively committed to identifying and dismantling harmful biases. We are empowered to hold ourselves and others accountable as we build and enact systems in pursuit of anti-racist, anti-discriminatory practices and culture.
+              </p>
+              <a
+                class="emotion-60 emotion-61"
+                href="/q1-2022-diversity-equity-and-inclusion-report"
+              >
+                <span
+                  class="emotion-62 emotion-63"
+                >
+                  Read our most recent DE&I Report here
+                </span>
+              </a>
+              <a
+                class="emotion-60 emotion-61"
+                href="/q1-2021-diversity-equity-and-inclusion-report"
+              >
+                <span
+                  class="emotion-62 emotion-63"
+                >
+                  Read our 2020 DE&I Report
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-2 {
+  padding-top: 4.4rem;
+  padding-bottom: 1.2rem;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 6.4rem;
+  }
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-4 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-4 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-6 {
+  color: #2F4DA1;
+  display: grid;
+  gap: 4.8rem;
+  grid-template-columns: repeat(1,1fr);
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+.emotion-10 {
+  margin-bottom: 1rem;
+}
+
+.emotion-11 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  line-height: 4rem;
+  text-transform: capitalize;
+}
+
+@media (min-width:992px) {
+  .emotion-11 {
+    font-size: 3.2rem;
+  }
+}
+
+.emotion-13 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+}
+
+.emotion-50 {
+  color: #2F4DA1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 2.4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-50 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-52 {
+  margin-bottom: 1.5rem;
+}
+
+.emotion-52 img {
+  max-width: 100%;
+}
+
+@media (min-width:992px) {
+  .emotion-52 {
+    width: 40%;
+    margin-right: 6%;
+    margin-bottom: 0;
+  }
+}
+
+.emotion-54 {
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-54 {
+    width: 54%;
+    text-align: left;
+  }
+}
+
+.emotion-56 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+  padding-top: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-56 {
+    font-size: 4.8rem;
+    margin-bottom: 3.2rem;
+    line-height: 56px;
+  }
+}
+
+.emotion-58 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+}
+
+@media (max-width:992px) {
+  .emotion-58 {
+    font-size: 1.8rem;
+  }
+}
+
+.emotion-60 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  display: block;
+  margin-bottom: 3.2rem;
+  text-underline-position: under;
+  text-underline-offset: 4px;
+  -webkit-text-decoration-thickness: 0.075em;
+  text-decoration-thickness: 0.075em;
+}
+
+@media (max-width:992px) {
+  .emotion-60 {
+    font-size: 1.6rem;
+  }
+}
+
+.emotion-62 {
+  background: url('/images/icon/Arrow-Next.svg') right 2px no-repeat;
+  padding-right: 38px;
+}
+
+@media (max-width:992px) {
+  .emotion-62 {
+    background-size: 20px;
+    padding-right: 28px;
+  }
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="Content"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <h1
+          class="emotion-4 emotion-5"
+        >
+          Core Values
+        </h1>
+        <div
+          class="emotion-6 emotion-7"
+          data-test-id="Blocks"
+        >
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="Blocks"
+          >
+            <svg
+              class="emotion-10"
+            />
+            <h5
+              class="emotion-11 emotion-12"
+            >
+              Family matters
+            </h5>
+            <p
+              class="emotion-13 emotion-14"
+            >
+              We believe in the power of families. Take care of yourself and the people you love.
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="Blocks"
+          >
+            <svg
+              class="emotion-10"
+            />
+            <h5
+              class="emotion-11 emotion-12"
+            >
+              Make magic
+            </h5>
+            <p
+              class="emotion-13 emotion-14"
+            >
+              Be transformational, not just transactional. Bring joy, surprise-and-delight into every day.
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="Blocks"
+          >
+            <svg
+              class="emotion-10"
+            />
+            <h5
+              class="emotion-11 emotion-12"
+            >
+              Be brave
+            </h5>
+            <p
+              class="emotion-13 emotion-14"
+            >
+              Try things and take risks. Learn from wins and losses and don’t be afraid to pivot.
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="Blocks"
+          >
+            <svg
+              class="emotion-10"
+            />
+            <h5
+              class="emotion-11 emotion-12"
+            >
+              Respect and conviction
+            </h5>
+            <p
+              class="emotion-13 emotion-14"
+            >
+              Healthy debate and honest conversations make us stronger. Engage respectfully and commit to a path forward.
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="Blocks"
+          >
+            <svg
+              class="emotion-10"
+            />
+            <h5
+              class="emotion-11 emotion-12"
+            >
+              Be the solution
+            </h5>
+            <p
+              class="emotion-13 emotion-14"
+            >
+              Run towards problems and solve them. Be an owner; raise your hand when nobody else will.
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="Blocks"
+          >
+            <svg
+              class="emotion-10"
+            />
+            <h5
+              class="emotion-11 emotion-12"
+            >
+              Make a mark
+            </h5>
+            <p
+              class="emotion-13 emotion-14"
+            >
+              Be a force for good. Inspire the people you work with, the community you inhabit, and the industry at large.
+
+            </p>
+          </div>
+        </div>
+        <div
+          class="emotion-50 emotion-51"
+        >
+          <div
+            class="emotion-52 emotion-53"
+          >
+            <img
+              alt="Be an ally"
+              src="/images/core-values/Ally-img.png"
+            />
+          </div>
+          <div
+            class="emotion-54 emotion-55"
+          >
+            <h1
+              class="emotion-56 emotion-57"
+            >
+              Be an ally
+            </h1>
+            <p
+              class="emotion-58 emotion-59"
+            >
+              We value the beauty and power of diversity, equity, and inclusion. We are individually and collectively committed to identifying and dismantling harmful biases. We are empowered to hold ourselves and others accountable as we build and enact systems in pursuit of anti-racist, anti-discriminatory practices and culture.
+            </p>
+            <a
+              class="emotion-60 emotion-61"
+              href="/q1-2022-diversity-equity-and-inclusion-report"
+            >
+              <span
+                class="emotion-62 emotion-63"
+              >
+                Read our most recent DE&I Report here
+              </span>
+            </a>
+            <a
+              class="emotion-60 emotion-61"
+              href="/q1-2021-diversity-equity-and-inclusion-report"
+            >
+              <span
+                class="emotion-62 emotion-63"
+              >
+                Read our 2020 DE&I Report
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
