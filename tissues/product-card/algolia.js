@@ -19,7 +19,7 @@ import parseSlugFromProductUrl from '../../utils/parseSlugFromProductUrl';
 
 import { createWishedProduct, deleteWishedProduct, logClickSLI } from '../../pages/api';
 import {
-  addProductToList,
+    addProductToList,
   addProductToAlgoliaList,
   removeProductFromAlgoliaList,
   removeProductFromList
@@ -292,6 +292,7 @@ export const ProductCard = (props) => {
           }
 
           const algoliaContent = {
+
             productId: props.product?.objectID,
             productSku: props.product?.manufacturer_id,
             name: props.product?.title,
