@@ -1,0 +1,581 @@
+{
+  "mythical-creatures-costumes": {
+    "heading": "Mythical Creature Costumes",
+    "title": "Mythical Creature Costumes - Fairy, Mermaid, Unicorn & More | Maisonette",
+    "description": "Maisonette is your one-stop shop for mythical creature costumes. From unicorns to mermaids to fairy costumes and more, shop our Halloween costumes."
+  },
+  "fairytale-costumes": {
+    "heading": "Fairytale Costumes",
+    "title": "Fairytale Costumes - Princess, Knight, Pirate Costumes & More | Maisonette",
+    "description": "Let your prince or princess dress the part for Halloween! Shop Maisonette's selection of fairytale costumes from princess dresses to pirate costumes."
+  },
+  "superhero-costumes": {
+    "heading": "Superhero Costumes",
+    "title": "Superhero Costumes - Spiderman, Harley Quinn & More | Maisonette",
+    "description": "Save the day with Maisonette's selection of superhero costumes. From Spiderman to Harley Quinn, shop your favorite superheroes here."
+  },
+  "when-i-grow-up-costumes": {
+    "heading": "Kids Career Costumes",
+    "title": "Kids Career Costumes - Police, Cowboys, Astronauts & More | Maisonette",
+    "description": "What does your kid want to be when they grow up? Shop kids career costumes from Maisonette. From police officers to cowboys to astronaut costumes, get it here."
+  },
+  "holiday-pajamas": {
+    "heading": "Holiday & Christmas Pajamas",
+    "title": "Holiday & Christmas Pajamas for the Whole Family | Maisonette",
+    "description": "Shop Maisonette's selection of holiday and Christmas pajamas for the whole family. From robes to nightgowns to footies and more, shop holiday pajamas here."
+  },
+  "family-matching": {
+    "heading": "Matching Family Outfits",
+    "title": "Matching Family Outfits, Pajamas & Clothes | Maisonette",
+    "description": "Coordinate family outfits for pictures or just a fun night in with matching family outfits, pajamas and clothing. From matching tops and more, shop Maisonette."
+  },
+  "stocking-stuffers": {
+    "heading": "Stocking Stuffers",
+    "title": "Stocking Stuffers for Kids & Babies | Maisonette",
+    "description": "Shop Maisonette's stocking stuffers for kids and babies. Find the best selection of age appropriate stocking stuffers for the whole family."
+  },
+  "hanukkah-shop": {
+    "heading": "Kids Hanukkah Gifts",
+    "title": "Hanukkah Gifts - Menorahs, Toys, Clothing & More | Maisonette",
+    "description": "Celebrate the Festival of Lights with special Hanukkah gifts from Maisonette. From kids menorahs, Hanukkah toys, clothing or décor, shop your favorite brands."
+  },
+  "holiday-catalog": {
+    "heading": "Holiday Catalog 2022",
+    "title": "Maisonette Holiday Catalog for 2022 - All Holiday Gifts & Toys",
+    "description": "Celebrate the magic of the holidays with Maisonette's Holiday Catalog. Get inspired with gift ideas for the whole family. Shop your favorite brands here."
+  },
+  "holiday-home": {
+    "heading": "Christmas Home Decor",
+    "title": "Christmas Home Decor | Maisonette",
+    "description": "Shop Maisonette's Christmas home decor from pillows to table runners, ornaments and more. You one-stop shop for holiday decor from your favorite brands."
+  },
+  "kids-picks": {
+    "heading": "Most Popular Kids Toys",
+    "title": "Kids Picks - The Most Popular Kids Toys | Maisonette",
+    "description": "We've asked the kids what the most wished-for toys are this holiday season. Shop Maisonette's most popular kids toys from Marvel to Paw Patrol."
+  },
+  "last-minute-gifts": {
+    "heading": "Last Minute Christmas Gifts",
+    "title": "Last Minute Christmas & Holiday Gifts | Maisonette",
+    "description": "Get your gifts shipped in time for Christmas with Maisonette's selection of last minute Christmas gifts. Shop brands that ship quickly during the holidays."
+  },
+  "thanksgiving": {
+    "heading": "Thanksgiving Shop",
+    "title": "Thanksgiving Shop - Kids Gifts, Clothing, Decor & More | Maisonette",
+    "description": "It's the season for giving and Maisonette has you covered with our Thanksgiving Shop. Browse gifts for kids, babies and the whole family from clothing, home decor, and more."
+  },
+  "editors-picks-gifts": {
+    "heading": "Editor's Picks Gifts",
+    "title": "Editor's Picks - Kids Gifts | Maisonette",
+    "description": "Our editors have reviewed this season's top toys and have put together their own curated assortment. Shop toys from the pros with Maisonette."
+  },
+  "back-to-school-apparel": {
+    "heading": "Back-to-School Clothes",
+    "title": "Back to School Clothes & Outfits - Dresses, Shirts, Jackets & More | Maisonette",
+    "description": "Shop back-to-school clothes from your favorite kids brands at Maisonette. Your one-stop shop for all your back to school outfits."
+  },
+  "back-to-school-lunch-box": {
+    "heading": "Back-to-School Lunch Boxes & Water Bottles",
+    "title": "Back to School Lunch Boxes & Water Bottles | Maisonette",
+    "description": "Shop back-to-school lunch boxes and water bottles from your favorite kids brands at Maisonette. Your one-stop shop for back-to-school accessories and more."
+  },
+  "back-to-school-accessories": {
+    "heading": "Back-to-School Supplies & Accessories",
+    "title": "Back to School Supplies & Accessories | Maisonette",
+    "description": "Shop back-to-school supplies and accessories from your favorite kids brands at Maisonette. Your one-stop shop for kids school supplies and more."
+  },
+  "basics": {
+    "heading": "Base Layers",
+    "title": "Base Layers | Maisonette"
+  },
+  "easter-shop": {
+    "heading": "Kids Easter Gifts",
+    "title": "Kids & Baby Easter Gifts, Basket Stuffings & More | Maisonette",
+    "description": "Shop Maisonette for baby and kids Easter gifts from Easter basket stuffings, toys, clothing, accessories and more. Your one-stop shop for all things Easter."
+  },
+  "flash-sale": {
+    "heading": "Flash Sale",
+    "title": "Flash Sale | Maisonette",
+    "description": "Its your chance to get the best deals, sales and discounts on your favorite brands. Shop Maisonette's Flash Sale, available only for a limited time!"
+  },
+  "getaway-essentials-edit": {
+    "heading": "Getaway Essentials",
+    "title": "Getaway Essentials | Maisonette",
+    "description": "Everything baby will need when they visit grandma and grandpa."
+  },
+  "gifts-for-moms": {
+    "heading": "Mother's Day Gifts",
+    "title": "Mother's Day Gifts - Shop Gifts for Mom | Maisonette",
+    "description": "Moms make our world go round. Spoil her this year with a Mother's Day Gift from Maisonette. Shop our favorite brands to find the best gift for mom."
+  },
+  "halloween-accessories": {
+    "heading": "Halloween Accessories & Craft Supplies",
+    "title": "Halloween Accessories & Craft Supplies | Maisonette",
+    "description": "Keep the festivities alive with spooky crafts and more. Shop Maisonette's selection of Halloween accessories including Halloween craft supplies, and more."
+  },
+  "halloween-pajamas": {
+    "heading": "Halloween Pajamas & Clothes",
+    "title": "Halloween Pajamas & Clothes - Shop Kids Halloween Pajamas | Maisonette",
+    "description": "We love themed pajamas! Maisonette has you covered when it comes to Halloween pajamas and clothes. Shop Halloween pajamas and matching clothes for the entire family."
+  },
+  "mommy-me": {
+    "heading": "Mommy & Me",
+    "title": "Mommy and Me Outfits, Dresses & More | Maisonette",
+    "description": "Shop Mommy and Me outfits, dresses and more from Maisonette. From matching mom and son outfits to mom and daughter or baby dresses, get your favorite brands."
+  },
+  "new-years-shop": {
+    "heading": "New Year's Shop",
+    "title": "Kids New Years Eve - Party Supplies, Décor, Clothes & More | Maisonette",
+    "description": "Ring in the new year with a kids New Years Eve party! Shop Maisonette's curated selection of kids New Years Eve décor, party supplies, clothing and more."
+  },
+  "new-years-eve-shop": {
+    "heading": "Kids New Years Eve",
+    "title": "Kids New Years Eve - Party Supplies, Décor, Clothes & More | Maisonette",
+    "description": "Ring in the new year with a kids New Years Eve party! Shop Maisonette's curated selection of kids New Years Eve décor, party supplies, clothing and more."
+  },
+  "pride": {
+    "heading": "Pride",
+    "title": "Kids Pride - Shop Pride Shirts & Clothing | Maisonette",
+    "description": "Celebrate Pride as a whole family with Maisonette's curation of baby and kids Pride shirts, clothing, accessories and more. Show your kids that love is love."
+  },
+  "st-patricks-day": {
+    "heading": "Kids St. Patrick's Day Outfits",
+    "title": "Baby & Kids St. Patrick's Day Outfits, Shirts & More | Maisonette",
+    "description": "Have the Luck of the Irish with St. Patrick's Day outfits, shirts and accessories for kids. Discover Maisonette's kids and baby St. Patrick's Day shop."
+  },
+  "organizing-essentials": {
+    "heading": "Storage & Organization Refresh",
+    "title": "Storage & Organization Refresh | Maisonette"
+  },
+  "solid-stripes": {
+    "heading": "Stripes",
+    "title": "Stripes Story | Maisonette"
+  },
+  "study-nook": {
+    "heading": "Back-to-School Desks, Chairs & Furniture",
+    "title": "Kids School Desks, Tables, Chairs & Furniture | Maisonette",
+    "description": "Shop back-to-school kids desks, chairs, and furniture from your favorite kids brands at Maisonette. Your one-stop shop for back-to-school accessories and more."
+  },
+  "valentines-day-shop-2020": {
+    "heading": "Valentine's Day Shop",
+    "title": "Shop Kids Valentines Gifts, Clothing & Accessories | Maisonette",
+    "description": "Discover kids Valentines gifts, clothing and accessories in our Valentine's Day shop! Maisonette has all you need to make your heart swoon in our Love Shop."
+  },
+  "valentines-day-shop": {
+    "heading": "The Valentine's Day Shop",
+    "title": "Shop Kids Valentines Gifts, Clothing, Accessories & More | Maisonette",
+    "description": "Discover kids Valentines gifts, clothing and accessories in our Valentine's Day shop! Maisonette has all you need to make your heart swoon in our Love Shop."
+  },
+  "bedroom-refresh": {
+    "heading": "Bedroom Décor",
+    "title": "Bedroom Décor - Kids Bedroom Décor | Maisonette",
+    "description": "Shop Maisonette's curated selection of kids bedroom décor. Refresh your kid's bedroom decorations with wall décor, chunky throws and more, all in one place."
+  },
+  "baby-shower-gifts": {
+    "heading": "Baby Shower Gifts",
+    "title": "Baby Shower Gifts | Maisonette",
+    "description": "Shower the mom-to-be with everything she and baby needs with Maisonette's selection of baby shower gifts. Shop gifts for a baby shower in one easy place."
+  },
+  "founders-favorites": {
+    "heading": "Founder's Favorites",
+    "title": "Founder's Favorites - Kids & Baby Clothes & More | Maisonette",
+    "description": "Maisonette selected our favorite baby and kids clothes, toys and more. Shop our curated Marketplace, from baby outfits to gifts for mom, all in one place."
+  },
+  "baby-new-mom-gift-sets": {
+    "heading": " Baby & New Mom Gift Sets",
+    "title": "Baby & New Mom Gift Sets | Maisonette"
+  },
+  "puzzles": {
+    "heading": "Puzzles & Games",
+    "title": "Puzzles & Games | Maisonette"
+  },
+  "rabbits-bunnies": {
+    "heading": "Rabbits & Bunnies",
+    "title": "Rabbits & Bunnies | Maisonette"
+  },
+  "sale-10-15-off": {
+    "heading": "Sale 10-15% off",
+    "title": "Sale 10-15% off | Maisonette"
+  },
+  "sale-20-25-off": {
+    "heading": "Sale 20-25% off",
+    "title": "Sale 20-25% off | Maisonette"
+  },
+  "sale-30-40-off": {
+    "heading": "Sale 30-40% off",
+    "title": "Sale 30-40% off | Maisonette"
+  },
+  "sale-50-off": {
+    "heading": "Sale 50% off",
+    "title": "Sale 50% off | Maisonette"
+  },
+  "kids-sale-swim": {
+    "heading": "Sale Swim",
+    "title": "Kids Swim - Sale | Maisonette"
+  },
+  "tennis-golf": {
+    "heading": "Tennis & Golf",
+    "title": "Tennis & Golf | Maisonette"
+  },
+  "pattern-play-citrus": {
+    "heading": "The Citrus Edit",
+    "title": "The Citrus Edit | Maisonette"
+  },
+  "big-brother-sister": {
+    "heading": "Big Brother & Big Sister Gifts",
+    "title": "Big Brother & Big Sister Gift Ideas | Maisonette",
+    "description": "Celebrate your little ones' promotion with Maisonette's big brother and big sister gift ideas. Shop all big brother and big sister gifts in one place."
+  },
+  "first-birthday": {
+    "heading": "Baby's First Birthday Gifts",
+    "title": "Baby's First Birthday Gifts | Maisonette",
+    "description": "Discover the perfect gifts for baby's first birthday. Maisonette has the best first birthday gifts to help celebrate your little ones big day."
+  },
+  "maternity-gifts": {
+    "heading": "Gifts for Expecting Mothers",
+    "title": "Gifts for Expecting Mothers - Pregnancy Gifts | Maisonette",
+    "description": "Shop Maisonette's selection of gifts for expecting mothers. Discover thoughtfully curated pregnancy gifts to celebrate the expecting mom in your life."
+  },
+  "toddler-birthday": {
+    "heading": "Toddler Birthday Gifts",
+    "title": "Toddler Birthday Gifts - 2-3 Year Old Birthday Gifts | Maisonette",
+    "description": "Shop your favorite brands from Maisonette's selection of 2 and 3 year old birthday gifts. Find the coolest toddler birthday gifts all in one place."
+  },
+  "holiday-dressing": {
+    "default": {
+      "heading": "Holiday Clothes",
+      "title": "Christmas & Holiday Clothes - Baby, Kids & Adults | Maisonette",
+      "description": "Shop Christmas, Hanukkah, and holiday clothes for baby, kids, teens and adults. For holiday events, family gatherings or just something new, Maisonette is your go-to shop."
+    },
+    "hierarchicalMenuValues": {
+      "baby": {
+        "heading": "Baby Holiday Clothes",
+        "title": "Baby Christmas Outfits & Clothes | Maisonette",
+        "description": "Celebrate in style with baby Christmas outfits and clothes from Maisonette. Shop our curated selection of holiday clothes for babies, infants and newborns."
+      },
+      "kids": {
+        "heading": "Kids Holiday Clothes",
+        "title": "Kids Christmas Outfits & Clothes | Maisonette",
+        "description": "Celebrate in style with kids' Christmas outfits and clothes from Maisonette. Shop our curated selection of kids holiday clothes, accessories, and more."
+      },
+      "whats-new > shops > the-pet-shop": {
+        "heading": "Pet Holiday Clothes",
+        "title": "Pet Holiday Clothes - Dog & Cat Christmas Sweaters & More | Maisonette",
+        "description": "Outfit the whole family this year, including the pets! Shop Maisonette's selection of pet holiday clothes, like dog and cat Christmas sweaters and more."
+      }
+    },
+    "activeRefinementList": {
+      "variants.age_range": {
+        "8-12y": {
+          "heading": "Teen Holiday Clothes",
+          "title": "Teen Holiday Clothes | Maisonette",
+          "description": "Maisonette is your one-stop shop for babies, kids, teens and adults. Show your teen Maisonette's selection of teen holiday clothes for a look you'll both love."
+        },
+        "Baby": {
+          "heading": "Baby Holiday Clothes",
+          "title": "Baby Christmas Outfits & Clothes | Maisonette",
+          "description": "Celebrate in style with baby Christmas outfits and clothes from Maisonette. Shop our curated selection of holiday clothes for babies, infants and newborns."
+        },
+        "Toddler": {
+          "heading": "Toddler Holiday Clothes",
+          "title": "Toddler Christmas Outfits & Holiday Clothes | Maisonette",
+          "description": "Celebrate in style with toddler Christmas outfits from Maisonette. Shop our curated selection of toddler boy and girls Christmas and holiday clothes."
+        },
+        "Kids": {
+          "heading": "Kids Holiday Clothes",
+          "title": "Kids Christmas Outfits & Clothes | Maisonette",
+          "description": "Celebrate in style with kids' Christmas outfits and clothes from Maisonette. Shop our curated selection of kids holiday clothes, accessories, and more."
+        },
+        "Teen": {
+          "heading": "Teen Holiday Clothes",
+          "title": "Teen Holiday Clothes | Maisonette",
+          "description": "Maisonette is your one-stop shop for babies, kids, teens and adults. Show your teen Maisonette's selection of teen holiday clothes for a look you'll both love."
+        },
+        "Adults": {
+          "heading": "Women's Holiday Clothes",
+          "title": "Christmas & Holiday Clothes, Sweaters, Dresses & More | Maisonette",
+          "description": "Maisonette is your one-stop shop for everyone in the family. Shop women's holiday and Christmas clothes from Christmas sweaters to dresses and more."
+        }
+      }
+    }
+  },
+  "cold-weather": {
+    "default": {
+      "heading": "Winter Clothing",
+      "title": "Cold Weather & Winter Clothing | Maisonette",
+      "description": "Stay warm with the coziest winter clothing this season. Shop all cold weather outfits and clothing for the whole family in Maisonette Marketplace."
+    },
+    "activeRefinementList": {
+      "variants.age_range": {
+        "Baby": {
+          "heading": "Baby Winter Clothes",
+          "title": "Baby Boy & Girl Winter Clothes | Maisonette",
+          "description": "Keep cozy while playing outside with Maisonette's selection of baby boy and baby girl winter clothes. Discover all the best winter baby clothes in one stop shop."
+        },
+        "Kids": {
+          "heading": "Accessories & Winter Clothes for Kids",
+          "title": "Accessories & Winter Clothes for Kids | Maisonette",
+          "description": "Discover all the best accessories and winter clothes for kids to stay warm all season. Shop your favorite winter kids' clothing and accessory brands with Maisonette."
+        },
+        "Adults": {
+          "heading": "Mens' & Womens' Winter Clothes",
+          "title": "Mens' & Women's Winter Clothes | Maisonette",
+          "description": "Stay warm all season with our curated selection of mens' and womens' winter clothes. Shop all your favorite winter wear brands with Maisonette."
+        }
+      }
+    }
+  },
+  "on-sale": {
+    "hierarchicalMenuValues": {
+      "kids": {
+        "heading": "Sale Clothing",
+        "title": "Sale Clothing | Maisonette"
+      }
+    }
+  },
+  "mothers-day-gifts": {
+    "heading": "Mother's Day Gifts",
+    "title": "Mother's Day Gifts - Shop Mother's Day Presents | Maisonette",
+    "description": "Moms make our world go round. Maisonette helps spoil all moms with our curated selection of Mother's Day Gifts. Shop our favorite Mother's Day presents."
+  },
+  "baby-halloween": {
+    "heading": "Baby Halloween Costumes",
+    "title": "Newborn, Infant & Baby Halloween Costumes | Maisonette",
+    "description": "Include the newest member of the family in your Halloween festivities. Shop your favorite brands of newborn, infant and baby Halloween costumes from Maisonette."
+  },
+  "back-to-school-sale": {
+    "heading": "Back-to-School Sales & Deals",
+    "title": "Back to School Sales & Deals - Clothes, Shoes, Bags & More | Maisonette",
+    "description": "Shop Maisonette's best back-to-school sales and deals. Your one-stop shop for back-to-school clothes, shoes, bags, and more from your favorite kids brands."
+  },
+  "back-to-school-supplies": {
+    "heading": "Back-to-School Supplies",
+    "title": "Kids Back to School Supplies | Maisonette",
+    "description": "Shop back-to-school supplies from your favorite kids brands at Maisonette. Your one-stop shop for back-to-school accessories and more."
+  },
+  "best-easter-dresses-for-kids": {
+    "heading": "Easter Dresses for Girls",
+    "title": "Easter Dresses for Girls & Babies | Maisonette",
+    "description": "Shop the cutest Easter dresses for little girls and babies with Maisonette. Discover the best baby and little girl Easter dresses for your Easter Sunday."
+  },
+  "ceremonial": {
+    "heading": "Baptism Outfits for Boys & Girls",
+    "title": "Baptism Outfits for Boys & Girls - Christening Gowns | Maisonette",
+    "description": "Celebrate this cherished occasion with the best Christening Gowns for babies. Shop all baptism outfits for boys and girls with Maisonette."
+  },
+  "Exclusive-Flash-Sale": {
+    "heading": "Exclusive Flash Sale",
+    "title": "Exclusive Online Flash Sale | Maisonette",
+    "description": "Discover our premium brand kids clothing and accessories during our exclusive online flash sale. Shop your favorite children's brands at a reduced price."
+  },
+  "foodie-edit": {
+    "heading": "Kids Food Shirts & Toys",
+    "title": "Kids Foodie-Inspired Shirts & Toy Food | Maisonette",
+    "description": "Encourage your budding chef's imagination with kids food inspired shirts, clothing and toys. Shop all foodie-approved products in the Maisonette Marketplace."
+  },
+  "get-cozy-sale": {
+    "heading": "Kids Cozy Clothes Sale",
+    "title": "Cozy Clothes Sale - Comfy Clothes for Kids | Maisonette",
+    "description": "Shop Maisonette's cozy clothes sale for kids. Help your little stay comfy with our selection of cozy clothes from sweaters to knits and more."
+  },
+  "horses-unicorns": {
+    "heading": "Unicorn & Horse Toys for Kids",
+    "title": "Horse & Unicorn Toys for Kids - Accessories | Maisonette",
+    "description": "Bring the stables inside with horse and unicorn toys for kids. Shop all horse and unicorn accessories for kids and more in the Maisonette Marketplace."
+  },
+  "red-white-blue": {
+    "heading": "Red, White & Blue Outfits",
+    "title": "Red, White & Blue Outfits for Kids | Maisonette",
+    "description": "Shop Maisonette's selection of red, white and blue outfits for kids. Show off your patriotic style with all red, white and blue clothing for kids."
+  },
+  "swim-sun-shop": {
+    "heading": "Kids Resort Wear",
+    "title": "Kids Resort Wear & Vacation Outfits | Maisonette",
+    "description": "Pack style in your suitcase with Maisonette's selection of kids resort wear. Shop all resort and vacation outfits in the Maisonette Marketplace."
+  },
+  "teen": {
+    "heading": "Teen Clothes & Accessories",
+    "title": "Shop Teen Clothes - Outfits & Accessories | Maisonette",
+    "description": "Discover everything you need to complete your teens wardrobe in the Maisonette Marketplace. Shop all teen clothes, outfits, accessories and more."
+  },
+  "travel": {
+    "heading": "Kids & Baby Travel Essentials",
+    "title": "Kids & Baby Travel Essentials, Accessories, Luggage & More | Maisonette",
+    "description": "Get ready for vacation with kids and baby travel essentials. Shop Maisonette's selection of kids travel accessories from kids luggage, backpacks and more."
+  },
+  "womens-flash-sale": {
+    "heading": "Women's Flash Sale",
+    "title": "Women's Flash Sale - Clothing, Beauty Products & More | Maisonette",
+    "description": "Pamper the mom in your life with Maisonette's flash sale for women. Give the luxury of a home spa with sale beauty items or shop the women's clothing sale."
+  },
+  "black-friday-cyber-monday": {
+    "heading": "Black Friday & Cyber Monday Deals",
+    "title": "Black Friday & Cyber Monday Deals - Kids & Clothing Deals | Maisonette",
+    "description": "Shop Maisonette's Black Friday deals and sales for kids and the whole family. From clothing and accessories, to crafts and more, we have you covered in a one-stop shop."
+  },
+  "cyber-monday": {
+    "heading": "Cyber Monday Deals",
+    "title": "Cyber Monday Deals - Best Kids Deals & Clothing Deals | Maisonette",
+    "description": "Shop Maisonette's Cyber Monday deals and sales for kids and the whole family. From clothing and accessories, to crafts and more, we have you covered in a one-stop shop."
+  },
+  "last-minute-holiday-gift-sale": {
+    "heading": "Last Minute Gift Sale",
+    "title": "Last Minute Gift Sale - Shop All | Maisonette",
+    "description": "Shop Maisonette's last minute gift sale. Its the final countdown until the holidays and we're your one-stop shop for all of your last minute gifts."
+  },
+  "last-minute-christmas-deals": {
+    "heading": "Last Minute Christmas Deals",
+    "title": "Last Minute Christmas Deals - Holiday Sale | Maisonette",
+    "description": "Running behind on Christmas shopping? Shop Maisonette's selection of last minute Christmas deals. Find sale brands that ship quickly during the holidays."
+  },
+  "early-black-friday-cyber-monday-deals": {
+    "heading": "Early Black Friday & Cyber Monday Deals",
+    "title": "Early Black Friday & Cyber Monday Deals - Sneak Peak | Maisonette",
+    "description": "Get a sneak peak at Maisonette's early Black Friday and Cyber Monday deals and sales. In anticipation for our favorite time of the year, shop our pre Black Friday deals."
+  },
+  "memorial-day-sale": {
+    "heading": "Memorial Day Sale",
+    "title": "Memorial Day Sale - Best Memorial Day Deals | Maisonette",
+    "description": "Discover the best kids' Memorial Day sales with Maisonette. Shop all Memorial Day deals from kids clothing and shoes to toys, gear and more."
+  },
+  "end-of-season-sale": {
+    "heading": "End of Summer Sale",
+    "title": "End of Summer Sale | Maisonette",
+    "description": "Get your wardrobe ready for next year with Maisonette's End of Summer sale. Shop all end of season sales on warm weather outfits from your favorite brands."
+  },
+  "splash-sale": {
+    "heading": "Kids Swim Sale",
+    "title": "Kids' Swim & Swimwear Sale | Maisonette",
+    "description": "Shop your favorite kids swimwear at a discount with Maisonette's swim sale. From shorts to bikinis, Maisonette's kids swimwear sale has everything you need."
+  },
+  "camo": {
+    "heading": "Kids Camo Clothing & Accessories",
+    "title": "Kids' Camo - Clothing, Accessories & More | Maisonette",
+    "description": "Maisonette's full selection of kids camo clothing and accessories are made for your tiny adventurer. Shop kids camouflage in our one-stop shop."
+  },
+  "elephants": {
+    "heading": "Elephant Toys & Accessories",
+    "title": "Kids & Baby Elephant Toys, Accessories & More | Maisonette",
+    "description": "Discover the sweetest kids and baby elephant toys, accessories, clothes and more. Shop Maisonette elephant themed items in our one-stop shop."
+  },
+  "slumber-party": {
+    "heading": "Slumber Party Essentials",
+    "title": "Slumber Party Essentials - Pajama Party Outfits & More | Maisonette",
+    "description": "Shop slumber party essentials to make it a night to remember. Maisonette has the best pajama party outfits, tents, games and more."
+  },
+  "new-years-flash-sale": {
+    "heading": "New Years Flash Sale",
+    "title": "New Years Sale - Flash Sales & Specials | Maisonette",
+    "description": "Start the New Year off right with the best clothing and gear for your whole family. Shop all New Year's Day sales and specials in Maisonette's Marketplace."
+  },
+  "sun-snow-flash-sale": {
+    "heading": "Kids Winter & Summer Clothes Sale",
+    "title": "Kids Winter & Summer Clothes Sale | Maisonette",
+    "description": "No matter the season, Maisonette has your kids clothing needs covered! Shop kids winter or summer clothes and accessories sales and be prepared year round."
+  },
+  "black-owned-or-founded-businesses" : {
+    "heading": "Black Owned or Founded Businesses",
+    "title": "Kids & Baby Clothing from Black-Founded Businesses | Maisonette",
+    "description": "Shop Maisonette for our selection of kids and baby clothing from black-founded businesses. Your one-stop shop for kids clothing, all in one magical place."
+  },
+  "summer-camp" : {
+    "heading": "Summer Camp Outfits & Clothing",
+    "title": "Kids' Summer Camp Outfits & Clothing | Maisonette",
+    "description": "Discover everything you need for the best summer ever! Shop Maisonette's curated selection of summer camp inspired outfits, clothing, accessories, and more."
+  },
+  "baby-cotton-dresses" : {
+    "heading": "Baby Cotton Dresses",
+    "title": "Baby Cotton Dresses - All Baby Girl Cotton Dresses | Maisonette",
+    "description": "Shop baby girl cotton dresses from your favorite brands at Maisonette. Discover the best white cotton baby dresses and other colors in a one-stop shop."
+  },
+  "fall-fashion" : {
+    "heading": "Boys & Girls Fall Outfits & More",
+    "title": "Boys & Girls Fall Outfits - Fall Outfits for Kids | Maisonette",
+    "description": "Shop boys and girls Fall outfits from your favorite brands at Maisonette. Discover the cutest Fall clothing for toddlers, babies & more in a one-stop shop."
+  },
+  "fall-jackets" : {
+    "heading": "Kids Fall Jackets",
+    "title": "Kids Fall Jackets - All Fall Jackets for Girls and Boys | Maisonette",
+    "description": "Keep cozy while playing outside with Maisonette's selection of boys and girls Fall jackets. Discover all the best kids Fall jackets in one stop shop."
+  },
+  "fall-dresses" : {
+    "heading": "Fall Dresses",
+    "title": "Fall Dresses - Women, Girls, Teens & Baby | Maisonette",
+    "description": "Shop Maisonette's curated selection of Fall dresses. Discover the best fall dresses for women, girls, and baby in a one-stop shop."
+  },
+  "baby-girl-fall-outfits" : {
+    "heading": "Baby Girl Fall Clothes",
+    "title": "Baby Girl Fall Outfits - All Fall Clothes for Baby Girl | Maisonette",
+    "description": "Shop baby girl Fall outfits from your favorite baby brands at Maisonette. Discover cozy and cute Fall clothes for baby girls in a one-stop shop."
+  },
+  "fall-home-décor" : {
+    "heading": "Fall Home Decor",
+    "title": "Fall Home Décor - All Fall Décor & Decorations | Maisonette",
+    "description": "Shop Maisonette's curated selection of Fall home décor. Refresh your Fall decorations with throw pillows, handcrafted pumpkins and more, all in one place."
+  },
+  "family-costumes" : {
+    "heading": "Matching Family Halloween Costumes",
+    "title": "Family Halloween Costumes | Maisonette",
+    "description": "Maisonette is your one-stop shop for family Halloween costumes. Explore Maisonette's selection of matching costumes to make your family costume ideas come true."
+  },
+  "animal-costumes" : {
+    "heading": "Animal Costumes",
+    "title": "Animal Costumes - Dinosaurs, Dogs & More | Maisonette",
+    "description": "Maisonette is your one-stop shop for animal costumes. From dinosaur costumes to dogs and wolves, shop our favorite Halloween animal costumes."
+  },
+  "scary-costumes" : {
+    "heading": "Kids Scary Costumes",
+    "title": "Scary Costumes for Kids - Ghosts, Skeletons, Zombies & More | Maisonette",
+    "description": "Let your little one spook the neighbors with Maisonette's selection of kids scary costumes from ghosts to skeletons to zombies and more, get it here."
+  },
+  "character-costumes" : {
+    "heading": "Character Costumes",
+    "title": "Character Costumes - Maleficent, Star Wars & More | Maisonette",
+    "description": "Maisonette is your one-stop shop for character costumes. From Maleficent to Alice in Wonderland to Star Wars costumes and more, get it here."
+  },
+  "fall-sale" : {
+    "heading": "Fall Sale",
+    "title": "Fall Sale - Kids Fall Clothing Sale | Maisonette",
+    "description": "Autumn is here and so is Maisonette's Fall clothing sale. Shop our fall sale for the whole family from babies to toddlers to kids and more, all in one spot."
+  },
+  "family-matching-holiday-clothes" : {
+    "heading": "Matching Family Christmas Pajamas & Apparel",
+    "title": "Matching Family Christmas Pajamas & Apparel | Maisonette",
+    "description": "Get the whole gang together with matching family Christmas pajamas and apparel. Shop Maisonette's curated selection of matching patterns and styles."
+  },
+  "end-of-season-winter-sale" : {
+    "heading": "Winter End of Season Sale",
+    "title": "Winter End of Season Sale | Maisonette",
+    "description": "Hang up your winter gear for the season, but not before Maisonette's winter end of season sale. Get discounted winter clothes for kids, babies and more."
+  },
+  "cold-weather-sale" : {
+    "heading": "Winter Clothing Sale",
+    "title": "Winter Clothing Sale for Kids, Babies & More | Maisonette",
+    "description": "Stock up on cold weather gear with Maisonette's winter clothing sale for kids, babies, toddlers and more. From winter coats to hats, shop our winter sale."
+  },
+  "snow-shop" : {
+    "heading": "Kids Snow Gear",
+    "title": "Kids Snow Gear - Snow Pants, Snowsuits, Jackets, Mittens & More | Maisonette",
+    "description": "Stay warm this winter with Maisonette's snow gear. Shop kid's snow pants, snowsuits, jackets, mittens, beanies and more, all in one magical place."
+  },
+  "pre-holiday-sale" : {
+    "heading": "Preholiday Sale",
+    "title": "Preholiday Sale - Get Holiday Ready | Maisonette",
+    "description": "Get ready for this holiday season with Maisonette's preholiday sale. Find everything you need from holiday outfits to home décor in our preseason sale."
+  },
+  "mermaids" : {
+    "heading": "Mermaid Toys & Accessories",
+    "title": "Mermaid Toys, Dolls, Accessories & More | Maisonette",
+    "description": "Bring magic and wonder under the sea with Maisonette's mermaid collection. Shop mermaid toys, dolls, books, accessories and more, all in one place."
+  },
+  "birthday-party-shop" : {
+    "heading" : "Birthday Party Decorations",
+    "title" : "Kids Birthday Party Decorations - Banners, Plates & More | Maisonette",
+    "description": "Maisonette is your one-stop shop for kids birthday party decorations and supplies. Shop kids happy birthday banners to birthday party plates and more."
+  },
+  "rainbow-edit" : {
+    "heading": "Rainbow Toys & Clothes",
+    "title": "Rainbow Toys & Clothes for Kids & Babies | Maisonette",
+    "description": "Discover Maisonette's rainbow collection with baby and kids rainbow clothes, toys, and more. Shop all items like rainbow baby onesies or wooden rainbow stackers."
+  }
+}
