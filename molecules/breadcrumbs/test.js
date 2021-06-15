@@ -30,6 +30,7 @@ describe('the breadcrumb component', () => {
   });
 
   it('renders correctly', () => {
+
     expect(componentWrapper.container.nodeType === 1).toEqual(true);
     expect(componentWrapper).toMatchSnapshot();
   });
