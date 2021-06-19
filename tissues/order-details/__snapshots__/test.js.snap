@@ -2,7 +2,7 @@
 
 exports[`a order detail component renders correctly 1`] = `
 Object {
-  "asFragment": [Function],
+    "asFragment": [Function],
   "baseElement": .emotion-2 {
   font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
   font-size: 1.2rem;
@@ -138,6 +138,7 @@ Object {
       </p>
       <dl>
         <div
+
           class="emotion-4 emotion-5"
         >
           <dt>
