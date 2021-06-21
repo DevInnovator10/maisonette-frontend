@@ -24,7 +24,7 @@ import { logAmplitude } from '../../utils/amplitude';
 import getCartAfterError from '../../utils/getCartAfterError';
 
 const Loading = styled.div`
-  background-color: ${(props) => props.theme.color.background};
+    background-color: ${(props) => props.theme.color.background};
   bottom: 0;
   left: 0;
   opacity: 0.75;
@@ -422,6 +422,7 @@ const CheckoutAddress = (props) => {
 
           if (!userHasNoSavedCC && props.newCardID !== props.paymentSource) {
             // registered user who is using a saved payment
+
             paymentType = 'saved';
           }
 
