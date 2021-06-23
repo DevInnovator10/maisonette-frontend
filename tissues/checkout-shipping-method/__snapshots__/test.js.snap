@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the checkout shipping method renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.emotion-4 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-4:active {
+  outline: 0;
+}
+
+.emotion-4[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-4:focus,
+  .emotion-4 textarea:focus,
+  .emotion-4 input:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin: 1rem 0;
+}
+
+.emotion-6>span {
+  color: #3150A2;
+}
+
+<body>
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="CheckoutShippingMethod"
+      >
+        <label
+          class="emotion-2 emotion-3"
+          for="153.shipping_methods"
+        >
+          Shipping Method
+        </label>
+        <select
+          class="emotion-4 emotion-5"
+          data-test-id="CheckoutShippingMethod"
+          id="153.shipping_methods"
+        >
+          <option
+            disabled=""
+            value="-1"
+          >
+            Select a shipping method
+          </option>
+          <option
+            data-test-id="CheckoutShippingMethod"
+            selected=""
+            value="287"
+          >
+            Ground undefined
+          </option>
+          <option
+            data-test-id="CheckoutShippingMethod"
+            value="288"
+          >
+            Next Day undefined
+          </option>
+        </select>
+        <p
+          class="emotion-6 emotion-7"
+        >
+          Estimated arrival:
+           
+          <span />
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.emotion-4 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-4:active {
+  outline: 0;
+}
+
+.emotion-4[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-4:focus,
+  .emotion-4 textarea:focus,
+  .emotion-4 input:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin: 1rem 0;
+}
+
+.emotion-6>span {
+  color: #3150A2;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="CheckoutShippingMethod"
+    >
+      <label
+        class="emotion-2 emotion-3"
+        for="153.shipping_methods"
+      >
+        Shipping Method
+      </label>
+      <select
+        class="emotion-4 emotion-5"
+        data-test-id="CheckoutShippingMethod"
+        id="153.shipping_methods"
+      >
+        <option
+          disabled=""
+          value="-1"
+        >
+          Select a shipping method
+        </option>
+        <option
+          data-test-id="CheckoutShippingMethod"
+          selected=""
+          value="287"
+        >
+          Ground undefined
+        </option>
+        <option
+          data-test-id="CheckoutShippingMethod"
+          value="288"
+        >
+          Next Day undefined
+        </option>
+      </select>
+      <p
+        class="emotion-6 emotion-7"
+      >
+        Estimated arrival:
+         
+        <span />
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
