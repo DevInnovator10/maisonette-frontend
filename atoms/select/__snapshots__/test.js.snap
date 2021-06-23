@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a select renders correctly 1`] = `
+.emotion-0 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-0:active {
+  outline: 0;
+}
+
+.emotion-0[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-0:focus,
+  .emotion-0 textarea:focus,
+  .emotion-0 input:focus {
+    font-size: 16px;
+  }
+}
+
+<div>
+  <select
+    class="emotion-0 emotion-1"
+    id="select"
+    name="select"
+  >
+    <option
+      disabled=""
+      value=""
+    >
+      default
+    </option>
+    <option
+      value="1"
+    >
+      1
+    </option>
+    <option
+      value="2"
+    >
+      2
+    </option>
+    <option
+      value="3"
+    >
+      3
+    </option>
+    <option
+      value="4"
+    >
+      4
+    </option>
+    <option
+      value="5"
+    >
+      5
+    </option>
+  </select>
+</div>
+`;
