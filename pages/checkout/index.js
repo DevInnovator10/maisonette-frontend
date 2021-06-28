@@ -10,7 +10,7 @@ import { toast, TOAST } from '../../utils/toastify';
 import { storeWrapper } from '../../store';
 
 import {
-  getCart,
+    getCart,
   getUser,
   updateCheckout,
   nextCheckout,
