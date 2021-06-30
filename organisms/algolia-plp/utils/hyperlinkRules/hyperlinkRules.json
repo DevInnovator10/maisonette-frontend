@@ -1,0 +1,227 @@
+{
+  "categoryRules": {
+    "baby": {
+      "color": true,
+      "variants.age_range": true
+    },
+    "kids": {
+      "color": true
+    }
+  },
+  "homeRules": {
+    "Girl": true,
+    "Boy": true,
+    "Baby Girl": true,
+    "Baby Boy": true,
+    "Women": true,
+    "Men": true
+  },
+  "secondLvlTaxonomyRules": {
+    "baby": {
+      "boy-clothing": {
+        "Onesies": true,
+        "Leggings": true,
+        "Overalls": true,
+        "Rash Guards": true,
+        "Sweaters & Cardigans": true,
+        "Polo Shirts": true,
+        "Vests": true,
+        "Snowsuits": true
+      },
+      "girl-clothing": {
+        "Onesies": true,
+        "Leggings": true,
+        "Overalls": true,
+        "Sweaters & Cardigans": true,
+        "Rash Guards": true,
+        "Cover-Ups": true,
+        "Polo Shirts": true,
+        "Vests": true,
+        "Snowsuits": true
+      },
+      "girl-accessories": {
+        "Slip Ons": true,
+        "Mary Janes": true,
+        "Sneakers": true,
+        "Boots": true,
+        "Crib Shoes": true,
+        "Dress Shoes": true
+      },
+      "boy-accessories": {
+        "Sneakers": true,
+        "Slip Ons": true,
+        "Boots": true,
+        "Bowties & Ties": true,
+        "Crib Shoes": true
+      },
+      "bath-body": {
+        "Body Moisturizers": true,
+        "Robes": true,
+        "Body Cleansers": true,
+        "Supplements": true
+      }
+    },
+    "kids": {
+      "girl-clothing": {
+        "Leggings": true,
+        "Rash Guards": true,
+        "Play Dresses": true,
+        "Sweatpants": true,
+        "Cover-Ups": true,
+        "Sweaters & Cardigans": true,
+        "Overalls": true,
+        "Jeans": true,
+        "Puffers & Down Jackets": true,
+        "Wool Coats": true,
+        "Parkas": true,
+        "Vests": true,
+        "Underwear": true,
+        "Polo Shirts": true,
+        "Snowsuits": true,
+        "Snow Pants": true
+      },
+      "girl-accessories": {
+        "Mary Janes": true,
+        "Sneakers": true,
+        "Sandals": true,
+        "Flats": true,
+        "Boots": true,
+        "Earrings": true,
+        "Dress Shoes": true,
+        "Lunchbags": true,
+        "Loafers": true,
+        "Rain Boots": true,
+        "Umbrellas": true,
+        "Charms": true
+      },
+      "boy-clothing": {
+        "Sweatpants": true,
+        "Rash Guards": true,
+        "Polo Shirts": true,
+        "Jeans": true,
+        "Button Downs": true,
+        "Sweaters & Cardigans": true,
+        "Overalls": true,
+        "Puffers & Down Jackets": true,
+        "Vests": true,
+        "Parkas": true,
+        "Blazers": true,
+        "Snowsuits": true,
+        "Suits & Separates": true,
+        "Coats": true,
+        "Snow Pants": true
+      },
+      "boy-accessories": {
+        "Sneakers": true,
+        "Boots": true,
+        "Loafers": true,
+        "Lunchbags": true,
+        "Oxfords": true,
+        "Rain Boots": true,
+        "Ski Goggles": true,
+        "Backpacks": true,
+        "Slippers": true
+      },
+      "bath-body": {
+        "Robes": true,
+        "Bath Salts & Soaks": true,
+        "Shampoos": true,
+        "Conditioners": true
+      }
+    },
+    "play": {
+      "kids": {
+        "Costumes": true,
+        "Makeup": true,
+        "Woodens": true,
+        "Play Tents": true,
+        "Jewelry Boxes": true,
+        "Costume Accessories": true
+      },
+      "outdoor": {
+        "Goggles": true,
+        "Helmets": true,
+        "Pool Floats": true
+      }
+    },
+    "home": {
+      "decor": {
+        "Wallpaper": true,
+        "Decorations": true,
+        "Mobiles": true,
+        "Drinkware": true
+      },
+      "furniture": {
+        "Teepees": true,
+        "Travel Cribs": true
+      },
+      "bedding-bath": {
+        "Crib Sheets": true,
+        "Crib Skirts": true
+      }
+    },
+    "gear": {
+      "Stroller Accessories": true,
+      "Food Storage": true,
+      "Sippy Cups": true,
+      "Headphones": true,
+      "Bottles": true,
+      "Baby Monitors": true,
+      "Pacifiers": true,
+      "Burp Cloths": true,
+      "Double Strollers": true,
+      "Booster Seats": true,
+      "Nursing Pillows": true
+    }
+  },
+  "thirdLvlTaxonomyRules": {
+    "kids": {
+      "boy-clothing": {
+        "outerwear": {
+          "Raincoats": true
+        }
+      },
+      "boy-accessories": {
+        "shoes": {
+          "Dress Shoes": true
+        }
+      }
+    }
+  },
+  "exposedAppliedFilter": {
+    "kids": {
+      "boy-accessories": {
+        "shoes": {
+          "Dress Shoes": true
+        }
+      }
+    }
+  },
+  "adHocCanonicals": {
+    "/shop/play/baby?variants.age_range=0-6m": true,
+    "/shop?product_type=Costume%20Accessories%2BCostumes": true,
+    "/shop?product_type=Costumes&variants.age_range=Adults": true,
+    "/edits/holiday-dressing?variants.age_range=12-16y%2B8-12y": true,
+    "/edits/holiday-dressing?variants.age_range=3-7y%2B4-6y%2B6-8y%2B8-12y%2B8y%252B": true,
+    "/edits/holiday-dressing?variants.age_range=2-4y%2B4-6y": true,
+    "/edits/holiday-dressing?variants.age_range=Adults": true,
+    "/trends/just-in?td=this-month": true,
+    "/trends/just-in/kids/girl-clothing/dresses": true,
+    "/trends/just-in?gender=Baby%20Boy": true,
+    "/trends/just-in?gender=Baby%20Girl": true,
+    "/trends/just-in?gender=Boy": true,
+    "/trends/just-in?gender=Girl": true,
+    "/trends/on-sale?gender=Unisex%2BWomen&variants.age_range=Adults": true,
+    "/trends/on-sale?variants.age_range=0-6m": true,
+    "/trends/on-sale?variants.age_range=6-12m": true,
+    "/trends/on-sale?variants.age_range=12-24m": true,
+    "/trends/on-sale?variants.age_range=2-4y": true,
+    "/trends/on-sale?variants.age_range=4-6y%2B6-8y": true,
+    "/trends/on-sale?variants.age_range=8-12y%2B8y%252B": true,
+    "/trends/on-sale/whats-new/shops/teen-shop": true,
+    "/trends/on-sale?variants.age_range=Adults": true,
+    "/trends/best-sellers-this-season/gifts": true,
+    "/trends/just-in/gifts": true,
+    "/trends/selling-fast/play": true
+  }
+}
