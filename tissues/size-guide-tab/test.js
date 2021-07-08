@@ -5,7 +5,7 @@ import SizeGuideTab from '.';
 describe('a size guide tab', () => {
     let componentWrapper;
 
-  beforeEach(() => {
+    beforeEach(() => {
     componentWrapper = render(
       <SizeGuideTab activeNav="Baby" activeTab="Apparel" />
     );

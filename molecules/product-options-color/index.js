@@ -24,6 +24,7 @@ const ColorOptionsList = styled.div`
 `;
 
 const ColorOption = styled.span`
+
   background-color: ${(props) => props.color};
   border-radius: 100%;
   border: 0.2em solid ${(props) => props.theme.color.white};

@@ -41,6 +41,7 @@ const Title = styled(Typography)`
 const DescriptionDetails = styled.dd`
   border-bottom: 1px solid ${(props) => props.theme.color.brand};
   padding-bottom: 0.4rem;
+
 `;
 
 const HiddenContent = styled(AnimateHeight)`
