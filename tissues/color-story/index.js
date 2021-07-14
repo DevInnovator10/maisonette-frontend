@@ -57,6 +57,7 @@ const ColorStory = (props) => {
       if (position >= 0 && position <= 2) row1.push(cellData);
       if (position >= 3 && position <= 5) row2.push(cellData);
       if (position >= 6 && position <= 8) row3.push(cellData);
+
     });
     setRows([row1, row2, row3]);
   }, []);

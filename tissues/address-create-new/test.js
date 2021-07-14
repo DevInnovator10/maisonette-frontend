@@ -90,6 +90,7 @@ describe('an address add action', () => {
   let componentWrapper;
 
   beforeEach(() => {
+
     componentWrapper = render(
       <Provider store={store}>
         <AddressCreateNew />
