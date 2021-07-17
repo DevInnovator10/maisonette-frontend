@@ -11,7 +11,7 @@ import BillingForm from '../checkout-new-billing-form';
 
 import { deletePaymentSource, setDefaultPaymentSource } from '../../store/modules/profile/actions';
 import {
-  removePaymentMethod, setDefaultPaymentMethod, updateCheckout
+    removePaymentMethod, setDefaultPaymentMethod, updateCheckout
 } from '../../pages/api';
 import { updateCart } from '../../store/modules/cart/actions';
 import resetCheckout from '../../utils/resetCheckoutFlow';
