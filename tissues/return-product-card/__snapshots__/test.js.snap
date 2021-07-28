@@ -321,6 +321,7 @@ Object {
   "queryAllByAltText": [Function],
   "queryAllByDisplayValue": [Function],
   "queryAllByLabelText": [Function],
+
   "queryAllByPlaceholderText": [Function],
   "queryAllByRole": [Function],
   "queryAllByTestId": [Function],
