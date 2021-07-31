@@ -1,0 +1,624 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a mobile nav component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  -ms-overflow-style: none;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  top: 156px;
+  -webkit-transition: -webkit-transform 600ms ease;
+  -webkit-transition: transform 600ms ease;
+  transition: transform 600ms ease;
+  z-index: 999;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    display: none;
+  }
+}
+
+.emotion-0::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-0>nav {
+  -ms-overflow-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  padding: 0 10px;
+  position: relative;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+
+.emotion-0>nav::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-0::after {
+  background: -webkit-gradient(linear,left top,right top,color-stop(0,hsla(0,0%,100%,0)),color-stop(100%,#fff));
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+}
+
+.emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 11px;
+  height: 50px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  outline: 0;
+  outline: none;
+  padding: 0 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.emotion-2:first-of-type {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-2:last-of-type {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.emotion-2 span {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 span {
+  background-image: url(https://assets.stg.env.maisonette.com/images/wings-left-blue.svg),url(https://assets.stg.env.maisonette.com/images/wings-right-blue.svg);
+  background-position: 0,100%;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  padding: 0 15px;
+  position: relative;
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 11px;
+  height: 50px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  outline: 0;
+  outline: none;
+  padding: 0 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.emotion-4:first-of-type {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-4:last-of-type {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.emotion-4 span {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<body>
+    <div>
+      <span
+        class="emotion-0 emotion-1"
+        data-test-id="MobileNavigation"
+      >
+        <nav>
+          <a
+            class="emotion-2 emotion-3"
+            href="/products/on-sale"
+          >
+            <span>
+              sale
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/products/just-in"
+          >
+            <span>
+              new
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/baby-home"
+          >
+            <span>
+              baby
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/clothing-home"
+          >
+            <span>
+              kids
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/toys-home"
+          >
+            <span>
+              toys
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/swim-home"
+          >
+            <span>
+              new
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/shoes-home"
+          >
+            <span>
+              shoes
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/girl-dresses"
+          >
+            <span>
+              dresses
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/home-home"
+          >
+            <span>
+              home
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/gifts-home"
+          >
+            <span>
+              gifts
+            </span>
+          </a>
+          <a
+            class="emotion-4 emotion-3"
+            href="/maisonette-essentials"
+          >
+            <span>
+              maisonette essentials
+            </span>
+          </a>
+        </nav>
+      </span>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  -ms-overflow-style: none;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  top: 156px;
+  -webkit-transition: -webkit-transform 600ms ease;
+  -webkit-transition: transform 600ms ease;
+  transition: transform 600ms ease;
+  z-index: 999;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    display: none;
+  }
+}
+
+.emotion-0::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-0>nav {
+  -ms-overflow-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  padding: 0 10px;
+  position: relative;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+
+.emotion-0>nav::-webkit-scrollbar {
+  display: none;
+}
+
+.emotion-0::after {
+  background: -webkit-gradient(linear,left top,right top,color-stop(0,hsla(0,0%,100%,0)),color-stop(100%,#fff));
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+}
+
+.emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 11px;
+  height: 50px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  outline: 0;
+  outline: none;
+  padding: 0 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.emotion-2:first-of-type {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-2:last-of-type {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.emotion-2 span {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-2 span {
+  background-image: url(https://assets.stg.env.maisonette.com/images/wings-left-blue.svg),url(https://assets.stg.env.maisonette.com/images/wings-right-blue.svg);
+  background-position: 0,100%;
+  background-repeat: no-repeat;
+  background-size: 12px;
+  padding: 0 15px;
+  position: relative;
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 11px;
+  height: 50px;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  outline: 0;
+  outline: none;
+  padding: 0 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.emotion-4:first-of-type {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.emotion-4:last-of-type {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.emotion-4 span {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div>
+    <span
+      class="emotion-0 emotion-1"
+      data-test-id="MobileNavigation"
+    >
+      <nav>
+        <a
+          class="emotion-2 emotion-3"
+          href="/products/on-sale"
+        >
+          <span>
+            sale
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/products/just-in"
+        >
+          <span>
+            new
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/baby-home"
+        >
+          <span>
+            baby
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/clothing-home"
+        >
+          <span>
+            kids
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/toys-home"
+        >
+          <span>
+            toys
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/swim-home"
+        >
+          <span>
+            new
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/shoes-home"
+        >
+          <span>
+            shoes
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/girl-dresses"
+        >
+          <span>
+            dresses
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/home-home"
+        >
+          <span>
+            home
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/gifts-home"
+        >
+          <span>
+            gifts
+          </span>
+        </a>
+        <a
+          class="emotion-4 emotion-3"
+          href="/maisonette-essentials"
+        >
+          <span>
+            maisonette essentials
+          </span>
+        </a>
+      </nav>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
