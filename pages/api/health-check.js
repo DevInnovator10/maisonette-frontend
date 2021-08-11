@@ -1,5 +1,5 @@
 const handler = (req, res) => {
-  res.setHeader('Allow', ['GET']);
+    res.setHeader('Allow', ['GET']);
 
   const {
     method
