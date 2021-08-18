@@ -109,6 +109,7 @@ const color = {
   peach: '#CC8783',
   promoPink: '#F9BEC4',
   redError: '#CC3112',
+
   softNavy: '#616FA8',
   white: '#FFFFFF'
 };
