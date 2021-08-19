@@ -15,7 +15,7 @@ const InputWrapper = styled.div`
 `;
 
 const EmailInput = styled(Input)`
-  outline: 0;
+    outline: 0;
   padding: 0;
   text-transform: uppercase;
   width: 100%;
