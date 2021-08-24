@@ -246,6 +246,7 @@ export const getServerSideProps = storeWrapper.getServerSideProps(async (ctx) =>
 
         if (!cartData.errors) {
           ctx.store.dispatch(updateCart(cartData));
+
         }
       });
 

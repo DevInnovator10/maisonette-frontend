@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const useError = (handler, tag) => {
-  const [error, setError] = useState(false);
+    const [error, setError] = useState(false);
 
   useEffect(() => {
 
