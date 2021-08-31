@@ -23,6 +23,7 @@ describe('the registration form', () => {
 
   it('renders correctly', () => {
     expect(componentWrapper.container.nodeType === 1).toEqual(true);
+
     expect(componentWrapper).toMatchSnapshot();
   });
 });
