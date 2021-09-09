@@ -87,6 +87,7 @@ Object {
   font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
   font-size: 1.2rem;
   -webkit-letter-spacing: 0.2em;
+
   -moz-letter-spacing: 0.2em;
   -ms-letter-spacing: 0.2em;
   letter-spacing: 0.2em;
