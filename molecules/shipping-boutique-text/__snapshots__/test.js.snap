@@ -2,7 +2,7 @@
 
 exports[`shipping boutique text renders correctly 1`] = `
 .emotion-0 {
-  -webkit-align-items: center;
+    -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;

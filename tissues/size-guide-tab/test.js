@@ -7,7 +7,7 @@ describe('a size guide tab', () => {
 
     beforeEach(() => {
     componentWrapper = render(
-      <SizeGuideTab activeNav="Baby" activeTab="Apparel" />
+        <SizeGuideTab activeNav="Baby" activeTab="Apparel" />
     );
   });
 
