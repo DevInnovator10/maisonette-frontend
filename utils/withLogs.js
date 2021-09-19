@@ -7,6 +7,7 @@ const middleware = (resolver) => async (req, res) => {
   // Skip performance monitoring if not in a valid environment
   if (!isValidEnv) {
     // Await the resolver to ensure the request is handled
+
     await resolver(req, res);
     // Exit the middleware
   } else {
