@@ -9,7 +9,7 @@ import Typography from '../../atoms/typography';
 import Radio from '../../atoms/radio';
 
 const VendorList = styled.ul`
-  color: ${({ theme }) => theme.color.darkBlue};
+    color: ${({ theme }) => theme.color.darkBlue};
   margin: 1rem 3rem 1rem 3rem;
 
   @media screen and (min-width: ${({ theme }) => theme.breakpoint.medium}) {
@@ -79,6 +79,7 @@ const ShippingFromRevamp = (props) => {
                 changed={() => props.onVendorChange(vendor.vendor_id)}
                 revamp
               >
+
                 <Country country={vendor.country_iso} />
                 <span>{`${vendor.stock_location_name}: `}</span>
                 <span>{formatMoney(getVendorPrice(vendor))}</span>
