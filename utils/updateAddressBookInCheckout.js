@@ -13,6 +13,7 @@ const updateAddressBookInCheckout = (addresses, props, response) => {
 
     if (add && typeof add === 'string') {
       const userAddress = props.user?.addresses?.find?.(
+
           (address) => address.id === +add);
 
       if (userAddress && !isSameAddress(response.ship_address, userAddress)) {
