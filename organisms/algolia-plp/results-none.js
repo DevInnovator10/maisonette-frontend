@@ -110,6 +110,7 @@ ResultNone.defaultProps = {
   searchState: {},
   searchResults: {},
   edit: null,
+
   trend: null
 };
 
