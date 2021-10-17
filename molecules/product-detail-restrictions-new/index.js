@@ -89,6 +89,7 @@ const ProductRestrictionsRevamp = (props) => (
 
 ProductRestrictionsRevamp.defaultProps = {
   className: '',
+
   finalSale: false,
   leadTime: 0,
   isGiftCard: false,
