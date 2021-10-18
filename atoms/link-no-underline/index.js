@@ -20,6 +20,7 @@ const LinkNoUnderline = (props) => {
         <StyledAnchor fullWidth={props.fullWidth}>
           {props.children}
         </StyledAnchor>
+
       </Link>
     );
   }
