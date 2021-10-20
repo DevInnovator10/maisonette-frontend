@@ -1,0 +1,1937 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`an address verification with no verified address renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background: #111111;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: 3000;
+  opacity: 0.5;
+  height: 100%;
+}
+
+.emotion-2 {
+  position: fixed;
+  z-index: 3001;
+  background: #FFFFFF;
+  color: #3150A2;
+  width: 92%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 3.6621rem;
+    width: 60rem;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: normal;
+  outline: 0;
+  margin-left: auto;
+  padding: 0;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-7 svg {
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-11 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-13 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.emotion-15 {
+  margin: 2.9297rem 0;
+}
+
+.emotion-17 {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #FFFFFF;
+}
+
+.emotion-17 strong {
+  background: #F0E4E3;
+  color: #C04318;
+  display: inline-block;
+}
+
+.emotion-19 {
+  margin: 0 auto;
+}
+
+.emotion-21 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0.25rem;
+  -moz-letter-spacing: 0.25rem;
+  -ms-letter-spacing: 0.25rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.875rem;
+}
+
+.emotion-26 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-26:active {
+  outline: 0;
+}
+
+.emotion-26:hover {
+  opacity: 0.75;
+}
+
+.emotion-26[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-26:first-of-type {
+  margin-bottom: 1.2rem;
+}
+
+.emotion-29 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-29:active {
+  outline: 0;
+}
+
+.emotion-29:hover {
+  opacity: 0.75;
+}
+
+.emotion-29[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-29:first-of-type {
+  margin-bottom: 1.2rem;
+}
+
+<body
+    style="overflow: hidden;"
+  >
+    <div>
+      <span
+        class="emotion-0 emotion-1"
+      />
+      <div
+        class="emotion-2 emotion-3"
+        role="dialog"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <button
+            aria-label="close address verification modal"
+            class="emotion-6 emotion-7 emotion-8"
+            type="button"
+          >
+            <svg
+              class="emotion-9 emotion-10"
+              data-test-id="Icon"
+            />
+          </button>
+          <h2
+            class="emotion-11 emotion-12"
+          >
+            Please review your shipping address
+          </h2>
+          <ul
+            class="emotion-13 emotion-14"
+          >
+            <li
+              data-test-id="renderSuggestions"
+            >
+              We're unable to verify your address.
+            </li>
+            <li
+              data-test-id="renderSuggestions"
+            >
+              Does this address require a house number?
+            </li>
+          </ul>
+        </div>
+        <div
+          class="emotion-15 emotion-16"
+        >
+          <div
+            class="emotion-17 emotion-18"
+            data-test-id="AddressVerificationAddress"
+          >
+            <div
+              class="emotion-19 emotion-20"
+            >
+              <p
+                class="emotion-21 emotion-22"
+              >
+                PROVIDED
+                 
+                ADDRESS
+              </p>
+              <p
+                class="emotion-23 emotion-24"
+              >
+                495 GREENE AVE
+                , APT 2R
+                <br />
+                BROOKLYN
+                ,
+                 
+                NY
+                 
+                11216-6466
+                <br />
+                United States
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="emotion-25 emotion-26 emotion-8"
+          type="button"
+        >
+          Edit Address
+        </button>
+        <button
+          class="emotion-25 emotion-29 emotion-8"
+          type="button"
+        >
+          Continue with address
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background: #111111;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: 3000;
+  opacity: 0.5;
+  height: 100%;
+}
+
+.emotion-2 {
+  position: fixed;
+  z-index: 3001;
+  background: #FFFFFF;
+  color: #3150A2;
+  width: 92%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 3.6621rem;
+    width: 60rem;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: normal;
+  outline: 0;
+  margin-left: auto;
+  padding: 0;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-7 svg {
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-11 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-13 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.emotion-15 {
+  margin: 2.9297rem 0;
+}
+
+.emotion-17 {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #FFFFFF;
+}
+
+.emotion-17 strong {
+  background: #F0E4E3;
+  color: #C04318;
+  display: inline-block;
+}
+
+.emotion-19 {
+  margin: 0 auto;
+}
+
+.emotion-21 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0.25rem;
+  -moz-letter-spacing: 0.25rem;
+  -ms-letter-spacing: 0.25rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.875rem;
+}
+
+.emotion-26 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-26:active {
+  outline: 0;
+}
+
+.emotion-26:hover {
+  opacity: 0.75;
+}
+
+.emotion-26[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-26:first-of-type {
+  margin-bottom: 1.2rem;
+}
+
+.emotion-29 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-29:active {
+  outline: 0;
+}
+
+.emotion-29:hover {
+  opacity: 0.75;
+}
+
+.emotion-29[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-29:first-of-type {
+  margin-bottom: 1.2rem;
+}
+
+<div>
+    <span
+      class="emotion-0 emotion-1"
+    />
+    <div
+      class="emotion-2 emotion-3"
+      role="dialog"
+    >
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <button
+          aria-label="close address verification modal"
+          class="emotion-6 emotion-7 emotion-8"
+          type="button"
+        >
+          <svg
+            class="emotion-9 emotion-10"
+            data-test-id="Icon"
+          />
+        </button>
+        <h2
+          class="emotion-11 emotion-12"
+        >
+          Please review your shipping address
+        </h2>
+        <ul
+          class="emotion-13 emotion-14"
+        >
+          <li
+            data-test-id="renderSuggestions"
+          >
+            We're unable to verify your address.
+          </li>
+          <li
+            data-test-id="renderSuggestions"
+          >
+            Does this address require a house number?
+          </li>
+        </ul>
+      </div>
+      <div
+        class="emotion-15 emotion-16"
+      >
+        <div
+          class="emotion-17 emotion-18"
+          data-test-id="AddressVerificationAddress"
+        >
+          <div
+            class="emotion-19 emotion-20"
+          >
+            <p
+              class="emotion-21 emotion-22"
+            >
+              PROVIDED
+               
+              ADDRESS
+            </p>
+            <p
+              class="emotion-23 emotion-24"
+            >
+              495 GREENE AVE
+              , APT 2R
+              <br />
+              BROOKLYN
+              ,
+               
+              NY
+               
+              11216-6466
+              <br />
+              United States
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="emotion-25 emotion-26 emotion-8"
+        type="button"
+      >
+        Edit Address
+      </button>
+      <button
+        class="emotion-25 emotion-29 emotion-8"
+        type="button"
+      >
+        Continue with address
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`an address verification with verified address renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background: #111111;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: 3000;
+  opacity: 0.5;
+  height: 100%;
+}
+
+.emotion-2 {
+  position: fixed;
+  z-index: 3001;
+  background: #FFFFFF;
+  color: #3150A2;
+  width: 92%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 3.6621rem;
+    width: 60rem;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: normal;
+  outline: 0;
+  margin-left: auto;
+  padding: 0;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-7 svg {
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-11 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-13 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.emotion-15 {
+  margin: 2.9297rem 0;
+}
+
+.emotion-17 {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #F5F6FA;
+}
+
+.emotion-17 strong {
+  background: #F0E4E3;
+  color: #C04318;
+  display: inline-block;
+}
+
+.emotion-20 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  color: #3150A2;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #3150A2;
+  width: 100%;
+}
+
+.emotion-20::after,
+.emotion-20::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-20::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-20::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-20::after {
+  opacity: 1;
+}
+
+.emotion-20::before {
+  border-color: #3150A2;
+}
+
+.emotion-20 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-20:after {
+  top: 50%;
+}
+
+.emotion-20:before {
+  top: calc(50% - 3px);
+  border-color: #3150A2;
+}
+
+.emotion-20 .emotion-23,
+.emotion-20 .emotion-25 {
+  margin-left: 1.2rem;
+}
+
+.emotion-22 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0.25rem;
+  -moz-letter-spacing: 0.25rem;
+  -ms-letter-spacing: 0.25rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-24 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.875rem;
+}
+
+.emotion-26 {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #FFFFFF;
+}
+
+.emotion-26 strong {
+  background: #F0E4E3;
+  color: #C04318;
+  display: inline-block;
+}
+
+.emotion-29 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #3150A2;
+  width: 100%;
+}
+
+.emotion-29::after,
+.emotion-29::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-29::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-29::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-29 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-29:after {
+  top: 50%;
+}
+
+.emotion-29:before {
+  top: calc(50% - 3px);
+  border-color: #3150A2;
+}
+
+.emotion-29 .emotion-23,
+.emotion-29 .emotion-25 {
+  margin-left: 1.2rem;
+}
+
+.emotion-36 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-36:active {
+  outline: 0;
+}
+
+.emotion-36:hover {
+  opacity: 0.75;
+}
+
+.emotion-36[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-36:first-of-type {
+  margin-bottom: 1.2rem;
+}
+
+<body
+    style="overflow: hidden;"
+  >
+    <div>
+      <span
+        class="emotion-0 emotion-1"
+      />
+      <div
+        class="emotion-2 emotion-3"
+        role="dialog"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <button
+            aria-label="close address verification modal"
+            class="emotion-6 emotion-7 emotion-8"
+            type="button"
+          >
+            <svg
+              class="emotion-9 emotion-10"
+              data-test-id="Icon"
+            />
+          </button>
+          <h2
+            class="emotion-11 emotion-12"
+          >
+            Please select a shipping address
+          </h2>
+          <ul
+            class="emotion-13 emotion-14"
+          >
+            <li>
+              To ensure accurate delivery, consider the changes highlighted below.
+            </li>
+          </ul>
+        </div>
+        <div
+          class="emotion-15 emotion-16"
+        >
+          <div
+            class="emotion-17 emotion-18"
+            data-test-id="AddressVerificationAddress"
+          >
+            <label
+              class=" emotion-19 emotion-20 emotion-21"
+              for="suggested-address-radio"
+              name="suggested-address"
+            >
+              <input
+                checked=""
+                id="suggested-address-radio"
+                name="suggested-address"
+                type="radio"
+              />
+              <p
+                class="emotion-22 emotion-23"
+              >
+                SUGGESTED
+                 
+                ADDRESS
+              </p>
+              <div
+                class="emotion-24 emotion-25"
+              >
+                
+                  
+                <p>
+                  <strong>
+                    495 GREENE AVE APT 2R
+                  </strong>
+                </p>
+                
+                  
+                <p />
+                
+                  
+                <p>
+                  BROOKLYN, NY 11216-6466
+                </p>
+                
+                  
+                <p>
+                  UNITED STATES
+                </p>
+              </div>
+            </label>
+          </div>
+          <div
+            class="emotion-26 emotion-18"
+            data-test-id="AddressVerificationAddress"
+          >
+            <label
+              class=" emotion-19 emotion-29 emotion-21"
+              for="original-address-radio"
+              name="original-address"
+            >
+              <input
+                id="original-address-radio"
+                name="original-address"
+                type="radio"
+              />
+              <p
+                class="emotion-22 emotion-23"
+              >
+                ORIGINAL
+                 
+                ADDRESS
+              </p>
+              <div
+                class="emotion-24 emotion-25"
+              >
+                
+                  
+                <p>
+                  495 GREENE AVE
+                </p>
+                
+                  
+                <p>
+                  APT 2R
+                </p>
+                
+                  
+                <p>
+                  BROOKLYN, NY 11216-6466
+                </p>
+                
+                  
+                <p>
+                  UNITED STATES
+                </p>
+              </div>
+            </label>
+          </div>
+        </div>
+        <button
+          class="emotion-35 emotion-36 emotion-8"
+          type="button"
+        >
+          Continue with this address
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background: #111111;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: 3000;
+  opacity: 0.5;
+  height: 100%;
+}
+
+.emotion-2 {
+  position: fixed;
+  z-index: 3001;
+  background: #FFFFFF;
+  color: #3150A2;
+  width: 92%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 3.6621rem;
+    width: 60rem;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  line-height: normal;
+  outline: 0;
+  margin-left: auto;
+  padding: 0;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-7 svg {
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-11 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-13 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.emotion-15 {
+  margin: 2.9297rem 0;
+}
+
+.emotion-17 {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #F5F6FA;
+}
+
+.emotion-17 strong {
+  background: #F0E4E3;
+  color: #C04318;
+  display: inline-block;
+}
+
+.emotion-20 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  color: #3150A2;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #3150A2;
+  width: 100%;
+}
+
+.emotion-20::after,
+.emotion-20::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-20::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-20::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-20::after {
+  opacity: 1;
+}
+
+.emotion-20::before {
+  border-color: #3150A2;
+}
+
+.emotion-20 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-20:after {
+  top: 50%;
+}
+
+.emotion-20:before {
+  top: calc(50% - 3px);
+  border-color: #3150A2;
+}
+
+.emotion-20 .emotion-23,
+.emotion-20 .emotion-25 {
+  margin-left: 1.2rem;
+}
+
+.emotion-22 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0.25rem;
+  -moz-letter-spacing: 0.25rem;
+  -ms-letter-spacing: 0.25rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1.2rem;
+}
+
+.emotion-24 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  font-size: 1.875rem;
+}
+
+.emotion-26 {
+  display: grid;
+  grid-row-gap: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  background: #FFFFFF;
+}
+
+.emotion-26 strong {
+  background: #F0E4E3;
+  color: #C04318;
+  display: inline-block;
+}
+
+.emotion-29 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #3150A2;
+  width: 100%;
+}
+
+.emotion-29::after,
+.emotion-29::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-29::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-29::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-29 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-29:after {
+  top: 50%;
+}
+
+.emotion-29:before {
+  top: calc(50% - 3px);
+  border-color: #3150A2;
+}
+
+.emotion-29 .emotion-23,
+.emotion-29 .emotion-25 {
+  margin-left: 1.2rem;
+}
+
+.emotion-36 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-36:active {
+  outline: 0;
+}
+
+.emotion-36:hover {
+  opacity: 0.75;
+}
+
+.emotion-36[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-36:first-of-type {
+  margin-bottom: 1.2rem;
+}
+
+<div>
+    <span
+      class="emotion-0 emotion-1"
+    />
+    <div
+      class="emotion-2 emotion-3"
+      role="dialog"
+    >
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <button
+          aria-label="close address verification modal"
+          class="emotion-6 emotion-7 emotion-8"
+          type="button"
+        >
+          <svg
+            class="emotion-9 emotion-10"
+            data-test-id="Icon"
+          />
+        </button>
+        <h2
+          class="emotion-11 emotion-12"
+        >
+          Please select a shipping address
+        </h2>
+        <ul
+          class="emotion-13 emotion-14"
+        >
+          <li>
+            To ensure accurate delivery, consider the changes highlighted below.
+          </li>
+        </ul>
+      </div>
+      <div
+        class="emotion-15 emotion-16"
+      >
+        <div
+          class="emotion-17 emotion-18"
+          data-test-id="AddressVerificationAddress"
+        >
+          <label
+            class=" emotion-19 emotion-20 emotion-21"
+            for="suggested-address-radio"
+            name="suggested-address"
+          >
+            <input
+              checked=""
+              id="suggested-address-radio"
+              name="suggested-address"
+              type="radio"
+            />
+            <p
+              class="emotion-22 emotion-23"
+            >
+              SUGGESTED
+               
+              ADDRESS
+            </p>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              
+                  
+              <p>
+                <strong>
+                  495 GREENE AVE APT 2R
+                </strong>
+              </p>
+              
+                  
+              <p />
+              
+                  
+              <p>
+                BROOKLYN, NY 11216-6466
+              </p>
+              
+                  
+              <p>
+                UNITED STATES
+              </p>
+            </div>
+          </label>
+        </div>
+        <div
+          class="emotion-26 emotion-18"
+          data-test-id="AddressVerificationAddress"
+        >
+          <label
+            class=" emotion-19 emotion-29 emotion-21"
+            for="original-address-radio"
+            name="original-address"
+          >
+            <input
+              id="original-address-radio"
+              name="original-address"
+              type="radio"
+            />
+            <p
+              class="emotion-22 emotion-23"
+            >
+              ORIGINAL
+               
+              ADDRESS
+            </p>
+            <div
+              class="emotion-24 emotion-25"
+            >
+              
+                  
+              <p>
+                495 GREENE AVE
+              </p>
+              
+                  
+              <p>
+                APT 2R
+              </p>
+              
+                  
+              <p>
+                BROOKLYN, NY 11216-6466
+              </p>
+              
+                  
+              <p>
+                UNITED STATES
+              </p>
+            </div>
+          </label>
+        </div>
+      </div>
+      <button
+        class="emotion-35 emotion-36 emotion-8"
+        type="button"
+      >
+        Continue with this address
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
