@@ -15,7 +15,7 @@ import trackEvent from '../../utils/tracking';
 import getPayment from '../../utils/getPayment';
 
 const Form = styled.form`
-  grid-area: confirm;
+    grid-area: confirm;
 `;
 
 const FreeShipping = styled(AddFreeShipping)`
