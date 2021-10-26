@@ -1,0 +1,1359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`incorrect navigation secondary list 2 renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  z-index: 2000;
+}
+
+.emotion-0>li>ul {
+  -webkit-transform: translate3d(28rem,0,0);
+  -ms-transform: translate3d(28rem,0,0);
+  transform: translate3d(28rem,0,0);
+  visibility: hidden;
+}
+
+.emotion-0 .e19h4mjv6,
+.emotion-0 .e19h4mjv5 {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-0 li>ul {
+    -webkit-transform: translate3d(38rem,0,0);
+    -ms-transform: translate3d(38rem,0,0);
+    transform: translate3d(38rem,0,0);
+    visibility: hidden;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: #FAEFD9;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(5,1fr);
+  }
+
+  .emotion-0 .e19h4mjv6,
+  .emotion-0 .e19h4mjv5 {
+    display: block;
+  }
+
+  @media screen and (min-width:992px) {
+    .emotion-0 {
+      padding-left: 6.5vw;
+      padding-right: 6.5vw;
+    }
+  }
+
+  .emotion-0::before,
+  .emotion-0::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .emotion-0::before {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-left-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .emotion-0::after {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-right-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+
+  .emotion-0 .emotion-3>ul {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    visibility: visible;
+  }
+}
+
+.emotion-2 {
+  line-height: 3rem;
+}
+
+.emotion-2>.emotion-15+.emotion-5,
+.emotion-2>.emotion-15+.emotion-17 {
+  display: none;
+}
+
+.emotion-2>.emotion-5,
+.emotion-2>.emotion-15,
+.emotion-2>.emotion-17 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-2>.emotion-15 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 4rem 0;
+    display: none;
+  }
+
+  .emotion-2>.emotion-15 {
+    display: none;
+  }
+
+  .emotion-2>.emotion-15+.emotion-5,
+  .emotion-2>.emotion-15+.emotion-17 {
+    display: block;
+  }
+
+  .emotion-2>.emotion-5,
+  .emotion-2>.emotion-17 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-2>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-2>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-4 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.emotion-6 {
+  line-height: 3rem;
+}
+
+.emotion-6>.emotion-15+.emotion-5,
+.emotion-6>.emotion-15+.emotion-17 {
+  display: none;
+}
+
+.emotion-6>.emotion-5,
+.emotion-6>.emotion-15,
+.emotion-6>.emotion-17 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-6>.emotion-15 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    padding: 4rem 0;
+  }
+
+  .emotion-6>.emotion-15 {
+    display: none;
+  }
+
+  .emotion-6>.emotion-15+.emotion-5,
+  .emotion-6>.emotion-15+.emotion-17 {
+    display: block;
+  }
+
+  .emotion-6>.emotion-5,
+  .emotion-6>.emotion-17 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-6>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-6>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-12 {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+@media (min-width:768px) {
+  .emotion-12 {
+    display: none;
+  }
+}
+
+.emotion-12:checked~.emotion-15 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDUgMTAgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+.emotion-12:checked~ul {
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  visibility: visible;
+  overflow: auto;
+}
+
+.emotion-14 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-16 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<body>
+    <div>
+      <ul
+        class="emotion-0 emotion-1"
+        role="menu"
+      >
+        <li
+          class="emotion-2 emotion-3"
+          role="menuitem"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/trends~just-in?td=top-nav"
+          >
+            View All
+          </a>
+        </li>
+        <li
+          class="emotion-6 emotion-3"
+          role="menuitem"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/trends~just-in?td=new"
+          >
+            Just In
+          </a>
+        </li>
+        <li
+          aria-haspopup="true"
+          class="emotion-6 emotion-3"
+          role="menuitem"
+        >
+          <input
+            class="emotion-12 emotion-13"
+            id="3380"
+            name="secondary"
+            role="menuitemcheckbox"
+            type="checkbox"
+          />
+          <label
+            class="emotion-14 emotion-15"
+            for="3380"
+          >
+            Trending
+          </label>
+          <p
+            class="emotion-16 emotion-17"
+          >
+            Trending
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  z-index: 2000;
+}
+
+.emotion-0>li>ul {
+  -webkit-transform: translate3d(28rem,0,0);
+  -ms-transform: translate3d(28rem,0,0);
+  transform: translate3d(28rem,0,0);
+  visibility: hidden;
+}
+
+.emotion-0 .e19h4mjv6,
+.emotion-0 .e19h4mjv5 {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-0 li>ul {
+    -webkit-transform: translate3d(38rem,0,0);
+    -ms-transform: translate3d(38rem,0,0);
+    transform: translate3d(38rem,0,0);
+    visibility: hidden;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: #FAEFD9;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(5,1fr);
+  }
+
+  .emotion-0 .e19h4mjv6,
+  .emotion-0 .e19h4mjv5 {
+    display: block;
+  }
+
+  @media screen and (min-width:992px) {
+    .emotion-0 {
+      padding-left: 6.5vw;
+      padding-right: 6.5vw;
+    }
+  }
+
+  .emotion-0::before,
+  .emotion-0::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .emotion-0::before {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-left-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .emotion-0::after {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-right-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+
+  .emotion-0 .emotion-3>ul {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    visibility: visible;
+  }
+}
+
+.emotion-2 {
+  line-height: 3rem;
+}
+
+.emotion-2>.emotion-15+.emotion-5,
+.emotion-2>.emotion-15+.emotion-17 {
+  display: none;
+}
+
+.emotion-2>.emotion-5,
+.emotion-2>.emotion-15,
+.emotion-2>.emotion-17 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-2>.emotion-15 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 4rem 0;
+    display: none;
+  }
+
+  .emotion-2>.emotion-15 {
+    display: none;
+  }
+
+  .emotion-2>.emotion-15+.emotion-5,
+  .emotion-2>.emotion-15+.emotion-17 {
+    display: block;
+  }
+
+  .emotion-2>.emotion-5,
+  .emotion-2>.emotion-17 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-2>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-2>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-4 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.emotion-6 {
+  line-height: 3rem;
+}
+
+.emotion-6>.emotion-15+.emotion-5,
+.emotion-6>.emotion-15+.emotion-17 {
+  display: none;
+}
+
+.emotion-6>.emotion-5,
+.emotion-6>.emotion-15,
+.emotion-6>.emotion-17 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-6>.emotion-15 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    padding: 4rem 0;
+  }
+
+  .emotion-6>.emotion-15 {
+    display: none;
+  }
+
+  .emotion-6>.emotion-15+.emotion-5,
+  .emotion-6>.emotion-15+.emotion-17 {
+    display: block;
+  }
+
+  .emotion-6>.emotion-5,
+  .emotion-6>.emotion-17 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-6>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-6>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-12 {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+@media (min-width:768px) {
+  .emotion-12 {
+    display: none;
+  }
+}
+
+.emotion-12:checked~.emotion-15 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDUgMTAgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+.emotion-12:checked~ul {
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  visibility: visible;
+  overflow: auto;
+}
+
+.emotion-14 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-16 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div>
+    <ul
+      class="emotion-0 emotion-1"
+      role="menu"
+    >
+      <li
+        class="emotion-2 emotion-3"
+        role="menuitem"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/trends~just-in?td=top-nav"
+        >
+          View All
+        </a>
+      </li>
+      <li
+        class="emotion-6 emotion-3"
+        role="menuitem"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/trends~just-in?td=new"
+        >
+          Just In
+        </a>
+      </li>
+      <li
+        aria-haspopup="true"
+        class="emotion-6 emotion-3"
+        role="menuitem"
+      >
+        <input
+          class="emotion-12 emotion-13"
+          id="3380"
+          name="secondary"
+          role="menuitemcheckbox"
+          type="checkbox"
+        />
+        <label
+          class="emotion-14 emotion-15"
+          for="3380"
+        >
+          Trending
+        </label>
+        <p
+          class="emotion-16 emotion-17"
+        >
+          Trending
+        </p>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`incorrect navigation secondary list renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`navigation secondary list renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  z-index: 2000;
+}
+
+.emotion-0>li>ul {
+  -webkit-transform: translate3d(28rem,0,0);
+  -ms-transform: translate3d(28rem,0,0);
+  transform: translate3d(28rem,0,0);
+  visibility: hidden;
+}
+
+.emotion-0 .e19h4mjv6,
+.emotion-0 .e19h4mjv5 {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-0 li>ul {
+    -webkit-transform: translate3d(38rem,0,0);
+    -ms-transform: translate3d(38rem,0,0);
+    transform: translate3d(38rem,0,0);
+    visibility: hidden;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: #FAEFD9;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(5,1fr);
+  }
+
+  .emotion-0 .e19h4mjv6,
+  .emotion-0 .e19h4mjv5 {
+    display: block;
+  }
+
+  @media screen and (min-width:992px) {
+    .emotion-0 {
+      padding-left: 6.5vw;
+      padding-right: 6.5vw;
+    }
+  }
+
+  .emotion-0::before,
+  .emotion-0::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .emotion-0::before {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-left-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .emotion-0::after {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-right-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+
+  .emotion-0 .emotion-3>ul {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    visibility: visible;
+  }
+}
+
+.emotion-2 {
+  line-height: 3rem;
+}
+
+.emotion-2>.e19h4mjv2+.emotion-5,
+.emotion-2>.e19h4mjv2+.e19h4mjv1 {
+  display: none;
+}
+
+.emotion-2>.emotion-5,
+.emotion-2>.e19h4mjv2,
+.emotion-2>.e19h4mjv1 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-2>.e19h4mjv2 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 4rem 0;
+    display: none;
+  }
+
+  .emotion-2>.e19h4mjv2 {
+    display: none;
+  }
+
+  .emotion-2>.e19h4mjv2+.emotion-5,
+  .emotion-2>.e19h4mjv2+.e19h4mjv1 {
+    display: block;
+  }
+
+  .emotion-2>.emotion-5,
+  .emotion-2>.e19h4mjv1 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-2>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-2>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-4 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.emotion-6 {
+  line-height: 3rem;
+}
+
+.emotion-6>.e19h4mjv2+.emotion-5,
+.emotion-6>.e19h4mjv2+.e19h4mjv1 {
+  display: none;
+}
+
+.emotion-6>.emotion-5,
+.emotion-6>.e19h4mjv2,
+.emotion-6>.e19h4mjv1 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-6>.e19h4mjv2 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    padding: 4rem 0;
+  }
+
+  .emotion-6>.e19h4mjv2 {
+    display: none;
+  }
+
+  .emotion-6>.e19h4mjv2+.emotion-5,
+  .emotion-6>.e19h4mjv2+.e19h4mjv1 {
+    display: block;
+  }
+
+  .emotion-6>.emotion-5,
+  .emotion-6>.e19h4mjv1 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-6>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-6>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+<body>
+    <div>
+      <ul
+        class="emotion-0 emotion-1"
+        role="menu"
+      >
+        <li
+          class="emotion-2 emotion-3"
+          role="menuitem"
+        >
+          <a
+            class="emotion-4 emotion-5"
+
+            href="/shop?w=banana"
+          >
+            View All
+          </a>
+        </li>
+        <li
+          class="emotion-6 emotion-3"
+          role="menuitem"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/whats-new/just-in"
+          >
+            Just In
+          </a>
+        </li>
+        <li
+          class="emotion-6 emotion-3"
+          role="menuitem"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/whats-new/trending"
+          >
+            Trending
+          </a>
+        </li>
+        <li
+          class="emotion-6 emotion-3"
+          role="menuitem"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/whats-new/shops"
+          >
+            Shops
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  z-index: 2000;
+}
+
+.emotion-0>li>ul {
+  -webkit-transform: translate3d(28rem,0,0);
+  -ms-transform: translate3d(28rem,0,0);
+  transform: translate3d(28rem,0,0);
+  visibility: hidden;
+}
+
+.emotion-0 .e19h4mjv6,
+.emotion-0 .e19h4mjv5 {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-0 li>ul {
+    -webkit-transform: translate3d(38rem,0,0);
+    -ms-transform: translate3d(38rem,0,0);
+    transform: translate3d(38rem,0,0);
+    visibility: hidden;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: #FAEFD9;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(5,1fr);
+  }
+
+  .emotion-0 .e19h4mjv6,
+  .emotion-0 .e19h4mjv5 {
+    display: block;
+  }
+
+  @media screen and (min-width:992px) {
+    .emotion-0 {
+      padding-left: 6.5vw;
+      padding-right: 6.5vw;
+    }
+  }
+
+  .emotion-0::before,
+  .emotion-0::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .emotion-0::before {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-left-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .emotion-0::after {
+    background-image: url('https://assets.stg.env.maisonette.com/images/maisonette-navigation-right-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+
+  .emotion-0 .emotion-3>ul {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    visibility: visible;
+  }
+}
+
+.emotion-2 {
+  line-height: 3rem;
+}
+
+.emotion-2>.e19h4mjv2+.emotion-5,
+.emotion-2>.e19h4mjv2+.e19h4mjv1 {
+  display: none;
+}
+
+.emotion-2>.emotion-5,
+.emotion-2>.e19h4mjv2,
+.emotion-2>.e19h4mjv1 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-2>.e19h4mjv2 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 4rem 0;
+    display: none;
+  }
+
+  .emotion-2>.e19h4mjv2 {
+    display: none;
+  }
+
+  .emotion-2>.e19h4mjv2+.emotion-5,
+  .emotion-2>.e19h4mjv2+.e19h4mjv1 {
+    display: block;
+  }
+
+  .emotion-2>.emotion-5,
+  .emotion-2>.e19h4mjv1 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-2>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-2>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-4 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.emotion-6 {
+  line-height: 3rem;
+}
+
+.emotion-6>.e19h4mjv2+.emotion-5,
+.emotion-6>.e19h4mjv2+.e19h4mjv1 {
+  display: none;
+}
+
+.emotion-6>.emotion-5,
+.emotion-6>.e19h4mjv2,
+.emotion-6>.e19h4mjv1 {
+  color: #9CB1DC;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 4rem;
+}
+
+.emotion-6>.e19h4mjv2 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDAgTDAgMTAgTDUgNSBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    padding: 4rem 0;
+  }
+
+  .emotion-6>.e19h4mjv2 {
+    display: none;
+  }
+
+  .emotion-6>.e19h4mjv2+.emotion-5,
+  .emotion-6>.e19h4mjv2+.e19h4mjv1 {
+    display: block;
+  }
+
+  .emotion-6>.emotion-5,
+  .emotion-6>.e19h4mjv1 {
+    border-bottom: 1px solid #3150A2;
+    color: #3150A2;
+    font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+    -webkit-letter-spacing: 0.24em;
+    -moz-letter-spacing: 0.24em;
+    -ms-letter-spacing: 0.24em;
+    letter-spacing: 0.24em;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .emotion-6>.emotion-5 {
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-6>.emotion-5:hover {
+    color: #9CB1DC;
+  }
+}
+
+<div>
+    <ul
+      class="emotion-0 emotion-1"
+      role="menu"
+    >
+      <li
+        class="emotion-2 emotion-3"
+        role="menuitem"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop?w=banana"
+        >
+          View All
+        </a>
+      </li>
+      <li
+        class="emotion-6 emotion-3"
+        role="menuitem"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/whats-new/just-in"
+        >
+          Just In
+        </a>
+      </li>
+      <li
+        class="emotion-6 emotion-3"
+        role="menuitem"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/whats-new/trending"
+        >
+          Trending
+        </a>
+      </li>
+      <li
+        class="emotion-6 emotion-3"
+        role="menuitem"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/whats-new/shops"
+        >
+          Shops
+        </a>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
