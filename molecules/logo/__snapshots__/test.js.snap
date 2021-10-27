@@ -2,7 +2,7 @@
 
 exports[`a logo component renders correctly 1`] = `
 Object {
-  "asFragment": [Function],
+    "asFragment": [Function],
   "baseElement": .emotion-1 {
   color: #3150A2;
   font-family: inherit;
