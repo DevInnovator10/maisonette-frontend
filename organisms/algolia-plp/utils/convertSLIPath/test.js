@@ -49,6 +49,7 @@ describe('convertSLIPath() correctly formats applied filters to the Algolia URL 
 
     it('Color', () => {
       sliQueries = '?af=color%3Amulti';
+
       expectedQueries = '?color=Multi';
 
       pages.forEach((path) => {
