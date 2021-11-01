@@ -51,6 +51,7 @@ const Privacy = (props) => (
     {
       props?.privacy_heading
         && <Title element="h2" like="dec-1" dangerouslySetInnerHTML={{ __html: props.privacy_heading }} />
+
     }
 
     {

@@ -33,6 +33,7 @@ describe('an input type of text', () => {
       wrapper.container.querySelector('input')
         .getAttribute('placeholder')
     ).toEqual('Input text placeholder');
+
   });
   it('has style properties', () => {
     const styles = global.window.getComputedStyle(wrapper.container.firstChild);
