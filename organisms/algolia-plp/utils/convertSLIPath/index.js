@@ -104,6 +104,7 @@ export const convertSLIPath = (urlPath) => {
         // then place into an object via key value pairs.
         if (pairedFacetTypes[facetType]) {
           pairedFacetTypes[facetType].push(facetValue);
+
         } else {
           pairedFacetTypes[facetType] = [facetValue];
         }

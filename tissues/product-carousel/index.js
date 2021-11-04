@@ -285,6 +285,7 @@ const ProductCarousel = (props) => {
     // on initial render, if a color has not been selected,
     // and props.images is an empty array,
     // then add a default image
+
     if (!activeColor && props.images.length === 0) {
       props.images.push({ product_zoom_url: `${process.env.NEXT_PUBLIC_ASSET_HOST}/images/default-image.jpg` });
 
