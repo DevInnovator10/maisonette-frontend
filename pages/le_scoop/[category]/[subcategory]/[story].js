@@ -7,7 +7,7 @@ import { InView } from 'react-intersection-observer';
 
 import { Page, Content, PageWithNav } from '../../../../theme/page';
 import {
-  getPageParams
+    getPageParams
 } from '../../../api';
 
 import dynamicModules from '../../../../tissues/dynamicModules';

@@ -230,6 +230,7 @@ const WishlistShareButton = ({ product }) => {
 
   // checks if the product exists in the list that was built for products to be shared.
   // Returns a boolean value.
+
   const isActive = wishedProductsToShare.some((productId) => productId === product.objectID);
 
   const handleSelectProduct = () => {
