@@ -51,6 +51,7 @@ const KeyIngredientsBenefitsRevamp = (props) => {
       if (validColor && validColor.product_properties?.length) {
         setCurrentIngredients(filterIngredients(validColor.product_properties));
       } else {
+
         setCurrentIngredients(filterIngredients(props.product?.product_properties));
       }
     }

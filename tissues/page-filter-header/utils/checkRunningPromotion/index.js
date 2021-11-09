@@ -32,6 +32,7 @@ export const promotionDates = [
       'last-minute-holiday-gift-sale-extra15': true
     },
     start: '04 Dec 2022 16:00:00 GMT',
+
     end: '11 Dec 2022 08:00:00 GMT'
   }
 ];
