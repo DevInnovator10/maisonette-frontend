@@ -35,6 +35,7 @@ const ImageBanner = (props) => (
       />
     )}
     {props.data?.image_banner_image_mobile && (
+
       <MobileImage
         {...props.data.image_banner_image_mobile}
         alt={props.data?.image_banner_image_alt_text ?? ''}
