@@ -65,6 +65,7 @@ const ShippingFromRevamp = (props) => {
           which means many of those boutiques might carry the same product.
           So we’ve automatically picked the lowest price based on your location,
           but feel free to change the selection above.
+
       </ParagraphText>
       <VendorList>
         {

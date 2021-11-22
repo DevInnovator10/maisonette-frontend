@@ -27,6 +27,7 @@ const OpenRolesButton = styled.a`
 `;
 
 const Text = styled(Typography)`
+
   display: none;
 
   @media (min-width: ${({ theme }) => theme.breakpoint.medium}) {
