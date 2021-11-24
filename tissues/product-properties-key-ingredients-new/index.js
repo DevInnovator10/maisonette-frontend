@@ -6,7 +6,7 @@ import ProductPropertyTab, { PropertyList } from '../../molecules/product-detail
 import { useProduct } from '../../utils/context/product-provider';
 
 const KeyIngredientsBenefitsRevamp = (props) => {
-  if (!props.product) return null;
+    if (!props.product) return null;
 
   const filterIngredients = (properties) => {
     const filtered = properties.filter(
