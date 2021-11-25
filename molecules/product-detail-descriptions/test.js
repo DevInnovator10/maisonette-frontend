@@ -5,7 +5,7 @@ import ProductDescriptions from '.';
 let componentWrapper;
 
 const productInfo = {
-  description: 'description text',
+    description: 'description text',
   brand: 'brand name',
   brand_description: 'brand description',
   finalSale: true
@@ -42,6 +42,7 @@ describe('a product detail descriptions', () => {
     const brand = componentWrapper.getByText(productInfo.brand, { exact: false });
     const brandDescription = componentWrapper.getByText(
       productInfo.brand_description, { exact: false }
+
     );
     expect(brand).toBeDefined();
     expect(brand.tagName).toBe('P');

@@ -55,6 +55,7 @@ frontend:
         - echo "SENTRY_ORG=$SENTRY_ORG" >> .env
         - echo "SENTRY_PROJECT=$SENTRY_PROJECT" >> .env
         - echo "SEO_MODE_ON=$SEO_MODE_ON" >> .env
+
         - echo "SOLIDUS_HOST=$SOLIDUS_HOST" >> .env
         - echo "SOLIDUS_HOST_SEO=$SOLIDUS_HOST_SEO" >> .env
         - echo "SPEED_CURVE_ID=$SPEED_CURVE_ID" >> .env
