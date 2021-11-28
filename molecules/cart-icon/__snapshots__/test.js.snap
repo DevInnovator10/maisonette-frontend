@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a cart icon renders correctly 1`] = `
+@keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3150A2;
+  border: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.2rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  line-height: 1;
+  min-width: 4.4rem;
+  outline: none;
+  margin-right: 1rem;
+  width: auto;
+}
+
+.emotion-1:active {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  opacity: 0.75;
+}
+
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-1 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
+
+.emotion-1 span {
+  display: block;
+  min-width: 1.2rem;
+  text-align: center;
+}
+
+.emotion-1 svg {
+  stroke: #FFFFFF;
+  fill: transparent;
+  stroke-width: 2px;
+  width: 2rem;
+  height: 2rem;
+}
+
+.emotion-1.--wiggle {
+  -webkit-animation: animation-0 400ms;
+  animation: animation-0 400ms;
+}
+
+.emotion-3 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+}
+
+<div>
+  <button
+    class="emotion-0 emotion-1 emotion-2 --wiggle"
+    data-test-id="CartIcon"
+    type="button"
+  >
+    <svg
+      class="emotion-3 emotion-4"
+    />
+    <span
+      class="emotion-5 emotion-6"
+    >
+      23
+    </span>
+  </button>
+</div>
+`;
