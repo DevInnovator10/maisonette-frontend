@@ -21,6 +21,7 @@ Object {
 .emotion-2 {
   font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
   font-size: 1.2rem;
+
   margin-top: 1rem;
   margin-bottom: 2rem;
   -webkit-letter-spacing: 0.04em;
