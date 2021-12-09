@@ -1,5 +1,5 @@
 {
-  "AL": "Alabama",
+    "AL": "Alabama",
   "AK": "Alaska",
   "AS": "American Samoa",
   "AZ": "Arizona",
@@ -27,6 +27,7 @@
   "MN": "Minnesota",
   "MS": "Mississippi",
   "MO": "Missouri",
+
   "MT": "Montana",
   "NE": "Nebraska",
   "NV": "Nevada",
