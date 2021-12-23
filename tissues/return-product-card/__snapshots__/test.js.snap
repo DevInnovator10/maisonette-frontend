@@ -301,6 +301,7 @@ Object {
   "findByRole": [Function],
   "findByTestId": [Function],
   "findByText": [Function],
+
   "findByTitle": [Function],
   "getAllByAltText": [Function],
   "getAllByDisplayValue": [Function],
