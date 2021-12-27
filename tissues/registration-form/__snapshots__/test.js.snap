@@ -2,6 +2,7 @@
 
 exports[`the registration form renders correctly 1`] = `
 Object {
+
   "asFragment": [Function],
   "baseElement": .emotion-0 {
   display: grid;
