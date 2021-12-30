@@ -29,6 +29,7 @@ const getUpdatedProductModuleData = async (content, ctx) => {
           );
         } catch (error) {
           reject(error);
+
         }
       });
 

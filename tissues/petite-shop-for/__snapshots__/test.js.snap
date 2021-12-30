@@ -169,6 +169,7 @@ Object {
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+
   "unmount": [Function],
 }
 `;
