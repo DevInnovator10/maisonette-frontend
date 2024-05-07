@@ -94,6 +94,7 @@ describe('an address add action', () => {
     componentWrapper = render(
       <Provider store={store}>
         <AddressCreateNew />
+
       </Provider>
     );
   });
