@@ -1,5 +1,5 @@
 const gssp = (context) => {
-  const { query: { w = null } } = context;
+    const { query: { w = null } } = context;
 
   return { query: w };
 };

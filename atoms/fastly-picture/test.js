@@ -3,7 +3,7 @@ import { render } from '../../utils/tests/testTheming';
 import FastlyPicture from '.';
 
 const props = {
-  alt: 'best image in the world!',
+    alt: 'best image in the world!',
   src: 'https://media/has4-v41u3/image.jpg'
 };
 
