@@ -1,0 +1,106 @@
+{
+  "category_taxon_shop_cta": "Optional Title CTA",
+  "category_taxon_shop_heading": "Category/Taxon Shop",
+  "category_taxon_shop_elements": {
+    "0": {
+      "category_taxon_shop_taxon_cta": "Optional Category/Taxon CTA",
+      "category_taxon_shop_taxon_path": "/path/to/taxon/url",
+      "category_taxon_shop_row_heading": "Optional Row Heading",
+      "category_taxon_shop_row_sub_heading": "Optional Row SubHeading",
+      "category_taxon_shop_element_icon": {
+        "data": {
+          "alt": "best image in the world!",
+          "types": ["png"],
+          "name": "/images/_dummy-shop-category/shop-category",
+          "uri": "http://via.placeholder.com/240x240"
+        }
+      }
+    },
+    "1": {
+      "category_taxon_shop_taxon_cta": "Optional Category/Taxon CTA 2",
+      "category_taxon_shop_taxon_path": "/path/to/other/taxon/url",
+      "category_taxon_shop_row_heading": "Optional Row Heading 2",
+      "category_taxon_shop_row_sub_heading": "Optional Row SubHeading 2",
+      "category_taxon_shop_element_icon": {
+        "data": {
+          "alt": "best image in the world!",
+          "types": ["png"],
+          "name": "/images/_dummy-shop-category/shop-category",
+          "uri": "http://via.placeholder.com/240x240"
+        }
+      }
+    },
+    "2": {
+      "category_taxon_shop_taxon_cta": "Optional Category/Taxon CTA 3",
+      "category_taxon_shop_taxon_path": "/path/to/other/taxon/url",
+      "category_taxon_shop_row_heading": "Optional Row Heading 3",
+      "category_taxon_shop_row_sub_heading": "Optional Row SubHeading 3",
+      "category_taxon_shop_element_icon": {
+        "data": {
+          "alt": "best image in the world!",
+          "types": ["png"],
+          "name": "/images/_dummy-shop-category/shop-category",
+          "uri": "http://via.placeholder.com/240x240"
+        }
+      }
+    },
+    "3": {
+      "category_taxon_shop_taxon_cta": "Optional Category/Taxon CTA 4",
+      "category_taxon_shop_taxon_path": "/path/to/other/taxon/url",
+      "category_taxon_shop_row_heading": "Optional Row Heading 4",
+      "category_taxon_shop_row_sub_heading": "Optional Row SubHeading 4",
+      "category_taxon_shop_element_icon": {
+        "data": {
+          "alt": "best image in the world!",
+          "types": ["png"],
+          "name": "/images/_dummy-shop-category/shop-category",
+          "uri": "http://via.placeholder.com/240x240"
+        }
+      }
+    },
+    "4": {
+      "category_taxon_shop_taxon_cta": "Optional Category/Taxon CTA 5",
+      "category_taxon_shop_taxon_path": "/path/to/other/taxon/url",
+      "category_taxon_shop_row_heading": "Optional Row Heading 5",
+      "category_taxon_shop_row_sub_heading": "Optional Row SubHeading 5",
+      "category_taxon_shop_element_icon": {
+        "data": {
+          "alt": "best image in the world!",
+          "types": ["png"],
+          "name": "/images/_dummy-shop-category/shop-category",
+          "uri": "http://via.placeholder.com/240x240"
+        }
+      }
+    },
+    "5": {
+      "category_taxon_shop_taxon_cta": "Optional Category/Taxon CTA 6",
+      "category_taxon_shop_taxon_path": "/path/to/other/taxon/url",
+      "category_taxon_shop_row_heading": "Optional Row Heading 6",
+      "category_taxon_shop_row_sub_heading": "Optional Row SubHeading 6",
+      "category_taxon_shop_element_icon": {
+        "data": {
+          "alt": "best image in the world!",
+          "types": ["png"],
+          "name": "/images/_dummy-shop-category/shop-category",
+          "uri": "http://via.placeholder.com/240x240"
+        }
+      }
+    },
+    "6": {
+      "category_taxon_shop_taxon_cta": "Optional Category/Taxon CTA 7",
+      "category_taxon_shop_taxon_path": "/path/to/other/taxon/url",
+      "category_taxon_shop_row_heading": "Optional Row Heading 7",
+      "category_taxon_shop_row_sub_heading": "Optional Row SubHeading 7",
+      "category_taxon_shop_element_icon": {
+        "data": {
+          "alt": "best image in the world!",
+          "types": ["png"],
+          "name": "/images/_dummy-shop-category/shop-category",
+          "uri": "http://via.placeholder.com/240x240"
+        }
+      }
+    }
+  },
+  "category_taxon_shop_title_url": "/path/to/taxon/url",
+  "category_taxon_shop_subheading": "Optional Subheading"
+}
