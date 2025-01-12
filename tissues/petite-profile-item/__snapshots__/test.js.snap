@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`petite profile item renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  padding: 1rem 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+  }
+}
+
+.emotion-2 {
+  margin-bottom: .4rem;
+  position: relative;
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  border-radius: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #3150A2;
+  padding: 0;
+}
+
+.emotion-7::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-7~.emotion-7 {
+  margin-top: 1rem;
+}
+
+.emotion-16 {
+  position: relative;
+}
+
+.emotion-18 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-20 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-color: transparent;
+  border-radius: 0;
+  color: #3150A2;
+
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-20:disabled {
+  background: none;
+  border: none;
+  outline: none;
+  opacity: 1;
+  padding: 0;
+}
+
+.emotion-20::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-20~.emotion-20 {
+  margin-top: 1rem;
+}
+
+<body>
+    <div>
+      <form
+        action="#"
+      >
+        <ul
+          class="emotion-0 emotion-1"
+          data-test-id="PetiteProfileItem"
+        >
+          <li>
+            <div
+              class="emotion-2 emotion-3"
+              data-test-id="PetiteProfileField"
+            >
+              <label
+                class="emotion-4 emotion-5"
+                for="profiles.1.name"
+              >
+                NAME
+              </label>
+              <input
+                class="emotion-6 emotion-7 emotion-8"
+                disabled=""
+                id="profiles.1.name"
+                name="profiles.1.name"
+                placeholder="First name or nickname"
+                type="text"
+                value="Eric Jr."
+              />
+            </div>
+          </li>
+          <li>
+            <div
+              class="emotion-2 emotion-3"
+              data-test-id="PetiteProfileField"
+            >
+              <label
+                class="emotion-4 emotion-5"
+                for="profiles.1.birthdate"
+              >
+                BIRTHDATE
+              </label>
+              <input
+                class="emotion-6 emotion-7 emotion-8"
+                disabled=""
+                id="profiles.1.birthdate"
+                max="2021-01-13"
+                min="2004-03-13"
+                name="profiles.1.birthdate"
+                type="date"
+                value="2017-03-05"
+              />
+            </div>
+          </li>
+          <li>
+            <div
+              class="emotion-16 emotion-17"
+              data-test-id="PetiteProfileSelect"
+            >
+              <label
+                class="emotion-18 emotion-19"
+                for="profiles.1.gender"
+              >
+                GENDER
+              </label>
+              <select
+                class="emotion-20 emotion-21"
+                disabled=""
+                id="profiles.1.gender"
+                name="profiles.1.gender"
+                type="select"
+              >
+                <option
+                  value="both"
+                >
+                  Show Me Both
+                </option>
+                <option
+                  value="boy"
+                >
+                  Boy
+                </option>
+                <option
+                  value="girl"
+                >
+                  Girl
+                </option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  padding: 1rem 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+  }
+}
+
+.emotion-2 {
+  margin-bottom: .4rem;
+  position: relative;
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  border-radius: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #3150A2;
+  padding: 0;
+}
+
+.emotion-7::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-7:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-7~.emotion-7 {
+  margin-top: 1rem;
+}
+
+.emotion-16 {
+  position: relative;
+}
+
+.emotion-18 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-20 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-color: transparent;
+  border-radius: 0;
+  color: #3150A2;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-20:disabled {
+  background: none;
+  border: none;
+  outline: none;
+  opacity: 1;
+  padding: 0;
+}
+
+.emotion-20::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-20:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-20~.emotion-20 {
+  margin-top: 1rem;
+}
+
+<div>
+    <form
+      action="#"
+    >
+      <ul
+        class="emotion-0 emotion-1"
+        data-test-id="PetiteProfileItem"
+      >
+        <li>
+          <div
+            class="emotion-2 emotion-3"
+            data-test-id="PetiteProfileField"
+          >
+            <label
+              class="emotion-4 emotion-5"
+              for="profiles.1.name"
+            >
+              NAME
+            </label>
+            <input
+              class="emotion-6 emotion-7 emotion-8"
+              disabled=""
+              id="profiles.1.name"
+              name="profiles.1.name"
+              placeholder="First name or nickname"
+              type="text"
+              value="Eric Jr."
+            />
+          </div>
+        </li>
+        <li>
+          <div
+            class="emotion-2 emotion-3"
+            data-test-id="PetiteProfileField"
+          >
+            <label
+              class="emotion-4 emotion-5"
+              for="profiles.1.birthdate"
+            >
+              BIRTHDATE
+            </label>
+            <input
+              class="emotion-6 emotion-7 emotion-8"
+              disabled=""
+              id="profiles.1.birthdate"
+              max="2021-01-13"
+              min="2004-03-13"
+              name="profiles.1.birthdate"
+              type="date"
+              value="2017-03-05"
+            />
+          </div>
+        </li>
+        <li>
+          <div
+            class="emotion-16 emotion-17"
+            data-test-id="PetiteProfileSelect"
+          >
+            <label
+              class="emotion-18 emotion-19"
+              for="profiles.1.gender"
+            >
+              GENDER
+            </label>
+            <select
+              class="emotion-20 emotion-21"
+              disabled=""
+              id="profiles.1.gender"
+              name="profiles.1.gender"
+              type="select"
+            >
+              <option
+                value="both"
+              >
+                Show Me Both
+              </option>
+              <option
+                value="boy"
+              >
+                Boy
+              </option>
+              <option
+                value="girl"
+              >
+                Girl
+              </option>
+            </select>
+          </div>
+        </li>
+      </ul>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
