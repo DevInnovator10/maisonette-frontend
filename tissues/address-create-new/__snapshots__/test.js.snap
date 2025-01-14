@@ -1,0 +1,4743 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`an address add action renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .2rem 0;
+  position: relative;
+}
+
+.emotion-4 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-4 input::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-4 input::invalid {
+  box-shadow: none;
+}
+
+.emotion-4 input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-4 input~.emotion-4 input {
+  margin-top: 1rem;
+}
+
+@media (max-width:992px) {
+  .emotion-4 input {
+    font-size: 16px;
+  }
+}
+
+.emotion-4 input.masked-mobile {
+  padding-left: 8.5rem;
+}
+
+.emotion-4 input.masked {
+  padding-left: 8.5rem;
+}
+
+.emotion-4 .e11k6jdq0+input {
+  border: 0.2rem solid transparent;
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-4 .e11k6jdq0+input::-webkit-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-4 .e11k6jdq0+input::-moz-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-4 .e11k6jdq0+input:-ms-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-4 .e11k6jdq0+input::placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-14 {
+  height: 3.4rem;
+  left: 0;
+  margin-left: 1rem;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  top: calc(50% + 1.2rem);
+  width: 7rem;
+  z-index: 1;
+}
+
+.emotion-14>span {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 0;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 100%;
+  left: 0;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline: 0;
+  outline-color: #9CB1DC;
+  padding-right: 3rem;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.emotion-16 {
+  height: 100%;
+  width: 100%;
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  grid-column: 1/-1;
+  padding-top: 1rem;
+  line-height: 2.5rem;
+}
+
+.emotion-41 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .2rem 0;
+  position: relative;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44 {
+  border: 0.2rem solid transparent;
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44::-webkit-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44::-moz-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44:-ms-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44::placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41>label {
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
+}
+
+.emotion-43 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-43::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-43~.emotion-43 {
+  margin-top: 1rem;
+}
+
+.emotion-45 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.emotion-48 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  outline: 0;
+}
+
+.emotion-48:active {
+  outline: 0;
+}
+
+.emotion-48:hover {
+  opacity: 0.75;
+}
+
+.emotion-48[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+@media (min-width:768px) {
+  .emotion-48 {
+    grid-column: -1/1;
+  }
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="AddressCreateNew"
+        role="form"
+      >
+        <div
+          class="emotion-2 emotion-3"
+          data-test-id="-address-form"
+        >
+          <div
+            class=" emotion-4 emotion-5"
+          >
+            <input
+              autocomplete="given-name"
+              id="first-name-1"
+              name="first_name.search"
+              placeholder="First Name (required)"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-6 emotion-7"
+              for="first-name-1"
+            >
+              First Name (required)
+            </label>
+          </div>
+          <div
+            class=" emotion-4 emotion-5"
+          >
+            <input
+              autocomplete="family-name"
+              id="last-name-2"
+              name="last_name.search"
+              placeholder="Last Name (required)"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-6 emotion-7"
+              for="last-name-2"
+            >
+              Last Name (required)
+            </label>
+          </div>
+          <span
+            class="emotion-12 emotion-13"
+          >
+            <label
+              class="emotion-14 emotion-15"
+            >
+              <span>
+                USA 🇺🇸
+              </span>
+              <select
+                autocomplete="no-autocomplete"
+                class="emotion-16 emotion-17"
+                label="Country Phone"
+                name="country_phone.search"
+              >
+                <option
+                  data-test-id="Form"
+                  value="AFG"
+                >
+                  Afghanistan 🇦🇫
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ALA"
+                >
+                  Aland Islands 🇦🇽
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ALB"
+                >
+                  Albania 🇦🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="DZA"
+                >
+                  Algeria 🇩🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ASM"
+                >
+                  American Samoa 🇦🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="AND"
+                >
+                  Andorra 🇦🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="AGO"
+                >
+                  Angola 🇦🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="AIA"
+                >
+                  Anguilla 🇦🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ATA"
+                >
+                  Antarctica 🇦🇶
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ATG"
+                >
+                  Antigua and Barbuda 🇦🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ARG"
+                >
+                  Argentina 🇦🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ARM"
+                >
+                  Armenia 🇦🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ABW"
+                >
+                  Aruba 🇦🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="AUS"
+                >
+                  Australia 🇦🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="AUT"
+                >
+                  Austria 🇦🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="AZE"
+                >
+                  Azerbaijan 🇦🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BHS"
+                >
+                  Bahamas 🇧🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BHR"
+                >
+                  Bahrain 🇧🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BGD"
+                >
+                  Bangladesh 🇧🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BRB"
+                >
+                  Barbados 🇧🇧
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BLR"
+                >
+                  Belarus 🇧🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BEL"
+                >
+                  Belgium 🇧🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BLZ"
+                >
+                  Belize 🇧🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BEN"
+                >
+                  Benin 🇧🇯
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BMU"
+                >
+                  Bermuda 🇧🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BTN"
+                >
+                  Bhutan 🇧🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BOL"
+                >
+                  Bolivia 🇧🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BES"
+                >
+                  Bonaire," ",Saint Eustatius and Saba  🇧🇶
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BIH"
+                >
+                  Bosnia and Herzegovina 🇧🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BWA"
+                >
+                  Botswana 🇧🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BRA"
+                >
+                  Brazil 🇧🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="IOT"
+                >
+                  British Indian Ocean Territory 🇮🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="VGB"
+                >
+                  British Virgin Islands 🇻🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BRN"
+                >
+                  Brunei 🇧🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BGR"
+                >
+                  Bulgaria 🇧🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BFA"
+                >
+                  Burkina Faso 🇧🇫
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BDI"
+                >
+                  Burundi 🇧🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KHM"
+                >
+                  Cambodia 🇰🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CMR"
+                >
+                  Cameroon 🇨🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CAN"
+                >
+                  Canada 🇨🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CPV"
+                >
+                  Cape Verde 🇨🇻
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CYM"
+                >
+                  Cayman Islands 🇰🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CAF"
+                >
+                  Central African Republic 🇨🇫
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TCD"
+                >
+                  Chad 🇹🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CHL"
+                >
+                  Chile 🇨🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CHN"
+                >
+                  China 🇨🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CXR"
+                >
+                  Christmas Island 🇨🇽
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CCK"
+                >
+                  Cocos Islands 🇨🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="COL"
+                >
+                  Colombia 🇨🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="COM"
+                >
+                  Comoros 🇰🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="COK"
+                >
+                  Cook Islands 🇨🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CRI"
+                >
+                  Costa Rica 🇨🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="HRV"
+                >
+                  Croatia 🇭🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CUB"
+                >
+                  Cuba 🇨🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CUW"
+                >
+                  Curacao 🇨🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CYP"
+                >
+                  Cyprus 🇨🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CZE"
+                >
+                  Czech Republic 🇨🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="COD"
+                >
+                  Democratic Republic of the Congo 🇨🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="DNK"
+                >
+                  Denmark 🇩🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="DJI"
+                >
+                  Djibouti 🇩🇯
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="DMA"
+                >
+                  Dominica 🇩🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="DOM"
+                >
+                  Dominican Republic 🇩🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TLS"
+                >
+                  East Timor 🇹🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ECU"
+                >
+                  Ecuador 🇪🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="EGY"
+                >
+                  Egypt 🇪🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SLV"
+                >
+                  El Salvador 🇸🇻
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GNQ"
+                >
+                  Equatorial Guinea 🇬🇶
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ERI"
+                >
+                  Eritrea 🇪🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="EST"
+                >
+                  Estonia 🇪🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ETH"
+                >
+                  Ethiopia 🇪🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="FLK"
+                >
+                  Falkland Islands 🇫🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="FRO"
+                >
+                  Faroe Islands 🇫🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="FJI"
+                >
+                  Fiji 🇫🇯
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="FIN"
+                >
+                  Finland 🇫🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="FRA"
+                >
+                  France 🇫🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GUF"
+                >
+                  French Guiana 🇬🇫
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PYF"
+                >
+                  French Polynesia 🇵🇫
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GAB"
+                >
+                  Gabon 🇬🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GMB"
+                >
+                  Gambia 🇬🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GEO"
+                >
+                  Georgia 🇬🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="DEU"
+                >
+                  Germany 🇩🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GHA"
+                >
+                  Ghana 🇬🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GIB"
+                >
+                  Gibraltar 🇬🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GRC"
+                >
+                  Greece 🇬🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GRL"
+                >
+                  Greenland 🇬🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GRD"
+                >
+                  Grenada 🇬🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GLP"
+                >
+                  Guadeloupe 🇬🇵
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GUM"
+                >
+                  Guam 🇬🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GTM"
+                >
+                  Guatemala 🇬🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GIN"
+                >
+                  Guinea 🇬🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GNB"
+                >
+                  Guinea-Bissau 🇬🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GUY"
+                >
+                  Guyana 🇬🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="HTI"
+                >
+                  Haiti 🇭🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="HND"
+                >
+                  Honduras 🇭🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="HKG"
+                >
+                  Hong Kong 🇭🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="HUN"
+                >
+                  Hungary 🇭🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ISL"
+                >
+                  Iceland 🇮🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="IND"
+                >
+                  India 🇮🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="IDN"
+                >
+                  Indonesia 🇮🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="IRN"
+                >
+                  Iran 🇮🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="IRQ"
+                >
+                  Iraq 🇮🇶
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="IRL"
+                >
+                  Ireland 🇮🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="IMN"
+                >
+                  Isle of Man 🇮🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ISR"
+                >
+                  Israel 🇮🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ITA"
+                >
+                  Italy 🇮🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CIV"
+                >
+                  Ivory Coast 🇨🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="JAM"
+                >
+                  Jamaica 🇯🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="JPN"
+                >
+                  Japan 🇯🇵
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="JEY"
+                >
+                  Jersey 🇯🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="JOR"
+                >
+                  Jordan 🇯🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KAZ"
+                >
+                  Kazakhstan 🇰🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KEN"
+                >
+                  Kenya 🇰🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KIR"
+                >
+                  Kiribati 🇰🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KWT"
+                >
+                  Kuwait 🇰🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KGZ"
+                >
+                  Kyrgyzstan 🇰🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LAO"
+                >
+                  Laos 🇱🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LVA"
+                >
+                  Latvia 🇱🇻
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LBN"
+                >
+                  Lebanon 🇱🇧
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LSO"
+                >
+                  Lesotho 🇱🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LBR"
+                >
+                  Liberia 🇱🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LBY"
+                >
+                  Libya 🇱🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LIE"
+                >
+                  Liechtenstein 🇱🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LTU"
+                >
+                  Lithuania 🇱🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LUX"
+                >
+                  Luxembourg 🇱🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MAC"
+                >
+                  Macao 🇲🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MKD"
+                >
+                  Macedonia 🇲🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MDG"
+                >
+                  Madagascar 🇲🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MWI"
+                >
+                  Malawi 🇲🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MYS"
+                >
+                  Malaysia 🇲🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MDV"
+                >
+                  Maldives 🇲🇻
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MLI"
+                >
+                  Mali 🇲🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MLT"
+                >
+                  Malta 🇲🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MHL"
+                >
+                  Marshall Islands 🇲🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MTQ"
+                >
+                  Martinique 🇲🇶
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MRT"
+                >
+                  Mauritania 🇲🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MUS"
+                >
+                  Mauritius 🇲🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MYT"
+                >
+                  Mayotte 🇾🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MEX"
+                >
+                  Mexico 🇲🇽
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="FSM"
+                >
+                  Micronesia 🇫🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MDA"
+                >
+                  Moldova 🇲🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MCO"
+                >
+                  Monaco 🇲🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MNG"
+                >
+                  Mongolia 🇲🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MNE"
+                >
+                  Montenegro 🇲🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MSR"
+                >
+                  Montserrat 🇲🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MAR"
+                >
+                  Morocco 🇲🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MOZ"
+                >
+                  Mozambique 🇲🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MMR"
+                >
+                  Myanmar 🇲🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NAM"
+                >
+                  Namibia 🇳🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NRU"
+                >
+                  Nauru 🇳🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NPL"
+                >
+                  Nepal 🇳🇵
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NLD"
+                >
+                  Netherlands 🇳🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NCL"
+                >
+                  New Caledonia 🇳🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NZL"
+                >
+                  New Zealand 🇳🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NIC"
+                >
+                  Nicaragua 🇳🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NER"
+                >
+                  Niger 🇳🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NGA"
+                >
+                  Nigeria 🇳🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NIU"
+                >
+                  Niue 🇳🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NFK"
+                >
+                  Norfolk Island 🇳🇫
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PRK"
+                >
+                  North Korea 🇰🇵
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="MNP"
+                >
+                  Northern Mariana Islands 🇲🇵
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="NOR"
+                >
+                  Norway 🇳🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="OMN"
+                >
+                  Oman 🇴🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PAK"
+                >
+                  Pakistan 🇵🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PLW"
+                >
+                  Palau 🇵🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PSE"
+                >
+                  Palestinian Territory 🇵🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PAN"
+                >
+                  Panama 🇵🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PNG"
+                >
+                  Papua New Guinea 🇵🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PRY"
+                >
+                  Paraguay 🇵🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PER"
+                >
+                  Peru 🇵🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PHL"
+                >
+                  Philippines 🇵🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PCN"
+                >
+                  Pitcairn 🇵🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="POL"
+                >
+                  Poland 🇵🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PRT"
+                >
+                  Portugal 🇵🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="PRI"
+                >
+                  Puerto Rico 🇵🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="QAT"
+                >
+                  Qatar 🇶🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="COG"
+                >
+                  Republic of the Congo 🇨🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="REU"
+                >
+                  Reunion 🇷🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ROU"
+                >
+                  Romania 🇷🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="RUS"
+                >
+                  Russia 🇷🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="RWA"
+                >
+                  Rwanda 🇷🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="BLM"
+                >
+                  Saint Barthelemy 🇧🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SHN"
+                >
+                  Saint Helena 🇸🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KNA"
+                >
+                  Saint Kitts and Nevis 🇰🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LCA"
+                >
+                  Saint Lucia 🇱🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="VCT"
+                >
+                  Saint Vincent and the Grenadines 🇻🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="WSM"
+                >
+                  Samoa 🇼🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SMR"
+                >
+                  San Marino 🇸🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="STP"
+                >
+                  Sao Tome and Principe 🇸🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SAU"
+                >
+                  Saudi Arabia 🇸🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SEN"
+                >
+                  Senegal 🇸🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SRB"
+                >
+                  Serbia 🇷🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SYC"
+                >
+                  Seychelles 🇸🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SLE"
+                >
+                  Sierra Leone 🇸🇱
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SGP"
+                >
+                  Singapore 🇸🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SXM"
+                >
+                  Sint Maarten 🇸🇽
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SVK"
+                >
+                  Slovakia 🇸🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SVN"
+                >
+                  Slovenia 🇸🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SLB"
+                >
+                  Solomon Islands 🇸🇧
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SOM"
+                >
+                  Somalia 🇸🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ZAF"
+                >
+                  South Africa 🇿🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="KOR"
+                >
+                  South Korea 🇰🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SSD"
+                >
+                  South Sudan 🇸🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ESP"
+                >
+                  Spain 🇪🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="LKA"
+                >
+                  Sri Lanka 🇱🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SDN"
+                >
+                  Sudan 🇸🇩
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SUR"
+                >
+                  Suriname 🇸🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SJM"
+                >
+                  Svalbard and Jan Mayen 🇸🇯
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SWZ"
+                >
+                  Swaziland 🇸🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SWE"
+                >
+                  Sweden 🇸🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="CHE"
+                >
+                  Switzerland 🇨🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="SYR"
+                >
+                  Syria 🇸🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TWN"
+                >
+                  Taiwan 🇹🇼
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TJK"
+                >
+                  Tajikistan 🇹🇯
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TZA"
+                >
+                  Tanzania 🇹🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="THA"
+                >
+                  Thailand 🇹🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TGO"
+                >
+                  Togo 🇹🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TKL"
+                >
+                  Tokelau 🇹🇰
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TON"
+                >
+                  Tonga 🇹🇴
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TTO"
+                >
+                  Trinidad and Tobago 🇹🇹
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TUN"
+                >
+                  Tunisia 🇹🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TUR"
+                >
+                  Turkey 🇹🇷
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TKM"
+                >
+                  Turkmenistan 🇹🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TCA"
+                >
+                  Turks and Caicos Islands 🇹🇨
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="TUV"
+                >
+                  Tuvalu 🇹🇻
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="VIR"
+                >
+                  U.S. Virgin Islands 🇻🇮
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="UGA"
+                >
+                  Uganda 🇺🇬
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="UKR"
+                >
+                  Ukraine 🇺🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ARE"
+                >
+                  United Arab Emirates 🇦🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="GBR"
+                >
+                  United Kingdom 🇬🇧
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="USA"
+                >
+                  United States 🇺🇸
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="UMI"
+                >
+                  United States Minor Outlying Islands 🇺🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="URY"
+                >
+                  Uruguay 🇺🇾
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="UZB"
+                >
+                  Uzbekistan 🇺🇿
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="VUT"
+                >
+                  Vanuatu 🇻🇺
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="VAT"
+                >
+                  Vatican 🇻🇦
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="VEN"
+                >
+                  Venezuela 🇻🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="VNM"
+                >
+                  Vietnam 🇻🇳
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="WLF"
+                >
+                  Wallis and Futuna 🇼🇫
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ESH"
+                >
+                  Western Sahara 🇪🇭
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="YEM"
+                >
+                  Yemen 🇾🇪
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ZMB"
+                >
+                  Zambia 🇿🇲
+                </option>
+                <option
+                  data-test-id="Form"
+                  value="ZWE"
+                >
+                  Zimbabwe 🇿🇼
+                </option>
+              </select>
+            </label>
+            <div
+              class=" emotion-4 emotion-5"
+            >
+              <input
+                autocomplete="tel"
+                class="masked"
+                data-test-id="MaskedInput"
+                id="phone-number-3"
+                name="phone.search"
+                placeholder="Phone Number (required)"
+                type="tel"
+                value=""
+              />
+              <label
+                class="emotion-6 emotion-7"
+                for="phone-number-3"
+              >
+                Phone Number (required)
+              </label>
+            </div>
+          </span>
+          <p
+            class="emotion-22 emotion-23"
+          >
+            Country (US delivery only)
+            <br />
+            United States
+          </p>
+          <div
+            class=" emotion-4 emotion-5"
+          >
+            <input
+              autocomplete="address-line1"
+              id="address-4"
+              name="address1.search"
+              placeholder="Address (required)"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-6 emotion-7"
+              for="address-4"
+            >
+              Address (required - PO boxes not accepted)
+            </label>
+          </div>
+          <div
+            class=" emotion-4 emotion-5"
+          >
+            <input
+              autocomplete="address-line2"
+              id="apt-/-suite-/-floor-5"
+              name="address2.search"
+              placeholder="Apt / Suite / Floor "
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-6 emotion-7"
+              for="apt-/-suite-/-floor-5"
+            >
+              Apt / Suite / Floor 
+            </label>
+          </div>
+          <div
+            class=" emotion-4 emotion-5"
+          >
+            <input
+              autocomplete="address-level2"
+              id="city-6"
+              name="city.search"
+              placeholder="City (required)"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-6 emotion-7"
+              for="city-6"
+            >
+              City (required)
+            </label>
+          </div>
+          <div
+            class=" emotion-4 emotion-5"
+          >
+            <input
+              autocomplete="postal-code"
+              id="zipcode-7"
+              name="zipcode.search"
+              placeholder="Zipcode (required)"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-6 emotion-7"
+              for="zipcode-7"
+            >
+              Zipcode (required)
+            </label>
+          </div>
+          <div
+            class=" emotion-40 emotion-41 emotion-42"
+            data-test-id="Select"
+          >
+            <select
+              autocomplete="address-level1"
+              class="emotion-43 emotion-44"
+              id="state-8"
+              label="State (required)"
+              name="state_name.search"
+              placeholder=""
+            >
+              <option
+                disabled=""
+                value=""
+              >
+                -- Select State --
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="AL"
+              >
+                Alabama
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="AK"
+              >
+                Alaska
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="AS"
+              >
+                American Samoa
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="AZ"
+              >
+                Arizona
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="AR"
+              >
+                Arkansas
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="CA"
+              >
+                California
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="CO"
+              >
+                Colorado
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="CT"
+              >
+                Connecticut
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="DE"
+              >
+                Delaware
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="DC"
+              >
+                District Of Columbia
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="FL"
+              >
+                Florida
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="GA"
+              >
+                Georgia
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="HI"
+              >
+                Hawaii
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="ID"
+              >
+                Idaho
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="IL"
+              >
+                Illinois
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="IN"
+              >
+                Indiana
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="IA"
+              >
+                Iowa
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="KS"
+              >
+                Kansas
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="KY"
+              >
+                Kentucky
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="LA"
+              >
+                Louisiana
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="ME"
+              >
+                Maine
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="MD"
+              >
+                Maryland
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="MA"
+              >
+                Massachusetts
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="MI"
+              >
+                Michigan
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="MN"
+              >
+                Minnesota
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="MS"
+              >
+                Mississippi
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="MO"
+              >
+                Missouri
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="MT"
+              >
+                Montana
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="NE"
+              >
+                Nebraska
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="NV"
+              >
+                Nevada
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="NH"
+              >
+                New Hampshire
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="NJ"
+              >
+                New Jersey
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="NM"
+              >
+                New Mexico
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="NY"
+              >
+                New York
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="NC"
+              >
+                North Carolina
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="ND"
+              >
+                North Dakota
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="OH"
+              >
+                Ohio
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="OK"
+              >
+                Oklahoma
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="OR"
+              >
+                Oregon
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="PA"
+              >
+                Pennsylvania
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="RI"
+              >
+                Rhode Island
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="SC"
+              >
+                South Carolina
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="SD"
+              >
+                South Dakota
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="TN"
+              >
+                Tennessee
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="TX"
+              >
+                Texas
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="UM"
+              >
+                United States Minor Outlying Islands
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="UT"
+              >
+                Utah
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="VT"
+              >
+                Vermont
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="VI"
+              >
+                Virgin Islands
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="VA"
+              >
+                Virginia
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="WA"
+              >
+                Washington
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="WV"
+              >
+                West Virginia
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="WI"
+              >
+                Wisconsin
+              </option>
+              <option
+                data-test-id="renderStateOptions"
+                value="WY"
+              >
+                Wyoming
+              </option>
+            </select>
+            <label
+              class="emotion-45 emotion-46"
+              for="state-8"
+            >
+              State (required)
+            </label>
+          </div>
+        </div>
+        <button
+          class="emotion-47 emotion-48 emotion-49"
+          type="button"
+        >
+          Add Address
+        </button>
+      </div>
+    </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=undefined&libraries=places"
+    />
+  </body>,
+  "container": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .2rem 0;
+  position: relative;
+}
+
+.emotion-4 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-4 input::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-4 input:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-4 input::invalid {
+  box-shadow: none;
+}
+
+.emotion-4 input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-4 input~.emotion-4 input {
+  margin-top: 1rem;
+}
+
+@media (max-width:992px) {
+  .emotion-4 input {
+    font-size: 16px;
+  }
+}
+
+.emotion-4 input.masked-mobile {
+  padding-left: 8.5rem;
+}
+
+.emotion-4 input.masked {
+  padding-left: 8.5rem;
+}
+
+.emotion-4 .e11k6jdq0+input {
+  border: 0.2rem solid transparent;
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-4 .e11k6jdq0+input::-webkit-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-4 .e11k6jdq0+input::-moz-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-4 .e11k6jdq0+input:-ms-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-4 .e11k6jdq0+input::placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-14 {
+  height: 3.4rem;
+  left: 0;
+  margin-left: 1rem;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  top: calc(50% + 1.2rem);
+  width: 7rem;
+  z-index: 1;
+}
+
+.emotion-14>span {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 0;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 100%;
+  left: 0;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline: 0;
+  outline-color: #9CB1DC;
+  padding-right: 3rem;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.emotion-16 {
+  height: 100%;
+  width: 100%;
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  grid-column: 1/-1;
+  padding-top: 1rem;
+  line-height: 2.5rem;
+}
+
+.emotion-41 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .2rem 0;
+  position: relative;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44 {
+  border: 0.2rem solid transparent;
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44::-webkit-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44::-moz-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44:-ms-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41 .e1pn86px1+.emotion-44::placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-41>label {
+  -webkit-letter-spacing: inherit;
+  -moz-letter-spacing: inherit;
+  -ms-letter-spacing: inherit;
+  letter-spacing: inherit;
+}
+
+.emotion-43 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-43::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-43:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-43~.emotion-43 {
+  margin-top: 1rem;
+}
+
+.emotion-45 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.emotion-48 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  outline: 0;
+}
+
+.emotion-48:active {
+  outline: 0;
+}
+
+.emotion-48:hover {
+  opacity: 0.75;
+}
+
+.emotion-48[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+@media (min-width:768px) {
+  .emotion-48 {
+    grid-column: -1/1;
+  }
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="AddressCreateNew"
+      role="form"
+    >
+      <div
+        class="emotion-2 emotion-3"
+        data-test-id="-address-form"
+      >
+        <div
+          class=" emotion-4 emotion-5"
+        >
+          <input
+            autocomplete="given-name"
+            id="first-name-1"
+            name="first_name.search"
+            placeholder="First Name (required)"
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-6 emotion-7"
+            for="first-name-1"
+          >
+            First Name (required)
+          </label>
+        </div>
+        <div
+          class=" emotion-4 emotion-5"
+        >
+          <input
+            autocomplete="family-name"
+            id="last-name-2"
+            name="last_name.search"
+            placeholder="Last Name (required)"
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-6 emotion-7"
+            for="last-name-2"
+          >
+            Last Name (required)
+          </label>
+        </div>
+        <span
+          class="emotion-12 emotion-13"
+        >
+          <label
+            class="emotion-14 emotion-15"
+          >
+            <span>
+              USA 🇺🇸
+            </span>
+            <select
+              autocomplete="no-autocomplete"
+              class="emotion-16 emotion-17"
+              label="Country Phone"
+              name="country_phone.search"
+            >
+              <option
+                data-test-id="Form"
+                value="AFG"
+              >
+                Afghanistan 🇦🇫
+              </option>
+              <option
+                data-test-id="Form"
+                value="ALA"
+              >
+                Aland Islands 🇦🇽
+              </option>
+              <option
+                data-test-id="Form"
+                value="ALB"
+              >
+                Albania 🇦🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="DZA"
+              >
+                Algeria 🇩🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="ASM"
+              >
+                American Samoa 🇦🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="AND"
+              >
+                Andorra 🇦🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="AGO"
+              >
+                Angola 🇦🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="AIA"
+              >
+                Anguilla 🇦🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="ATA"
+              >
+                Antarctica 🇦🇶
+              </option>
+              <option
+                data-test-id="Form"
+                value="ATG"
+              >
+                Antigua and Barbuda 🇦🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="ARG"
+              >
+                Argentina 🇦🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="ARM"
+              >
+                Armenia 🇦🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="ABW"
+              >
+                Aruba 🇦🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="AUS"
+              >
+                Australia 🇦🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="AUT"
+              >
+                Austria 🇦🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="AZE"
+              >
+                Azerbaijan 🇦🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="BHS"
+              >
+                Bahamas 🇧🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="BHR"
+              >
+                Bahrain 🇧🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="BGD"
+              >
+                Bangladesh 🇧🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="BRB"
+              >
+                Barbados 🇧🇧
+              </option>
+              <option
+                data-test-id="Form"
+                value="BLR"
+              >
+                Belarus 🇧🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="BEL"
+              >
+                Belgium 🇧🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="BLZ"
+              >
+                Belize 🇧🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="BEN"
+              >
+                Benin 🇧🇯
+              </option>
+              <option
+                data-test-id="Form"
+                value="BMU"
+              >
+                Bermuda 🇧🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="BTN"
+              >
+                Bhutan 🇧🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="BOL"
+              >
+                Bolivia 🇧🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="BES"
+              >
+                Bonaire," ",Saint Eustatius and Saba  🇧🇶
+              </option>
+              <option
+                data-test-id="Form"
+                value="BIH"
+              >
+                Bosnia and Herzegovina 🇧🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="BWA"
+              >
+                Botswana 🇧🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="BRA"
+              >
+                Brazil 🇧🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="IOT"
+              >
+                British Indian Ocean Territory 🇮🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="VGB"
+              >
+                British Virgin Islands 🇻🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="BRN"
+              >
+                Brunei 🇧🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="BGR"
+              >
+                Bulgaria 🇧🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="BFA"
+              >
+                Burkina Faso 🇧🇫
+              </option>
+              <option
+                data-test-id="Form"
+                value="BDI"
+              >
+                Burundi 🇧🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="KHM"
+              >
+                Cambodia 🇰🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="CMR"
+              >
+                Cameroon 🇨🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="CAN"
+              >
+                Canada 🇨🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="CPV"
+              >
+                Cape Verde 🇨🇻
+              </option>
+              <option
+                data-test-id="Form"
+                value="CYM"
+              >
+                Cayman Islands 🇰🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="CAF"
+              >
+                Central African Republic 🇨🇫
+              </option>
+              <option
+                data-test-id="Form"
+                value="TCD"
+              >
+                Chad 🇹🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="CHL"
+              >
+                Chile 🇨🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="CHN"
+              >
+                China 🇨🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="CXR"
+              >
+                Christmas Island 🇨🇽
+              </option>
+              <option
+                data-test-id="Form"
+                value="CCK"
+              >
+                Cocos Islands 🇨🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="COL"
+              >
+                Colombia 🇨🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="COM"
+              >
+                Comoros 🇰🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="COK"
+              >
+                Cook Islands 🇨🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="CRI"
+              >
+                Costa Rica 🇨🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="HRV"
+              >
+                Croatia 🇭🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="CUB"
+              >
+                Cuba 🇨🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="CUW"
+              >
+                Curacao 🇨🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="CYP"
+              >
+                Cyprus 🇨🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="CZE"
+              >
+                Czech Republic 🇨🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="COD"
+              >
+                Democratic Republic of the Congo 🇨🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="DNK"
+              >
+                Denmark 🇩🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="DJI"
+              >
+                Djibouti 🇩🇯
+              </option>
+              <option
+                data-test-id="Form"
+                value="DMA"
+              >
+                Dominica 🇩🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="DOM"
+              >
+                Dominican Republic 🇩🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="TLS"
+              >
+                East Timor 🇹🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="ECU"
+              >
+                Ecuador 🇪🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="EGY"
+              >
+                Egypt 🇪🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="SLV"
+              >
+                El Salvador 🇸🇻
+              </option>
+              <option
+                data-test-id="Form"
+                value="GNQ"
+              >
+                Equatorial Guinea 🇬🇶
+              </option>
+              <option
+                data-test-id="Form"
+                value="ERI"
+              >
+                Eritrea 🇪🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="EST"
+              >
+                Estonia 🇪🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="ETH"
+              >
+                Ethiopia 🇪🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="FLK"
+              >
+                Falkland Islands 🇫🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="FRO"
+              >
+                Faroe Islands 🇫🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="FJI"
+              >
+                Fiji 🇫🇯
+              </option>
+              <option
+                data-test-id="Form"
+                value="FIN"
+              >
+                Finland 🇫🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="FRA"
+              >
+                France 🇫🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="GUF"
+              >
+                French Guiana 🇬🇫
+              </option>
+              <option
+                data-test-id="Form"
+                value="PYF"
+              >
+                French Polynesia 🇵🇫
+              </option>
+              <option
+                data-test-id="Form"
+                value="GAB"
+              >
+                Gabon 🇬🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="GMB"
+              >
+                Gambia 🇬🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="GEO"
+              >
+                Georgia 🇬🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="DEU"
+              >
+                Germany 🇩🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="GHA"
+              >
+                Ghana 🇬🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="GIB"
+              >
+                Gibraltar 🇬🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="GRC"
+              >
+                Greece 🇬🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="GRL"
+              >
+                Greenland 🇬🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="GRD"
+              >
+                Grenada 🇬🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="GLP"
+              >
+                Guadeloupe 🇬🇵
+              </option>
+              <option
+                data-test-id="Form"
+                value="GUM"
+              >
+                Guam 🇬🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="GTM"
+              >
+                Guatemala 🇬🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="GIN"
+              >
+                Guinea 🇬🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="GNB"
+              >
+                Guinea-Bissau 🇬🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="GUY"
+              >
+                Guyana 🇬🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="HTI"
+              >
+                Haiti 🇭🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="HND"
+              >
+                Honduras 🇭🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="HKG"
+              >
+                Hong Kong 🇭🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="HUN"
+              >
+                Hungary 🇭🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="ISL"
+              >
+                Iceland 🇮🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="IND"
+              >
+                India 🇮🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="IDN"
+              >
+                Indonesia 🇮🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="IRN"
+              >
+                Iran 🇮🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="IRQ"
+              >
+                Iraq 🇮🇶
+              </option>
+              <option
+                data-test-id="Form"
+                value="IRL"
+              >
+                Ireland 🇮🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="IMN"
+              >
+                Isle of Man 🇮🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="ISR"
+              >
+                Israel 🇮🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="ITA"
+              >
+                Italy 🇮🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="CIV"
+              >
+                Ivory Coast 🇨🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="JAM"
+              >
+                Jamaica 🇯🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="JPN"
+              >
+                Japan 🇯🇵
+              </option>
+              <option
+                data-test-id="Form"
+                value="JEY"
+              >
+                Jersey 🇯🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="JOR"
+              >
+                Jordan 🇯🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="KAZ"
+              >
+                Kazakhstan 🇰🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="KEN"
+              >
+                Kenya 🇰🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="KIR"
+              >
+                Kiribati 🇰🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="KWT"
+              >
+                Kuwait 🇰🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="KGZ"
+              >
+                Kyrgyzstan 🇰🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="LAO"
+              >
+                Laos 🇱🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="LVA"
+              >
+                Latvia 🇱🇻
+              </option>
+              <option
+                data-test-id="Form"
+                value="LBN"
+              >
+                Lebanon 🇱🇧
+              </option>
+              <option
+                data-test-id="Form"
+                value="LSO"
+              >
+                Lesotho 🇱🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="LBR"
+              >
+                Liberia 🇱🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="LBY"
+              >
+                Libya 🇱🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="LIE"
+              >
+                Liechtenstein 🇱🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="LTU"
+              >
+                Lithuania 🇱🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="LUX"
+              >
+                Luxembourg 🇱🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="MAC"
+              >
+                Macao 🇲🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="MKD"
+              >
+                Macedonia 🇲🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="MDG"
+              >
+                Madagascar 🇲🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="MWI"
+              >
+                Malawi 🇲🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="MYS"
+              >
+                Malaysia 🇲🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="MDV"
+              >
+                Maldives 🇲🇻
+              </option>
+              <option
+                data-test-id="Form"
+                value="MLI"
+              >
+                Mali 🇲🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="MLT"
+              >
+                Malta 🇲🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="MHL"
+              >
+                Marshall Islands 🇲🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="MTQ"
+              >
+                Martinique 🇲🇶
+              </option>
+              <option
+                data-test-id="Form"
+                value="MRT"
+              >
+                Mauritania 🇲🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="MUS"
+              >
+                Mauritius 🇲🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="MYT"
+              >
+                Mayotte 🇾🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="MEX"
+              >
+                Mexico 🇲🇽
+              </option>
+              <option
+                data-test-id="Form"
+                value="FSM"
+              >
+                Micronesia 🇫🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="MDA"
+              >
+                Moldova 🇲🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="MCO"
+              >
+                Monaco 🇲🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="MNG"
+              >
+                Mongolia 🇲🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="MNE"
+              >
+                Montenegro 🇲🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="MSR"
+              >
+                Montserrat 🇲🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="MAR"
+              >
+                Morocco 🇲🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="MOZ"
+              >
+                Mozambique 🇲🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="MMR"
+              >
+                Myanmar 🇲🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="NAM"
+              >
+                Namibia 🇳🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="NRU"
+              >
+                Nauru 🇳🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="NPL"
+              >
+                Nepal 🇳🇵
+              </option>
+              <option
+                data-test-id="Form"
+                value="NLD"
+              >
+                Netherlands 🇳🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="NCL"
+              >
+                New Caledonia 🇳🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="NZL"
+              >
+                New Zealand 🇳🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="NIC"
+              >
+                Nicaragua 🇳🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="NER"
+              >
+                Niger 🇳🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="NGA"
+              >
+                Nigeria 🇳🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="NIU"
+              >
+                Niue 🇳🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="NFK"
+              >
+                Norfolk Island 🇳🇫
+              </option>
+              <option
+                data-test-id="Form"
+                value="PRK"
+              >
+                North Korea 🇰🇵
+              </option>
+              <option
+                data-test-id="Form"
+                value="MNP"
+              >
+                Northern Mariana Islands 🇲🇵
+              </option>
+              <option
+                data-test-id="Form"
+                value="NOR"
+              >
+                Norway 🇳🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="OMN"
+              >
+                Oman 🇴🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="PAK"
+              >
+                Pakistan 🇵🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="PLW"
+              >
+                Palau 🇵🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="PSE"
+              >
+                Palestinian Territory 🇵🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="PAN"
+              >
+                Panama 🇵🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="PNG"
+              >
+                Papua New Guinea 🇵🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="PRY"
+              >
+                Paraguay 🇵🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="PER"
+              >
+                Peru 🇵🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="PHL"
+              >
+                Philippines 🇵🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="PCN"
+              >
+                Pitcairn 🇵🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="POL"
+              >
+                Poland 🇵🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="PRT"
+              >
+                Portugal 🇵🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="PRI"
+              >
+                Puerto Rico 🇵🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="QAT"
+              >
+                Qatar 🇶🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="COG"
+              >
+                Republic of the Congo 🇨🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="REU"
+              >
+                Reunion 🇷🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="ROU"
+              >
+                Romania 🇷🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="RUS"
+              >
+                Russia 🇷🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="RWA"
+              >
+                Rwanda 🇷🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="BLM"
+              >
+                Saint Barthelemy 🇧🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="SHN"
+              >
+                Saint Helena 🇸🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="KNA"
+              >
+                Saint Kitts and Nevis 🇰🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="LCA"
+              >
+                Saint Lucia 🇱🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="VCT"
+              >
+                Saint Vincent and the Grenadines 🇻🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="WSM"
+              >
+                Samoa 🇼🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="SMR"
+              >
+                San Marino 🇸🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="STP"
+              >
+                Sao Tome and Principe 🇸🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="SAU"
+              >
+                Saudi Arabia 🇸🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="SEN"
+              >
+                Senegal 🇸🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="SRB"
+              >
+                Serbia 🇷🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="SYC"
+              >
+                Seychelles 🇸🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="SLE"
+              >
+                Sierra Leone 🇸🇱
+              </option>
+              <option
+                data-test-id="Form"
+                value="SGP"
+              >
+                Singapore 🇸🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="SXM"
+              >
+                Sint Maarten 🇸🇽
+              </option>
+              <option
+                data-test-id="Form"
+                value="SVK"
+              >
+                Slovakia 🇸🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="SVN"
+              >
+                Slovenia 🇸🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="SLB"
+              >
+                Solomon Islands 🇸🇧
+              </option>
+              <option
+                data-test-id="Form"
+                value="SOM"
+              >
+                Somalia 🇸🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="ZAF"
+              >
+                South Africa 🇿🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="KOR"
+              >
+                South Korea 🇰🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="SSD"
+              >
+                South Sudan 🇸🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="ESP"
+              >
+                Spain 🇪🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="LKA"
+              >
+                Sri Lanka 🇱🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="SDN"
+              >
+                Sudan 🇸🇩
+              </option>
+              <option
+                data-test-id="Form"
+                value="SUR"
+              >
+                Suriname 🇸🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="SJM"
+              >
+                Svalbard and Jan Mayen 🇸🇯
+              </option>
+              <option
+                data-test-id="Form"
+                value="SWZ"
+              >
+                Swaziland 🇸🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="SWE"
+              >
+                Sweden 🇸🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="CHE"
+              >
+                Switzerland 🇨🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="SYR"
+              >
+                Syria 🇸🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="TWN"
+              >
+                Taiwan 🇹🇼
+              </option>
+              <option
+                data-test-id="Form"
+                value="TJK"
+              >
+                Tajikistan 🇹🇯
+              </option>
+              <option
+                data-test-id="Form"
+                value="TZA"
+              >
+                Tanzania 🇹🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="THA"
+              >
+                Thailand 🇹🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="TGO"
+              >
+                Togo 🇹🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="TKL"
+              >
+                Tokelau 🇹🇰
+              </option>
+              <option
+                data-test-id="Form"
+                value="TON"
+              >
+                Tonga 🇹🇴
+              </option>
+              <option
+                data-test-id="Form"
+                value="TTO"
+              >
+                Trinidad and Tobago 🇹🇹
+              </option>
+              <option
+                data-test-id="Form"
+                value="TUN"
+              >
+                Tunisia 🇹🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="TUR"
+              >
+                Turkey 🇹🇷
+              </option>
+              <option
+                data-test-id="Form"
+                value="TKM"
+              >
+                Turkmenistan 🇹🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="TCA"
+              >
+                Turks and Caicos Islands 🇹🇨
+              </option>
+              <option
+                data-test-id="Form"
+                value="TUV"
+              >
+                Tuvalu 🇹🇻
+              </option>
+              <option
+                data-test-id="Form"
+                value="VIR"
+              >
+                U.S. Virgin Islands 🇻🇮
+              </option>
+              <option
+                data-test-id="Form"
+                value="UGA"
+              >
+                Uganda 🇺🇬
+              </option>
+              <option
+                data-test-id="Form"
+                value="UKR"
+              >
+                Ukraine 🇺🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="ARE"
+              >
+                United Arab Emirates 🇦🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="GBR"
+              >
+                United Kingdom 🇬🇧
+              </option>
+              <option
+                data-test-id="Form"
+                value="USA"
+              >
+                United States 🇺🇸
+              </option>
+              <option
+                data-test-id="Form"
+                value="UMI"
+              >
+                United States Minor Outlying Islands 🇺🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="URY"
+              >
+                Uruguay 🇺🇾
+              </option>
+              <option
+                data-test-id="Form"
+                value="UZB"
+              >
+                Uzbekistan 🇺🇿
+              </option>
+              <option
+                data-test-id="Form"
+                value="VUT"
+              >
+                Vanuatu 🇻🇺
+              </option>
+              <option
+                data-test-id="Form"
+                value="VAT"
+              >
+                Vatican 🇻🇦
+              </option>
+              <option
+                data-test-id="Form"
+                value="VEN"
+              >
+                Venezuela 🇻🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="VNM"
+              >
+                Vietnam 🇻🇳
+              </option>
+              <option
+                data-test-id="Form"
+                value="WLF"
+              >
+                Wallis and Futuna 🇼🇫
+              </option>
+              <option
+                data-test-id="Form"
+                value="ESH"
+              >
+                Western Sahara 🇪🇭
+              </option>
+              <option
+                data-test-id="Form"
+                value="YEM"
+              >
+                Yemen 🇾🇪
+              </option>
+              <option
+                data-test-id="Form"
+                value="ZMB"
+              >
+                Zambia 🇿🇲
+              </option>
+              <option
+                data-test-id="Form"
+                value="ZWE"
+              >
+                Zimbabwe 🇿🇼
+              </option>
+            </select>
+          </label>
+          <div
+            class=" emotion-4 emotion-5"
+          >
+            <input
+              autocomplete="tel"
+              class="masked"
+              data-test-id="MaskedInput"
+              id="phone-number-3"
+              name="phone.search"
+              placeholder="Phone Number (required)"
+              type="tel"
+              value=""
+            />
+            <label
+              class="emotion-6 emotion-7"
+              for="phone-number-3"
+            >
+              Phone Number (required)
+            </label>
+          </div>
+        </span>
+        <p
+          class="emotion-22 emotion-23"
+        >
+          Country (US delivery only)
+          <br />
+          United States
+        </p>
+        <div
+          class=" emotion-4 emotion-5"
+        >
+          <input
+            autocomplete="address-line1"
+            id="address-4"
+            name="address1.search"
+            placeholder="Address (required)"
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-6 emotion-7"
+            for="address-4"
+          >
+            Address (required - PO boxes not accepted)
+          </label>
+        </div>
+        <div
+          class=" emotion-4 emotion-5"
+        >
+          <input
+            autocomplete="address-line2"
+            id="apt-/-suite-/-floor-5"
+            name="address2.search"
+            placeholder="Apt / Suite / Floor "
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-6 emotion-7"
+            for="apt-/-suite-/-floor-5"
+          >
+            Apt / Suite / Floor 
+          </label>
+        </div>
+        <div
+          class=" emotion-4 emotion-5"
+        >
+          <input
+            autocomplete="address-level2"
+            id="city-6"
+            name="city.search"
+            placeholder="City (required)"
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-6 emotion-7"
+            for="city-6"
+          >
+            City (required)
+          </label>
+        </div>
+        <div
+          class=" emotion-4 emotion-5"
+        >
+          <input
+            autocomplete="postal-code"
+            id="zipcode-7"
+            name="zipcode.search"
+            placeholder="Zipcode (required)"
+            type="text"
+            value=""
+          />
+          <label
+            class="emotion-6 emotion-7"
+            for="zipcode-7"
+          >
+            Zipcode (required)
+          </label>
+        </div>
+        <div
+          class=" emotion-40 emotion-41 emotion-42"
+          data-test-id="Select"
+        >
+          <select
+            autocomplete="address-level1"
+            class="emotion-43 emotion-44"
+            id="state-8"
+            label="State (required)"
+            name="state_name.search"
+            placeholder=""
+          >
+            <option
+              disabled=""
+              value=""
+            >
+              -- Select State --
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="AL"
+            >
+              Alabama
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="AK"
+            >
+              Alaska
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="AS"
+            >
+              American Samoa
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="AZ"
+            >
+              Arizona
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="AR"
+            >
+              Arkansas
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="CA"
+            >
+              California
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="CO"
+            >
+              Colorado
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="CT"
+            >
+              Connecticut
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="DE"
+            >
+              Delaware
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="DC"
+            >
+              District Of Columbia
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="FL"
+            >
+              Florida
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="GA"
+            >
+              Georgia
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="HI"
+            >
+              Hawaii
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="ID"
+            >
+              Idaho
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="IL"
+            >
+              Illinois
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="IN"
+            >
+              Indiana
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="IA"
+            >
+              Iowa
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="KS"
+            >
+              Kansas
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="KY"
+            >
+              Kentucky
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="LA"
+            >
+              Louisiana
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="ME"
+            >
+              Maine
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="MD"
+            >
+              Maryland
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="MA"
+            >
+              Massachusetts
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="MI"
+            >
+              Michigan
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="MN"
+            >
+              Minnesota
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="MS"
+            >
+              Mississippi
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="MO"
+            >
+              Missouri
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="MT"
+            >
+              Montana
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="NE"
+            >
+              Nebraska
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="NV"
+            >
+              Nevada
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="NH"
+            >
+              New Hampshire
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="NJ"
+            >
+              New Jersey
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="NM"
+            >
+              New Mexico
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="NY"
+            >
+              New York
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="NC"
+            >
+              North Carolina
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="ND"
+            >
+              North Dakota
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="OH"
+            >
+              Ohio
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="OK"
+            >
+              Oklahoma
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="OR"
+            >
+              Oregon
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="PA"
+            >
+              Pennsylvania
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="RI"
+            >
+              Rhode Island
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="SC"
+            >
+              South Carolina
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="SD"
+            >
+              South Dakota
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="TN"
+            >
+              Tennessee
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="TX"
+            >
+              Texas
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="UM"
+            >
+              United States Minor Outlying Islands
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="UT"
+            >
+              Utah
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="VT"
+            >
+              Vermont
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="VI"
+            >
+              Virgin Islands
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="VA"
+            >
+              Virginia
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="WA"
+            >
+              Washington
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="WV"
+            >
+              West Virginia
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="WI"
+            >
+              Wisconsin
+            </option>
+            <option
+              data-test-id="renderStateOptions"
+              value="WY"
+            >
+              Wyoming
+            </option>
+          </select>
+          <label
+            class="emotion-45 emotion-46"
+            for="state-8"
+          >
+            State (required)
+          </label>
+        </div>
+      </div>
+      <button
+        class="emotion-47 emotion-48 emotion-49"
+        type="button"
+      >
+        Add Address
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -60,6 +60,7 @@ export const updateShareableListStatus = (status) => (dispatch) =>
 
 export const updateShareableList = (newShareableList) => (dispatch) =>
   dispatch({
+
     type: types.LISTS_UPDATE_SHAREABLE_LIST,
     newShareableList
   });
