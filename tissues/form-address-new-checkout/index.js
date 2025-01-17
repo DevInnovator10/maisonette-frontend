@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
+
 import Typography from '../../atoms/typography';
 
 import theme from '../../theme/theme';
