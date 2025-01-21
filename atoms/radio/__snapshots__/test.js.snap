@@ -177,6 +177,7 @@ Object {
   "getByText": [Function],
   "getByTitle": [Function],
   "queryAllByAltText": [Function],
+
   "queryAllByDisplayValue": [Function],
   "queryAllByLabelText": [Function],
   "queryAllByPlaceholderText": [Function],

@@ -7,7 +7,7 @@ import Link from '../../utils/link';
 import Typography from '../../atoms/typography';
 
 const Brand = styled(Typography, { shouldForwardProp: (prop) => prop !== 'newcheckout' })`
-  color: #5971B4;
+    color: #5971B4;
   display: inline-block;
   line-height: 2rem;
   text-decoration: none;

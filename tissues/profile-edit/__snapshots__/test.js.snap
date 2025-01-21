@@ -1,0 +1,799 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the profile edit form renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.emotion-0 input {
+  outline: 0;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.emotion-4 {
+  grid-column: -1/1;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-4 {
+    grid-column: auto;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .2rem 0;
+  position: relative;
+}
+
+.emotion-6 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-6 input::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-6 input::invalid {
+  box-shadow: none;
+}
+
+.emotion-6 input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-6 input~.emotion-6 input {
+  margin-top: 1rem;
+}
+
+@media (max-width:992px) {
+  .emotion-6 input {
+    font-size: 16px;
+  }
+}
+
+.emotion-6 input.masked-mobile {
+  padding-left: 8.5rem;
+}
+
+.emotion-6 input.masked {
+  padding-left: 8.5rem;
+}
+
+.emotion-6 .e11k6jdq0+input {
+  border: 0.2rem solid transparent;
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-6 .e11k6jdq0+input::-webkit-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 .e11k6jdq0+input::-moz-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 .e11k6jdq0+input:-ms-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 .e11k6jdq0+input::placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.emotion-16 {
+  grid-column: 1/span 2;
+}
+
+.emotion-24 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 1;
+  margin-top: 3rem;
+  grid-column: 1/span 2;
+}
+
+.emotion-45 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  outline: 0;
+  width: 100%;
+}
+
+.emotion-45:active {
+  outline: 0;
+}
+
+.emotion-45:hover {
+  opacity: 0.75;
+}
+
+.emotion-45[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <form
+
+        action="#"
+        class="emotion-0 emotion-1"
+        data-test-id="AccountEdit"
+      >
+        <div
+          class="emotion-2 emotion-3"
+          role="group"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class=" emotion-6 emotion-7"
+            >
+              <input
+                autocomplete="given-name"
+                id="account-fname"
+                name="first_name"
+                placeholder="John"
+                type="text"
+                value=""
+              />
+              <label
+                class="emotion-8 emotion-9"
+                for="account-fname"
+              >
+                First Name (required)
+              </label>
+            </div>
+          </div>
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class=" emotion-6 emotion-7"
+            >
+              <input
+                autocomplete="family-name"
+                id="account-lname"
+                name="last_name"
+                placeholder="Smith"
+                type="text"
+                value=""
+              />
+              <label
+                class="emotion-8 emotion-9"
+                for="account-lname"
+              >
+                Last Name (required)
+              </label>
+            </div>
+          </div>
+          <div
+            class="emotion-16 emotion-17"
+          >
+            <div
+              class=" emotion-6 emotion-7"
+            >
+              <input
+                autocomplete="username"
+                id="account-email"
+                name="email"
+                placeholder="email@example.com"
+                type="email"
+                value="email9@example.com"
+              />
+              <label
+                class="emotion-8 emotion-9"
+                for="account-email"
+              >
+                Email Address (required)
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-2 emotion-3"
+          role="group"
+        >
+          <legend
+            class="emotion-24 emotion-25"
+          >
+            Change Password
+          </legend>
+          <div
+            class="emotion-16 emotion-17"
+          >
+            <div
+              class=" emotion-6 emotion-7"
+            >
+              <input
+                autocomplete="current-password"
+                id="account-password"
+                name="current_password"
+                placeholder="••••••••"
+                type="password"
+                value=""
+              />
+              <label
+                class="emotion-8 emotion-9"
+                for="account-password"
+              >
+                Current Password
+              </label>
+            </div>
+          </div>
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class=" emotion-6 emotion-7"
+            >
+              <input
+                autocomplete="new-password"
+                id="account-password-new"
+                name="password"
+                placeholder="••••••••"
+                type="password"
+                value=""
+              />
+              <label
+                class="emotion-8 emotion-9"
+                for="account-password-new"
+              >
+                New Password
+              </label>
+            </div>
+          </div>
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class=" emotion-6 emotion-7"
+            >
+              <input
+                autocomplete="new-password"
+                id="account-password-new-confirmation"
+                name="password_confirmation"
+                placeholder="••••••••"
+                type="password"
+                value=""
+              />
+              <label
+                class="emotion-8 emotion-9"
+                for="account-password-new-confirmation"
+              >
+                Confirm New Password
+              </label>
+            </div>
+          </div>
+        </div>
+        <button
+          class="emotion-44 emotion-45 emotion-46"
+          type="submit"
+        >
+          Update Account
+        </button>
+      </form>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.emotion-0 input {
+  outline: 0;
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.emotion-4 {
+  grid-column: -1/1;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-4 {
+    grid-column: auto;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  margin: .2rem 0;
+  position: relative;
+}
+
+.emotion-6 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #FAEFD9;
+  border: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-6 input::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-6 input:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-6 input::invalid {
+  box-shadow: none;
+}
+
+.emotion-6 input:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.emotion-6 input~.emotion-6 input {
+  margin-top: 1rem;
+}
+
+@media (max-width:992px) {
+  .emotion-6 input {
+    font-size: 16px;
+  }
+}
+
+.emotion-6 input.masked-mobile {
+  padding-left: 8.5rem;
+}
+
+.emotion-6 input.masked {
+  padding-left: 8.5rem;
+}
+
+.emotion-6 .e11k6jdq0+input {
+  border: 0.2rem solid transparent;
+  border-color: #f86B4E;
+  color: #f86B4E;
+}
+
+.emotion-6 .e11k6jdq0+input::-webkit-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 .e11k6jdq0+input::-moz-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 .e11k6jdq0+input:-ms-input-placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-6 .e11k6jdq0+input::placeholder {
+  color: #f86B4E;
+  opacity: 0.6;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.emotion-16 {
+  grid-column: 1/span 2;
+}
+
+.emotion-24 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 1;
+  margin-top: 3rem;
+  grid-column: 1/span 2;
+}
+
+.emotion-45 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  outline: 0;
+  width: 100%;
+}
+
+.emotion-45:active {
+  outline: 0;
+}
+
+.emotion-45:hover {
+  opacity: 0.75;
+}
+
+.emotion-45[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <form
+      action="#"
+      class="emotion-0 emotion-1"
+      data-test-id="AccountEdit"
+    >
+      <div
+        class="emotion-2 emotion-3"
+        role="group"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+          >
+            <input
+              autocomplete="given-name"
+              id="account-fname"
+              name="first_name"
+              placeholder="John"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-8 emotion-9"
+              for="account-fname"
+            >
+              First Name (required)
+            </label>
+          </div>
+        </div>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+          >
+            <input
+              autocomplete="family-name"
+              id="account-lname"
+              name="last_name"
+              placeholder="Smith"
+              type="text"
+              value=""
+            />
+            <label
+              class="emotion-8 emotion-9"
+              for="account-lname"
+            >
+              Last Name (required)
+            </label>
+          </div>
+        </div>
+        <div
+          class="emotion-16 emotion-17"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+          >
+            <input
+              autocomplete="username"
+              id="account-email"
+              name="email"
+              placeholder="email@example.com"
+              type="email"
+              value="email9@example.com"
+            />
+            <label
+              class="emotion-8 emotion-9"
+              for="account-email"
+            >
+              Email Address (required)
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-2 emotion-3"
+        role="group"
+      >
+        <legend
+          class="emotion-24 emotion-25"
+        >
+          Change Password
+        </legend>
+        <div
+          class="emotion-16 emotion-17"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+          >
+            <input
+              autocomplete="current-password"
+              id="account-password"
+              name="current_password"
+              placeholder="••••••••"
+              type="password"
+              value=""
+            />
+            <label
+              class="emotion-8 emotion-9"
+              for="account-password"
+            >
+              Current Password
+            </label>
+          </div>
+        </div>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+          >
+            <input
+              autocomplete="new-password"
+              id="account-password-new"
+              name="password"
+              placeholder="••••••••"
+              type="password"
+              value=""
+            />
+            <label
+              class="emotion-8 emotion-9"
+              for="account-password-new"
+            >
+              New Password
+            </label>
+          </div>
+        </div>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class=" emotion-6 emotion-7"
+          >
+            <input
+              autocomplete="new-password"
+              id="account-password-new-confirmation"
+              name="password_confirmation"
+              placeholder="••••••••"
+              type="password"
+              value=""
+            />
+            <label
+              class="emotion-8 emotion-9"
+              for="account-password-new-confirmation"
+            >
+              Confirm New Password
+            </label>
+          </div>
+        </div>
+      </div>
+      <button
+        class="emotion-44 emotion-45 emotion-46"
+        type="submit"
+      >
+        Update Account
+      </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
