@@ -4,12 +4,13 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 
 const StyledSearch = styled.input`
-  appearance: none;
+    appearance: none;
   font-family: ${(props) => props.theme.font.sans};
   font-size: 1.3rem;
   height: 4rem;
 
   padding: 6px 6px 6px 31px;
+
   width: 100%;
 
   @media (max-width: ${(props) => props.theme.breakpoint.medium}) {
