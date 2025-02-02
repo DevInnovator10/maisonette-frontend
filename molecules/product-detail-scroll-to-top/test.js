@@ -21,6 +21,7 @@ describe('scroll to page top component', () => {
   padding: 1.3rem 0.5rem;
   text-align: center;
   -webkit-transition: bottom 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+
   transition: bottom 200ms cubic-bezier(0.550,0.085,0.68,0.530);
 }
 

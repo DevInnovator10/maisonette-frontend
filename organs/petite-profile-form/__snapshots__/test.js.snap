@@ -1,0 +1,1371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the petite profile form renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    grid-column: 1;
+  }
+}
+
+.emotion-6 {
+  grid-column: 3;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-14 {
+  padding: 1rem 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-14 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+  }
+}
+
+.emotion-16 {
+  margin-bottom: .4rem;
+  position: relative;
+}
+
+.emotion-18 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-21 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  border-radius: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #3150A2;
+  padding: 0;
+}
+
+.emotion-21::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-21~.emotion-21 {
+  margin-top: 1rem;
+}
+
+.emotion-30 {
+  position: relative;
+}
+
+.emotion-32 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-34 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-color: transparent;
+  border-radius: 0;
+  color: #3150A2;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-34:disabled {
+  background: none;
+  border: none;
+  outline: none;
+  opacity: 1;
+  padding: 0;
+}
+
+.emotion-34::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-34~.emotion-34 {
+  margin-top: 1rem;
+}
+
+.emotion-72 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0;
+  margin-bottom: 1rem 0;
+
+  outline: 0;
+  padding: 0;
+}
+
+.emotion-72:active {
+  outline: 0;
+}
+
+.emotion-72:hover {
+  opacity: 0.75;
+}
+
+.emotion-72[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-72 svg {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  fill: transparent;
+  stroke: #3150A2;
+  height: 2.7rem;
+  width: 2.7rem;
+  margin-right: 1rem;
+}
+
+.emotion-76 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+}
+
+.emotion-79 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-top: 2rem;
+  outline: 0;
+  width: 100%;
+}
+
+.emotion-79:active {
+  outline: 0;
+}
+
+.emotion-79:hover {
+  opacity: 0.75;
+}
+
+.emotion-79[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <form
+        action="#"
+        class="emotion-0 emotion-1"
+        data-test-id="PetiteProfile"
+      >
+        <fieldset
+          data-test-id="PetiteProfile"
+          name="petite-1906"
+        >
+          <div
+            class="emotion-2 emotion-3"
+            data-test-id="PetiteProfileActions"
+          >
+            <legend
+              class="emotion-4 emotion-5"
+            >
+              eric
+            </legend>
+            <div
+              class="emotion-6 emotion-7"
+            >
+              <button
+                class="emotion-8 emotion-9 emotion-10"
+                type="button"
+              >
+                Edit
+              </button>
+              <button
+                class="emotion-8 emotion-9 emotion-10"
+                type="button"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+          <ul
+            class="emotion-14 emotion-15"
+            data-test-id="PetiteProfileItem"
+          >
+            <li>
+              <div
+                class="emotion-16 emotion-17"
+                data-test-id="PetiteProfileField"
+              >
+                <label
+                  class="emotion-18 emotion-19"
+                  for="profiles.0.name"
+                >
+                  NAME
+                </label>
+                <input
+                  class="emotion-20 emotion-21 emotion-22"
+                  disabled=""
+                  id="profiles.0.name"
+                  name="profiles.0.name"
+                  placeholder="First name or nickname"
+                  type="text"
+                  value="eric"
+                />
+              </div>
+            </li>
+            <li>
+              <div
+                class="emotion-16 emotion-17"
+                data-test-id="PetiteProfileField"
+              >
+                <label
+                  class="emotion-18 emotion-19"
+                  for="profiles.0.birthdate"
+                >
+                  BIRTHDATE
+                </label>
+                <input
+                  class="emotion-20 emotion-21 emotion-22"
+                  disabled=""
+                  id="profiles.0.birthdate"
+                  max="2021-01-13"
+                  min="2004-03-13"
+                  name="profiles.0.birthdate"
+                  type="date"
+                  value="2018-12-23"
+                />
+              </div>
+            </li>
+            <li>
+              <div
+                class="emotion-30 emotion-31"
+                data-test-id="PetiteProfileSelect"
+              >
+                <label
+                  class="emotion-32 emotion-33"
+                  for="profiles.0.gender"
+                >
+                  GENDER
+                </label>
+                <select
+                  class="emotion-34 emotion-35"
+                  disabled=""
+                  id="profiles.0.gender"
+                  name="profiles.0.gender"
+                  type="select"
+                >
+                  <option
+                    value="both"
+                  >
+                    Show Me Both
+                  </option>
+                  <option
+                    value="boy"
+                  >
+                    Boy
+                  </option>
+                  <option
+                    value="girl"
+                  >
+                    Girl
+                  </option>
+                </select>
+              </div>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset
+          data-test-id="PetiteProfile"
+          name="petite-1907"
+        >
+          <div
+            class="emotion-2 emotion-3"
+            data-test-id="PetiteProfileActions"
+          >
+            <legend
+              class="emotion-4 emotion-5"
+            >
+              girl
+            </legend>
+            <div
+              class="emotion-6 emotion-7"
+            >
+              <button
+                class="emotion-8 emotion-9 emotion-10"
+                type="button"
+              >
+                Edit
+              </button>
+              <button
+                class="emotion-8 emotion-9 emotion-10"
+                type="button"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+          <ul
+            class="emotion-14 emotion-15"
+            data-test-id="PetiteProfileItem"
+          >
+            <li>
+              <div
+                class="emotion-16 emotion-17"
+                data-test-id="PetiteProfileField"
+              >
+                <label
+                  class="emotion-18 emotion-19"
+                  for="profiles.1.name"
+                >
+                  NAME
+                </label>
+                <input
+                  class="emotion-20 emotion-21 emotion-22"
+                  disabled=""
+                  id="profiles.1.name"
+                  name="profiles.1.name"
+                  placeholder="First name or nickname"
+                  type="text"
+                  value="girl"
+                />
+              </div>
+            </li>
+            <li>
+              <div
+                class="emotion-16 emotion-17"
+                data-test-id="PetiteProfileField"
+              >
+                <label
+                  class="emotion-18 emotion-19"
+                  for="profiles.1.birthdate"
+                >
+                  BIRTHDATE
+                </label>
+                <input
+                  class="emotion-20 emotion-21 emotion-22"
+                  disabled=""
+                  id="profiles.1.birthdate"
+                  max="2021-01-13"
+                  min="2004-03-13"
+                  name="profiles.1.birthdate"
+                  type="date"
+                  value="2018-12-23"
+                />
+              </div>
+            </li>
+            <li>
+              <div
+                class="emotion-30 emotion-31"
+                data-test-id="PetiteProfileSelect"
+              >
+                <label
+                  class="emotion-32 emotion-33"
+                  for="profiles.1.gender"
+                >
+                  GENDER
+                </label>
+                <select
+                  class="emotion-34 emotion-35"
+                  disabled=""
+                  id="profiles.1.gender"
+                  name="profiles.1.gender"
+                  type="select"
+                >
+                  <option
+                    value="both"
+                  >
+                    Show Me Both
+                  </option>
+                  <option
+                    value="boy"
+                  >
+                    Boy
+                  </option>
+                  <option
+                    value="girl"
+                  >
+                    Girl
+                  </option>
+                </select>
+              </div>
+            </li>
+          </ul>
+        </fieldset>
+        <button
+          class=" emotion-70 emotion-71 emotion-72 emotion-10"
+          data-test-id="IconButton"
+          type="button"
+        >
+          <svg
+            class="emotion-74 emotion-75"
+            data-test-id="Icon"
+            stroke-width="3"
+          />
+          <i
+            class="emotion-76 emotion-77"
+          >
+            Add Another Profile
+          </i>
+        </button>
+        <button
+          class="emotion-78 emotion-79 emotion-10"
+          disabled=""
+          type="submit"
+        >
+          Save
+        </button>
+      </form>
+    </div>
+  </body>,
+  "container": .emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    grid-column: 1;
+  }
+}
+
+.emotion-6 {
+  grid-column: 3;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-14 {
+  padding: 1rem 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-14 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+  }
+}
+
+.emotion-16 {
+  margin-bottom: .4rem;
+  position: relative;
+}
+
+.emotion-18 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-21 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  color: #3150A2;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  border-radius: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #3150A2;
+  padding: 0;
+}
+
+.emotion-21::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-21:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-21~.emotion-21 {
+  margin-top: 1rem;
+}
+
+.emotion-30 {
+  position: relative;
+}
+
+.emotion-32 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-34 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-color: transparent;
+  border-radius: 0;
+  color: #3150A2;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  outline-color: #9CB1DC;
+  outline: 0;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.emotion-34:disabled {
+  background: none;
+  border: none;
+  outline: none;
+  opacity: 1;
+  padding: 0;
+}
+
+.emotion-34::-webkit-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34::-moz-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34:-ms-input-placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34::placeholder {
+  color: #9CB1DC;
+}
+
+.emotion-34:-internal-autofill-selected {
+  color: #3150A2!important;
+}
+
+.emotion-34~.emotion-34 {
+  margin-top: 1rem;
+}
+
+.emotion-72 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0;
+  margin-bottom: 1rem 0;
+  outline: 0;
+  padding: 0;
+}
+
+.emotion-72:active {
+  outline: 0;
+}
+
+.emotion-72:hover {
+  opacity: 0.75;
+}
+
+.emotion-72[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-72 svg {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  fill: transparent;
+  stroke: #3150A2;
+  height: 2.7rem;
+  width: 2.7rem;
+  margin-right: 1rem;
+}
+
+.emotion-76 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+}
+
+.emotion-79 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-top: 2rem;
+  outline: 0;
+  width: 100%;
+}
+
+.emotion-79:active {
+  outline: 0;
+}
+
+.emotion-79:hover {
+  opacity: 0.75;
+}
+
+.emotion-79[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <form
+      action="#"
+      class="emotion-0 emotion-1"
+      data-test-id="PetiteProfile"
+    >
+      <fieldset
+        data-test-id="PetiteProfile"
+        name="petite-1906"
+      >
+        <div
+          class="emotion-2 emotion-3"
+          data-test-id="PetiteProfileActions"
+        >
+          <legend
+            class="emotion-4 emotion-5"
+          >
+            eric
+          </legend>
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <button
+              class="emotion-8 emotion-9 emotion-10"
+              type="button"
+            >
+              Edit
+            </button>
+            <button
+              class="emotion-8 emotion-9 emotion-10"
+              type="button"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+        <ul
+          class="emotion-14 emotion-15"
+          data-test-id="PetiteProfileItem"
+        >
+          <li>
+            <div
+              class="emotion-16 emotion-17"
+              data-test-id="PetiteProfileField"
+            >
+              <label
+                class="emotion-18 emotion-19"
+                for="profiles.0.name"
+              >
+                NAME
+              </label>
+              <input
+                class="emotion-20 emotion-21 emotion-22"
+                disabled=""
+                id="profiles.0.name"
+                name="profiles.0.name"
+                placeholder="First name or nickname"
+                type="text"
+                value="eric"
+              />
+            </div>
+          </li>
+          <li>
+            <div
+              class="emotion-16 emotion-17"
+              data-test-id="PetiteProfileField"
+            >
+              <label
+                class="emotion-18 emotion-19"
+                for="profiles.0.birthdate"
+              >
+                BIRTHDATE
+              </label>
+              <input
+                class="emotion-20 emotion-21 emotion-22"
+                disabled=""
+                id="profiles.0.birthdate"
+                max="2021-01-13"
+                min="2004-03-13"
+                name="profiles.0.birthdate"
+                type="date"
+                value="2018-12-23"
+              />
+            </div>
+          </li>
+          <li>
+            <div
+              class="emotion-30 emotion-31"
+              data-test-id="PetiteProfileSelect"
+            >
+              <label
+                class="emotion-32 emotion-33"
+                for="profiles.0.gender"
+              >
+                GENDER
+              </label>
+              <select
+                class="emotion-34 emotion-35"
+                disabled=""
+                id="profiles.0.gender"
+                name="profiles.0.gender"
+                type="select"
+              >
+                <option
+                  value="both"
+                >
+                  Show Me Both
+                </option>
+                <option
+                  value="boy"
+                >
+                  Boy
+                </option>
+                <option
+                  value="girl"
+                >
+                  Girl
+                </option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset
+        data-test-id="PetiteProfile"
+        name="petite-1907"
+      >
+        <div
+          class="emotion-2 emotion-3"
+          data-test-id="PetiteProfileActions"
+        >
+          <legend
+            class="emotion-4 emotion-5"
+          >
+            girl
+          </legend>
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <button
+              class="emotion-8 emotion-9 emotion-10"
+              type="button"
+            >
+              Edit
+            </button>
+            <button
+              class="emotion-8 emotion-9 emotion-10"
+              type="button"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+        <ul
+          class="emotion-14 emotion-15"
+          data-test-id="PetiteProfileItem"
+        >
+          <li>
+            <div
+              class="emotion-16 emotion-17"
+              data-test-id="PetiteProfileField"
+            >
+              <label
+                class="emotion-18 emotion-19"
+                for="profiles.1.name"
+              >
+                NAME
+              </label>
+              <input
+                class="emotion-20 emotion-21 emotion-22"
+                disabled=""
+                id="profiles.1.name"
+                name="profiles.1.name"
+                placeholder="First name or nickname"
+                type="text"
+                value="girl"
+              />
+            </div>
+          </li>
+          <li>
+            <div
+              class="emotion-16 emotion-17"
+              data-test-id="PetiteProfileField"
+            >
+              <label
+                class="emotion-18 emotion-19"
+                for="profiles.1.birthdate"
+              >
+                BIRTHDATE
+              </label>
+              <input
+                class="emotion-20 emotion-21 emotion-22"
+                disabled=""
+                id="profiles.1.birthdate"
+                max="2021-01-13"
+                min="2004-03-13"
+                name="profiles.1.birthdate"
+                type="date"
+                value="2018-12-23"
+              />
+            </div>
+          </li>
+          <li>
+            <div
+              class="emotion-30 emotion-31"
+              data-test-id="PetiteProfileSelect"
+            >
+              <label
+                class="emotion-32 emotion-33"
+                for="profiles.1.gender"
+              >
+                GENDER
+              </label>
+              <select
+                class="emotion-34 emotion-35"
+                disabled=""
+                id="profiles.1.gender"
+                name="profiles.1.gender"
+                type="select"
+              >
+                <option
+                  value="both"
+                >
+                  Show Me Both
+                </option>
+                <option
+                  value="boy"
+                >
+                  Boy
+                </option>
+                <option
+                  value="girl"
+                >
+                  Girl
+                </option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </fieldset>
+      <button
+        class=" emotion-70 emotion-71 emotion-72 emotion-10"
+        data-test-id="IconButton"
+        type="button"
+      >
+        <svg
+          class="emotion-74 emotion-75"
+          data-test-id="Icon"
+          stroke-width="3"
+        />
+        <i
+          class="emotion-76 emotion-77"
+        >
+          Add Another Profile
+        </i>
+      </button>
+      <button
+        class="emotion-78 emotion-79 emotion-10"
+        disabled=""
+        type="submit"
+      >
+        Save
+      </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
