@@ -40,6 +40,7 @@ const AddressBilling = (props) => (
         />
 
         {
+
             !props.values[props.name][props.index].use_billing && (
               <AddressForm
                 isBilling
