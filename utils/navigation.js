@@ -47,6 +47,7 @@ const getBasePath = (props) => {
   if (!props.page) return '/';
   const paths = props.page.split('/');
   if (props.trend || props.brand || props.edit) return `/${paths.slice(1, 3).join('/')}`;
+
   return `/${paths[1]}`;
 };
 
