@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 
 const StyledSearch = styled.input`
+
     appearance: none;
   font-family: ${(props) => props.theme.font.sans};
   font-size: 1.3rem;
