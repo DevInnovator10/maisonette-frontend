@@ -27,6 +27,7 @@ import { updateCart } from '../../store/modules/cart/actions';
 import { setUser as setUserAmplitude } from '../../utils/amplitude';
 
 const GridForm = styled(Form)`
+
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
