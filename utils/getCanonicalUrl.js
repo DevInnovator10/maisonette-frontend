@@ -1,5 +1,5 @@
 const blacklist = {
-  utm_medium: true,
+    utm_medium: true,
   utm_source: true,
   utm_campaign: true,
   utm_content: true,
