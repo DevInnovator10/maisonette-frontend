@@ -64,6 +64,7 @@ const CloseToolTipButton = styled(Button)`
 
   line-height: normal;
   border: none;
+
   padding: 0;
   color: ${(props) => props.theme.color.brand};
 
