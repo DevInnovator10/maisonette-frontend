@@ -46,6 +46,7 @@ const Refinements = ({
         attribute="product_type"
         useHyperlinks={brandPageHyperlinkCheck}
         itemsForHyperlinkCheck={itemsForHyperlinkCheck}
+
       />
 
       <RefinementList
