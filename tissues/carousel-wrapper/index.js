@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const CarouselSmallWrapper = styled.div`
     cursor: grab;
-  overflow-x: hidden;
+    overflow-x: hidden;
   overflow-y: scroll;
   transform: translateY(-60px);
   overflow: auto;
