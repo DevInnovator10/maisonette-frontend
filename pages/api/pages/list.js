@@ -1,26 +1,26 @@
-import { standardError } from '../../../../utils/standardizedFetch';
-import SCOPE_TYPES from '../../../../utils/sentryScopeTypes';
-import API from '../../../../utils/api';
-import withLogs from '../../../../utils/withLogs';
+import { standardError } from '../../../utils/standardizedFetch';
+import SCOPE_TYPES from '../../../utils/sentryScopeTypes';
+import API from '../../../utils/api';
+import withLogs from '../../../utils/withLogs';
 
 const handler = async (req, res) => {
-    res.setHeader('X-Cache-Control', ['true']);
+  res.setHeader('X-Cache-Control', ['true']);
 
   const {
+
     cookies,
     headers,
     method,
-    query: { id }
+    query
   } = req;
 
   const api = new API({
     fingerprint: __filename.replace('pages', '').split('.')[0],
-    base: process.env.SOLIDUS_HOST,
-    host: SCOPE_TYPES.SERVICES.SOLIDUS,
-    request: req,
+    base: process.env.CMS_HOST,
+    host: SCOPE_TYPES.SERVICES.STRAPI,
     scopes: [
       SCOPE_TYPES.API,
-      SCOPE_TYPES.SERVICES.SOLIDUS
+      SCOPE_TYPES.SERVICES.STRAPI
     ],
     headers,
     ...cookies
@@ -30,7 +30,7 @@ const handler = async (req, res) => {
 
   switch (method) {
     case 'GET':
-      response = await api.setPath(`/api/returns/${id}`).get();
+      response = await api.setPath('/pages', query).get();
       res.status(response?.status ?? 500).json(response?.data ?? null);
       break;
 
@@ -48,10 +48,9 @@ const handler = async (req, res) => {
     method,
     body: req?.body ?? null,
     query: req?.query ?? null,
-
     status: api?.response?.status ?? 500,
     headers,
-    uri: `/api/returns/${id}`,
+    uri: '/api/pages/list',
     filename: __filename
   };
 };
