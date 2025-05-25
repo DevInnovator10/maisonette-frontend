@@ -81,6 +81,7 @@ const Refinements = ({
 
       <RefinementList
         attribute="color"
+
         useHyperlinks={categoryPageHyperlinkCheck({ attribute: 'color' })}
       />
 

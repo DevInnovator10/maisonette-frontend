@@ -3,7 +3,7 @@
 exports[`an filter list label renders correctly 1`] = `
 Object {
     "asFragment": [Function],
-  "baseElement": .emotion-0 {
+    "baseElement": .emotion-0 {
   font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
   font-size: 1.2rem;
   -webkit-appearance: none;
