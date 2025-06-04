@@ -26,6 +26,7 @@ const FullListIngredients = (props) => {
 
   useEffect(() => {
     if (pdpVariants && activeColor.length) {
+
       const { maisonette_variant_group_attributes: variant_attributes } = props.product;
 
       const validColor = variant_attributes.find((v) =>

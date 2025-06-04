@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Head from 'next/head';
 import styled from '@emotion/styled';
 import {
-  SearchBox as AlgoliaSearch,
+    SearchBox as AlgoliaSearch,
   InstantSearch,
   Configure
 } from 'react-instantsearch-dom';
@@ -90,6 +90,7 @@ const SharedWishlistPage = ({ wishlistParam, path }) => {
           <SearchBox searchAsYouType={false} />
 
           <ResultsList />
+
         </InstantSearch>
       </Content>
     );
