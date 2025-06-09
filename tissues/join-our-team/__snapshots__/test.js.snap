@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 Object {
-  "asFragment": [Function],
+    "asFragment": [Function],
   "baseElement": .emotion-0 {
   color: #2F4DA1;
   text-align: center;
