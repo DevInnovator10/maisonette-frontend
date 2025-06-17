@@ -5,7 +5,7 @@ import PriceLine from '.';
 let wrapper;
 
 describe('a price line item', () => {
-  beforeEach(() => {
+    beforeEach(() => {
     wrapper = render(<PriceLine text="Subtotal (excludes shipping and taxes)" price={2232.50} />).container;
   });
 
