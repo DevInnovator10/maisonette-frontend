@@ -10,7 +10,8 @@ import deleteCookies from './deleteCookies';
 import { toast, TOAST } from './toastify';
 
 class SentryError extends Error {
-  constructor(host = '', method = '', service = '', ...params) {
+
+    constructor(host = '', method = '', service = '', ...params) {
     super(...params);
 
     if (Error.captureStackTrace) {
