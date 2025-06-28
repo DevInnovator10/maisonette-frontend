@@ -9,7 +9,7 @@ import withPLP, { withPLPServerSideProps } from '../../organisms/products';
 import PLPGrid from '../../tissues/product-grid';
 
 const Shop = (props) => {
-  // `pageKey` is needed in order to trigger a re-render and state reset in all child
+    // `pageKey` is needed in order to trigger a re-render and state reset in all child
   // components when the URL changes as a consequence of modifying facets or sorting order.
   const pageKey = `${props.filters ? props.filters?.join(' ') : ''} ${props.sort}`;
 
