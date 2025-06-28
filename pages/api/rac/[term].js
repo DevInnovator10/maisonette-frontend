@@ -1,27 +1,25 @@
-import { standardError } from '../../../../utils/standardizedFetch';
-import SCOPE_TYPES from '../../../../utils/sentryScopeTypes';
-import API from '../../../../utils/api';
-import withLogs from '../../../../utils/withLogs';
+import { standardError } from '../../../utils/standardizedFetch';
+import SCOPE_TYPES from '../../../utils/sentryScopeTypes';
+import API from '../../../utils/api';
+import withLogs from '../../../utils/withLogs';
 
 const handler = async (req, res) => {
-    res.setHeader('X-Cache-Control', ['true']);
+  res.setHeader('X-Cache-Control', ['true']);
 
   const {
     cookies,
     headers,
     method,
-    query: { id }
+    query: { term, ...params }
   } = req;
 
   const api = new API({
     fingerprint: __filename.replace('pages', '').split('.')[0],
-
-    base: process.env.SOLIDUS_HOST,
-    host: SCOPE_TYPES.SERVICES.SOLIDUS,
-    request: req,
+    base: process.env.SLI_HOST,
+    host: SCOPE_TYPES.SERVICES.SLI,
     scopes: [
       SCOPE_TYPES.API,
-      SCOPE_TYPES.SERVICES.SOLIDUS
+      SCOPE_TYPES.SERVICES.SLI
     ],
     headers,
     ...cookies
@@ -29,9 +27,16 @@ const handler = async (req, res) => {
 
   let response;
 
+  const queryParams = {
+    ...params,
+    w: term,
+    rt: 'rac',
+    ts: 'json-rac'
+  };
+
   switch (method) {
     case 'GET':
-      response = await api.setPath(`/api/returns/${id}`).get();
+      response = await api.setPath('/search', queryParams).get();
       res.status(response?.status ?? 500).json(response?.data ?? null);
       break;
 
@@ -49,10 +54,9 @@ const handler = async (req, res) => {
     method,
     body: req?.body ?? null,
     query: req?.query ?? null,
-
     status: api?.response?.status ?? 500,
     headers,
-    uri: `/api/returns/${id}`,
+    uri: `/api/rac/${term}`,
     filename: __filename
   };
 };
