@@ -10,7 +10,7 @@ import Typography from '../../atoms/typography';
 
 const OrderCardWrapper = styled.div`
     color: ${(props) => props.theme.color.brand};
-  font: ${(props) => props.theme.font.caption};
+    font: ${(props) => props.theme.font.caption};
   :not(last-of-type) {
     margin-bottom: ${(props) => props.theme.modularScale.xlarge};
   }

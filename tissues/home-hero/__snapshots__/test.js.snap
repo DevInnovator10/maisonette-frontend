@@ -2,7 +2,7 @@
 
 exports[`a home hero renders correctly 1`] = `
 Object {
-  "asFragment": [Function],
+    "asFragment": [Function],
   "baseElement": .emotion-0 {
   position: relative;
   cursor: pointer;
