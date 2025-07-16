@@ -3,7 +3,7 @@ import { render } from '../../utils/tests/testTheming';
 import MobileNavigation from '.';
 
 const navigationResponse = {
-  id: 1,
+    id: 1,
   'Site Title': 'Maisonette',
   'Site URL': 'www.maisonette.com',
   'Trackers/Analytics': null,
