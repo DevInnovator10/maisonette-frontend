@@ -1,0 +1,753 @@
+{
+    "image_shoppable_alt_text": "Shirt, white",
+  "image_shoppable_products": {
+    "0": {
+      "anna-dress": {
+        "meta_description": null,
+        "master": {
+          "depth": null,
+          "is_destroyed": false,
+          "width": null,
+          "height": null,
+          "track_inventory": true,
+          "price": "88.0",
+          "name": "Anna Dress",
+          "slug": "anna-dress",
+          "option_values": [],
+          "is_backorderable": false,
+          "display_price": "$88.00",
+          "options_text": "",
+          "total_on_hand": 3,
+          "cost_price": null,
+          "is_master": true,
+          "images": [],
+          "weight": "0.0",
+          "id": 1,
+          "in_stock": true,
+          "description": "Et deleniti ut iure a.",
+          "sku": ""
+        },
+        "brand_slug": null,
+        "product_properties": [],
+        "taxon_ids": [
+          7
+        ],
+        "meta_keywords": null,
+        "brand_description": null,
+        "brand": null,
+        "name": "Anna Dress",
+        "slug": "anna-dress",
+        "shipping_category_id": 1,
+        "display_price": "$88.00",
+        "classifications": [
+          {
+            "taxon": {
+              "id": 7,
+              "name": "Kids",
+              "parent_id": 3,
+              "permalink": "category/kids",
+              "pretty_name": "Category -> Kids",
+              "taxonomy_id": 3
+            },
+            "position": 1,
+            "taxon_id": 7
+          }
+        ],
+        "variants": [
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 4985,
+                "id": 4,
+                "original_price": "88.0",
+                "country_iso": null
+              },
+              {
+                "on_sale": false,
+                "discount_percent": 0,
+                "price": "88.0",
+                "final_sale": false,
+                "vendor_id": 5,
+                "total_on_hand": 0,
+                "id": 49,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 14,
+                "name": "12m",
+                "presentation": "12m",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 12m",
+            "lead_time": 2,
+            "total_on_hand": 4990,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 10,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 4985
+              },
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Maisonette",
+                "vendor_id": 1,
+                "id": 8,
+                "stock_location_id": 1,
+                "international_shipping": false,
+                "count_on_hand": 5
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 2,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10066"
+          },
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 107,
+                "id": 6,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 15,
+                "name": "18m",
+                "presentation": "18m",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 18m",
+            "lead_time": 2,
+            "total_on_hand": 107,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 7,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 107
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 3,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10067"
+          },
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 112,
+                "id": 8,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 16,
+                "name": "2y",
+                "presentation": "2y",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 2y",
+            "lead_time": 2,
+            "total_on_hand": 112,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 6,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 112
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 4,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10068"
+          },
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 113,
+                "id": 10,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 17,
+                "name": "3y",
+                "presentation": "3y",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 3y",
+            "lead_time": 2,
+            "total_on_hand": 114,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 13,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 113
+              },
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Maisonette",
+                "vendor_id": 1,
+                "id": 5,
+                "stock_location_id": 1,
+                "international_shipping": false,
+                "count_on_hand": 1
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 5,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10069"
+          },
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 390,
+                "id": 12,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 18,
+                "name": "4y",
+                "presentation": "4y",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 4y",
+            "lead_time": 2,
+            "total_on_hand": 391,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 14,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 390
+              },
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Maisonette",
+                "vendor_id": 1,
+                "id": 4,
+                "stock_location_id": 1,
+                "international_shipping": false,
+                "count_on_hand": 1
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 6,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10070"
+          },
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 796,
+                "id": 14,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 19,
+                "name": "5y",
+                "presentation": "5y",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 5y",
+            "lead_time": 2,
+            "total_on_hand": 803,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 15,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 796
+              },
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Maisonette",
+                "vendor_id": 1,
+                "id": 3,
+                "stock_location_id": 1,
+                "international_shipping": false,
+                "count_on_hand": 7
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 7,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10071"
+          },
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 116,
+                "id": 16,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 20,
+                "name": "6y",
+                "presentation": "6y",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 6y",
+            "lead_time": 2,
+            "total_on_hand": 121,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 16,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 116
+              },
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Maisonette",
+                "vendor_id": 1,
+                "id": 2,
+                "stock_location_id": 1,
+                "international_shipping": false,
+                "count_on_hand": 5
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 8,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10072"
+          },
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "70.4",
+            "prices": [
+              {
+                "on_sale": true,
+                "discount_percent": "19.9999999999999886363636363636363636",
+                "price": 70.4,
+                "final_sale": false,
+                "vendor_id": 2,
+                "total_on_hand": 795,
+                "id": 18,
+                "original_price": "88.0",
+                "country_iso": null
+              }
+            ],
+            "name": "Anna Dress",
+            "slug": "anna-dress",
+            "option_values": [
+              {
+                "id": 21,
+                "name": "8y",
+                "presentation": "8y",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$70.40",
+            "variant_properties": [],
+            "options_text": "Size: 8y",
+            "lead_time": 2,
+            "total_on_hand": 798,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Lindsey Berns",
+                "vendor_id": 2,
+                "id": 17,
+                "stock_location_id": 2,
+                "international_shipping": false,
+                "count_on_hand": 795
+              },
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Maisonette",
+                "vendor_id": 1,
+                "id": 1,
+                "stock_location_id": 1,
+                "international_shipping": false,
+                "count_on_hand": 3
+              }
+            ],
+            "cost_price": "22.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 9,
+            "in_stock": true,
+            "description": "Et deleniti ut iure a.",
+            "sku": "LBS10073"
+          }
+        ],
+        "option_types": [],
+        "has_variants": true,
+        "total_on_hand": 7439,
+        "available_on": "2019-08-06T16:53:41.723Z",
+        "trends": [],
+        "id": 1,
+        "description": "Et deleniti ut iure a.",
+        "meta_title": null
+      }
+    },
+    "1": {
+      "exclusive-maman-mini-varsity-sock-bundle": {
+        "meta_description": null,
+        "master": {
+          "depth": null,
+          "is_destroyed": false,
+          "width": null,
+          "height": null,
+          "track_inventory": true,
+          "price": "32.0",
+          "name": "*Exclusive* Maman & Mini Varsity Sock Bundle",
+          "slug": "exclusive-maman-mini-varsity-sock-bundle",
+          "option_values": [],
+          "is_backorderable": false,
+          "display_price": "$32.00",
+          "options_text": "",
+          "total_on_hand": 0,
+          "cost_price": null,
+          "is_master": true,
+          "images": [],
+          "weight": "0.0",
+          "id": 12,
+          "in_stock": false,
+          "description": "Et expedita dolore doloremque odio quo id id deleniti.",
+          "sku": ""
+        },
+        "brand_slug": null,
+        "product_properties": [],
+        "taxon_ids": [],
+        "meta_keywords": null,
+        "brand_description": null,
+        "brand": null,
+        "name": "*Exclusive* Maman & Mini Varsity Sock Bundle",
+        "slug": "exclusive-maman-mini-varsity-sock-bundle",
+        "shipping_category_id": 1,
+        "display_price": "$32.00",
+        "classifications": [],
+        "variants": [
+          {
+            "depth": null,
+            "is_destroyed": false,
+            "width": null,
+            "height": null,
+            "track_inventory": true,
+            "price": "32.0",
+            "prices": [
+              {
+                "on_sale": false,
+                "discount_percent": 0,
+                "price": "32.0",
+                "final_sale": false,
+                "vendor_id": 1,
+                "total_on_hand": 20,
+                "id": 26,
+                "original_price": "32.0",
+                "country_iso": null
+              }
+            ],
+            "name": "*Exclusive* Maman & Mini Varsity Sock Bundle",
+            "slug": "exclusive-maman-mini-varsity-sock-bundle",
+            "option_values": [
+              {
+                "id": 13,
+                "name": "OS",
+                "presentation": "OS",
+                "option_type_id": 1,
+                "option_type_name": "Size",
+                "option_type_presentation": "Size"
+              }
+            ],
+            "is_backorderable": false,
+            "display_price": "$32.00",
+            "variant_properties": [],
+            "options_text": "Size: OS",
+            "lead_time": 2,
+            "total_on_hand": 20,
+            "stock_items": [
+              {
+                "backorderable": false,
+                "backorder_date": null,
+                "available": true,
+                "stock_location_name": "Maisonette",
+                "vendor_id": 1,
+                "id": 20,
+                "stock_location_id": 1,
+                "international_shipping": false,
+                "count_on_hand": 20
+              }
+            ],
+            "cost_price": "8.0",
+            "is_master": false,
+            "images": [],
+            "weight": "0.0",
+            "id": 13,
+            "in_stock": true,
+            "description": "Et expedita dolore doloremque odio quo id id deleniti.",
+            "sku": "MS00030680"
+          }
+        ],
+        "option_types": [],
+        "has_variants": true,
+        "total_on_hand": 20,
+        "available_on": "2019-08-06T16:53:42.305Z",
+        "trends": [],
+        "id": 3,
+        "description": "Et expedita dolore doloremque odio quo id id deleniti.",
+        "meta_title": null
+      }
+    }
+  },
+  "image_shoppable_video_url": "https://www.youtube.com/watch?v=aQeIYVM3YBM",
+  "image_shoppable_image_mobile": {
+    "data": {
+      "alt": "best image in the world!",
+      "types": ["png"],
+      "name": "/images/_dummy-image-shoppable/image-shoppable",
+      "uri": "http://via.placeholder.com/1080x480"
+    }
+  },
+  "image_shoppable_photo_credit": "Shot by Jon",
+  "image_shoppable_image_desktop": {
+    "data": {
+      "alt": "best image in the world!",
+      "types": ["png"],
+      "name": "/images/_dummy-image-shoppable/image-shoppable",
+      "uri": "http://via.placeholder.com/1080x480"
+    }
+  }
+}
