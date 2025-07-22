@@ -19,6 +19,7 @@ export const PetiteDropdownTrigger = (props) => {
     }
 
     return { name: 'Your Mini', id: -1 };
+
   };
 
   const updatePetiteDropdownState = () => {
