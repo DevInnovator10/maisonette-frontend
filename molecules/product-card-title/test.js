@@ -6,7 +6,7 @@ let componentWrapper;
 let componentElement;
 
 const product1 = {
-  brand: 'Mott50 x Margherita Missoni',
+    brand: 'Mott50 x Margherita Missoni',
   clickURL: 'https://maisonette.resultsdemo.com/search/go?isort=score&lgkey=https%3a%2f%2fwww.maisonette.com%2fwhats-new%2fshops%2fsun-shop%2fwomen-lucia-viola&lgsku=women_lucia2_fw18&lot=json&method=and&p=R&rk=1&rsc=UrQtb8AdmNnHaMjH&ts=json-full&uid=255477378&url=https%3a%2f%2fwww.maisonette.com%2fwhats-new%2fshops%2fsun-shop%2fwomen-lucia-viola&w=women',
   image: 'https://maisonette-prod-app-dependenci-s3maisonetteassets-1gmo1ldvtvuqp.s3.amazonaws.com/media/products/378278/product/yvtxtdtvzokibhcjhs5o.jpg?1540570233',
   main_category: 'Swimwear;One Pieces',
@@ -70,6 +70,7 @@ describe('a product title', () => {
 
     const brand = componentWrapper.getByText(product1.brand);
     expect(brand).toHaveStyle('font-size: 1.5rem');
+
     expect(brand).toHaveStyle('font-style: italic');
 
     const name = componentWrapper.getByText(product1.title);
