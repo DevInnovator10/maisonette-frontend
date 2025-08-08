@@ -333,6 +333,7 @@ const OrderProductCard = (props) => {
 
         {isAdjusted
           && props.adjustments.map((adjustment, i) => (
+
             <Adjustment
               data-test-id="order-product-adjustment"
               title={`${adjustment.label} adjustment`}
