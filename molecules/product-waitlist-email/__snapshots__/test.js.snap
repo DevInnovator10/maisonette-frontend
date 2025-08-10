@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a product waitlist form renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  visibility: hidden;
+}
+
+.emotion-2 {
+  height: 100%;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: max-height 400ms,opacity 400ms 200ms;
+  transition: max-height 400ms,opacity 400ms 200ms;
+}
+
+.emotion-4 {
+  margin-top: 1rem;
+}
+
+.emotion-6 {
+  color: #f86B4E;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.emotion-8 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #f86B4E;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.emotion-10 {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.emotion-12 {
+  margin-bottom: .4rem;
+  position: relative;
+}
+
+.emotion-15 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #FAEFD9;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  height: 4.4rem;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 2px solid #f86B4E;
+  color: #f86B4E;
+  outline: none;
+  padding: 0 1.5rem;
+}
+
+.emotion-15::-webkit-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-15::-moz-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-15:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-15::placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media (max-width:992px) {
+  .emotion-15:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-15::-webkit-input-placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15::-moz-placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15:-ms-input-placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15::placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15:-internal-autofill-selected {
+  -webkit-transition: all 1000s;
+  transition: all 1000s;
+}
+
+.emotion-18 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #f86B4E;
+  border: 2px solid #f86B4E;
+  margin-top: 2rem;
+  outline: none;
+  width: 100%;
+}
+
+.emotion-18:active {
+  outline: 0;
+}
+
+.emotion-18:hover {
+  opacity: 0.75;
+}
+
+.emotion-18[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="WaitlistEmail"
+      >
+        <form
+          action="#"
+          class="emotion-2 emotion-3"
+          data-height="0"
+          data-test-id="WaitlistEmail"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <p
+              class="emotion-6 emotion-7"
+              id="waitlist-message"
+            >
+              <b
+                class="emotion-8 emotion-9"
+              >
+                Oh no! It's out of stock!
+              </b>
+              Join the waitlist and we'll email you as soon as this product or size becomes available again.
+            </p>
+            <label
+              class="emotion-10 emotion-11"
+              for="waitlist-email"
+            >
+              Waitlist Email Input
+            </label>
+            <div
+              class="emotion-12 emotion-13"
+              data-test-id="WaitlistEmail"
+            >
+              <input
+                aria-labelledby="waitlist-message waitlist-email"
+                autocomplete="email"
+                class="emotion-14 emotion-15 emotion-16"
+                data-test-id="InputEmail"
+                disabled=""
+                id="waitlist-email"
+                name="waitlist-email"
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+            </div>
+            <button
+              class="emotion-17 emotion-18 emotion-19"
+              type="submit"
+            >
+              Email when Available
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  visibility: hidden;
+}
+
+.emotion-2 {
+  height: 100%;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: max-height 400ms,opacity 400ms 200ms;
+  transition: max-height 400ms,opacity 400ms 200ms;
+}
+
+.emotion-4 {
+  margin-top: 1rem;
+}
+
+.emotion-6 {
+  color: #f86B4E;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.emotion-8 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #f86B4E;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.emotion-10 {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.emotion-12 {
+  margin-bottom: .4rem;
+  position: relative;
+}
+
+.emotion-15 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid #FAEFD9;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  height: 4.4rem;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 2px solid #f86B4E;
+  color: #f86B4E;
+  outline: none;
+  padding: 0 1.5rem;
+}
+
+.emotion-15::-webkit-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-15::-moz-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-15:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-15::placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media (max-width:992px) {
+  .emotion-15:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-15::-webkit-input-placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15::-moz-placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15:-ms-input-placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15::placeholder {
+  color: #f86B4E;
+}
+
+.emotion-15:-internal-autofill-selected {
+  -webkit-transition: all 1000s;
+  transition: all 1000s;
+}
+
+.emotion-18 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #f86B4E;
+  border: 2px solid #f86B4E;
+  margin-top: 2rem;
+  outline: none;
+  width: 100%;
+}
+
+.emotion-18:active {
+  outline: 0;
+}
+
+.emotion-18:hover {
+  opacity: 0.75;
+}
+
+.emotion-18[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="WaitlistEmail"
+    >
+      <form
+        action="#"
+        class="emotion-2 emotion-3"
+        data-height="0"
+        data-test-id="WaitlistEmail"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <p
+            class="emotion-6 emotion-7"
+            id="waitlist-message"
+          >
+            <b
+              class="emotion-8 emotion-9"
+            >
+              Oh no! It's out of stock!
+            </b>
+            Join the waitlist and we'll email you as soon as this product or size becomes available again.
+          </p>
+          <label
+            class="emotion-10 emotion-11"
+            for="waitlist-email"
+          >
+            Waitlist Email Input
+          </label>
+          <div
+            class="emotion-12 emotion-13"
+            data-test-id="WaitlistEmail"
+          >
+            <input
+              aria-labelledby="waitlist-message waitlist-email"
+              autocomplete="email"
+              class="emotion-14 emotion-15 emotion-16"
+              data-test-id="InputEmail"
+              disabled=""
+              id="waitlist-email"
+              name="waitlist-email"
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+          </div>
+          <button
+            class="emotion-17 emotion-18 emotion-19"
+            type="submit"
+          >
+            Email when Available
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
