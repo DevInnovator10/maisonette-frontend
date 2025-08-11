@@ -141,6 +141,7 @@ Object {
   align-items: center;
   border-top: 1px solid #9CB1DC;
   display: -webkit-box;
+
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

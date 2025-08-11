@@ -1,10 +1,11 @@
-import { standardError } from '../../../../utils/standardizedFetch';
-import SCOPE_TYPES from '../../../../utils/sentryScopeTypes';
-import API from '../../../../utils/api';
-import withLogs from '../../../../utils/withLogs';
+import { standardError } from '../../../utils/standardizedFetch';
+import SCOPE_TYPES from '../../../utils/sentryScopeTypes';
+import API from '../../../utils/api';
+import withLogs from '../../../utils/withLogs';
 
 const handler = async (req, res) => {
-    res.setHeader('X-Cache-Control', ['true']);
+  res.setHeader('X-Cache-Control', ['true']);
+
   const {
     cookies,
     headers,
@@ -14,13 +15,11 @@ const handler = async (req, res) => {
 
   const api = new API({
     fingerprint: __filename.replace('pages', '').split('.')[0],
-    auth: false,
-    base: process.env.SOLIDUS_HOST_SEO,
-    host: SCOPE_TYPES.SERVICES.SOLIDUS,
-    request: req,
+    base: 'https://boards-api.greenhouse.io',
+    host: SCOPE_TYPES.SERVICES.GREENHOUSE,
     scopes: [
       SCOPE_TYPES.API,
-      SCOPE_TYPES.SERVICES.SOLIDUS
+      SCOPE_TYPES.SERVICES.GREENHOUSE
     ],
     headers,
     ...cookies
@@ -28,13 +27,9 @@ const handler = async (req, res) => {
 
   let response;
 
-  const path = id.split(',').length > 1
-    ? `api/products?ids=${id}`
-    : `api/products/${id}`;
-
   switch (method) {
     case 'GET':
-      response = await api.setPath(path).get();
+      response = await api.setPath(`/v1/boards/maisonette/jobs/${id}`).get();
       res.status(response?.status ?? 500).json(response?.data ?? null);
       break;
 
@@ -54,7 +49,7 @@ const handler = async (req, res) => {
     query: req?.query ?? null,
     status: api?.response?.status ?? 500,
     headers,
-    uri: `/api/products/${id}`,
+    uri: `/api/careers/${id}`,
     filename: __filename
   };
 };
