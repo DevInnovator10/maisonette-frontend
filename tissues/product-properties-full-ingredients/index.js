@@ -9,6 +9,7 @@ const FullListIngredients = (props) => {
 
   const filteredIngredients = (properties) => (
     properties.filter(
+
       (property) => property.property_name === 'Full list of ingredients'
     )
   );
