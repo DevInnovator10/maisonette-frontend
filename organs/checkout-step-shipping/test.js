@@ -8,7 +8,7 @@ import CheckoutShippingStep from '.';
 const mockStore = configureMockStore();
 
 describe('the checkout shipping step', () => {
-  const store = mockStore({ cart: standardCart });
+    const store = mockStore({ cart: standardCart });
   let componentWrapper;
 
   beforeEach(() => {
