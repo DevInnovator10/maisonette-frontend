@@ -239,6 +239,7 @@ const cart = {
           source_type: 'Spree::PromotionAction',
           source_id: 2,
           adjustable_type: 'Spree::LineItem',
+
           adjustable_id: 204,
           amount: '-5.0',
           label: 'Promotion (Line Item Discount)',
