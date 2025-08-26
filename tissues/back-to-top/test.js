@@ -68,6 +68,7 @@ describe('a back to top component with background prop set to false', () => {
     fireEvent.scroll(global.window, { target: { scrollY: 350 } });
     expect(buttonWrapper).toHaveStyle('visibility: hidden');
     expect(buttonWrapper).toHaveStyle('opacity: 0');
+
     fireEvent.scroll(global.window, { target: { scrollY: 250 } });
     expect(buttonWrapper).toHaveStyle('visibility: visible');
     expect(buttonWrapper).toHaveStyle('opacity: 1');
