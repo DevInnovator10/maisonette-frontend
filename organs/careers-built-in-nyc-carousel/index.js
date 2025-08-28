@@ -6,7 +6,7 @@ import Carousel from '../../atoms/carousel';
 import Typography from '../../atoms/typography';
 
 const Title = styled(Typography)`
-  color: ${({ theme }) => theme.color.brandLightBlue};
+    color: ${({ theme }) => theme.color.brandLightBlue};
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 400;

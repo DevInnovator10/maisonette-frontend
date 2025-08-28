@@ -392,6 +392,7 @@ const AddressVerification = (props) => {
                   >
                     Edit Address
                   </CTA>
+
                   <CTA
                     onClick={handleContinueWithAddress}
                     outline
