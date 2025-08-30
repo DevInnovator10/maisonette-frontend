@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the breadcrumb component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  grid-area: breadcrumbs;
+  margin: 0 -1rem 3rem 0;
+}
+
+.emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  position: relative;
+  line-height: 1.5rem;
+  white-space: nowrap;
+}
+
+.emotion-2+.emotion-2:before {
+  color: #9CB1DC;
+  content: '|';
+  position: absolute;
+  left: -1px;
+}
+
+.emotion-2:last-of-type {
+  padding-right: 0;
+}
+
+.emotion-2:last-of-type .emotion-5 {
+  color: #3150A2;
+  white-space: normal;
+}
+
+.emotion-2:first-of-type {
+  padding-left: 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2:first-of-type {
+    padding-left: 1rem;
+  }
+}
+
+.emotion-4 {
+  color: #9CB1DC;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+<body>
+    <div>
+      <ol
+        class="emotion-0 emotion-1"
+      >
+        <li
+          class="emotion-2 emotion-3"
+          data-test-id="BreadCrumbs"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/kids"
+          >
+            Kids
+          </a>
+        </li>
+        <li
+          class="emotion-2 emotion-3"
+          data-test-id="BreadCrumbs"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/girl-clothing"
+          >
+            Girl Clothing
+          </a>
+        </li>
+        <li
+          class="emotion-2 emotion-3"
+          data-test-id="BreadCrumbs"
+        >
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop/swim"
+          >
+            Swim
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  grid-area: breadcrumbs;
+  margin: 0 -1rem 3rem 0;
+}
+
+.emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  position: relative;
+  line-height: 1.5rem;
+  white-space: nowrap;
+}
+
+.emotion-2+.emotion-2:before {
+  color: #9CB1DC;
+  content: '|';
+  position: absolute;
+  left: -1px;
+}
+
+.emotion-2:last-of-type {
+  padding-right: 0;
+}
+
+.emotion-2:last-of-type .emotion-5 {
+  color: #3150A2;
+  white-space: normal;
+}
+
+.emotion-2:first-of-type {
+  padding-left: 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2:first-of-type {
+    padding-left: 1rem;
+  }
+}
+
+.emotion-4 {
+  color: #9CB1DC;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+<div>
+    <ol
+      class="emotion-0 emotion-1"
+    >
+      <li
+        class="emotion-2 emotion-3"
+        data-test-id="BreadCrumbs"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/kids"
+        >
+          Kids
+        </a>
+      </li>
+      <li
+        class="emotion-2 emotion-3"
+        data-test-id="BreadCrumbs"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/girl-clothing"
+        >
+
+          Girl Clothing
+        </a>
+      </li>
+      <li
+        class="emotion-2 emotion-3"
+        data-test-id="BreadCrumbs"
+      >
+        <a
+          class="emotion-4 emotion-5"
+          href="/shop/swim"
+        >
+          Swim
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

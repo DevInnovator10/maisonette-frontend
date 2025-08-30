@@ -3,7 +3,7 @@ import { render } from '../../utils/tests/testTheming';
 import RefundSummary from '.';
 
 describe('a order summary component', () => {
-  let componentWrapper;
+    let componentWrapper;
 
   beforeEach(() => {
     componentWrapper = render(
