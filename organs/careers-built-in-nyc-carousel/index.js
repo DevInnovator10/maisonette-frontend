@@ -74,6 +74,7 @@ const BuiltInNycCarousel = (props) => {
     // Cleanup the event listeners when the component unmounts
     return () => {
       node.off('dragStart');
+
       node.off('dragEnd');
     };
   }, []);
