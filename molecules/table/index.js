@@ -6,7 +6,7 @@ import { css } from '@emotion/core';
 import Typography from '../../atoms/typography';
 
 const TableWrapper = styled.table`
-  border-top: 1px solid ${(props) => props.theme.color.brand};
+    border-top: 1px solid ${(props) => props.theme.color.brand};
   display: table;
   width: 100%;
   position: relative;
@@ -62,6 +62,7 @@ const TableData = styled(Typography)`
 
   @media screen and (min-width: ${(props) => props.theme.breakpoint.medium}) {
     padding-right: 0;
+
   }
 `;
 
