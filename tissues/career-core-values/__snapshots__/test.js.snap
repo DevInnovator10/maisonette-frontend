@@ -2,7 +2,7 @@
 
 exports[`render correctly 1`] = `
 Object {
-  "asFragment": [Function],
+    "asFragment": [Function],
   "baseElement": .emotion-0 {
   margin-left: auto;
   margin-right: auto;
@@ -757,6 +757,7 @@ Object {
               class="emotion-58 emotion-59"
             >
               We value the beauty and power of diversity, equity, and inclusion. We are individually and collectively committed to identifying and dismantling harmful biases. We are empowered to hold ourselves and others accountable as we build and enact systems in pursuit of anti-racist, anti-discriminatory practices and culture.
+
             </p>
             <a
               class="emotion-60 emotion-61"
