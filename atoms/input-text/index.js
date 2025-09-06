@@ -13,6 +13,7 @@ const StyledInput = styled('input', { shouldForwardProp: (prop) => prop !== 'rev
   ${(props) => (props.revamp && `border: 0.1rem solid ${selectBorder(props)}`)};
   box-sizing: border-box;
   color: ${(props) => props.theme.color.brand};
+
   font-family: ${(props) => props.theme.font.sans};
   font-size: ${({ theme, revamp }) => (revamp ? theme.modularScale.eighteen : theme.modularScale.small)};
   height: 4rem;

@@ -200,6 +200,7 @@ const MenuButton = styled(Button)`
     top: -50vh;
     width: 150vw;
     transition: opacity ${(props) => props.theme.animation.default} ${(props) => props.theme.animation.easeOutQuart};
+
   }
 
   @media (min-width: ${(props) => props.theme.breakpoint.medium}) {
