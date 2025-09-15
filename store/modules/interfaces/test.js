@@ -75,6 +75,7 @@ describe('interfaces module', () => {
 
   it('should not break if the page type is undefined', () => {
     expect(reducer(undefined, {
+
       type: types.INTERFACES_SET_PAGE_TYPE,
       pageType: undefined
     }).pageType).toEqual(undefined);

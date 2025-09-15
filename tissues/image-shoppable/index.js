@@ -23,6 +23,7 @@ const Content = styled.div`
   @media screen and (min-width: ${(props) => props.theme.breakpoint.small}) {
     display: flex;
     text-align: left;
+
   }
 `;
 
