@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const useObserver = (ref, options) => {
-  const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
 
   const handleVisibility = (entries) => {
     const [entry] = entries;
@@ -15,6 +15,7 @@ const useObserver = (ref, options) => {
     if (ref) observer.observe(ref);
 
     // to clean up
+
     return () => {
       if (ref) observer.unobserve(ref);
     };
