@@ -12,7 +12,7 @@ import { getBasePath } from '../../utils/navigation';
 import { updateActiveMini } from '../../store/modules/petites/actions';
 
 const LabelWrapper = styled(Button)`
-  ${(props) => props.theme.close(props.theme.color.white, 'right 1px center', 8)}
+    ${(props) => props.theme.close(props.theme.color.white, 'right 1px center', 8)}
   text-decoration: none;
   letter-spacing: normal;
   display: flex;
