@@ -37,6 +37,7 @@ const StoreCreditCheckbox = (props) => {
       value={props.useStoreCredit}
       active={props.useStoreCredit}
       changed={updateStoreCredit}
+
     >
       {
         props.useStoreCredit ? (
