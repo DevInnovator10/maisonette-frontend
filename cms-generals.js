@@ -47,6 +47,7 @@ module.exports = async () => {
       navigation: ${JSON.stringify(mobileNavigation)},
       promotions: ${JSON.stringify(promoContent)},
       getMobileNavigation: ${getMobileNavigation},
+
       getPromoContent: ${getPromoContent}
     }`
   };
