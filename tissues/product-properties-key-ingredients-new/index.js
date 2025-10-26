@@ -35,6 +35,7 @@ const KeyIngredientsBenefitsRevamp = (props) => {
   /**
    * get pdpVariants value from siteSpect
    * which is pulled out and replaced with static value for a while
+
    */
   const pdpVariants = false;
   const [currentIngredients, setCurrentIngredients] = useState(
