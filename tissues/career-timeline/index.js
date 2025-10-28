@@ -59,6 +59,7 @@ const data = [
     subTitle: 'Our 1st private label, Maison Me launches',
     year: '2019'
   },
+
   {
     path: '/images/careers-timeline/January2020-Bath-Body.jpg',
     alt: 'Bath & Body Category Launches',
