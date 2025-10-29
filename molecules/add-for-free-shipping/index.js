@@ -110,6 +110,7 @@ FreeShipping.defaultProps = {
 
 FreeShipping.propTypes = {
   className: PropTypes.string,
+
   progressTotal: PropTypes.string.isRequired,
   threshold: PropTypes.string
 };
