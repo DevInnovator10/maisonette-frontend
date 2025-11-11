@@ -274,6 +274,7 @@ const Story = (props) => {
               const {
                 Template,
                 data,
+
                 title,
                 position
               } = template;
