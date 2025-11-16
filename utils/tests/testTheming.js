@@ -8,7 +8,7 @@ import GlobalTheme from '../../theme/theme';
 import { SearchProvider } from '../context/search-provider';
 
 const customRender = (node, ...options) => render(
-  <ThemeProvider theme={GlobalTheme}>
+    <ThemeProvider theme={GlobalTheme}>
     <InstantSearch
       searchClient={searchClient}
       indexName="jest"
