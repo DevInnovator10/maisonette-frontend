@@ -17,6 +17,7 @@ const Accordions = (props) => (
 
 Accordions.propTypes = {
   data: PropTypes.object.isRequired
+
 };
 
 export default Accordions;
