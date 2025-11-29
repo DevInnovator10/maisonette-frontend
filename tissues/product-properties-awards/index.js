@@ -8,7 +8,7 @@ import Typography from '../../atoms/typography';
 import { useProduct } from '../../utils/context/product-provider';
 
 const Icon = styled.img`
-  max-height: 5rem;
+    max-height: 5rem;
   max-width: 5rem;
   width: 100%;
 
