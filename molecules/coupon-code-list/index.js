@@ -121,6 +121,7 @@ const CouponHOC = (props) => {
             const paymentResData = paymentRes?.data ?? paymentRes;
             if (paymentResData?.errors) {
               if (paymentResData.errors?.length > 0) {
+
                 paymentResData.errors.forEach(({ message = null }) => {
                   if (typeof message === 'string') {
                     toast(message, { type: TOAST.TYPE.ERROR });

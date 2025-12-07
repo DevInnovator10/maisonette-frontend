@@ -51,6 +51,7 @@ const ArrowButton = styled.button(() => ({
 
 const SuggestedItem = styled(ListItem)(() => ({
   '.ais-Highlight': {
+
     span: { color: '#4E68AF' },
     strong: { color: '#112E7D' }
   }

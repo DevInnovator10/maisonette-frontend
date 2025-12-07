@@ -8,6 +8,7 @@ const getCookie = (name, req) => {
   });
 
   return name ? cookie[name] : cookie;
+
 };
 
 export default getCookie;
