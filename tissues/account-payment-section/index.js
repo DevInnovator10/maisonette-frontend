@@ -94,6 +94,7 @@ const AccountCardSection = (props) => {
           if (sorted_ps && sorted_ps.length > 0) {
             await setDefaultPaymentMethod({ id: sorted_ps[0].id })
               .then(() => props.setDefaultPaymentSource(sorted_ps[0].id));
+
           }
         }
       });
