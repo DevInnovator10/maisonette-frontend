@@ -1,0 +1,34 @@
+{
+  "pre-holiday-sale-2022": {
+    "heading": {
+      "/edits/pre-holiday-sale": "Preholiday Sale",
+      "/edits/pre-holiday-sale-extra10": "Preholiday Sale on Sale"
+    },
+    "filters": [
+        {
+          "buttonText": "Extra 10% Off",
+          "path": "/edits/pre-holiday-sale-extra10"
+        },
+        {
+          "buttonText": "Shop All",
+          "path": "/edits/pre-holiday-sale"
+        }
+    ]
+  },
+  "last-minute-holiday-gift-sale-2022": {
+    "heading": {
+      "/edits/last-minute-holiday-gift-sale": "Last Minute Gift Sale",
+      "/edits/last-minute-holiday-gift-sale-extra15": "Last Minute Gift Sale on Sale"
+    },
+    "filters": [
+      {
+        "buttonText": "Extra 15% Off",
+        "path": "/edits/last-minute-holiday-gift-sale-extra15"
+      },
+      {
+        "buttonText": "Shop All",
+        "path": "/edits/last-minute-holiday-gift-sale"
+      }
+    ]
+  }
+}

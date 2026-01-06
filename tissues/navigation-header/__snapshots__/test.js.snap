@@ -1,0 +1,5947 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a navigation header when logged in renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  background-color: #FCF8E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 42px;
+  z-index: 2010;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: 17rem;
+    padding-bottom: 0;
+    top: -17px;
+    z-index: 2010;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: auto;
+    top: 42px;
+  }
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  padding-bottom: 1rem;
+  background-color: #FCF8E8;
+  border: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 1rem;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4.4rem;
+  width: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  z-index: initial;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-9 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-9:hover {
+  opacity: 100;
+}
+
+.emotion-9 i,
+.emotion-9 i::before,
+.emotion-9 i::after {
+  display: block;
+  background-color: #3150A2;
+  height: 1px;
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  -webkit-transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  width: 100%;
+}
+
+.emotion-9 i {
+  text-indent: -9999px;
+  position: relative;
+  z-index: 4000;
+}
+
+.emotion-9 i::before,
+.emotion-9 i::after {
+  content: '';
+  position: absolute;
+}
+
+.emotion-9 i::before {
+  top: -7px;
+}
+
+.emotion-9 i::after {
+  bottom: -7px;
+}
+
+.emotion-9::after {
+  background-color: #FAEFD9;
+  content: '';
+  height: 0;
+  left: calc(-28rem - 1rem - 2px);
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -50vh;
+  width: 150vw;
+  -webkit-transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media (min-width:992px) {
+  .emotion-9 {
+    display: none;
+  }
+}
+
+.emotion-11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 4.4rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-13 {
+  display: none;
+  height: 35px;
+  max-width: 28px;
+  width: 100%;
+}
+
+.emotion-13 path {
+  fill: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: block;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-130%);
+    -ms-transform: translate(-50%,-130%);
+    transform: translate(-50%,-130%);
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: none;
+  }
+}
+
+.emotion-15 {
+  max-width: 123px;
+  width: 100%;
+}
+
+@media (min-width:992px) {
+  .emotion-15 {
+    max-width: 148px;
+  }
+}
+
+.emotion-17 {
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-17 {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 1.6rem 0 3.2rem;
+    position: relative;
+    top: 8px;
+  }
+}
+
+.emotion-19 {
+  margin: 0 auto;
+  padding: 0 2rem 1rem 2rem;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-19 {
+    padding: 0 0 1rem 0;
+  }
+}
+
+.emotion-21 {
+  position: relative;
+}
+
+.emotion-23 {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 1.5rem;
+  top: 12.5px;
+}
+
+.emotion-26 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.3rem;
+  height: 4rem;
+  padding: 6px 6px 6px 31px;
+  width: 100%;
+  color: #3150A2;
+  border: 1px solid #D3D3D3;
+  margin-bottom: 0;
+  padding: 0 0 0 4rem;
+}
+
+@media (max-width:992px) {
+  .emotion-26:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-26 {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    border-radius: 32px;
+  }
+
+  .emotion-26:focus {
+    border: none;
+  }
+}
+
+.emotion-26::-webkit-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-moz-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26:-ms-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-webkit-search-decoration,
+.emotion-26::-webkit-search-cancel-button,
+.emotion-26::-webkit-search-results-button,
+.emotion-26::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-29 {
+  cursor: pointer;
+  display: none;
+  height: 2rem!important;
+  width: 2rem!important;
+  fill: #FFFFFF;
+  stroke: #3150A2;
+  stroke-width: 5px;
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-29 {
+    fill: #3150A2;
+    stroke: #FFFFFF;
+  }
+}
+
+.emotion-32 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  display: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  height: 4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  position: absolute;
+  right: 0;
+  text-transform: initial;
+  top: 0;
+  width: 4rem;
+}
+
+.emotion-32:active {
+  outline: 0;
+}
+
+.emotion-32:hover {
+  opacity: 0.75;
+}
+
+.emotion-32[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-32 {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+}
+
+.emotion-36 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-36 {
+    background: #ffffff;
+    display: none;
+    grid-gap: 3rem;
+    grid-template-areas: "left right";
+    grid-template-columns: 250px auto;
+    padding: 2rem;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-36 {
+    left: 0;
+    top: 68px;
+    height: 100vh;
+    padding: 32px 6.5vw;
+  }
+}
+
+.emotion-38 {
+  grid-area: left;
+}
+
+.emotion-41 {
+  display: block;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-41+.emotion-41 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-41 {
+    display: none;
+  }
+}
+
+.emotion-43 {
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  word-break: break-word;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotion-43 span {
+  text-transform: lowercase;
+}
+
+.emotion-43 span::before {
+  content: "‘";
+}
+
+.emotion-43 span::after {
+  content: "’";
+}
+
+@media screen and (min-width:768px) {
+  .emotion-43 {
+    text-align: left;
+  }
+}
+
+.emotion-45 {
+  margin-bottom: -1rem;
+}
+
+.emotion-45 li {
+  background: #2B47981A;
+  border-bottom: 0;
+  border-radius: 1.5rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 1rem 1rem 0;
+}
+
+.emotion-45 li a {
+  padding: 0 1.5rem;
+}
+
+.emotion-47+.emotion-47 {
+  margin-top: 2.3438rem;
+}
+
+.emotion-52 {
+  margin-bottom: -1rem;
+}
+
+.emotion-52 li {
+  margin-bottom: 1rem;
+}
+
+.emotion-52 li a {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.emotion-54 {
+  grid-area: right;
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-54 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-54 {
+    display: grid;
+    grid-template-columns: auto 22vw;
+    grid-gap: 10px;
+  }
+}
+
+.emotion-57 {
+  display: none;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-57+.emotion-57 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-57 {
+    display: block;
+  }
+}
+
+.emotion-63 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+@media (min-width:992px) {
+  .emotion-63 {
+    margin-left: auto;
+  }
+}
+
+.emotion-66 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-66:active {
+  outline: 0;
+}
+
+.emotion-66:hover {
+  opacity: 0.75;
+}
+
+.emotion-66[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-66 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-66 span {
+  line-height: 2rem;
+}
+
+.emotion-66 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: #3150A2;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-66 svg {
+    display: none;
+  }
+}
+
+.emotion-70 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #3150A2;
+}
+
+@media (min-width:1200px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-72 {
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-72 {
+    background-color: #FCF8E8;
+    height: 2.8rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 4.4rem;
+    padding: 1rem;
+    position: relative;
+  }
+}
+
+.emotion-75 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 2rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.emotion-75:active {
+  outline: 0;
+}
+
+.emotion-75:hover {
+  opacity: 0.75;
+}
+
+.emotion-75[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-75:hover {
+  opacity: 1;
+}
+
+.emotion-77 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+
+.emotion-79 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iI0M4NEQxOSIgZD0iTTAgNCBMOCA0IEw0IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  color: #C84D19;
+  font-size: 1.2rem;
+  padding: 0 1.2rem;
+  position: relative;
+}
+
+.emotion-82 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
+  height: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-82:active {
+  outline: 0;
+}
+
+.emotion-82:hover {
+  opacity: 0.75;
+}
+
+.emotion-82[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-82 span {
+  line-height: 2rem;
+}
+
+.emotion-82 svg {
+  display: block;
+  height: 2.7rem;
+  width: 2.7em;
+  fill: transparent;
+  stroke: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-82 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-87 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCF8E8;
+  border: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.2rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  line-height: 1;
+  min-width: 4.4rem;
+  outline: none;
+  margin-right: 0;
+  width: auto;
+}
+
+.emotion-87:active {
+  outline: 0;
+}
+
+.emotion-87:hover {
+  opacity: 0.75;
+}
+
+.emotion-87[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-87 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-87 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
+
+.emotion-87 span {
+  display: block;
+  min-width: 1.2rem;
+  text-align: center;
+}
+
+.emotion-87 svg {
+  stroke: #3150A2;
+  fill: transparent;
+  stroke-width: 2px;
+  width: 2rem;
+  height: 2rem;
+}
+
+.emotion-87.--wiggle {
+  -webkit-animation: animation-0 400ms;
+  animation: animation-0 400ms;
+}
+
+.emotion-89 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.emotion-137 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 156px;
+  background-color: #FCF8E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  height: 2.8rem;
+  max-height: 2.8rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: -webkit-transform 600ms ease;
+  -webkit-transition: transform 600ms ease;
+  transition: transform 600ms ease;
+  z-index: 1000;
+}
+
+@media (min-width:992px) {
+  .emotion-137 {
+    display: none;
+  }
+}
+
+<body
+    style="overflow-y: auto;"
+  >
+    <div>
+      <header
+        class="emotion-0 emotion-1"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class="emotion-6 emotion-7"
+            >
+              <button
+                class="emotion-8 emotion-9 emotion-10"
+                title="Toggle Navigation"
+                type="button"
+              >
+                <i>
+                  Toggle Navigation
+                </i>
+              </button>
+            </div>
+          </div>
+          <a
+            class="emotion-11 emotion-12"
+            href="/"
+            title="Maisonette - Home Page"
+          >
+            <svg
+              class="emotion-13 emotion-14"
+            />
+            <svg
+              class="emotion-15 emotion-16"
+            />
+          </a>
+          <div
+            class="emotion-17 emotion-18"
+          >
+            <div
+              class="emotion-19 emotion-20"
+              id="search-modal"
+            >
+              <form
+                class="emotion-21 emotion-22"
+                data-test-id="SearchBox"
+                novalidate=""
+                role="search"
+              >
+                <label
+                  for="algolia-search"
+                >
+                  <svg
+                    class="emotion-23 emotion-24"
+                    data-test-id="SearchSVG"
+                    fill="none"
+                    height="15"
+                    viewBox="0 0 14 15"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                      fill="#3150A2"
+                    />
+                  </svg>
+                </label>
+                <input
+                  autocomplete="off"
+                  class="emotion-25 emotion-26 emotion-27"
+                  data-test-id="InputSearch"
+                  id="algolia-search"
+                  name="w"
+                  placeholder="Search for anything"
+                  type="search"
+                  value=""
+                />
+                <svg
+                  class="emotion-28 emotion-29 emotion-30"
+                  data-test-id="Icon"
+                />
+                <button
+                  class="emotion-31 emotion-32 emotion-10"
+                  type="button"
+                >
+                  <svg
+                    class="emotion-34 emotion-35"
+                    data-test-id="Icon"
+                  />
+                </button>
+              </form>
+              <div
+                class="emotion-36 emotion-37"
+              >
+                <div
+                  class="emotion-38 emotion-39"
+                >
+                  <section
+                    class="emotion-40 emotion-41 emotion-42"
+                    data-test-id="Section"
+                    direction="column"
+                    title="Recent Searches"
+                  >
+                    <h2
+                      class="emotion-43 emotion-44"
+                    >
+                      Recent Searches
+                      
+                    </h2>
+                    <ul
+                      class="emotion-45 emotion-46"
+                      data-test-id="UnorderedList"
+                      direction="row"
+                    />
+                  </section>
+                  <section
+                    class="emotion-47 emotion-42"
+                    data-test-id="Section"
+                    direction="column"
+                    title="Popular Searches"
+                  >
+                    <h2
+                      class="emotion-43 emotion-44"
+                    >
+                      Popular Searches
+                      
+                    </h2>
+                    <ul
+                      class="emotion-51 emotion-52 emotion-46"
+                      data-test-id="UnorderedList"
+                      direction="column"
+                    />
+                  </section>
+                </div>
+                <div
+                  class="emotion-54 emotion-55"
+                >
+                  <section
+                    class="emotion-40 emotion-57 emotion-42"
+                    data-test-id="Section"
+                    direction="column"
+                    title="Recent Searches"
+                  >
+                    <h2
+                      class="emotion-43 emotion-44"
+                    >
+                      Recent Searches
+                      
+                    </h2>
+                    <ul
+                      class="emotion-45 emotion-46"
+                      data-test-id="UnorderedList"
+                      direction="row"
+                    />
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="emotion-63 emotion-64"
+          >
+            <a
+              aria-label="account details button"
+              class="emotion-65 emotion-66 emotion-67"
+              data-test-id="UserGreeting"
+              href="/login"
+              name="Eric"
+              title="Account"
+            >
+              <svg
+                class="emotion-68 emotion-69"
+              />
+              <span
+                aria-label="account details button"
+                class="emotion-70 emotion-71"
+                href="/login"
+                name="Eric"
+                title="Account"
+              >
+                Hi, Eric
+              </span>
+            </a>
+            <div
+              class="emotion-72 emotion-31"
+              title="Petite Profiles"
+            >
+              <button
+                aria-label="open petite profile menu"
+                class="emotion-74 emotion-75 emotion-10"
+                data-test-id="PetiteProfileSelector"
+                type="button"
+              >
+                <p
+                  class="emotion-77 emotion-78"
+                >
+                  SHOP FOR
+                </p>
+                <div
+                  class="emotion-79 emotion-80"
+                >
+                  Your Mini
+                </div>
+              </button>
+            </div>
+            <a
+              aria-label="open wishlist"
+              class="emotion-32 emotion-82 emotion-67"
+              data-test-id="open-wishlist"
+              href="/lists/wishlist"
+              role="link"
+              title="Wish List"
+            >
+              <svg
+                class="emotion-84 emotion-85"
+              />
+            </a>
+            <button
+              aria-label="open bag"
+              class="emotion-86 emotion-87 emotion-10"
+              data-test-id="CartIcon"
+              title="Bag"
+              type="button"
+            >
+              <svg
+                class="emotion-89 emotion-90"
+              />
+              
+            </button>
+          </div>
+        </div>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class="emotion-19 emotion-20"
+            id="search-modal"
+          >
+            <form
+              class="emotion-21 emotion-22"
+              data-test-id="SearchBox"
+              novalidate=""
+              role="search"
+            >
+              <label
+                for="algolia-search"
+              >
+                <svg
+                  class="emotion-23 emotion-24"
+                  data-test-id="SearchSVG"
+                  fill="none"
+                  height="15"
+                  viewBox="0 0 14 15"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                    fill="#3150A2"
+                  />
+                </svg>
+              </label>
+              <input
+                autocomplete="off"
+                class="emotion-25 emotion-26 emotion-27"
+                data-test-id="InputSearch"
+                id="algolia-search"
+                name="w"
+                placeholder="Search for anything"
+                type="search"
+                value=""
+              />
+              <svg
+                class="emotion-28 emotion-29 emotion-30"
+                data-test-id="Icon"
+              />
+              <button
+                class="emotion-31 emotion-32 emotion-10"
+                type="button"
+              >
+                <svg
+                  class="emotion-34 emotion-35"
+                  data-test-id="Icon"
+                />
+              </button>
+            </form>
+            <div
+              class="emotion-36 emotion-37"
+            >
+              <div
+                class="emotion-38 emotion-39"
+              >
+                <section
+                  class="emotion-40 emotion-41 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+                <section
+                  class="emotion-47 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Popular Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Popular Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-51 emotion-52 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="column"
+                  />
+                </section>
+              </div>
+              <div
+                class="emotion-54 emotion-55"
+              >
+                <section
+                  class="emotion-40 emotion-57 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div
+        class="emotion-137 emotion-30"
+        title="Petite Profiles"
+      >
+        <button
+          aria-label="open petite profile menu"
+          class="emotion-74 emotion-75 emotion-10"
+          data-test-id="PetiteProfileSelector"
+          type="button"
+        >
+          <p
+            class="emotion-77 emotion-78"
+          >
+            SHOP FOR
+          </p>
+          <div
+            class="emotion-79 emotion-80"
+          >
+            Your Mini
+          </div>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  background-color: #FCF8E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 42px;
+  z-index: 2010;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: 17rem;
+    padding-bottom: 0;
+    top: -17px;
+    z-index: 2010;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: auto;
+    top: 42px;
+  }
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  padding-bottom: 1rem;
+  background-color: #FCF8E8;
+  border: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 1rem;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4.4rem;
+  width: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  z-index: initial;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-9 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-9:hover {
+  opacity: 100;
+}
+
+.emotion-9 i,
+.emotion-9 i::before,
+.emotion-9 i::after {
+  display: block;
+  background-color: #3150A2;
+  height: 1px;
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  -webkit-transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  width: 100%;
+}
+
+.emotion-9 i {
+  text-indent: -9999px;
+  position: relative;
+  z-index: 4000;
+}
+
+.emotion-9 i::before,
+.emotion-9 i::after {
+  content: '';
+  position: absolute;
+}
+
+.emotion-9 i::before {
+  top: -7px;
+}
+
+.emotion-9 i::after {
+  bottom: -7px;
+}
+
+.emotion-9::after {
+  background-color: #FAEFD9;
+  content: '';
+  height: 0;
+  left: calc(-28rem - 1rem - 2px);
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -50vh;
+  width: 150vw;
+  -webkit-transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media (min-width:992px) {
+  .emotion-9 {
+    display: none;
+  }
+}
+
+.emotion-11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 4.4rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-13 {
+  display: none;
+  height: 35px;
+  max-width: 28px;
+  width: 100%;
+}
+
+.emotion-13 path {
+  fill: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: block;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-130%);
+    -ms-transform: translate(-50%,-130%);
+    transform: translate(-50%,-130%);
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: none;
+  }
+}
+
+.emotion-15 {
+  max-width: 123px;
+  width: 100%;
+}
+
+@media (min-width:992px) {
+  .emotion-15 {
+    max-width: 148px;
+  }
+}
+
+.emotion-17 {
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-17 {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 1.6rem 0 3.2rem;
+    position: relative;
+    top: 8px;
+  }
+}
+
+.emotion-19 {
+  margin: 0 auto;
+  padding: 0 2rem 1rem 2rem;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-19 {
+    padding: 0 0 1rem 0;
+  }
+}
+
+.emotion-21 {
+  position: relative;
+}
+
+.emotion-23 {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 1.5rem;
+  top: 12.5px;
+}
+
+.emotion-26 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.3rem;
+  height: 4rem;
+  padding: 6px 6px 6px 31px;
+  width: 100%;
+  color: #3150A2;
+  border: 1px solid #D3D3D3;
+  margin-bottom: 0;
+  padding: 0 0 0 4rem;
+}
+
+@media (max-width:992px) {
+  .emotion-26:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-26 {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    border-radius: 32px;
+  }
+
+  .emotion-26:focus {
+    border: none;
+  }
+}
+
+.emotion-26::-webkit-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-moz-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26:-ms-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-webkit-search-decoration,
+.emotion-26::-webkit-search-cancel-button,
+.emotion-26::-webkit-search-results-button,
+.emotion-26::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-29 {
+  cursor: pointer;
+  display: none;
+  height: 2rem!important;
+  width: 2rem!important;
+  fill: #FFFFFF;
+  stroke: #3150A2;
+  stroke-width: 5px;
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-29 {
+    fill: #3150A2;
+    stroke: #FFFFFF;
+  }
+}
+
+.emotion-32 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  display: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  height: 4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  position: absolute;
+  right: 0;
+  text-transform: initial;
+  top: 0;
+  width: 4rem;
+}
+
+.emotion-32:active {
+  outline: 0;
+}
+
+.emotion-32:hover {
+  opacity: 0.75;
+}
+
+.emotion-32[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-32 {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+}
+
+.emotion-36 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-36 {
+    background: #ffffff;
+    display: none;
+    grid-gap: 3rem;
+    grid-template-areas: "left right";
+    grid-template-columns: 250px auto;
+    padding: 2rem;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-36 {
+    left: 0;
+    top: 68px;
+    height: 100vh;
+    padding: 32px 6.5vw;
+  }
+}
+
+.emotion-38 {
+  grid-area: left;
+}
+
+.emotion-41 {
+  display: block;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-41+.emotion-41 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-41 {
+    display: none;
+  }
+}
+
+.emotion-43 {
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  word-break: break-word;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotion-43 span {
+  text-transform: lowercase;
+}
+
+.emotion-43 span::before {
+  content: "‘";
+}
+
+.emotion-43 span::after {
+  content: "’";
+}
+
+@media screen and (min-width:768px) {
+  .emotion-43 {
+    text-align: left;
+  }
+}
+
+.emotion-45 {
+  margin-bottom: -1rem;
+}
+
+.emotion-45 li {
+  background: #2B47981A;
+  border-bottom: 0;
+  border-radius: 1.5rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 1rem 1rem 0;
+}
+
+.emotion-45 li a {
+  padding: 0 1.5rem;
+}
+
+.emotion-47+.emotion-47 {
+  margin-top: 2.3438rem;
+}
+
+.emotion-52 {
+  margin-bottom: -1rem;
+}
+
+.emotion-52 li {
+  margin-bottom: 1rem;
+}
+
+.emotion-52 li a {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.emotion-54 {
+  grid-area: right;
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-54 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-54 {
+    display: grid;
+    grid-template-columns: auto 22vw;
+    grid-gap: 10px;
+  }
+}
+
+.emotion-57 {
+  display: none;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-57+.emotion-57 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-57 {
+    display: block;
+  }
+}
+
+.emotion-63 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+@media (min-width:992px) {
+  .emotion-63 {
+    margin-left: auto;
+  }
+}
+
+.emotion-66 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-66:active {
+  outline: 0;
+}
+
+.emotion-66:hover {
+  opacity: 0.75;
+}
+
+.emotion-66[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-66 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-66 span {
+  line-height: 2rem;
+}
+
+.emotion-66 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: #3150A2;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-66 svg {
+    display: none;
+  }
+}
+
+.emotion-70 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #3150A2;
+}
+
+@media (min-width:1200px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-72 {
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-72 {
+    background-color: #FCF8E8;
+    height: 2.8rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 4.4rem;
+    padding: 1rem;
+    position: relative;
+  }
+}
+
+.emotion-75 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  line-height: 2rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.emotion-75:active {
+  outline: 0;
+}
+
+.emotion-75:hover {
+  opacity: 0.75;
+}
+
+.emotion-75[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-75:hover {
+  opacity: 1;
+}
+
+.emotion-77 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+
+.emotion-79 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iI0M4NEQxOSIgZD0iTTAgNCBMOCA0IEw0IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  color: #C84D19;
+  font-size: 1.2rem;
+  padding: 0 1.2rem;
+  position: relative;
+}
+
+.emotion-82 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
+  height: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-82:active {
+  outline: 0;
+}
+
+.emotion-82:hover {
+  opacity: 0.75;
+}
+
+.emotion-82[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-82 span {
+  line-height: 2rem;
+}
+
+.emotion-82 svg {
+  display: block;
+  height: 2.7rem;
+  width: 2.7em;
+  fill: transparent;
+  stroke: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-82 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-87 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCF8E8;
+  border: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.2rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  line-height: 1;
+  min-width: 4.4rem;
+  outline: none;
+  margin-right: 0;
+  width: auto;
+}
+
+.emotion-87:active {
+  outline: 0;
+}
+
+.emotion-87:hover {
+  opacity: 0.75;
+}
+
+.emotion-87[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-87 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-87 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
+
+.emotion-87 span {
+  display: block;
+  min-width: 1.2rem;
+  text-align: center;
+}
+
+.emotion-87 svg {
+  stroke: #3150A2;
+  fill: transparent;
+  stroke-width: 2px;
+  width: 2rem;
+  height: 2rem;
+}
+
+.emotion-87.--wiggle {
+  -webkit-animation: animation-0 400ms;
+  animation: animation-0 400ms;
+}
+
+.emotion-89 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.emotion-137 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 156px;
+  background-color: #FCF8E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  height: 2.8rem;
+  max-height: 2.8rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: -webkit-transform 600ms ease;
+  -webkit-transition: transform 600ms ease;
+  transition: transform 600ms ease;
+  z-index: 1000;
+}
+
+@media (min-width:992px) {
+  .emotion-137 {
+    display: none;
+  }
+}
+
+<div>
+    <header
+      class="emotion-0 emotion-1"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <button
+              class="emotion-8 emotion-9 emotion-10"
+              title="Toggle Navigation"
+              type="button"
+            >
+              <i>
+                Toggle Navigation
+              </i>
+            </button>
+          </div>
+        </div>
+        <a
+          class="emotion-11 emotion-12"
+          href="/"
+          title="Maisonette - Home Page"
+        >
+          <svg
+            class="emotion-13 emotion-14"
+          />
+          <svg
+            class="emotion-15 emotion-16"
+          />
+        </a>
+        <div
+          class="emotion-17 emotion-18"
+        >
+          <div
+            class="emotion-19 emotion-20"
+            id="search-modal"
+          >
+            <form
+              class="emotion-21 emotion-22"
+              data-test-id="SearchBox"
+              novalidate=""
+              role="search"
+            >
+              <label
+                for="algolia-search"
+              >
+                <svg
+                  class="emotion-23 emotion-24"
+                  data-test-id="SearchSVG"
+                  fill="none"
+                  height="15"
+                  viewBox="0 0 14 15"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                    fill="#3150A2"
+                  />
+                </svg>
+              </label>
+              <input
+                autocomplete="off"
+                class="emotion-25 emotion-26 emotion-27"
+                data-test-id="InputSearch"
+                id="algolia-search"
+                name="w"
+                placeholder="Search for anything"
+                type="search"
+                value=""
+              />
+              <svg
+                class="emotion-28 emotion-29 emotion-30"
+                data-test-id="Icon"
+              />
+              <button
+                class="emotion-31 emotion-32 emotion-10"
+                type="button"
+              >
+                <svg
+                  class="emotion-34 emotion-35"
+                  data-test-id="Icon"
+                />
+              </button>
+            </form>
+            <div
+              class="emotion-36 emotion-37"
+            >
+              <div
+                class="emotion-38 emotion-39"
+              >
+                <section
+                  class="emotion-40 emotion-41 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+                <section
+                  class="emotion-47 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Popular Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Popular Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-51 emotion-52 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="column"
+                  />
+                </section>
+              </div>
+              <div
+                class="emotion-54 emotion-55"
+              >
+                <section
+                  class="emotion-40 emotion-57 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-63 emotion-64"
+        >
+          <a
+            aria-label="account details button"
+            class="emotion-65 emotion-66 emotion-67"
+            data-test-id="UserGreeting"
+            href="/login"
+            name="Eric"
+            title="Account"
+          >
+            <svg
+              class="emotion-68 emotion-69"
+            />
+            <span
+              aria-label="account details button"
+              class="emotion-70 emotion-71"
+              href="/login"
+              name="Eric"
+              title="Account"
+            >
+              Hi, Eric
+            </span>
+          </a>
+          <div
+            class="emotion-72 emotion-31"
+            title="Petite Profiles"
+          >
+            <button
+              aria-label="open petite profile menu"
+              class="emotion-74 emotion-75 emotion-10"
+              data-test-id="PetiteProfileSelector"
+              type="button"
+            >
+              <p
+                class="emotion-77 emotion-78"
+              >
+                SHOP FOR
+              </p>
+              <div
+                class="emotion-79 emotion-80"
+              >
+                Your Mini
+              </div>
+            </button>
+          </div>
+          <a
+            aria-label="open wishlist"
+            class="emotion-32 emotion-82 emotion-67"
+            data-test-id="open-wishlist"
+            href="/lists/wishlist"
+            role="link"
+            title="Wish List"
+          >
+            <svg
+              class="emotion-84 emotion-85"
+            />
+          </a>
+          <button
+            aria-label="open bag"
+            class="emotion-86 emotion-87 emotion-10"
+            data-test-id="CartIcon"
+            title="Bag"
+            type="button"
+          >
+            <svg
+              class="emotion-89 emotion-90"
+            />
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <div
+          class="emotion-19 emotion-20"
+          id="search-modal"
+        >
+          <form
+            class="emotion-21 emotion-22"
+            data-test-id="SearchBox"
+            novalidate=""
+            role="search"
+          >
+            <label
+              for="algolia-search"
+            >
+              <svg
+                class="emotion-23 emotion-24"
+                data-test-id="SearchSVG"
+                fill="none"
+                height="15"
+                viewBox="0 0 14 15"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                  fill="#3150A2"
+                />
+              </svg>
+            </label>
+            <input
+              autocomplete="off"
+              class="emotion-25 emotion-26 emotion-27"
+              data-test-id="InputSearch"
+              id="algolia-search"
+              name="w"
+              placeholder="Search for anything"
+              type="search"
+              value=""
+            />
+            <svg
+              class="emotion-28 emotion-29 emotion-30"
+              data-test-id="Icon"
+            />
+            <button
+              class="emotion-31 emotion-32 emotion-10"
+              type="button"
+            >
+              <svg
+                class="emotion-34 emotion-35"
+                data-test-id="Icon"
+              />
+            </button>
+          </form>
+          <div
+            class="emotion-36 emotion-37"
+          >
+            <div
+              class="emotion-38 emotion-39"
+            >
+              <section
+                class="emotion-40 emotion-41 emotion-42"
+                data-test-id="Section"
+                direction="column"
+                title="Recent Searches"
+              >
+                <h2
+                  class="emotion-43 emotion-44"
+                >
+                  Recent Searches
+                  
+                </h2>
+                <ul
+                  class="emotion-45 emotion-46"
+                  data-test-id="UnorderedList"
+                  direction="row"
+                />
+              </section>
+              <section
+                class="emotion-47 emotion-42"
+                data-test-id="Section"
+                direction="column"
+                title="Popular Searches"
+              >
+                <h2
+                  class="emotion-43 emotion-44"
+                >
+                  Popular Searches
+                  
+                </h2>
+                <ul
+                  class="emotion-51 emotion-52 emotion-46"
+                  data-test-id="UnorderedList"
+                  direction="column"
+                />
+              </section>
+            </div>
+            <div
+              class="emotion-54 emotion-55"
+            >
+              <section
+                class="emotion-40 emotion-57 emotion-42"
+                data-test-id="Section"
+                direction="column"
+                title="Recent Searches"
+              >
+                <h2
+                  class="emotion-43 emotion-44"
+                >
+                  Recent Searches
+                  
+                </h2>
+                <ul
+                  class="emotion-45 emotion-46"
+                  data-test-id="UnorderedList"
+                  direction="row"
+                />
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="emotion-137 emotion-30"
+      title="Petite Profiles"
+    >
+      <button
+        aria-label="open petite profile menu"
+        class="emotion-74 emotion-75 emotion-10"
+        data-test-id="PetiteProfileSelector"
+        type="button"
+      >
+        <p
+          class="emotion-77 emotion-78"
+        >
+          SHOP FOR
+        </p>
+        <div
+          class="emotion-79 emotion-80"
+        >
+          Your Mini
+        </div>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`a navigation header when not logged in renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  background-color: #FCF8E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 42px;
+  z-index: 2010;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: 17rem;
+    padding-bottom: 0;
+    top: -17px;
+    z-index: 2010;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: auto;
+    top: 42px;
+  }
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  padding-bottom: 1rem;
+  background-color: #FCF8E8;
+  border: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 1rem;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4.4rem;
+  width: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  z-index: initial;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-9 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-9:hover {
+  opacity: 100;
+}
+
+.emotion-9 i,
+.emotion-9 i::before,
+.emotion-9 i::after {
+  display: block;
+  background-color: #3150A2;
+  height: 1px;
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  -webkit-transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  width: 100%;
+}
+
+.emotion-9 i {
+  text-indent: -9999px;
+  position: relative;
+  z-index: 4000;
+}
+
+.emotion-9 i::before,
+.emotion-9 i::after {
+  content: '';
+  position: absolute;
+}
+
+.emotion-9 i::before {
+  top: -7px;
+}
+
+.emotion-9 i::after {
+  bottom: -7px;
+}
+
+.emotion-9::after {
+  background-color: #FAEFD9;
+  content: '';
+  height: 0;
+  left: calc(-28rem - 1rem - 2px);
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -50vh;
+  width: 150vw;
+  -webkit-transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media (min-width:992px) {
+  .emotion-9 {
+    display: none;
+  }
+}
+
+.emotion-11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 4.4rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-13 {
+  display: none;
+  height: 35px;
+  max-width: 28px;
+  width: 100%;
+}
+
+.emotion-13 path {
+  fill: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: block;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-130%);
+    -ms-transform: translate(-50%,-130%);
+    transform: translate(-50%,-130%);
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: none;
+  }
+}
+
+.emotion-15 {
+  max-width: 123px;
+  width: 100%;
+}
+
+@media (min-width:992px) {
+  .emotion-15 {
+    max-width: 148px;
+  }
+}
+
+.emotion-17 {
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-17 {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 1.6rem 0 3.2rem;
+    position: relative;
+    top: 8px;
+  }
+}
+
+.emotion-19 {
+  margin: 0 auto;
+  padding: 0 2rem 1rem 2rem;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-19 {
+    padding: 0 0 1rem 0;
+  }
+}
+
+.emotion-21 {
+  position: relative;
+}
+
+.emotion-23 {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 1.5rem;
+  top: 12.5px;
+}
+
+.emotion-26 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.3rem;
+  height: 4rem;
+  padding: 6px 6px 6px 31px;
+  width: 100%;
+  color: #3150A2;
+  border: 1px solid #D3D3D3;
+  margin-bottom: 0;
+  padding: 0 0 0 4rem;
+}
+
+@media (max-width:992px) {
+  .emotion-26:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-26 {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    border-radius: 32px;
+  }
+
+  .emotion-26:focus {
+    border: none;
+  }
+}
+
+.emotion-26::-webkit-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-moz-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26:-ms-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-webkit-search-decoration,
+.emotion-26::-webkit-search-cancel-button,
+.emotion-26::-webkit-search-results-button,
+.emotion-26::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-29 {
+  cursor: pointer;
+  display: none;
+  height: 2rem!important;
+  width: 2rem!important;
+  fill: #FFFFFF;
+  stroke: #3150A2;
+  stroke-width: 5px;
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-29 {
+    fill: #3150A2;
+    stroke: #FFFFFF;
+  }
+}
+
+.emotion-32 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  display: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  height: 4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  position: absolute;
+  right: 0;
+  text-transform: initial;
+  top: 0;
+  width: 4rem;
+}
+
+.emotion-32:active {
+  outline: 0;
+}
+
+.emotion-32:hover {
+  opacity: 0.75;
+}
+
+.emotion-32[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-32 {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+}
+
+.emotion-36 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-36 {
+    background: #ffffff;
+    display: none;
+    grid-gap: 3rem;
+    grid-template-areas: "left right";
+    grid-template-columns: 250px auto;
+    padding: 2rem;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-36 {
+    left: 0;
+    top: 68px;
+    height: 100vh;
+    padding: 32px 6.5vw;
+  }
+}
+
+.emotion-38 {
+  grid-area: left;
+}
+
+.emotion-41 {
+  display: block;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-41+.emotion-41 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-41 {
+    display: none;
+  }
+}
+
+.emotion-43 {
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  word-break: break-word;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotion-43 span {
+  text-transform: lowercase;
+}
+
+.emotion-43 span::before {
+  content: "‘";
+}
+
+.emotion-43 span::after {
+  content: "’";
+}
+
+@media screen and (min-width:768px) {
+  .emotion-43 {
+    text-align: left;
+  }
+}
+
+.emotion-45 {
+  margin-bottom: -1rem;
+}
+
+.emotion-45 li {
+  background: #2B47981A;
+  border-bottom: 0;
+  border-radius: 1.5rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 1rem 1rem 0;
+}
+
+.emotion-45 li a {
+  padding: 0 1.5rem;
+}
+
+.emotion-47+.emotion-47 {
+  margin-top: 2.3438rem;
+}
+
+.emotion-52 {
+  margin-bottom: -1rem;
+}
+
+.emotion-52 li {
+  margin-bottom: 1rem;
+}
+
+.emotion-52 li a {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.emotion-54 {
+  grid-area: right;
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-54 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-54 {
+    display: grid;
+    grid-template-columns: auto 22vw;
+    grid-gap: 10px;
+  }
+}
+
+.emotion-57 {
+  display: none;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-57+.emotion-57 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-57 {
+    display: block;
+  }
+}
+
+.emotion-63 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+@media (min-width:992px) {
+  .emotion-63 {
+    margin-left: auto;
+  }
+}
+
+.emotion-66 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-66:active {
+  outline: 0;
+}
+
+.emotion-66:hover {
+  opacity: 0.75;
+}
+
+.emotion-66[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-66 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-66 span {
+  line-height: 2rem;
+}
+
+.emotion-66 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-66 svg {
+    display: none;
+  }
+}
+
+.emotion-70 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #C84D19;
+}
+
+@media (min-width:1200px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-73 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
+  height: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-73:active {
+  outline: 0;
+}
+
+.emotion-73:hover {
+  opacity: 0.75;
+}
+
+.emotion-73[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-73 span {
+  line-height: 2rem;
+}
+
+.emotion-73 svg {
+  display: block;
+  height: 2.7rem;
+  width: 2.7em;
+  fill: transparent;
+  stroke: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-73 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-78 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCF8E8;
+  border: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.2rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  line-height: 1;
+  min-width: 4.4rem;
+  outline: none;
+  margin-right: 0;
+  width: auto;
+}
+
+.emotion-78:active {
+  outline: 0;
+}
+
+.emotion-78:hover {
+  opacity: 0.75;
+}
+
+.emotion-78[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-78 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-78 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
+
+.emotion-78 span {
+  display: block;
+  min-width: 1.2rem;
+  text-align: center;
+}
+
+.emotion-78 svg {
+  stroke: #3150A2;
+  fill: transparent;
+  stroke-width: 2px;
+  width: 2rem;
+  height: 2rem;
+}
+
+.emotion-78.--wiggle {
+  -webkit-animation: animation-0 400ms;
+  animation: animation-0 400ms;
+}
+
+.emotion-80 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+<body
+    style="overflow-y: auto;"
+  >
+    <div>
+      <header
+        class="emotion-0 emotion-1"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <div
+              class="emotion-6 emotion-7"
+            >
+              <button
+                class="emotion-8 emotion-9 emotion-10"
+                title="Toggle Navigation"
+                type="button"
+              >
+                <i>
+                  Toggle Navigation
+                </i>
+              </button>
+            </div>
+          </div>
+          <a
+            class="emotion-11 emotion-12"
+            href="/"
+            title="Maisonette - Home Page"
+          >
+            <svg
+              class="emotion-13 emotion-14"
+            />
+            <svg
+              class="emotion-15 emotion-16"
+            />
+          </a>
+          <div
+            class="emotion-17 emotion-18"
+          >
+            <div
+              class="emotion-19 emotion-20"
+              id="search-modal"
+            >
+              <form
+                class="emotion-21 emotion-22"
+                data-test-id="SearchBox"
+                novalidate=""
+                role="search"
+              >
+                <label
+                  for="algolia-search"
+                >
+                  <svg
+                    class="emotion-23 emotion-24"
+                    data-test-id="SearchSVG"
+                    fill="none"
+                    height="15"
+                    viewBox="0 0 14 15"
+                    width="14"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                      fill="#3150A2"
+                    />
+                  </svg>
+                </label>
+                <input
+                  autocomplete="off"
+                  class="emotion-25 emotion-26 emotion-27"
+                  data-test-id="InputSearch"
+                  id="algolia-search"
+                  name="w"
+                  placeholder="Search for anything"
+                  type="search"
+                  value=""
+                />
+                <svg
+                  class="emotion-28 emotion-29 emotion-30"
+                  data-test-id="Icon"
+                />
+                <button
+                  class="emotion-31 emotion-32 emotion-10"
+                  type="button"
+                >
+                  <svg
+                    class="emotion-34 emotion-35"
+                    data-test-id="Icon"
+                  />
+                </button>
+              </form>
+              <div
+                class="emotion-36 emotion-37"
+              >
+                <div
+                  class="emotion-38 emotion-39"
+                >
+                  <section
+                    class="emotion-40 emotion-41 emotion-42"
+                    data-test-id="Section"
+                    direction="column"
+                    title="Recent Searches"
+                  >
+                    <h2
+                      class="emotion-43 emotion-44"
+                    >
+                      Recent Searches
+                      
+                    </h2>
+                    <ul
+                      class="emotion-45 emotion-46"
+                      data-test-id="UnorderedList"
+                      direction="row"
+                    />
+                  </section>
+                  <section
+                    class="emotion-47 emotion-42"
+                    data-test-id="Section"
+                    direction="column"
+                    title="Popular Searches"
+                  >
+                    <h2
+                      class="emotion-43 emotion-44"
+                    >
+                      Popular Searches
+                      
+                    </h2>
+                    <ul
+                      class="emotion-51 emotion-52 emotion-46"
+                      data-test-id="UnorderedList"
+                      direction="column"
+                    />
+                  </section>
+                </div>
+                <div
+                  class="emotion-54 emotion-55"
+                >
+                  <section
+                    class="emotion-40 emotion-57 emotion-42"
+                    data-test-id="Section"
+                    direction="column"
+                    title="Recent Searches"
+                  >
+                    <h2
+                      class="emotion-43 emotion-44"
+                    >
+                      Recent Searches
+                      
+                    </h2>
+                    <ul
+                      class="emotion-45 emotion-46"
+                      data-test-id="UnorderedList"
+                      direction="row"
+                    />
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="emotion-63 emotion-64"
+          >
+            <a
+              aria-label="account details button"
+              class="emotion-65 emotion-66 emotion-67"
+              data-test-id="UserGreeting"
+              href="/login"
+              name=""
+              title="Account"
+            >
+              <svg
+                class="emotion-68 emotion-69"
+              />
+              <span
+                aria-label="account details button"
+                class="emotion-70 emotion-71"
+                href="/login"
+                name=""
+                title="Account"
+              >
+                Sign In
+              </span>
+            </a>
+            <a
+              aria-label="open wishlist"
+              class="emotion-32 emotion-73 emotion-67"
+              data-test-id="open-wishlist"
+              href="/lists/wishlist"
+              role="link"
+              title="Wish List"
+            >
+              <svg
+                class="emotion-75 emotion-76"
+              />
+            </a>
+            <button
+              aria-label="open bag"
+              class="emotion-77 emotion-78 emotion-10"
+              data-test-id="CartIcon"
+              title="Bag"
+              type="button"
+            >
+              <svg
+                class="emotion-80 emotion-81"
+              />
+              
+            </button>
+          </div>
+        </div>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class="emotion-19 emotion-20"
+            id="search-modal"
+          >
+            <form
+              class="emotion-21 emotion-22"
+              data-test-id="SearchBox"
+              novalidate=""
+              role="search"
+            >
+              <label
+                for="algolia-search"
+              >
+                <svg
+                  class="emotion-23 emotion-24"
+                  data-test-id="SearchSVG"
+                  fill="none"
+                  height="15"
+                  viewBox="0 0 14 15"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                    fill="#3150A2"
+                  />
+                </svg>
+              </label>
+              <input
+                autocomplete="off"
+                class="emotion-25 emotion-26 emotion-27"
+                data-test-id="InputSearch"
+                id="algolia-search"
+                name="w"
+                placeholder="Search for anything"
+                type="search"
+                value=""
+              />
+              <svg
+                class="emotion-28 emotion-29 emotion-30"
+                data-test-id="Icon"
+              />
+              <button
+                class="emotion-31 emotion-32 emotion-10"
+                type="button"
+              >
+                <svg
+                  class="emotion-34 emotion-35"
+                  data-test-id="Icon"
+                />
+              </button>
+            </form>
+            <div
+              class="emotion-36 emotion-37"
+            >
+              <div
+                class="emotion-38 emotion-39"
+              >
+                <section
+                  class="emotion-40 emotion-41 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+                <section
+                  class="emotion-47 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Popular Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Popular Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-51 emotion-52 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="column"
+                  />
+                </section>
+              </div>
+              <div
+                class="emotion-54 emotion-55"
+              >
+                <section
+                  class="emotion-40 emotion-57 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  background-color: #FCF8E8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 42px;
+  z-index: 2010;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: 17rem;
+    padding-bottom: 0;
+    top: -17px;
+    z-index: 2010;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    height: auto;
+    top: 42px;
+  }
+}
+
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  padding-bottom: 1rem;
+  background-color: #FCF8E8;
+  border: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-top: 1rem;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4.4rem;
+  width: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  z-index: initial;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-9 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-9:hover {
+  opacity: 100;
+}
+
+.emotion-9 i,
+.emotion-9 i::before,
+.emotion-9 i::after {
+  display: block;
+  background-color: #3150A2;
+  height: 1px;
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  -webkit-transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: transform 400ms cubic-bezier(0.165,0.840,0.440,1);
+  width: 100%;
+}
+
+.emotion-9 i {
+  text-indent: -9999px;
+  position: relative;
+  z-index: 4000;
+}
+
+.emotion-9 i::before,
+.emotion-9 i::after {
+  content: '';
+  position: absolute;
+}
+
+.emotion-9 i::before {
+  top: -7px;
+}
+
+.emotion-9 i::after {
+  bottom: -7px;
+}
+
+.emotion-9::after {
+  background-color: #FAEFD9;
+  content: '';
+  height: 0;
+  left: calc(-28rem - 1rem - 2px);
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -50vh;
+  width: 150vw;
+  -webkit-transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+  transition: opacity 400ms cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media (min-width:992px) {
+  .emotion-9 {
+    display: none;
+  }
+}
+
+.emotion-11 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 4.4rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-13 {
+  display: none;
+  height: 35px;
+  max-width: 28px;
+  width: 100%;
+}
+
+.emotion-13 path {
+  fill: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: block;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-130%);
+    -ms-transform: translate(-50%,-130%);
+    transform: translate(-50%,-130%);
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-13 {
+    display: none;
+  }
+}
+
+.emotion-15 {
+  max-width: 123px;
+  width: 100%;
+}
+
+@media (min-width:992px) {
+  .emotion-15 {
+    max-width: 148px;
+  }
+}
+
+.emotion-17 {
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-17 {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 0 1.6rem 0 3.2rem;
+    position: relative;
+    top: 8px;
+  }
+}
+
+.emotion-19 {
+  margin: 0 auto;
+  padding: 0 2rem 1rem 2rem;
+  width: 100%;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-19 {
+    padding: 0 0 1rem 0;
+  }
+}
+
+.emotion-21 {
+  position: relative;
+}
+
+.emotion-23 {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 1.5rem;
+  top: 12.5px;
+}
+
+.emotion-26 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.3rem;
+  height: 4rem;
+  padding: 6px 6px 6px 31px;
+  width: 100%;
+  color: #3150A2;
+  border: 1px solid #D3D3D3;
+  margin-bottom: 0;
+  padding: 0 0 0 4rem;
+}
+
+@media (max-width:992px) {
+  .emotion-26:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-26 {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    border-radius: 32px;
+  }
+
+  .emotion-26:focus {
+    border: none;
+  }
+}
+
+.emotion-26::-webkit-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-moz-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26:-ms-input-placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::placeholder {
+  color: #5971B4;
+}
+
+.emotion-26::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.emotion-26::-webkit-search-decoration,
+.emotion-26::-webkit-search-cancel-button,
+.emotion-26::-webkit-search-results-button,
+.emotion-26::-webkit-search-results-decoration {
+  display: none;
+}
+
+.emotion-29 {
+  cursor: pointer;
+  display: none;
+  height: 2rem!important;
+  width: 2rem!important;
+  fill: #FFFFFF;
+  stroke: #3150A2;
+  stroke-width: 5px;
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-29 {
+    fill: #3150A2;
+    stroke: #FFFFFF;
+  }
+}
+
+.emotion-32 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  display: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  height: 4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  position: absolute;
+  right: 0;
+  text-transform: initial;
+  top: 0;
+  width: 4rem;
+}
+
+.emotion-32:active {
+  outline: 0;
+}
+
+.emotion-32:hover {
+  opacity: 0.75;
+}
+
+.emotion-32[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-32 {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+}
+
+.emotion-36 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-36 {
+    background: #ffffff;
+    display: none;
+    grid-gap: 3rem;
+    grid-template-areas: "left right";
+    grid-template-columns: 250px auto;
+    padding: 2rem;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-36 {
+    left: 0;
+    top: 68px;
+    height: 100vh;
+    padding: 32px 6.5vw;
+  }
+}
+
+.emotion-38 {
+  grid-area: left;
+}
+
+.emotion-41 {
+  display: block;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-41+.emotion-41 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-41 {
+    display: none;
+  }
+}
+
+.emotion-43 {
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  word-break: break-word;
+  -webkit-letter-spacing: 2.4px;
+  -moz-letter-spacing: 2.4px;
+  -ms-letter-spacing: 2.4px;
+  letter-spacing: 2.4px;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotion-43 span {
+  text-transform: lowercase;
+}
+
+.emotion-43 span::before {
+  content: "‘";
+}
+
+.emotion-43 span::after {
+  content: "’";
+}
+
+@media screen and (min-width:768px) {
+  .emotion-43 {
+    text-align: left;
+  }
+}
+
+.emotion-45 {
+  margin-bottom: -1rem;
+}
+
+.emotion-45 li {
+  background: #2B47981A;
+  border-bottom: 0;
+  border-radius: 1.5rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 1rem 1rem 0;
+}
+
+.emotion-45 li a {
+  padding: 0 1.5rem;
+}
+
+.emotion-47+.emotion-47 {
+  margin-top: 2.3438rem;
+}
+
+.emotion-52 {
+  margin-bottom: -1rem;
+}
+
+.emotion-52 li {
+  margin-bottom: 1rem;
+}
+
+.emotion-52 li a {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.emotion-54 {
+  grid-area: right;
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-54 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-54 {
+    display: grid;
+    grid-template-columns: auto 22vw;
+    grid-gap: 10px;
+  }
+}
+
+.emotion-57 {
+  display: none;
+  margin-bottom: 2.3438rem;
+}
+
+.emotion-57+.emotion-57 {
+  margin-top: 2.3438rem;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-57 {
+    display: block;
+  }
+}
+
+.emotion-63 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+@media (min-width:992px) {
+  .emotion-63 {
+    margin-left: auto;
+  }
+}
+
+.emotion-66 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FCF8E8;
+  border-color: #FCF8E8;
+  color: #3150A2;
+  height: 4.4rem;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  outline: 0;
+  padding: 1rem;
+  text-transform: initial;
+}
+
+.emotion-66:active {
+  outline: 0;
+}
+
+.emotion-66:hover {
+  opacity: 0.75;
+}
+
+.emotion-66[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-66 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-66 span {
+  line-height: 2rem;
+}
+
+.emotion-66 svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  stroke: #3150A2;
+  stroke-width: 2px;
+}
+
+@media (min-width:1200px) {
+  .emotion-66 svg {
+    display: none;
+  }
+}
+
+.emotion-70 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: none;
+  line-height: 1;
+  color: #C84D19;
+}
+
+@media (min-width:1200px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-73 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
+  height: 4.4rem;
+  outline: initial;
+  overflow: initial;
+  padding: 1rem;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-73:active {
+  outline: 0;
+}
+
+.emotion-73:hover {
+  opacity: 0.75;
+}
+
+.emotion-73[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-73 span {
+  line-height: 2rem;
+}
+
+.emotion-73 svg {
+  display: block;
+  height: 2.7rem;
+  width: 2.7em;
+  fill: transparent;
+  stroke: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-73 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-78 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #FAEFD9;
+  border: 0.2rem solid #FAEFD9;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FCF8E8;
+  border: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.2rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  line-height: 1;
+  min-width: 4.4rem;
+  outline: none;
+  margin-right: 0;
+  width: auto;
+}
+
+.emotion-78:active {
+  outline: 0;
+}
+
+.emotion-78:hover {
+  opacity: 0.75;
+}
+
+.emotion-78[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-78 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-78 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 0;
+  }
+}
+
+.emotion-78 span {
+  display: block;
+  min-width: 1.2rem;
+  text-align: center;
+}
+
+.emotion-78 svg {
+  stroke: #3150A2;
+  fill: transparent;
+  stroke-width: 2px;
+  width: 2rem;
+  height: 2rem;
+}
+
+.emotion-78.--wiggle {
+  -webkit-animation: animation-0 400ms;
+  animation: animation-0 400ms;
+}
+
+.emotion-80 {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+<div>
+    <header
+      class="emotion-0 emotion-1"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <button
+              class="emotion-8 emotion-9 emotion-10"
+              title="Toggle Navigation"
+              type="button"
+            >
+              <i>
+                Toggle Navigation
+              </i>
+            </button>
+          </div>
+        </div>
+        <a
+          class="emotion-11 emotion-12"
+          href="/"
+          title="Maisonette - Home Page"
+        >
+          <svg
+            class="emotion-13 emotion-14"
+          />
+          <svg
+            class="emotion-15 emotion-16"
+          />
+        </a>
+        <div
+          class="emotion-17 emotion-18"
+        >
+          <div
+            class="emotion-19 emotion-20"
+            id="search-modal"
+          >
+            <form
+              class="emotion-21 emotion-22"
+              data-test-id="SearchBox"
+              novalidate=""
+              role="search"
+            >
+              <label
+                for="algolia-search"
+              >
+                <svg
+                  class="emotion-23 emotion-24"
+                  data-test-id="SearchSVG"
+                  fill="none"
+                  height="15"
+                  viewBox="0 0 14 15"
+                  width="14"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                    fill="#3150A2"
+                  />
+                </svg>
+              </label>
+              <input
+                autocomplete="off"
+                class="emotion-25 emotion-26 emotion-27"
+                data-test-id="InputSearch"
+                id="algolia-search"
+                name="w"
+                placeholder="Search for anything"
+                type="search"
+                value=""
+              />
+              <svg
+                class="emotion-28 emotion-29 emotion-30"
+                data-test-id="Icon"
+              />
+              <button
+                class="emotion-31 emotion-32 emotion-10"
+                type="button"
+              >
+                <svg
+                  class="emotion-34 emotion-35"
+                  data-test-id="Icon"
+                />
+              </button>
+            </form>
+            <div
+              class="emotion-36 emotion-37"
+            >
+              <div
+                class="emotion-38 emotion-39"
+              >
+                <section
+                  class="emotion-40 emotion-41 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+                <section
+                  class="emotion-47 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Popular Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Popular Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-51 emotion-52 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="column"
+                  />
+                </section>
+              </div>
+              <div
+                class="emotion-54 emotion-55"
+              >
+                <section
+                  class="emotion-40 emotion-57 emotion-42"
+                  data-test-id="Section"
+                  direction="column"
+                  title="Recent Searches"
+                >
+                  <h2
+                    class="emotion-43 emotion-44"
+                  >
+                    Recent Searches
+                    
+                  </h2>
+                  <ul
+                    class="emotion-45 emotion-46"
+                    data-test-id="UnorderedList"
+                    direction="row"
+                  />
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-63 emotion-64"
+        >
+          <a
+            aria-label="account details button"
+            class="emotion-65 emotion-66 emotion-67"
+            data-test-id="UserGreeting"
+            href="/login"
+            name=""
+            title="Account"
+          >
+            <svg
+              class="emotion-68 emotion-69"
+            />
+            <span
+              aria-label="account details button"
+              class="emotion-70 emotion-71"
+              href="/login"
+              name=""
+              title="Account"
+            >
+              Sign In
+            </span>
+          </a>
+          <a
+            aria-label="open wishlist"
+            class="emotion-32 emotion-73 emotion-67"
+            data-test-id="open-wishlist"
+            href="/lists/wishlist"
+            role="link"
+            title="Wish List"
+          >
+            <svg
+              class="emotion-75 emotion-76"
+            />
+          </a>
+          <button
+            aria-label="open bag"
+            class="emotion-77 emotion-78 emotion-10"
+            data-test-id="CartIcon"
+            title="Bag"
+            type="button"
+          >
+            <svg
+              class="emotion-80 emotion-81"
+            />
+            
+          </button>
+        </div>
+      </div>
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <div
+          class="emotion-19 emotion-20"
+          id="search-modal"
+        >
+          <form
+            class="emotion-21 emotion-22"
+            data-test-id="SearchBox"
+            novalidate=""
+            role="search"
+          >
+            <label
+              for="algolia-search"
+            >
+              <svg
+                class="emotion-23 emotion-24"
+                data-test-id="SearchSVG"
+                fill="none"
+                height="15"
+                viewBox="0 0 14 15"
+                width="14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.9962 13.9619L9.91407 9.80773C10.8875 8.72751 11.427 7.3318 11.4305 5.88464C11.4562 4.35607 10.8698 2.87949 9.79927 1.77705C8.72873 0.67461 7.26094 0.0358009 5.71613 0C4.17116 0.0355546 2.70312 0.674255 1.63238 1.77672C0.561632 2.87919 -0.024888 4.35591 0.000810212 5.88464C-0.024888 7.41336 0.561632 8.89009 1.63238 9.99255C2.70312 11.095 4.17116 11.7337 5.71613 11.7693C6.83317 11.7644 7.92555 11.444 8.86483 10.8458L12.9469 15L14 13.9581L13.9962 13.9619ZM5.71518 10.268C4.55927 10.2389 3.46059 9.76418 2.65345 8.94504C1.8463 8.1259 1.39456 7.02719 1.39456 5.88322C1.39456 4.73924 1.8463 3.64053 2.65345 2.82139C3.46059 2.00225 4.55927 1.5275 5.71518 1.49839C6.87262 1.52127 7.9744 1.99415 8.78209 2.81469C9.58977 3.63522 10.0384 4.73742 10.0309 5.88274C10.0445 6.45261 9.94308 7.01944 9.73257 7.55005C9.52206 8.08066 9.20668 8.5644 8.80488 8.97294C8.40309 9.38148 7.92296 9.70662 7.39259 9.92933C6.86223 10.152 6.29229 10.2678 5.71613 10.2699L5.71518 10.268Z"
+                  fill="#3150A2"
+                />
+              </svg>
+            </label>
+            <input
+              autocomplete="off"
+              class="emotion-25 emotion-26 emotion-27"
+              data-test-id="InputSearch"
+              id="algolia-search"
+              name="w"
+              placeholder="Search for anything"
+              type="search"
+              value=""
+            />
+            <svg
+              class="emotion-28 emotion-29 emotion-30"
+              data-test-id="Icon"
+            />
+            <button
+              class="emotion-31 emotion-32 emotion-10"
+              type="button"
+            >
+              <svg
+                class="emotion-34 emotion-35"
+                data-test-id="Icon"
+              />
+            </button>
+          </form>
+          <div
+            class="emotion-36 emotion-37"
+          >
+            <div
+              class="emotion-38 emotion-39"
+            >
+              <section
+                class="emotion-40 emotion-41 emotion-42"
+                data-test-id="Section"
+                direction="column"
+                title="Recent Searches"
+              >
+                <h2
+                  class="emotion-43 emotion-44"
+                >
+                  Recent Searches
+                  
+                </h2>
+                <ul
+                  class="emotion-45 emotion-46"
+                  data-test-id="UnorderedList"
+                  direction="row"
+                />
+              </section>
+              <section
+                class="emotion-47 emotion-42"
+                data-test-id="Section"
+                direction="column"
+                title="Popular Searches"
+              >
+                <h2
+                  class="emotion-43 emotion-44"
+                >
+                  Popular Searches
+                  
+                </h2>
+                <ul
+                  class="emotion-51 emotion-52 emotion-46"
+                  data-test-id="UnorderedList"
+                  direction="column"
+                />
+              </section>
+            </div>
+            <div
+              class="emotion-54 emotion-55"
+            >
+              <section
+                class="emotion-40 emotion-57 emotion-42"
+                data-test-id="Section"
+                direction="column"
+                title="Recent Searches"
+              >
+                <h2
+                  class="emotion-43 emotion-44"
+                >
+                  Recent Searches
+                  
+                </h2>
+                <ul
+                  class="emotion-45 emotion-46"
+                  data-test-id="UnorderedList"
+                  direction="row"
+                />
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

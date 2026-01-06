@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #fff;
+  padding: 6.4rem 0;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 6.4rem;
+  }
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2rem;
+  color: #2F4DA1;
+  margin: -1.6rem auto 2.4rem;
+  padding: 0 1.6rem;
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 0;
+    margin: 0 auto 3.2rem;
+    max-width: 800px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+
+.emotion-4 {
+  display: block;
+  max-width: 100%;
+  margin: 6.4rem auto;
+  height: auto;
+  display: block;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  display: block;
+  max-width: 100%;
+  margin: 6.4rem auto;
+  height: auto;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    display: block;
+  }
+}
+
+.emotion-8 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-8 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-8 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #2F4DA1;
+  margin: -1.6rem auto 2.4rem;
+  padding: 0 1.6rem;
+}
+
+@media (min-width:992px) {
+  .emotion-10 {
+    padding: 0;
+    margin: 0 auto 3.2rem;
+    max-width: 800px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+
+.emotion-12 {
+  border: 1px solid #2F4DA1;
+  cursor: pointer;
+  font-size: 1.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 1.5rem 4.5rem;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="OurMission"
+      >
+        <p
+          class="emotion-2 emotion-3"
+        >
+          Maisonette is an online marketplace for high quality baby and kids products across every category; from apparel to gear to toys and home decor. Founded by two moms in 2017 with the goal of helping modern families raise the next generation, Maisonette carries over 1000 unique brands from around the globe, providing relevant, high quality product at every price point, and expert-led content tailored to every stage of parenthood.
+        </p>
+        <img
+          alt="Our Team"
+          class="emotion-4 emotion-5"
+          src="/images/careers-our-mission/Hero-Mobile.jpg"
+        />
+        <img
+          alt="Our Team"
+          class="emotion-6 emotion-7"
+          src="/images/careers-our-mission/Hero-Desktop.jpg"
+        />
+        <h1
+          class="emotion-8 emotion-9"
+        >
+          Our mission
+        </h1>
+        <p
+          class="emotion-10 emotion-3"
+        >
+          Maisonette helps modern families navigate the adventure of parenthood. We provide an expertly curated world of products for kids—plus trusted guidance and inspiration for those who love them. Because what you consume for kids matters.
+        </p>
+        <a
+          class="emotion-12 emotion-13"
+        >
+          See open roles
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #fff;
+  padding: 6.4rem 0;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 6.4rem;
+  }
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2rem;
+  color: #2F4DA1;
+  margin: -1.6rem auto 2.4rem;
+  padding: 0 1.6rem;
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 0;
+    margin: 0 auto 3.2rem;
+    max-width: 800px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+
+.emotion-4 {
+  display: block;
+  max-width: 100%;
+
+  margin: 6.4rem auto;
+  height: auto;
+  display: block;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    display: none;
+  }
+}
+
+.emotion-6 {
+  display: block;
+  max-width: 100%;
+  margin: 6.4rem auto;
+  height: auto;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    display: block;
+  }
+}
+
+.emotion-8 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-8 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-8 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #2F4DA1;
+  margin: -1.6rem auto 2.4rem;
+  padding: 0 1.6rem;
+}
+
+@media (min-width:992px) {
+  .emotion-10 {
+    padding: 0;
+    margin: 0 auto 3.2rem;
+    max-width: 800px;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+
+.emotion-12 {
+  border: 1px solid #2F4DA1;
+  cursor: pointer;
+  font-size: 1.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 1.5rem 4.5rem;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="OurMission"
+    >
+      <p
+        class="emotion-2 emotion-3"
+      >
+        Maisonette is an online marketplace for high quality baby and kids products across every category; from apparel to gear to toys and home decor. Founded by two moms in 2017 with the goal of helping modern families raise the next generation, Maisonette carries over 1000 unique brands from around the globe, providing relevant, high quality product at every price point, and expert-led content tailored to every stage of parenthood.
+      </p>
+      <img
+        alt="Our Team"
+        class="emotion-4 emotion-5"
+        src="/images/careers-our-mission/Hero-Mobile.jpg"
+      />
+      <img
+        alt="Our Team"
+        class="emotion-6 emotion-7"
+        src="/images/careers-our-mission/Hero-Desktop.jpg"
+      />
+      <h1
+        class="emotion-8 emotion-9"
+      >
+        Our mission
+      </h1>
+      <p
+        class="emotion-10 emotion-3"
+      >
+        Maisonette helps modern families navigate the adventure of parenthood. We provide an expertly curated world of products for kids—plus trusted guidance and inspiration for those who love them. Because what you consume for kids matters.
+      </p>
+      <a
+        class="emotion-12 emotion-13"
+      >
+        See open roles
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

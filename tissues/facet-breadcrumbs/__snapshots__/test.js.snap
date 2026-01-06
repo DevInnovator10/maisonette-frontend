@@ -1,0 +1,1064 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a facet breadcrumb renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: none;
+  margin-bottom: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    display: block;
+  }
+}
+
+.emotion-0 ol ol {
+  margin-left: 2rem;
+}
+
+.emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #3150A2;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  min-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-4:hover {
+  color: #3150A2;
+}
+
+.emotion-6 {
+  position: relative;
+  outline: 0;
+}
+
+.emotion-6 ol {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.emotion-6 summary {
+  outline: none;
+  line-height: 3rem;
+}
+
+.emotion-6 summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 3rem;
+  width: 100%;
+  -webkit-transition: background-image 200ms;
+  transition: background-image 200ms;
+}
+
+.emotion-6 summary::-webkit-details-marker,
+.emotion-6 summary::before {
+  display: none!important;
+}
+
+.emotion-6[open]>summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgNCBMOCA0IEw0IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-8:hover {
+  color: #3150A2;
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="FacetBreadcrumbs"
+      >
+        <h2
+          class="emotion-2 emotion-3"
+        >
+          Categories
+        </h2>
+        <ol>
+          <li>
+            <a
+              class="emotion-4 emotion-5"
+              href="/shop"
+            >
+              All
+            </a>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-6 emotion-7"
+              open=""
+            >
+              <summary
+                active="true"
+                class="emotion-8 emotion-5"
+              >
+                Kids
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    active="true"
+                    class="emotion-8 emotion-5"
+                    href="/shop/kids"
+                  >
+                    All Kids
+                  </a>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-6 emotion-7"
+                    open=""
+                  >
+                    <summary
+                      active="true"
+                      class="emotion-8 emotion-5"
+                    >
+                      Girl Clothing
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          active="true"
+                          class="emotion-8 emotion-5"
+                          href="/shop/kids/girl-clothing"
+                        >
+                          All Girl Clothing
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          active="true"
+                          class="emotion-8 emotion-5"
+                          href="/shop/kids/girl-clothing/dresses"
+                        >
+                          Dresses
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/tops"
+                        >
+                          Tops
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/sleepwear"
+                        >
+                          Sleepwear
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/pants"
+                        >
+                          Pants
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/outerwear"
+                        >
+                          Outerwear
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/swim"
+                        >
+                          Swim
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/rompers"
+                        >
+                          Rompers
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/skirts"
+                        >
+                          Skirts
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/shorts"
+                        >
+                          Shorts
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-clothing/basics"
+                        >
+                          Basics
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-6 emotion-7"
+                  >
+                    <summary
+                      class="emotion-4 emotion-5"
+                    >
+                      Girl Accessories
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/girl-accessories"
+                        >
+                          All Girl Accessories
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-6 emotion-7"
+                  >
+                    <summary
+                      class="emotion-4 emotion-5"
+                    >
+                      Boy Clothing
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/boy-clothing"
+                        >
+                          All Boy Clothing
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-6 emotion-7"
+                  >
+                    <summary
+                      class="emotion-4 emotion-5"
+                    >
+                      Boy Accessories
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-4 emotion-5"
+                          href="/shop/kids/boy-accessories"
+                        >
+                          All Boy Accessories
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-6 emotion-7"
+            >
+              <summary
+                class="emotion-4 emotion-5"
+              >
+                Home
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-4 emotion-5"
+                    href="/shop/home"
+                  >
+                    All Home
+                  </a>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-6 emotion-7"
+            >
+              <summary
+                class="emotion-4 emotion-5"
+              >
+                Play
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-4 emotion-5"
+                    href="/shop/play"
+                  >
+                    All Play
+                  </a>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-6 emotion-7"
+            >
+              <summary
+                class="emotion-4 emotion-5"
+              >
+                Gifts
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-4 emotion-5"
+                    href="/shop/gifts"
+                  >
+                    All Gifts
+                  </a>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-6 emotion-7"
+            >
+              <summary
+                class="emotion-4 emotion-5"
+              >
+                Baby
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-4 emotion-5"
+                    href="/shop/baby"
+                  >
+                    All Baby
+                  </a>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-6 emotion-7"
+            >
+              <summary
+                class="emotion-4 emotion-5"
+              >
+                Gear
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-4 emotion-5"
+                    href="/shop/gear"
+                  >
+                    All Gear
+                  </a>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-6 emotion-7"
+            >
+              <summary
+                class="emotion-4 emotion-5"
+              >
+                What's New
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-4 emotion-5"
+                    href="/shop/whats-new"
+                  >
+                    All What's New
+                  </a>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <span
+            class="emotion-4 emotion-5"
+          >
+            Show All...
+          </span>
+        </ol>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: none;
+  margin-bottom: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    display: block;
+  }
+}
+
+.emotion-0 ol ol {
+  margin-left: 2rem;
+}
+
+.emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #3150A2;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  min-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-4:hover {
+  color: #3150A2;
+}
+
+.emotion-6 {
+  position: relative;
+  outline: 0;
+}
+
+.emotion-6 ol {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.emotion-6 summary {
+  outline: none;
+  line-height: 3rem;
+}
+
+.emotion-6 summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 3rem;
+  width: 100%;
+  -webkit-transition: background-image 200ms;
+  transition: background-image 200ms;
+}
+
+.emotion-6 summary::-webkit-details-marker,
+.emotion-6 summary::before {
+  display: none!important;
+}
+
+.emotion-6[open]>summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgNCBMOCA0IEw0IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-8:hover {
+  color: #3150A2;
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="FacetBreadcrumbs"
+    >
+      <h2
+        class="emotion-2 emotion-3"
+      >
+        Categories
+      </h2>
+      <ol>
+        <li>
+          <a
+            class="emotion-4 emotion-5"
+            href="/shop"
+          >
+            All
+          </a>
+        </li>
+        <li
+          data-test-id="CategoryList"
+        >
+          <details
+            class="emotion-6 emotion-7"
+            open=""
+          >
+            <summary
+              active="true"
+              class="emotion-8 emotion-5"
+            >
+              Kids
+            </summary>
+            <ol>
+              <li>
+                <a
+                  active="true"
+                  class="emotion-8 emotion-5"
+                  href="/shop/kids"
+                >
+                  All Kids
+                </a>
+              </li>
+              <li
+                data-test-id="CategoryList"
+              >
+                <details
+                  class="emotion-6 emotion-7"
+                  open=""
+                >
+                  <summary
+                    active="true"
+                    class="emotion-8 emotion-5"
+                  >
+                    Girl Clothing
+                  </summary>
+                  <ol>
+                    <li>
+                      <a
+                        active="true"
+                        class="emotion-8 emotion-5"
+                        href="/shop/kids/girl-clothing"
+                      >
+                        All Girl Clothing
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        active="true"
+                        class="emotion-8 emotion-5"
+                        href="/shop/kids/girl-clothing/dresses"
+                      >
+                        Dresses
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/tops"
+                      >
+                        Tops
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/sleepwear"
+                      >
+                        Sleepwear
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/pants"
+                      >
+                        Pants
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/outerwear"
+                      >
+                        Outerwear
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/swim"
+                      >
+                        Swim
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/rompers"
+                      >
+                        Rompers
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/skirts"
+                      >
+                        Skirts
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/shorts"
+                      >
+                        Shorts
+                      </a>
+                    </li>
+                    <li
+                      data-test-id="CategoryList"
+                    >
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-clothing/basics"
+                      >
+                        Basics
+                      </a>
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                data-test-id="CategoryList"
+              >
+                <details
+                  class="emotion-6 emotion-7"
+                >
+                  <summary
+                    class="emotion-4 emotion-5"
+                  >
+                    Girl Accessories
+                  </summary>
+                  <ol>
+                    <li>
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/girl-accessories"
+                      >
+                        All Girl Accessories
+                      </a>
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                data-test-id="CategoryList"
+              >
+                <details
+                  class="emotion-6 emotion-7"
+                >
+                  <summary
+                    class="emotion-4 emotion-5"
+                  >
+                    Boy Clothing
+                  </summary>
+                  <ol>
+                    <li>
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/boy-clothing"
+                      >
+                        All Boy Clothing
+                      </a>
+                    </li>
+                  </ol>
+                </details>
+              </li>
+              <li
+                data-test-id="CategoryList"
+              >
+                <details
+                  class="emotion-6 emotion-7"
+                >
+                  <summary
+                    class="emotion-4 emotion-5"
+                  >
+                    Boy Accessories
+                  </summary>
+                  <ol>
+                    <li>
+                      <a
+                        class="emotion-4 emotion-5"
+                        href="/shop/kids/boy-accessories"
+                      >
+                        All Boy Accessories
+                      </a>
+                    </li>
+                  </ol>
+                </details>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <li
+          data-test-id="CategoryList"
+        >
+          <details
+            class="emotion-6 emotion-7"
+          >
+            <summary
+              class="emotion-4 emotion-5"
+            >
+              Home
+            </summary>
+            <ol>
+              <li>
+                <a
+                  class="emotion-4 emotion-5"
+                  href="/shop/home"
+                >
+                  All Home
+                </a>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <li
+          data-test-id="CategoryList"
+        >
+          <details
+            class="emotion-6 emotion-7"
+          >
+            <summary
+              class="emotion-4 emotion-5"
+            >
+              Play
+            </summary>
+            <ol>
+              <li>
+                <a
+                  class="emotion-4 emotion-5"
+                  href="/shop/play"
+                >
+                  All Play
+                </a>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <li
+          data-test-id="CategoryList"
+        >
+          <details
+            class="emotion-6 emotion-7"
+          >
+            <summary
+              class="emotion-4 emotion-5"
+            >
+              Gifts
+            </summary>
+            <ol>
+              <li>
+                <a
+                  class="emotion-4 emotion-5"
+                  href="/shop/gifts"
+                >
+                  All Gifts
+                </a>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <li
+          data-test-id="CategoryList"
+        >
+          <details
+            class="emotion-6 emotion-7"
+          >
+            <summary
+              class="emotion-4 emotion-5"
+            >
+              Baby
+            </summary>
+            <ol>
+              <li>
+                <a
+                  class="emotion-4 emotion-5"
+                  href="/shop/baby"
+                >
+                  All Baby
+                </a>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <li
+          data-test-id="CategoryList"
+        >
+          <details
+            class="emotion-6 emotion-7"
+          >
+            <summary
+              class="emotion-4 emotion-5"
+            >
+              Gear
+            </summary>
+            <ol>
+              <li>
+                <a
+                  class="emotion-4 emotion-5"
+                  href="/shop/gear"
+                >
+                  All Gear
+                </a>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <li
+          data-test-id="CategoryList"
+        >
+          <details
+            class="emotion-6 emotion-7"
+          >
+            <summary
+              class="emotion-4 emotion-5"
+            >
+              What's New
+            </summary>
+            <ol>
+              <li>
+                <a
+                  class="emotion-4 emotion-5"
+                  href="/shop/whats-new"
+                >
+                  All What's New
+                </a>
+              </li>
+            </ol>
+          </details>
+        </li>
+        <span
+          class="emotion-4 emotion-5"
+        >
+          Show All...
+        </span>
+      </ol>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

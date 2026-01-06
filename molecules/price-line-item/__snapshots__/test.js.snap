@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a price line item renders correctly 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+
+}
+
+.emotion-0 dt {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+}
+
+<div>
+  <div
+    class="emotion-0 emotion-1"
+    data-test-id="PriceLine"
+  >
+    <dt
+      class="emotion-2 emotion-3"
+    >
+      Subtotal (excludes shipping and taxes)
+    </dt>
+    <dd
+      class="emotion-2 emotion-3"
+    >
+      $2,232.50
+    </dd>
+  </div>
+</div>
+`;

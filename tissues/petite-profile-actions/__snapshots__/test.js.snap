@@ -1,0 +1,1044 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`petite profile actions renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-column: 1;
+  }
+}
+
+.emotion-4 {
+  grid-column: 3;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="PetiteProfileActions"
+      >
+        <legend
+          class="emotion-2 emotion-3"
+        >
+          Marvin
+        </legend>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <button
+            class="emotion-6 emotion-7 emotion-8"
+            type="button"
+          >
+            Edit
+          </button>
+          <button
+            class="emotion-6 emotion-7 emotion-8"
+            type="button"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-column: 1;
+  }
+}
+
+.emotion-4 {
+  grid-column: 3;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="PetiteProfileActions"
+    >
+      <legend
+        class="emotion-2 emotion-3"
+      >
+        Marvin
+      </legend>
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <button
+          class="emotion-6 emotion-7 emotion-8"
+          type="button"
+        >
+          Edit
+        </button>
+        <button
+          class="emotion-6 emotion-7 emotion-8"
+          type="button"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`petite profile actions while deleting renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-column: 1;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #f86B4E;
+  line-height: 3rem;
+  grid-row: 2;
+  grid-column: 1/span 3;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    line-height: 4.7rem;
+    justify-self: end;
+    grid-row: 1;
+    grid-column: 2;
+  }
+}
+
+.emotion-6 {
+  grid-column: 3;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="PetiteProfileActions"
+      >
+        <legend
+          class="emotion-2 emotion-3"
+        >
+          Marvin
+        </legend>
+        <p
+          class="emotion-4 emotion-5"
+        >
+          Are you sure you want to delete
+           
+          Marvin
+          ?
+        </p>
+        <div
+          class="emotion-6 emotion-7"
+        >
+          <button
+            class="emotion-8 emotion-9 emotion-10"
+            type="button"
+          >
+            Delete
+          </button>
+          <button
+            class="emotion-8 emotion-9 emotion-10"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-column: 1;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #f86B4E;
+  line-height: 3rem;
+  grid-row: 2;
+  grid-column: 1/span 3;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    line-height: 4.7rem;
+    justify-self: end;
+    grid-row: 1;
+    grid-column: 2;
+  }
+}
+
+.emotion-6 {
+  grid-column: 3;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="PetiteProfileActions"
+    >
+      <legend
+        class="emotion-2 emotion-3"
+      >
+        Marvin
+      </legend>
+      <p
+        class="emotion-4 emotion-5"
+      >
+        Are you sure you want to delete
+         
+        Marvin
+        ?
+      </p>
+      <div
+        class="emotion-6 emotion-7"
+      >
+        <button
+          class="emotion-8 emotion-9 emotion-10"
+          type="button"
+        >
+          Delete
+        </button>
+        <button
+          class="emotion-8 emotion-9 emotion-10"
+          type="button"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`petite profile actions while editing renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-column: 1;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #f86B4E;
+  line-height: 3rem;
+  grid-row: 2;
+  grid-column: 1/span 3;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    line-height: 4.7rem;
+    justify-self: end;
+    grid-row: 1;
+    grid-column: 2;
+  }
+}
+
+.emotion-6 {
+  grid-column: 3;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="PetiteProfileActions"
+      >
+        <legend
+          class="emotion-2 emotion-3"
+        >
+          Marvin
+        </legend>
+        <p
+          class="emotion-4 emotion-5"
+        >
+          Press save below to record edits
+        </p>
+        <div
+          class="emotion-6 emotion-7"
+        >
+          <button
+            class="emotion-8 emotion-9 emotion-10"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr max-content;
+  min-height: 5rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  line-height: 4rem;
+  grid-column: 1/span 2;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    grid-column: 1;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #f86B4E;
+  line-height: 3rem;
+  grid-row: 2;
+  grid-column: 1/span 3;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    line-height: 4.7rem;
+    justify-self: end;
+    grid-row: 1;
+    grid-column: 2;
+  }
+}
+
+.emotion-6 {
+  grid-column: 3;
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #3150A2;
+  -webkit-letter-spacing: .2em;
+  -moz-letter-spacing: .2em;
+  -ms-letter-spacing: .2em;
+  letter-spacing: .2em;
+  padding: 0;
+  border: 0;
+  margin-left: 2rem;
+  outline: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-9:active {
+  outline: 0;
+}
+
+.emotion-9:hover {
+  opacity: 0.75;
+}
+
+.emotion-9[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="PetiteProfileActions"
+    >
+      <legend
+        class="emotion-2 emotion-3"
+      >
+        Marvin
+      </legend>
+      <p
+        class="emotion-4 emotion-5"
+      >
+        Press save below to record edits
+      </p>
+      <div
+        class="emotion-6 emotion-7"
+      >
+        <button
+          class="emotion-8 emotion-9 emotion-10"
+          type="button"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

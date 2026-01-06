@@ -1,0 +1,1939 @@
+{
+	"info": {
+		"_postman_id": "38e85b89-9833-412b-ba25-f8ffd897d9fe",
+		"name": "Maisonette",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "address/[id]",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/address/{{address_id}}?user_id={{user_id}}&user_token={{user_token}}&address_id={{address_id}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"address",
+						"{{address_id}}"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "{{user_id}}"
+						},
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						},
+						{
+							"key": "address_id",
+							"value": "{{address_id}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "address/[id]",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": {{address_id}},\n    \"firstname\": \"Post\",\n    \"lastname\": \"Man\",\n    \"full_name\": \"Post Man\",\n    \"address1\": \"55 Washington St\",\n    \"address2\": \"620\",\n    \"city\": \"Brooklyn\",\n    \"zipcode\": \"11201\",\n    \"phone\": \"2121234567\",\n    \"country_iso\": \"US\",\n    \"state_id\": 3561,\n    \"default\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/address/{{address_id}}?user_id={{user_id}}&user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"address",
+						"{{address_id}}"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "{{user_id}}"
+						},
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "boutiques",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/boutiques",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"boutiques"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "braintree",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"order_id\": \"M282036709\",\n    \"payment_method_id\": 3,\n    \"device_data\": false,\n    \"options\": {\n        \"restart_checkout\": false\n    },\n    \"transaction\": {\n        \"email\": \"admin-buyer@maisonette.com\",\n        \"nonce\": \"98a65fa1-7516-02de-5cfe-9da985669e82\",\n        \"phone\": \"408-977-4131\",\n        \"payment_type\": \"PayPalAccount\",\n        \"shipping_address_attributes\": {\n            \"first_name\": \"test\",\n            \"last_name\": \"buyer\",\n            \"address_line_1\": \"973 40th Street\",\n            \"address_line_2\": \"Apt. #1\",\n            \"city\": \"Brooklyn\",\n            \"state_code\": \"NY\",\n            \"zip\": \"11219\",\n            \"country_code\": \"US\"\n        },\n        \"billing_address_attributes\": {\n            \"first_name\": \"test\",\n            \"last_name\": \"buyer\",\n            \"address_line_1\": \"55 washington street\",\n            \"address_line_2\": \"620\",\n            \"city\": \"Brooklyn\",\n            \"state_code\": \"NY\",\n            \"zip\": \"11201\",\n            \"country_code\": \"US\"\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/braintree/transactions?order_token={{order_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"braintree",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "order_token",
+							"value": "{{order_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brand/[brand]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/brand/{{brand}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"brand",
+						"{{brand}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "brands",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/brands",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"brands"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkouts/[id]",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/checkouts/{{order_number}}?order_token={{order_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"checkouts",
+						"{{order_number}}"
+					],
+					"query": [
+						{
+							"key": "order_token",
+							"value": "{{order_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkouts/[id]/[action]",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/checkouts/{{order_number}}/{{order_action}}?order_token={{order_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"checkouts",
+						"{{order_number}}",
+						"{{order_action}}"
+					],
+					"query": [
+						{
+							"key": "order_token",
+							"value": "{{order_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cms/generals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/cms/generals",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"cms",
+						"generals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contents/[id]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/contents/{{content_id}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"contents",
+						"{{content_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "credits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/credits?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"credits"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forgot-password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"user\": {\n\t\t\"email\": \"{{user_email}}\"\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/forgot-password",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"forgot-password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"user\": {\n\t\t\"email\": \"{{user_email}}\",\n\t\t\"password\": \"{{user_password}}\"\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/login",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minis",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mini\": {\n        \"user_id\": \"{{user_id}}\",\n        \"name\": \"Postman Jr.\",\n        \"birth_day\": \"23\",\n        \"birth_month\": \"12\",\n        \"birth_year\": \"2018\",\n        \"gender_boy\": true,\n        \"gender_girl\": false\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/minis?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"minis"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minis/mine",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/minis/mine?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"minis",
+						"mine"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minis/[id]",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/minis/{{mini_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"minis",
+						"{{mini_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "minis/[id]",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"mini\": {\n\t\t\"name\": \"Postman Jr.\",\n        \"birth_day\": \"23\",\n        \"birth_month\": \"12\",\n        \"birth_year\": \"2018\",\n        \"gender_boy\": false,\n        \"gender_girl\": true\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/minis/{{mini_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"minis",
+						"{{mini_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "navigation",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/navigation",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"navigation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order/[id]",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/order/{{completed_order_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"order",
+						"{{completed_order_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/orders?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders/current",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/orders/current?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders",
+						"current"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders/cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"line_item\": {\n        \"variant_id\": 84444,\n        \"quantity\": \"1\",\n        \"vendor_id\": 211\n    },\n    \"user_id\": \"{{user_id}}\",\n    \"order_token\": \"{{order_token}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/orders/cart?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders",
+						"cart"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders/[id]",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/orders/{{order_number}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders",
+						"{{order_number}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders/[id]",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"{{user_email}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/orders/{{order_number}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders",
+						"{{order_number}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders/[id]/line_items/[id]",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/orders/{{order_number}}/line_items/{{line_item_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders",
+						"{{order_number}}",
+						"line_items",
+						"{{line_item_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders/[id]/line_items/[id]",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/orders/{{order_number}}/line_items/{{line_item_id}}?user_token={{user_token}}&quantity=2",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders",
+						"{{order_number}}",
+						"line_items",
+						"{{line_item_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						},
+						{
+							"key": "quantity",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orders/[id]/coupon_codes/[coupon]",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/orders/{{order_number}}/coupon_codes/{{coupon_code}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"orders",
+						"{{order_number}}",
+						"coupon_codes",
+						"{{coupon_code}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/pages",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"pages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pages/[url]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/pages/{{pages_url}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"pages",
+						"{{pages_url}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "previews/[id]",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/previews/{{preview_id}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"previews",
+						"{{preview_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product-recommendations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/product-recommendations?sid={{related_product_sid}}&sku={{product_sku}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"product-recommendations"
+					],
+					"query": [
+						{
+							"key": "sid",
+							"value": "{{related_product_sid}}"
+						},
+						{
+							"key": "sku",
+							"value": "{{product_sku}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/products?w=*",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "w",
+							"value": "*"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products/[id]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/products/{{product_sku}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"products",
+						"{{product_sku}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rac/[term]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/rac/{{search_term}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"rac",
+						"{{search_term}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "recently_viewed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/recently_viewed?user_id={{user_id}}&session_id={{$randomUUID}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"recently_viewed"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "{{user_id}}"
+						},
+						{
+							"key": "session_id",
+							"value": "{{$randomUUID}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "recently_viewed",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"recently_viewed\": {\n        \"user_id\": {{user_id}},\n        \"session_id\": \"{{$randomUUID}}\",\n        \"variant_id\": {{variant_id}}\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/recently_viewed?user_id={{user_id}}&session_id={{$randomUUID}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"recently_viewed"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "{{user_id}}"
+						},
+						{
+							"key": "session_id",
+							"value": "{{$randomUUID}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\": {\n    \t\"email\": \"postman@maisonette.com\",\n    \t\"password\": \"password\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/register",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reset-password",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\": {\n    \t\"email\": \"postman@maisonette.com\",\n    \t\"password\": \"password\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/reset-password",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"reset-password"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "returns",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/returns?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"returns"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "returns/[id]",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/returns/{{return_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"returns",
+						"{{return_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shipments/[id]/giftwrap",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/shipments/{{shipment_number}}/giftwrap?order_number={{order_number}}&order_token={{order_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"shipments",
+						"{{shipment_number}}",
+						"giftwrap"
+					],
+					"query": [
+						{
+							"key": "order_number",
+							"value": "{{order_number}}"
+						},
+						{
+							"key": "order_token",
+							"value": "{{order_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sli_wished_products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/sli_wished_products?ids=166616,145899",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sli_wished_products"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "166616,145899"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stock_requests",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\t\"email\": \"{{user_email}}\",\n\t\"variant_id\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/stock_requests",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"stock_requests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "taxons",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/taxons",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"taxons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "taxons/products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/taxons/products?permalink=category/kids",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"taxons",
+						"products"
+					],
+					"query": [
+						{
+							"key": "permalink",
+							"value": "category/kids"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/user?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"user"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users/[id]",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\": {\n        \"email\": \"{{user_email}}\",\n        \"first_name\": \"Post\",\n        \"last_name\": \"Man\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/users/{{user_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"{{user_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users/[id]/subscribe",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/users/{{user_id}}/subscribe?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"{{user_id}}",
+						"subscribe"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users/[id]/unsubscribe",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/users/{{user_id}}/unsubscribe?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"{{user_id}}",
+						"unsubscribe"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "users/[id]/address_book",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"address_book\": {\n\t    \"firstname\": \"Post\",\n\t    \"lastname\": \"Man\",\n\t    \"address1\": \"123 Fake Street\",\n\t    \"city\": \"New York\",\n\t    \"zipcode\": \"10128\",\n\t    \"phone\": \"1234567890\",\n\t    \"country_id\": 232,\n\t    \"state_id\": 3561\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/users/{{user_id}}/address_book?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"{{user_id}}",
+						"address_book"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wallet/[id]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/wallet/{{wallet_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"{{wallet_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wallet/[id] Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/wallet/{{wallet_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"{{wallet_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wished_products",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/wished_products?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"wished_products"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wished_products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"wished_product\": {\n\t\t\"variant_id\": {{variant_id}}\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/wished_products?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"wished_products"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wished_products/[id]",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"wished_product\": {\n\t\t\"variant_id\": {{variant_id}}\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/wished_products/{{wished_id}}?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"wished_products",
+						"{{wished_id}}"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "wishlist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/api/wishlist?user_token={{user_token}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"wishlist"
+					],
+					"query": [
+						{
+							"key": "user_token",
+							"value": "{{user_token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "9891ea06-5917-4be6-969b-a67e7095dccd",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "0173a19a-3b50-4d73-9272-fe93dc369165",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "8ec31029-8a91-43a9-b065-8044b4d0c7c8",
+			"key": "host",
+			"value": "localhost:7777",
+			"type": "string"
+		},
+		{
+			"id": "c5aa66ce-e3e9-4357-908f-b1ea25457590",
+			"key": "user_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "0ebcea9d-b34b-4461-a54a-fef919b89374",
+			"key": "user_token",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "572af148-ba11-4b79-b8c4-dffdf9cad3d1",
+			"key": "order_action",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "6ed2ddda-569f-4f4d-8a43-07137a59f63d",
+			"key": "order_token",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "45ab3526-4e70-47d2-9ee2-61f4430f2a4b",
+			"key": "order_number",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "9a4360f4-ba7b-4c40-91c5-33c6bb2e8911",
+			"key": "address_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "1b066e84-a2b8-4e97-bf3f-ec6ee466f17f",
+			"key": "brand",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "0d0405c6-251b-4158-9af0-ed07664280db",
+			"key": "content_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "824319f7-4b73-49e7-bdb9-264de3b86502",
+			"key": "pages_url",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "4408b43a-fd77-4fc9-9cbe-e3441524c3c4",
+			"key": "user_email",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "bd07547d-9484-4ae4-bff3-318a49166c6e",
+			"key": "user_password",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "d775d95a-6c51-4ca2-8d6b-a26da825259e",
+			"key": "mini_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "6c28f332-863b-473f-96c5-9f12aa7df896",
+			"key": "completed_order_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "0301f59c-120f-4d0c-814d-fc50253f028b",
+			"key": "line_item_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "6bf53a3f-25d4-4a7e-9310-c9ea6de84403",
+			"key": "coupon_code",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "5a411145-c184-4bf1-9e7f-f9b2f6f90728",
+			"key": "related_product_sid",
+			"value": "5bdfbade84ae1f72eff0c60f",
+			"type": "string"
+		},
+		{
+			"id": "b32b1384-ea4e-425e-8881-2c130d50b93f",
+			"key": "also_bought_with_sid",
+			"value": "5bdfbaf784ae1f72eff0c614",
+			"type": "string"
+		},
+		{
+			"id": "0f32bd1c-31d8-47d7-8ecb-fa3f4b08dff9",
+			"key": "product_sku",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "7a985dea-1659-45a8-88dd-ad581f0a3d9f",
+			"key": "variant_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "cd810624-a623-4e43-962c-2824bb3cc9a9",
+			"key": "search_term",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "dedb2937-c738-48b6-ac28-d4a2da1f80ff",
+			"key": "return_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "b502207e-b0d9-44b2-9157-508064624e62",
+			"key": "shipment_number",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "3c10e472-0f8a-4af9-9c0c-fdd7feb77603",
+			"key": "wallet_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "b4e75358-0ed5-4b45-bc7b-13e850769b33",
+			"key": "wished_id",
+			"value": "null",
+			"type": "string"
+		},
+		{
+			"id": "20c32859-c3a4-4f57-b9fa-b6d799f2b9a5",
+			"key": "preview_id",
+			"value": "null",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

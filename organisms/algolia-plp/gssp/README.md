@@ -1,0 +1,1 @@
+This is where specific logic pertaining to each page type is initially executed. This should includes redirects and initial props per page type.

@@ -1,0 +1,1011 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a not found product renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.emotion-0 .e16trg0u0,
+.emotion-0 .emotion-5,
+.emotion-0 .emotion-7 {
+  text-align: left;
+}
+
+.emotion-2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.4rem;
+  color: #2F4DA1;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #2F4DA1;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 2.4rem;
+  margin-top: 1rem;
+  text-transform: lowercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.emotion-8 {
+  color: #f86B4E;
+}
+
+.emotion-10 {
+  border-bottom: 1px solid none;
+  overflow: hidden;
+  -webkit-transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  min-height: 6.7rem;
+  min-width: 3.8rem;
+  max-height: 35px;
+}
+
+.emotion-10~dl {
+  border-top: 0;
+}
+
+.emotion-12 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHdpZHRoPSIxMCIgaGVpZ2h0PSI3IiB2aWV3Ym94PSIwIDAgMTAgNSIgZmlsbD0ibm9uZSIgIHZlcnNpb249JzEuMScgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgPHBhdGggZD0iTTEgMS41TDUgNS41TDkgMS41IiBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  width: 18.7rem;
+  color: #2F4DA1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3.5rem;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.emotion-14 {
+  visibility: hidden;
+}
+
+.emotion-18 {
+  margin-top: 1.2rem;
+  font-family: Sans-Serif;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-18 afterpay-placement {
+  --logo-badge-width: 72px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+<body>
+    <div>
+      <header
+        class="emotion-0 emotion-1"
+        data-test-id="ProductHeader"
+      >
+        
+        <a
+          class="emotion-2 emotion-3"
+          href="/product"
+        >
+          <h1
+            class="emotion-4 emotion-5"
+          />
+        </a>
+        <div
+          class="emotion-6 emotion-7"
+          tabindex="0"
+        >
+          <span
+            class="emotion-8 emotion-9"
+          >
+            Out of Stock
+          </span>
+        </div>
+        <dl
+          class="emotion-10 emotion-11"
+        >
+          <dt
+            class="emotion-12 emotion-13"
+          >
+            or 4 interest-free payments
+            
+          </dt>
+          <dd
+            class="emotion-14 emotion-15"
+          >
+            <div
+              class="emotion-16 emotion-17"
+            >
+              <div
+                class="emotion-18 emotion-19"
+              >
+                <div
+                  class="emotion-20 emotion-50"
+                  data-pp-amount="0"
+                  data-pp-message="true"
+                  data-pp-style-layout="text"
+                  data-pp-style-logo-type="inline"
+                  data-pp-style-text-align="left"
+                  data-pp-style-text-color="black"
+                />
+                <afterpay-placement
+                  data-amount="0"
+                  data-badge-theme="white-on-black"
+                  data-currency="USD"
+                  data-intro-text="Pay in"
+                  data-locale="en_US"
+                  data-modal-link-style="learn-more-text"
+                  data-modal-theme="white"
+                  data-size="xs"
+                />
+              </div>
+            </div>
+          </dd>
+        </dl>
+      </header>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.emotion-0 .e16trg0u0,
+.emotion-0 .emotion-5,
+.emotion-0 .emotion-7 {
+  text-align: left;
+}
+
+.emotion-2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.4rem;
+  color: #2F4DA1;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #2F4DA1;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 2.4rem;
+  margin-top: 1rem;
+  text-transform: lowercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.emotion-8 {
+  color: #f86B4E;
+}
+
+.emotion-10 {
+  border-bottom: 1px solid none;
+  overflow: hidden;
+  -webkit-transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  min-height: 6.7rem;
+  min-width: 3.8rem;
+  max-height: 35px;
+}
+
+.emotion-10~dl {
+  border-top: 0;
+}
+
+.emotion-12 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHdpZHRoPSIxMCIgaGVpZ2h0PSI3IiB2aWV3Ym94PSIwIDAgMTAgNSIgZmlsbD0ibm9uZSIgIHZlcnNpb249JzEuMScgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgPHBhdGggZD0iTTEgMS41TDUgNS41TDkgMS41IiBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  width: 18.7rem;
+  color: #2F4DA1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3.5rem;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.emotion-14 {
+  visibility: hidden;
+}
+
+.emotion-18 {
+  margin-top: 1.2rem;
+  font-family: Sans-Serif;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-18 afterpay-placement {
+  --logo-badge-width: 72px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+<div>
+    <header
+      class="emotion-0 emotion-1"
+      data-test-id="ProductHeader"
+    >
+      
+      <a
+        class="emotion-2 emotion-3"
+        href="/product"
+      >
+        <h1
+          class="emotion-4 emotion-5"
+        />
+      </a>
+      <div
+        class="emotion-6 emotion-7"
+        tabindex="0"
+      >
+        <span
+          class="emotion-8 emotion-9"
+        >
+          Out of Stock
+        </span>
+      </div>
+      <dl
+        class="emotion-10 emotion-11"
+      >
+        <dt
+          class="emotion-12 emotion-13"
+        >
+          or 4 interest-free payments
+          
+        </dt>
+        <dd
+          class="emotion-14 emotion-15"
+        >
+          <div
+            class="emotion-16 emotion-17"
+          >
+            <div
+              class="emotion-18 emotion-19"
+            >
+              <div
+                class="emotion-20 emotion-50"
+                data-pp-amount="0"
+                data-pp-message="true"
+                data-pp-style-layout="text"
+                data-pp-style-logo-type="inline"
+                data-pp-style-text-align="left"
+                data-pp-style-text-color="black"
+              />
+              <afterpay-placement
+                data-amount="0"
+                data-badge-theme="white-on-black"
+                data-currency="USD"
+                data-intro-text="Pay in"
+                data-locale="en_US"
+                data-modal-link-style="learn-more-text"
+                data-modal-theme="white"
+                data-size="xs"
+              />
+            </div>
+          </div>
+        </dd>
+      </dl>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`a product detail header renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.emotion-0 .emotion-3,
+.emotion-0 .emotion-7,
+.emotion-0 .emotion-9 {
+  text-align: left;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  color: #2F4DA1;
+  cursor: pointer;
+  margin-bottom: 0.2em;
+  text-transform: uppercase;
+  line-height: 1.6rem;
+  -webkit-letter-spacing: .1rem;
+  -moz-letter-spacing: .1rem;
+  -ms-letter-spacing: .1rem;
+  letter-spacing: .1rem;
+  margin-bottom: 0.8rem;
+}
+
+.emotion-4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.4rem;
+  color: #2F4DA1;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #2F4DA1;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 2.4rem;
+  margin-top: 1rem;
+  text-transform: lowercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #CC3112;
+  font-weight: 400;
+  text-transform: capitalize;
+  white-space: nowrap;
+  margin-left: 0.8rem;
+}
+
+.emotion-13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width:992px) {
+  .emotion-13>span {
+    line-height: 2.1rem;
+    font-size: 1.4rem;
+  }
+}
+
+.emotion-15 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  color: #CC3112;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+.emotion-17 {
+  border-bottom: 1px solid none;
+  overflow: hidden;
+  -webkit-transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  min-height: 6.7rem;
+  min-width: 3.8rem;
+  max-height: 35px;
+}
+
+.emotion-17~dl {
+  border-top: 0;
+}
+
+.emotion-19 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHdpZHRoPSIxMCIgaGVpZ2h0PSI3IiB2aWV3Ym94PSIwIDAgMTAgNSIgZmlsbD0ibm9uZSIgIHZlcnNpb249JzEuMScgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgPHBhdGggZD0iTTEgMS41TDUgNS41TDkgMS41IiBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  width: 18.7rem;
+  color: #2F4DA1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3.5rem;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.emotion-21 {
+  visibility: hidden;
+}
+
+.emotion-25 {
+  margin-top: 1.2rem;
+  font-family: Sans-Serif;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-25 afterpay-placement {
+  --logo-badge-width: 72px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+<body>
+    <div>
+      <header
+        class="emotion-0 emotion-1"
+        data-test-id="ProductHeader"
+      >
+        <h2
+          class="emotion-2 emotion-3"
+        >
+          Eric
+        </h2>
+        <a
+          class="emotion-4 emotion-5"
+          href="/product"
+        >
+          <h1
+            class="emotion-6 emotion-7"
+          >
+            Eric Goncalves' Product
+          </h1>
+        </a>
+        <div
+          class="emotion-8 emotion-9"
+          tabindex="0"
+        >
+          $200.00 - $8,000.00
+          <span
+            class="emotion-10 emotion-11"
+          >
+            Final sale!
+          </span>
+        </div>
+        <div
+          class=" emotion-12 emotion-13 emotion-14"
+          data-test-id="FinalSaleWarning"
+        >
+          <span
+            class="emotion-15 emotion-16"
+          >
+            Final sale items are not returnable.
+          </span>
+        </div>
+        <dl
+          class="emotion-17 emotion-18"
+        >
+          <dt
+            class="emotion-19 emotion-20"
+          >
+            or 4 interest-free payments
+            
+          </dt>
+          <dd
+            class="emotion-21 emotion-22"
+          >
+            <div
+              class="emotion-23 emotion-24"
+            >
+              <div
+                class="emotion-25 emotion-26"
+              >
+                <div
+                  class="emotion-27 emotion-70"
+                  data-pp-amount="0"
+                  data-pp-message="true"
+                  data-pp-style-layout="text"
+                  data-pp-style-logo-type="inline"
+                  data-pp-style-text-align="left"
+                  data-pp-style-text-color="black"
+                />
+                <afterpay-placement
+                  data-amount="0"
+                  data-badge-theme="white-on-black"
+                  data-currency="USD"
+                  data-intro-text="Pay in"
+                  data-locale="en_US"
+                  data-modal-link-style="learn-more-text"
+                  data-modal-theme="white"
+                  data-size="xs"
+                />
+              </div>
+            </div>
+          </dd>
+        </dl>
+      </header>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.emotion-0 .emotion-3,
+.emotion-0 .emotion-7,
+.emotion-0 .emotion-9 {
+  text-align: left;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  color: #2F4DA1;
+  cursor: pointer;
+  margin-bottom: 0.2em;
+  text-transform: uppercase;
+  line-height: 1.6rem;
+  -webkit-letter-spacing: .1rem;
+  -moz-letter-spacing: .1rem;
+  -ms-letter-spacing: .1rem;
+  letter-spacing: .1rem;
+  margin-bottom: 0.8rem;
+}
+
+.emotion-4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-6 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.4rem;
+  color: #2F4DA1;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #2F4DA1;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 2.4rem;
+  margin-top: 1rem;
+  text-transform: lowercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.emotion-10 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  color: #CC3112;
+  font-weight: 400;
+  text-transform: capitalize;
+  white-space: nowrap;
+  margin-left: 0.8rem;
+}
+
+.emotion-13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width:992px) {
+  .emotion-13>span {
+    line-height: 2.1rem;
+    font-size: 1.4rem;
+  }
+}
+
+.emotion-15 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  color: #CC3112;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+.emotion-17 {
+  border-bottom: 1px solid none;
+  overflow: hidden;
+  -webkit-transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: max-height 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  min-height: 6.7rem;
+  min-width: 3.8rem;
+  max-height: 35px;
+}
+
+.emotion-17~dl {
+  border-top: 0;
+}
+
+.emotion-19 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHdpZHRoPSIxMCIgaGVpZ2h0PSI3IiB2aWV3Ym94PSIwIDAgMTAgNSIgZmlsbD0ibm9uZSIgIHZlcnNpb249JzEuMScgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgICAgPHBhdGggZD0iTTEgMS41TDUgNS41TDkgMS41IiBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  width: 18.7rem;
+  color: #2F4DA1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3.5rem;
+  position: relative;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.emotion-21 {
+  visibility: hidden;
+}
+
+.emotion-25 {
+  margin-top: 1.2rem;
+  font-family: Sans-Serif;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.emotion-25 afterpay-placement {
+  --logo-badge-width: 72px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+<div>
+    <header
+      class="emotion-0 emotion-1"
+      data-test-id="ProductHeader"
+    >
+      <h2
+        class="emotion-2 emotion-3"
+      >
+        Eric
+      </h2>
+      <a
+        class="emotion-4 emotion-5"
+        href="/product"
+      >
+        <h1
+          class="emotion-6 emotion-7"
+        >
+          Eric Goncalves' Product
+        </h1>
+      </a>
+      <div
+        class="emotion-8 emotion-9"
+        tabindex="0"
+      >
+        $200.00 - $8,000.00
+        <span
+          class="emotion-10 emotion-11"
+        >
+          Final sale!
+        </span>
+      </div>
+      <div
+        class=" emotion-12 emotion-13 emotion-14"
+        data-test-id="FinalSaleWarning"
+      >
+        <span
+          class="emotion-15 emotion-16"
+        >
+          Final sale items are not returnable.
+        </span>
+      </div>
+      <dl
+        class="emotion-17 emotion-18"
+      >
+        <dt
+          class="emotion-19 emotion-20"
+        >
+          or 4 interest-free payments
+          
+        </dt>
+        <dd
+          class="emotion-21 emotion-22"
+        >
+          <div
+            class="emotion-23 emotion-24"
+          >
+            <div
+              class="emotion-25 emotion-26"
+            >
+              <div
+                class="emotion-27 emotion-70"
+                data-pp-amount="0"
+                data-pp-message="true"
+                data-pp-style-layout="text"
+                data-pp-style-logo-type="inline"
+                data-pp-style-text-align="left"
+                data-pp-style-text-color="black"
+              />
+              <afterpay-placement
+                data-amount="0"
+                data-badge-theme="white-on-black"
+                data-currency="USD"
+                data-intro-text="Pay in"
+                data-locale="en_US"
+                data-modal-link-style="learn-more-text"
+                data-modal-theme="white"
+                data-size="xs"
+              />
+            </div>
+          </div>
+        </dd>
+      </dl>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

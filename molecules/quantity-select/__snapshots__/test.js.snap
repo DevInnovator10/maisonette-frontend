@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a quantity select renders correctly 1`] = `
+.emotion-0 {
+  font-size: 1.2rem;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  color: #9CB1DC;
+  padding-right: 1rem;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+}
+
+.emotion-4>select {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 3px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #3150A2;
+  cursor: pointer;
+  height: 100%;
+  outline: 0;
+  padding-right: 1.5rem;
+  position: relative;
+}
+
+.emotion-6 {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+<div>
+  <dl
+    class="emotion-0 emotion-1"
+    data-test-id="QuantitySelect"
+  >
+    <dt
+      class="emotion-2 emotion-3"
+    >
+      Qty
+    </dt>
+    <dd
+      class="emotion-4 emotion-5"
+    >
+      <label
+        class="emotion-6 emotion-7"
+        for="quantity-select"
+      >
+        Quantity Select
+      </label>
+      <select
+        id="quantity-select"
+      >
+        <option
+          data-test-id="createOptions"
+          value="1"
+        >
+          1
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="2"
+        >
+          2
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="3"
+        >
+          3
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="4"
+        >
+          4
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="5"
+        >
+          5
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="6"
+        >
+          6
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="7"
+        >
+          7
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="8"
+        >
+          8
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="9"
+        >
+          9
+        </option>
+        <option
+          data-test-id="createOptions"
+          value="10"
+        >
+          10
+        </option>
+      </select>
+    </dd>
+  </dl>
+
+</div>
+`;

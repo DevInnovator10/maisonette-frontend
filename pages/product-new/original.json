@@ -1,0 +1,134 @@
+{
+    "id": 100,
+    "name": "Organic Cotton Lap Tee Short Sleeve Striped nautical tee, Natural & Azure",
+    "description": "one of Mabo's most popular items - perfect fitting and dreamy soft, this tee is perfect for all seasons. snug-fitting with envelope neck. all of Mabo's organic cotton products are made ethically in the usa from start to finish, from the cotton, through the custom low-impact dying and finally to the sewn garment.\n\n3m, 6m, 12m, 18m, 2/3, 4/5, 6/7, 8/9, 10/11, 12/13, 14/15100% organic cottonmade in usa\n\nlength (front top of neckline to hem):3m: 9.256m: 10.25\"12m: 11\"18m: 12.52/3: 14.254/5: 16.756/7: 19.58/9: 2110/11: 2312/13: 23.5\"14/15: 24.5\"\n\nwidth: (underarm to underarm)3m: 7.5\"6m: 8.5\"12m: 9\"18m: 9.75\"2/3: 10.75\"4/5: 11.5\"6/7: 12\"8/9: 12.75\" 10/11: 14.5\"12/13: 15.25\"14/15: 15.5\"\n\nsleeve length:3m: 1.5\"6m: 1.75\"12m: 1.75\"18m: 2\"2/3: 2\"4/5: 2.25\"6/7: 3\"8/9: 3.75\"10/11: 4\"12/13: 4.5\"14/15: 5.25\"\n\nwidth: (underarm to underarm)3m: 7.5\"6m: 8.5\"12m: 9\"18m: 9.75\"2/3: 10.75\"4/5: 11.5\"6/7: 12\"8/9: 12.75\" 10/11: 14.5\"12/13: 15.25\"14/15: 15.5\"\n\nsleeve length:3m: 1.5\"6m: 1.75\"12m: 1.75\"18m: 2\"2/3: 2\"4/5: 2.25\"6/7: 3\"8/9: 3.75\"10/11: 4\"12/13: 4.5\"14/15: 5.25\"",
+    "available_on": "2020-09-17T12:00:00.000-04:00",
+    "slug": "organic-cotton-lap-tee-short-sleeve-striped-nautical-tee-natural-azure",
+    "meta_description": null,
+    "meta_keywords": null,
+    "taxon_ids": [],
+    "total_on_hand": 0,
+    "meta_title": null,
+    "display_price": "$0.00",
+    "brand": null,
+    "brand_slug": null,
+    "brand_url": null,
+    "brand_description": null,
+    "gift_card": false,
+    "concierge_only": false,
+    "is_registry": false,
+    "discontinued": false,
+    "available": true,
+    "maisonette_variant_group_attributes": [],
+    "trends": [],
+    "breadcrumb_taxons": [],
+    "has_variants": false,
+    "master": {
+        "id": 152,
+        "name": "Organic Cotton Lap Tee Short Sleeve Striped nautical tee, Natural & Azure",
+        "sku": "organiccottonlapteeshortsleevenaturalazure",
+        "is_master": true,
+        "slug": "organic-cotton-lap-tee-short-sleeve-striped-nautical-tee-natural-azure",
+        "description": "one of Mabo's most popular items - perfect fitting and dreamy soft, this tee is perfect for all seasons. snug-fitting with envelope neck. all of Mabo's organic cotton products are made ethically in the usa from start to finish, from the cotton, through the custom low-impact dying and finally to the sewn garment.\n\n3m, 6m, 12m, 18m, 2/3, 4/5, 6/7, 8/9, 10/11, 12/13, 14/15100% organic cottonmade in usa\n\nlength (front top of neckline to hem):3m: 9.256m: 10.25\"12m: 11\"18m: 12.52/3: 14.254/5: 16.756/7: 19.58/9: 2110/11: 2312/13: 23.5\"14/15: 24.5\"\n\nwidth: (underarm to underarm)3m: 7.5\"6m: 8.5\"12m: 9\"18m: 9.75\"2/3: 10.75\"4/5: 11.5\"6/7: 12\"8/9: 12.75\" 10/11: 14.5\"12/13: 15.25\"14/15: 15.5\"\n\nsleeve length:3m: 1.5\"6m: 1.75\"12m: 1.75\"18m: 2\"2/3: 2\"4/5: 2.25\"6/7: 3\"8/9: 3.75\"10/11: 4\"12/13: 4.5\"14/15: 5.25\"\n\nwidth: (underarm to underarm)3m: 7.5\"6m: 8.5\"12m: 9\"18m: 9.75\"2/3: 10.75\"4/5: 11.5\"6/7: 12\"8/9: 12.75\" 10/11: 14.5\"12/13: 15.25\"14/15: 15.5\"\n\nsleeve length:3m: 1.5\"6m: 1.75\"12m: 1.75\"18m: 2\"2/3: 2\"4/5: 2.25\"6/7: 3\"8/9: 3.75\"10/11: 4\"12/13: 4.5\"14/15: 5.25\"",
+        "track_inventory": true,
+        "price": null,
+        "display_price": "",
+        "options_text": "",
+        "in_stock": false,
+        "is_backorderable": false,
+        "total_on_hand": 0,
+        "is_destroyed": false,
+        "option_values": [],
+        "images": [],
+        "videos": []
+    },
+    "variants": [],
+    "option_types": [],
+    "product_properties": [
+        {
+            "id": 1186,
+            "product_id": 100,
+            "property_id": 1,
+            "value": "No",
+            "property_name": "Assembly Required"
+        },
+        {
+            "id": 1188,
+            "product_id": 100,
+            "property_id": 3,
+            "value": "Size Guide - Clothing",
+            "property_name": "Size Guide"
+        },
+        {
+            "id": 1190,
+            "product_id": 100,
+            "property_id": 6,
+            "value": "0",
+            "property_name": "Tariff Codes"
+        },
+        {
+            "id": 1191,
+            "product_id": 100,
+            "property_id": 8,
+            "value": "Mabo",
+            "property_name": "Internal Brand"
+        },
+        {
+            "id": 1193,
+            "product_id": 100,
+            "property_id": 12,
+            "value": "0.4",
+            "property_name": "Margin"
+        },
+        {
+            "id": 1194,
+            "product_id": 100,
+            "property_id": 14,
+            "value": "No",
+            "property_name": "Made to Order"
+        },
+        {
+            "id": 1195,
+            "product_id": 100,
+            "property_id": 16,
+            "value": "1",
+            "property_name": "Number of Boxes"
+        },
+        {
+            "id": 1196,
+            "product_id": 100,
+            "property_id": 17,
+            "value": "5lbs",
+            "property_name": "Box1 Packaged Weight"
+        },
+        {
+            "id": 1197,
+            "product_id": 100,
+            "property_id": 18,
+            "value": "12",
+            "property_name": "Box1 Packaged Length"
+        },
+        {
+            "id": 1198,
+            "product_id": 100,
+            "property_id": 19,
+            "value": "8",
+            "property_name": "Box1 Packaged Width/Depth"
+        },
+        {
+            "id": 1199,
+            "product_id": 100,
+            "property_id": 20,
+            "value": "3",
+            "property_name": "Box1 Packaged Height"
+        },
+        {
+            "id": 1201,
+            "product_id": 100,
+            "property_id": 29,
+            "value": "CORE",
+            "property_name": "Season"
+        }
+    ],
+    "classifications": []
+}

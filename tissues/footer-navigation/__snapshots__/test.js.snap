@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the footer navigation renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 0 50%;
+  -ms-flex: 0 50%;
+  flex: 0 50%;
+  width: 50%;
+  padding: 0 1rem 0 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    padding: 0 3.7rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding: 0 1rem 0 0;
+  }
+}
+
+.emotion-0 .emotion-2 {
+  margin: 0;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 .emotion-2 {
+    padding: 0 0 5rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 .emotion-2 {
+    padding: 0;
+    margin-bottom: 5rem;
+  }
+}
+
+.emotion-3 {
+  color: #3150A2;
+  font-family: inherit;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.25em;
+  -moz-letter-spacing: 0.25em;
+  -ms-letter-spacing: 0.25em;
+  letter-spacing: 0.25em;
+  line-height: 1.4rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+  border-bottom: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  margin-bottom: 4rem;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: color .4s cubic-bezier(.39,.575,.565,1);
+  transition: color .4s cubic-bezier(.39,.575,.565,1);
+  min-height: 3.2rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+.emotion-3:visited {
+  color: #9CB1DC;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-3 {
+    border-bottom: 1px solid #FFFFFF;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-3 {
+    margin-bottom: 5rem;
+    border-bottom: 1px solid #3150A2;
+  }
+
+  .emotion-3:not(:last-of-type) {
+    text-align: left;
+  }
+}
+
+.emotion-3:visited {
+  color: #FFFFFF;
+}
+
+.emotion-3:hover {
+  color: #9CB1DC;
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 2rem;
+  padding: 1rem 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: color .4s cubic-bezier(.39,.575,.565,1);
+  transition: color .4s cubic-bezier(.39,.575,.565,1);
+  justify-self: flex-end;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-5 {
+    padding: 2rem 0;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-5 {
+    text-align: left;
+    border-bottom: 0 none;
+    line-height: 1.5rem;
+    padding: 0 0 1.1rem;
+  }
+}
+
+.emotion-5:hover {
+  color: #9CB1DC;
+}
+
+<body>
+    <div>
+      <nav
+        class="emotion-0 emotion-1"
+      >
+        <a
+          class=" emotion-2 emotion-3 emotion-4"
+          href="/faq"
+        >
+          Customer Care
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/holiday-shipping"
+        >
+          Holiday Shipping
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/delivery"
+        >
+          Shipping & Delivery
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/faq"
+        >
+          F.A.Q.s
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/privacy"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/terms"
+        >
+          Terms & Conditions
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/contact"
+        >
+          Contact Us
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/returns-guide"
+        >
+          Returns Guide
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/privacy#opt_out_marketing"
+        >
+          Do Not Sell My Personal Information
+        </a>
+      </nav>
+      <nav
+        class="emotion-0 emotion-1"
+      >
+        <a
+          class=" emotion-2 emotion-3 emotion-4"
+          href="/about"
+        >
+          Company
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/about"
+        >
+          About
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/q1-2022-diversity-equity-and-inclusion-report"
+        >
+          DEI Report
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/careers"
+        >
+          Careers
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/partner"
+        >
+          Partner With Us
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/press"
+        >
+          Press
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/accessibility"
+        >
+          Accessibility
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/size-guide"
+        >
+          Size Guide
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/sitemap"
+        >
+          Sitemap
+        </a>
+        <a
+          class="emotion-5 emotion-6"
+          href="/affiliate"
+        >
+          Become a Brand Ambassador
+        </a>
+      </nav>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 0 50%;
+  -ms-flex: 0 50%;
+  flex: 0 50%;
+  width: 50%;
+  padding: 0 1rem 0 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    padding: 0 3.7rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding: 0 1rem 0 0;
+  }
+}
+
+.emotion-0 .emotion-2 {
+  margin: 0;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 .emotion-2 {
+    padding: 0 0 5rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 .emotion-2 {
+    padding: 0;
+    margin-bottom: 5rem;
+  }
+}
+
+.emotion-3 {
+  color: #3150A2;
+  font-family: inherit;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.25em;
+  -moz-letter-spacing: 0.25em;
+  -ms-letter-spacing: 0.25em;
+  letter-spacing: 0.25em;
+  line-height: 1.4rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+  border-bottom: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  margin-bottom: 4rem;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: color .4s cubic-bezier(.39,.575,.565,1);
+  transition: color .4s cubic-bezier(.39,.575,.565,1);
+  min-height: 3.2rem;
+  border-bottom: 1px solid #3150A2;
+}
+
+.emotion-3:visited {
+  color: #9CB1DC;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-3 {
+    border-bottom: 1px solid #FFFFFF;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-3 {
+    margin-bottom: 5rem;
+    border-bottom: 1px solid #3150A2;
+  }
+
+  .emotion-3:not(:last-of-type) {
+    text-align: left;
+  }
+}
+
+.emotion-3:visited {
+  color: #FFFFFF;
+}
+
+.emotion-3:hover {
+  color: #9CB1DC;
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 2rem;
+  padding: 1rem 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: color .4s cubic-bezier(.39,.575,.565,1);
+  transition: color .4s cubic-bezier(.39,.575,.565,1);
+  justify-self: flex-end;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-5 {
+    padding: 2rem 0;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-5 {
+    text-align: left;
+    border-bottom: 0 none;
+    line-height: 1.5rem;
+    padding: 0 0 1.1rem;
+  }
+}
+
+.emotion-5:hover {
+  color: #9CB1DC;
+}
+
+<div>
+    <nav
+      class="emotion-0 emotion-1"
+    >
+      <a
+        class=" emotion-2 emotion-3 emotion-4"
+        href="/faq"
+      >
+        Customer Care
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/holiday-shipping"
+      >
+        Holiday Shipping
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/delivery"
+      >
+        Shipping & Delivery
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/faq"
+      >
+        F.A.Q.s
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/privacy"
+      >
+        Privacy Policy
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/terms"
+      >
+        Terms & Conditions
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/contact"
+      >
+        Contact Us
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/returns-guide"
+      >
+        Returns Guide
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/privacy#opt_out_marketing"
+      >
+        Do Not Sell My Personal Information
+      </a>
+    </nav>
+    <nav
+      class="emotion-0 emotion-1"
+    >
+      <a
+        class=" emotion-2 emotion-3 emotion-4"
+        href="/about"
+      >
+        Company
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/about"
+      >
+        About
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/q1-2022-diversity-equity-and-inclusion-report"
+      >
+        DEI Report
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/careers"
+      >
+        Careers
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/partner"
+      >
+        Partner With Us
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/press"
+      >
+        Press
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/accessibility"
+      >
+        Accessibility
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/size-guide"
+      >
+        Size Guide
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/sitemap"
+      >
+        Sitemap
+      </a>
+      <a
+        class="emotion-5 emotion-6"
+        href="/affiliate"
+      >
+        Become a Brand Ambassador
+      </a>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

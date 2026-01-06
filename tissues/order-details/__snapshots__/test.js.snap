@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a order detail component renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin-bottom: 2rem;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  min-width: 5rem;
+  text-transform: uppercase;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.emotion-4 dd {
+  color: #2F4DA1;
+  font-weight: 400;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-4 dt {
+  color: #9CB1DC;
+  font-weight: 400;
+  min-width: 5rem;
+  padding-right: 0.8rem;
+}
+
+<body>
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="order-data-order"
+      >
+        <p
+          class="emotion-2 emotion-3"
+          text="Order"
+        >
+          Order
+        </p>
+        <dl>
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <dt>
+              Placed:
+            </dt>
+            <dd>
+              <time
+                data-test-id="order-placed-date"
+                datetime="Jun, 21 2019"
+              >
+                06/21/2019
+              </time>
+            </dd>
+          </div>
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <dt>
+              Status:
+            </dt>
+            <dd
+              data-test-id="order-status"
+            >
+              Ready
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-2 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  margin-bottom: 2rem;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  min-width: 5rem;
+  text-transform: uppercase;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.emotion-4 dd {
+  color: #2F4DA1;
+  font-weight: 400;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-4 dt {
+  color: #9CB1DC;
+  font-weight: 400;
+  min-width: 5rem;
+  padding-right: 0.8rem;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="order-data-order"
+    >
+      <p
+        class="emotion-2 emotion-3"
+        text="Order"
+      >
+        Order
+      </p>
+      <dl>
+        <div
+
+          class="emotion-4 emotion-5"
+        >
+          <dt>
+            Placed:
+          </dt>
+          <dd>
+            <time
+              data-test-id="order-placed-date"
+              datetime="Jun, 21 2019"
+            >
+              06/21/2019
+            </time>
+          </dd>
+        </div>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <dt>
+            Status:
+          </dt>
+          <dd
+            data-test-id="order-status"
+          >
+            Ready
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

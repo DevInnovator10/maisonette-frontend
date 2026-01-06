@@ -1,0 +1,1308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the size guide component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  padding-top: 5rem;
+  max-width: 95rem;
+  margin: auto;
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  margin: 2rem auto;
+  max-width: 60rem;
+  text-align: center;
+}
+
+.emotion-4>a {
+  font-family: inherit;
+}
+
+.emotion-6 {
+  border-bottom: 1px solid #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  padding: 0;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-8:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-8:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-8:hover {
+  color: #9CB1DC;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  padding: 0;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+}
+
+.emotion-18:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-18:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-18:hover {
+  color: #9CB1DC;
+}
+
+.emotion-18:hover {
+  color: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+}
+
+.emotion-20 {
+  border-bottom: 1px solid #9CB1DC;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-20 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  color: #9CB1DC;
+}
+
+.emotion-22.emotion-22 {
+  font-size: 1.1rem;
+}
+
+.emotion-22:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-22:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-22:hover {
+  color: #9CB1DC;
+}
+
+.emotion-22:hover {
+  color: $theme.color.brandLight;
+}
+
+.emotion-24 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-24.emotion-24 {
+  font-size: 1.1rem;
+}
+
+.emotion-24:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-24:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-24:hover {
+  color: #9CB1DC;
+}
+
+.emotion-26 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: block;
+  margin: 3rem auto;
+  max-width: 20rem;
+  outline: 0;
+}
+
+.emotion-26:active {
+  outline: 0;
+}
+
+.emotion-26[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-26:focus,
+  .emotion-26 textarea:focus,
+  .emotion-26 input:focus {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-26 {
+    display: none;
+  }
+}
+
+.emotion-28 {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 3rem 0;
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-28 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-28>figure {
+    -webkit-flex: 0 0 40rem;
+    -ms-flex: 0 0 40rem;
+    flex: 0 0 40rem;
+    height: auto;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    padding: 0;
+  }
+
+  .emotion-28>figure img {
+    position: initial;
+  }
+}
+
+.emotion-30 {
+  height: 0;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+}
+
+.emotion-30>img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.emotion-32 {
+  color: #3150A2;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-top: 4rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.emotion-32>p {
+  line-height: 1.5;
+}
+
+.emotion-32>label {
+  display: block;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width:992px) {
+  .emotion-32 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 0;
+  }
+}
+
+.emotion-34 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+}
+
+.emotion-36 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+}
+
+.emotion-38 {
+  color: #3150A2;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-top: 4rem;
+  padding: 3rem 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+.emotion-38>p {
+  line-height: 1.5;
+}
+
+.emotion-38>label {
+  display: block;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width:992px) {
+  .emotion-38 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-38 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="SizeGuide"
+      >
+        <h1
+          class="emotion-2 emotion-3"
+        >
+          Clothing + Shoes Size Chart
+        </h1>
+        <p
+          class="emotion-4 emotion-5"
+        >
+          Because sizing and cut will vary between brands, please use this chart as a general guide. If you are between sizes or need assistance selecting the proper size, please contact
+           
+          <a
+            href="mailto:customercare@maisonette.com"
+          >
+            customer care
+          </a>
+        </p>
+        <nav
+          class="emotion-6 emotion-7"
+        >
+          <button
+            class="emotion-8 emotion-9"
+            data-test-id="SizeGuide"
+            type="button"
+          >
+            Baby
+          </button>
+          <button
+            class="emotion-8 emotion-9"
+            data-test-id="SizeGuide"
+            type="button"
+          >
+            Toddler
+          </button>
+          <button
+            class="emotion-8 emotion-9"
+            data-test-id="SizeGuide"
+            type="button"
+          >
+            Boys
+          </button>
+          <button
+            class="emotion-8 emotion-9"
+            data-test-id="SizeGuide"
+            type="button"
+          >
+            Girls
+          </button>
+          <button
+            class="emotion-8 emotion-9"
+            data-test-id="SizeGuide"
+            type="button"
+          >
+            Shoes
+          </button>
+          <button
+            class="emotion-18 emotion-9"
+            type="button"
+          >
+            Measuring
+          </button>
+        </nav>
+        <div
+          data-test-id="SizeGuideMeasuring"
+        >
+          <nav
+            class="emotion-20 emotion-21"
+          >
+            <button
+              class="emotion-22 emotion-23"
+              type="button"
+            >
+              Clothing
+            </button>
+            <button
+              class="emotion-24 emotion-23"
+              type="button"
+            >
+              Shoes
+            </button>
+          </nav>
+          <select
+            class="emotion-26 emotion-27"
+            name="size-select-mobile"
+          >
+            <option
+              value="clothing"
+            >
+              Clothing
+            </option>
+            <option
+              value="shoes"
+            >
+              Shoes
+            </option>
+          </select>
+          <div
+            class="emotion-28 emotion-29"
+          >
+            <figure
+              class="emotion-30 emotion-31"
+            >
+              <img
+                alt="Size Guide Shoes"
+                src="https://assets.stg.env.maisonette.com/images/size-guide-clothing.jpg"
+              />
+            </figure>
+            <div
+              class="emotion-32 emotion-33"
+            >
+              <label
+                class="emotion-34 emotion-35"
+              >
+                Chest
+              </label>
+              <p
+                class="emotion-36 emotion-35"
+              >
+                Measure a loop just above your child’s armpits, passing the tape across the fullest part of the chest and around the shoulder blades.
+              </p>
+            </div>
+            <div
+              class="emotion-38 emotion-39"
+            >
+              <label
+                class="emotion-34 emotion-35"
+              >
+                Waist
+              </label>
+              <p
+                class="emotion-36 emotion-35"
+              >
+                Measure a loop just above your child’s hip bone, around the natural waistline.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  padding-top: 5rem;
+  max-width: 95rem;
+  margin: auto;
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  margin: 2rem auto;
+  max-width: 60rem;
+  text-align: center;
+}
+
+.emotion-4>a {
+  font-family: inherit;
+}
+
+.emotion-6 {
+  border-bottom: 1px solid #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  padding: 0;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-8:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-8:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-8:hover {
+  color: #9CB1DC;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+}
+
+.emotion-18 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  padding: 0;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiMzMTUwQTIiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+}
+
+.emotion-18:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-18:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-18:hover {
+  color: #9CB1DC;
+}
+
+.emotion-18:hover {
+  color: #3150A2;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+}
+
+.emotion-20 {
+  border-bottom: 1px solid #9CB1DC;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-20 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiM5Q0IxREMiIGQ9Ik0wIDUgTDEwIDUgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: bottom -1px center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  color: #9CB1DC;
+}
+
+.emotion-22.emotion-22 {
+  font-size: 1.1rem;
+}
+
+.emotion-22:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-22:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-22:hover {
+  color: #9CB1DC;
+}
+
+.emotion-22:hover {
+  color: $theme.color.brandLight;
+}
+
+.emotion-24 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  line-height: 1.5;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: color 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+.emotion-24.emotion-24 {
+  font-size: 1.1rem;
+}
+
+.emotion-24:first-of-type {
+  margin-left: 0;
+}
+
+.emotion-24:last-of-type {
+  margin-right: 0;
+}
+
+.emotion-24:hover {
+  color: #9CB1DC;
+}
+
+.emotion-26 {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgMTAgNSI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDAgTDUgNSBMMTAgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: right calc(1.5rem - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 10px 5px;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  height: 4rem;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: block;
+  margin: 3rem auto;
+  max-width: 20rem;
+  outline: 0;
+}
+
+.emotion-26:active {
+  outline: 0;
+}
+
+.emotion-26[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media (max-width:992px) {
+  .emotion-26:focus,
+  .emotion-26 textarea:focus,
+  .emotion-26 input:focus {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-26 {
+    display: none;
+  }
+}
+
+.emotion-28 {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 3rem 0;
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-28 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-28>figure {
+    -webkit-flex: 0 0 40rem;
+    -ms-flex: 0 0 40rem;
+    flex: 0 0 40rem;
+    height: auto;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    padding: 0;
+  }
+
+  .emotion-28>figure img {
+    position: initial;
+  }
+}
+
+.emotion-30 {
+  height: 0;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+}
+
+.emotion-30>img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.emotion-32 {
+  color: #3150A2;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-top: 4rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.emotion-32>p {
+  line-height: 1.5;
+}
+
+.emotion-32>label {
+  display: block;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width:992px) {
+  .emotion-32 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 0;
+  }
+}
+
+.emotion-34 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+}
+
+.emotion-36 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+}
+
+.emotion-38 {
+  color: #3150A2;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-top: 4rem;
+  padding: 3rem 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+.emotion-38>p {
+  line-height: 1.5;
+}
+
+.emotion-38>label {
+  display: block;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+@media (min-width:992px) {
+  .emotion-38 {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-top: 0;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-38 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="SizeGuide"
+    >
+      <h1
+        class="emotion-2 emotion-3"
+      >
+        Clothing + Shoes Size Chart
+      </h1>
+      <p
+        class="emotion-4 emotion-5"
+      >
+        Because sizing and cut will vary between brands, please use this chart as a general guide. If you are between sizes or need assistance selecting the proper size, please contact
+         
+        <a
+          href="mailto:customercare@maisonette.com"
+        >
+          customer care
+        </a>
+      </p>
+      <nav
+        class="emotion-6 emotion-7"
+      >
+        <button
+          class="emotion-8 emotion-9"
+          data-test-id="SizeGuide"
+          type="button"
+        >
+          Baby
+        </button>
+        <button
+          class="emotion-8 emotion-9"
+          data-test-id="SizeGuide"
+          type="button"
+        >
+          Toddler
+        </button>
+        <button
+          class="emotion-8 emotion-9"
+          data-test-id="SizeGuide"
+          type="button"
+        >
+          Boys
+        </button>
+        <button
+          class="emotion-8 emotion-9"
+          data-test-id="SizeGuide"
+          type="button"
+        >
+          Girls
+        </button>
+        <button
+          class="emotion-8 emotion-9"
+          data-test-id="SizeGuide"
+          type="button"
+        >
+          Shoes
+        </button>
+        <button
+          class="emotion-18 emotion-9"
+          type="button"
+        >
+          Measuring
+        </button>
+      </nav>
+      <div
+        data-test-id="SizeGuideMeasuring"
+      >
+        <nav
+          class="emotion-20 emotion-21"
+        >
+          <button
+            class="emotion-22 emotion-23"
+            type="button"
+          >
+            Clothing
+          </button>
+          <button
+            class="emotion-24 emotion-23"
+            type="button"
+          >
+            Shoes
+          </button>
+        </nav>
+        <select
+          class="emotion-26 emotion-27"
+          name="size-select-mobile"
+        >
+          <option
+            value="clothing"
+          >
+            Clothing
+          </option>
+          <option
+            value="shoes"
+          >
+            Shoes
+          </option>
+        </select>
+        <div
+          class="emotion-28 emotion-29"
+        >
+          <figure
+            class="emotion-30 emotion-31"
+          >
+            <img
+              alt="Size Guide Shoes"
+              src="https://assets.stg.env.maisonette.com/images/size-guide-clothing.jpg"
+            />
+          </figure>
+          <div
+            class="emotion-32 emotion-33"
+          >
+            <label
+              class="emotion-34 emotion-35"
+            >
+              Chest
+            </label>
+            <p
+              class="emotion-36 emotion-35"
+            >
+              Measure a loop just above your child’s armpits, passing the tape across the fullest part of the chest and around the shoulder blades.
+            </p>
+          </div>
+          <div
+            class="emotion-38 emotion-39"
+          >
+            <label
+              class="emotion-34 emotion-35"
+            >
+              Waist
+            </label>
+            <p
+              class="emotion-36 emotion-35"
+            >
+              Measure a loop just above your child’s hip bone, around the natural waistline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

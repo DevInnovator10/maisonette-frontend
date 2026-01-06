@@ -1,0 +1,114 @@
+{
+  "womens": {
+    "title": "Clothing & Accessories",
+    "description": "Clothing and Accessories",
+    "shop": true
+  },
+  "bottoms": {
+    "title": "Jeans, Pants, Shorts & Bottoms",
+    "diffHeading": true
+  },
+  "clothing": {
+    "shop": true
+  },
+  "dresses": {
+    "shop": true
+  },
+  "jackets-coats": {
+    "title": "Jackets & Coats",
+    "description": "Jackets and Coats"
+  },
+  "pajamas-robes": {
+    "title": "Pajamas & Robes",
+    "description": "Pajamas and Robes"
+  },
+  "sweaters": {
+    "title": "Sweaters & Cardigans"
+  },
+  "swim-bathing-suits": {
+    "title": "Bathing Suits & Swimwear",
+    "description": "Swim and Bathing Suits"
+  },
+  "tops": {
+    "title": "Shirts, Sweatshirts, Blouses & Tops",
+    "diffHeading": true
+  },
+  "underwear-bras": {
+    "title": "Underwear & Bras",
+    "description": "Underwear and Bras "
+  },
+  "shoe-accessories": {
+    "title": "Accessories",
+    "description": "Accessories",
+    "shop": true
+  },
+  "hair-accessories": {
+    "shop": true
+  },
+  "hats": {
+    "shop": true
+  },
+  "jewelry": {
+    "shop": true
+  },
+  "shoes": {
+    "shop": true
+  },
+  "bags-luggage": {
+    "title": "Bags, Totes & Luggage",
+    "description": "Bags and Luggage"
+  },
+  "scarves-gloves": {
+    "title": "Scarves & Gloves",
+    "description": "Scarves and Gloves"
+  },
+  "sunglasses-eyewear": {
+    "title": "Sunglasses & Eyewear",
+    "description": "Sunglasses and Eyewear",
+    "shop": true
+  },
+  "tights-socks": {
+    "title": "Tights & Socks",
+    "description": "Tights and Socks",
+    "shop": true
+  },
+  "bath-body": {
+    "title": "Bath & Body Products",
+    "description": "Bath & Body products"
+  },
+  "body-care": {
+    "title": "Shampoo, Body Lotion & Body Products",
+    "description": "shampoo, body lotion, and body products",
+    "heading": "Body Care Products"
+  },
+  "beauty": {
+    "title": "Beauty Products",
+    "description": "Beauty products",
+    "shop": true
+  },
+  "wellness": {
+    "title": "Vitamins & Healthcare Products",
+    "description": "Vitamins and Healthcare products"
+  },
+  "gifts-sets": {
+    "title": "Beauty Sets",
+    "description": "Beauty Sets",
+    "shop": true
+  },
+  "skin-care": {
+    "title": "Skincare Products",
+    "description": "Skincare products"
+  },
+  "fragrance": {
+    "title": "Perfume & Fragrances",
+    "description": "perfume and fragrances",
+    "shop": true
+  },
+  "period-care": {
+    "title": "Period Care Clothing & Accessories",
+    "description": "period care clothing and accessories",
+    "heading": "Period Care",
+    "shop": true
+
+  }
+}

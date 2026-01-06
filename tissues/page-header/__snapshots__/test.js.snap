@@ -1,0 +1,2181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a brand page header with a multiple POC owned value renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #FAEFD9;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: calc(35rem + 6rem);
+  }
+}
+
+.emotion-0::before,
+.emotion-0::after {
+  background-image: url(https://assets.stg.env.maisonette.com/images/maisonette-header-bg.jpg);
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 550px;
+  z-index: -1;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before,
+  .emotion-0::after {
+    max-width: 50%;
+  }
+}
+
+.emotion-0::before {
+  background-position: 0 0;
+  display: none;
+  left: 0;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before {
+    display: block;
+  }
+}
+
+.emotion-0::after {
+  background-position: right 0;
+  right: 0;
+}
+
+.emotion-0 .emotion-3 {
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .emotion-0 .emotion-3 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.emotion-6>span {
+  color: #9CB1DC;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .emotion-8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.emotion-10 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  font-size: 1.4rem;
+}
+
+.emotion-12 {
+  color: #CC8783;
+}
+
+.emotion-16 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.2;
+  font-size: 3.2rem;
+}
+
+.emotion-18 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  margin-top: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .emotion-18 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-18 {
+    display: none;
+  }
+}
+
+.emotion-20 {
+  display: block;
+  border-radius: 9999px;
+  max-width: 100%;
+  width: 224px;
+}
+
+@media (min-width:992px) {
+  .emotion-20 {
+    width: 304px;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #3150A2;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  max-width: 425px;
+}
+
+.emotion-24 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-24 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-24 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-24 {
+    display: block;
+  }
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="PageHeader"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <header>
+              <h2
+                class="emotion-6 emotion-7"
+                data-test-id="renderBrandSubHeadingWithMeta"
+              >
+                <span
+                  class="emotion-8 emotion-9"
+                >
+                  <span>
+                    Brand
+                     
+                  </span>
+                  <span
+                    class="emotion-10 emotion-50"
+                  >
+                    Black Founded
+                  </span>
+                  <span
+                    class="emotion-12 emotion-52"
+                  >
+                     
+                    +
+                     
+                  </span>
+                  <span
+                    class="emotion-10 emotion-50"
+                  >
+                    Hispanic/Latino Founded
+                  </span>
+                </span>
+              </h2>
+              <h1
+                class="emotion-16 emotion-17"
+              >
+                Velveteen
+              </h1>
+            </header>
+            <figure
+              aria-hidden="true"
+              class="emotion-18 emotion-19"
+            >
+              <img
+                alt="Velveteen"
+                class="emotion-20 emotion-21"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+              />
+            </figure>
+            <p
+              class="emotion-22 emotion-23"
+            >
+              With each collection, Velveteen brings to life their vision of a timeless California childhood filled with days spent exploring hidden pathways, sharing secrets with friends, and building memories. With a focus on the magical balance between soft fabrics, sophisticated color palettes, and carefully chosen accents and details, Velveteen's clothes are finely crafted with meticulous attention to detail. These are bright, globally-inspired clothes made for the child in all of us.
+            </p>
+          </div>
+          <figure
+            class="emotion-24 emotion-19"
+          >
+            <img
+              alt="Velveteen"
+              class="emotion-20 emotion-21"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+            />
+          </figure>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #FAEFD9;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: calc(35rem + 6rem);
+  }
+}
+
+.emotion-0::before,
+.emotion-0::after {
+  background-image: url(https://assets.stg.env.maisonette.com/images/maisonette-header-bg.jpg);
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 550px;
+  z-index: -1;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before,
+  .emotion-0::after {
+    max-width: 50%;
+  }
+}
+
+.emotion-0::before {
+  background-position: 0 0;
+  display: none;
+  left: 0;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before {
+    display: block;
+  }
+}
+
+.emotion-0::after {
+  background-position: right 0;
+  right: 0;
+}
+
+.emotion-0 .emotion-3 {
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .emotion-0 .emotion-3 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+}
+
+.emotion-2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.emotion-6>span {
+  color: #9CB1DC;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .emotion-8 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.emotion-10 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  font-size: 1.4rem;
+}
+
+.emotion-12 {
+  color: #CC8783;
+}
+
+.emotion-16 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.2;
+  font-size: 3.2rem;
+}
+
+.emotion-18 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  margin-top: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .emotion-18 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-18 {
+    display: none;
+  }
+}
+
+.emotion-20 {
+  display: block;
+  border-radius: 9999px;
+  max-width: 100%;
+  width: 224px;
+}
+
+@media (min-width:992px) {
+  .emotion-20 {
+    width: 304px;
+  }
+}
+
+.emotion-22 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #3150A2;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  max-width: 425px;
+}
+
+.emotion-24 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-24 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-24 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-24 {
+    display: block;
+  }
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="PageHeader"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <header>
+            <h2
+              class="emotion-6 emotion-7"
+              data-test-id="renderBrandSubHeadingWithMeta"
+            >
+              <span
+                class="emotion-8 emotion-9"
+              >
+                <span>
+                  Brand
+                   
+                </span>
+                <span
+                  class="emotion-10 emotion-50"
+                >
+                  Black Founded
+                </span>
+                <span
+                  class="emotion-12 emotion-52"
+                >
+                   
+                  +
+                   
+                </span>
+                <span
+                  class="emotion-10 emotion-50"
+                >
+                  Hispanic/Latino Founded
+                </span>
+              </span>
+            </h2>
+            <h1
+              class="emotion-16 emotion-17"
+            >
+              Velveteen
+            </h1>
+          </header>
+          <figure
+            aria-hidden="true"
+            class="emotion-18 emotion-19"
+          >
+            <img
+              alt="Velveteen"
+              class="emotion-20 emotion-21"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+            />
+          </figure>
+          <p
+            class="emotion-22 emotion-23"
+          >
+            With each collection, Velveteen brings to life their vision of a timeless California childhood filled with days spent exploring hidden pathways, sharing secrets with friends, and building memories. With a focus on the magical balance between soft fabrics, sophisticated color palettes, and carefully chosen accents and details, Velveteen's clothes are finely crafted with meticulous attention to detail. These are bright, globally-inspired clothes made for the child in all of us.
+          </p>
+        </div>
+        <figure
+          class="emotion-24 emotion-19"
+        >
+          <img
+            alt="Velveteen"
+            class="emotion-20 emotion-21"
+            src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+          />
+        </figure>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`a brand page header with a single POC owned value renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #FAEFD9;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: calc(35rem + 6rem);
+  }
+}
+
+.emotion-0::before,
+.emotion-0::after {
+  background-image: url(https://assets.stg.env.maisonette.com/images/maisonette-header-bg.jpg);
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 550px;
+  z-index: -1;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before,
+  .emotion-0::after {
+    max-width: 50%;
+  }
+}
+
+.emotion-0::before {
+  background-position: 0 0;
+  display: none;
+  left: 0;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before {
+    display: block;
+  }
+}
+
+.emotion-0::after {
+  background-position: right 0;
+  right: 0;
+}
+
+.emotion-0 .emotion-3 {
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .emotion-0 .emotion-3 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.emotion-6>span {
+  color: #9CB1DC;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .emotion-8 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-10 {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-10 {
+    display: inline;
+    margin: 0 0.8rem;
+    color: #CC8783;
+  }
+}
+
+.emotion-12 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  font-size: 1.4rem;
+}
+
+.emotion-14 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.2;
+  font-size: 3.2rem;
+}
+
+.emotion-16 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  margin-top: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-16 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    display: none;
+  }
+}
+
+.emotion-18 {
+  display: block;
+  border-radius: 9999px;
+  max-width: 100%;
+  width: 224px;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    width: 304px;
+  }
+}
+
+.emotion-20 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #3150A2;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  max-width: 425px;
+}
+
+.emotion-22 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-22 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-22 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-22 {
+    display: block;
+  }
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="PageHeader"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <header>
+              <h2
+                class="emotion-6 emotion-7"
+                data-test-id="renderBrandSubHeadingWithMeta"
+              >
+                <span
+                  class="emotion-8 emotion-9"
+                >
+                  <span>
+                    Brand
+                     
+                  </span>
+                  <span
+                    class="emotion-10 emotion-51"
+                  >
+                     
+                    |
+                     
+                  </span>
+                  <span
+                    class="emotion-12 emotion-50"
+                  >
+                    Asian American & Pacific Islander Founded
+                  </span>
+                </span>
+              </h2>
+              <h1
+                class="emotion-14 emotion-15"
+              >
+                Velveteen
+              </h1>
+            </header>
+            <figure
+              aria-hidden="true"
+              class="emotion-16 emotion-17"
+            >
+              <img
+                alt="Velveteen"
+                class="emotion-18 emotion-19"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+              />
+            </figure>
+            <p
+              class="emotion-20 emotion-21"
+            >
+              With each collection, Velveteen brings to life their vision of a timeless California childhood filled with days spent exploring hidden pathways, sharing secrets with friends, and building memories. With a focus on the magical balance between soft fabrics, sophisticated color palettes, and carefully chosen accents and details, Velveteen's clothes are finely crafted with meticulous attention to detail. These are bright, globally-inspired clothes made for the child in all of us.
+            </p>
+          </div>
+          <figure
+            class="emotion-22 emotion-17"
+          >
+            <img
+              alt="Velveteen"
+              class="emotion-18 emotion-19"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+            />
+          </figure>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #FAEFD9;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: calc(35rem + 6rem);
+  }
+}
+
+.emotion-0::before,
+.emotion-0::after {
+  background-image: url(https://assets.stg.env.maisonette.com/images/maisonette-header-bg.jpg);
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 550px;
+  z-index: -1;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before,
+  .emotion-0::after {
+    max-width: 50%;
+  }
+}
+
+.emotion-0::before {
+  background-position: 0 0;
+  display: none;
+  left: 0;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before {
+    display: block;
+  }
+}
+
+.emotion-0::after {
+  background-position: right 0;
+  right: 0;
+}
+
+.emotion-0 .emotion-3 {
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .emotion-0 .emotion-3 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.emotion-6>span {
+  color: #9CB1DC;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .emotion-8 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-10 {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-10 {
+    display: inline;
+    margin: 0 0.8rem;
+    color: #CC8783;
+  }
+}
+
+.emotion-12 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  font-size: 1.4rem;
+}
+
+.emotion-14 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.2;
+  font-size: 3.2rem;
+}
+
+.emotion-16 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  margin-top: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-16 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    display: none;
+  }
+}
+
+.emotion-18 {
+  display: block;
+  border-radius: 9999px;
+  max-width: 100%;
+  width: 224px;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    width: 304px;
+  }
+}
+
+.emotion-20 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #3150A2;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  max-width: 425px;
+}
+
+.emotion-22 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-22 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-22 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-22 {
+    display: block;
+  }
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="PageHeader"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <header>
+            <h2
+              class="emotion-6 emotion-7"
+              data-test-id="renderBrandSubHeadingWithMeta"
+            >
+              <span
+                class="emotion-8 emotion-9"
+              >
+                <span>
+                  Brand
+                   
+                </span>
+                <span
+                  class="emotion-10 emotion-51"
+                >
+                   
+                  |
+                   
+                </span>
+                <span
+                  class="emotion-12 emotion-50"
+                >
+                  Asian American & Pacific Islander Founded
+                </span>
+              </span>
+            </h2>
+            <h1
+              class="emotion-14 emotion-15"
+            >
+              Velveteen
+            </h1>
+          </header>
+          <figure
+            aria-hidden="true"
+            class="emotion-16 emotion-17"
+          >
+            <img
+              alt="Velveteen"
+              class="emotion-18 emotion-19"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+            />
+          </figure>
+          <p
+            class="emotion-20 emotion-21"
+          >
+            With each collection, Velveteen brings to life their vision of a timeless California childhood filled with days spent exploring hidden pathways, sharing secrets with friends, and building memories. With a focus on the magical balance between soft fabrics, sophisticated color palettes, and carefully chosen accents and details, Velveteen's clothes are finely crafted with meticulous attention to detail. These are bright, globally-inspired clothes made for the child in all of us.
+          </p>
+        </div>
+        <figure
+          class="emotion-22 emotion-17"
+        >
+          <img
+            alt="Velveteen"
+            class="emotion-18 emotion-19"
+            src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+          />
+        </figure>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`a page header renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #FAEFD9;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: calc(35rem + 6rem);
+  }
+}
+
+.emotion-0::before,
+.emotion-0::after {
+  background-image: url(https://assets.stg.env.maisonette.com/images/maisonette-header-bg.jpg);
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 550px;
+  z-index: -1;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before,
+  .emotion-0::after {
+    max-width: 50%;
+  }
+}
+
+.emotion-0::before {
+  background-position: 0 0;
+  display: none;
+  left: 0;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before {
+    display: block;
+  }
+}
+
+.emotion-0::after {
+  background-position: right 0;
+  right: 0;
+}
+
+.emotion-0 .emotion-3 {
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .emotion-0 .emotion-3 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.emotion-6>span {
+  color: #9CB1DC;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.2;
+  font-size: 3.2rem;
+}
+
+.emotion-10 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  margin-top: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .emotion-10 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-10 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-10 {
+    display: none;
+  }
+}
+
+.emotion-12 {
+  display: block;
+  border-radius: 9999px;
+  max-width: 100%;
+  width: 224px;
+}
+
+@media (min-width:992px) {
+  .emotion-12 {
+    width: 304px;
+  }
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #3150A2;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  max-width: 425px;
+}
+
+.emotion-16 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-16 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    display: block;
+  }
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="PageHeader"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <header>
+              <h2
+                class="emotion-6 emotion-7"
+              >
+                Brand
+              </h2>
+              <h1
+                class="emotion-8 emotion-9"
+              >
+                Velveteen
+              </h1>
+            </header>
+            <figure
+              aria-hidden="true"
+              class="emotion-10 emotion-11"
+            >
+              <img
+                alt="Velveteen"
+                class="emotion-12 emotion-13"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+              />
+            </figure>
+            <p
+              class="emotion-14 emotion-15"
+            >
+              With each collection, Velveteen brings to life their vision of a timeless California childhood filled with days spent exploring hidden pathways, sharing secrets with friends, and building memories. With a focus on the magical balance between soft fabrics, sophisticated color palettes, and carefully chosen accents and details, Velveteen's clothes are finely crafted with meticulous attention to detail. These are bright, globally-inspired clothes made for the child in all of us.
+            </p>
+          </div>
+          <figure
+            class="emotion-16 emotion-11"
+          >
+            <img
+              alt="Velveteen"
+              class="emotion-12 emotion-13"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+            />
+          </figure>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #FAEFD9;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: calc(35rem + 6rem);
+  }
+}
+
+.emotion-0::before,
+.emotion-0::after {
+  background-image: url(https://assets.stg.env.maisonette.com/images/maisonette-header-bg.jpg);
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 550px;
+  z-index: -1;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before,
+  .emotion-0::after {
+    max-width: 50%;
+  }
+}
+
+.emotion-0::before {
+  background-position: 0 0;
+  display: none;
+  left: 0;
+}
+
+@media (min-width:768px) {
+  .emotion-0::before {
+    display: block;
+  }
+}
+
+.emotion-0::after {
+  background-position: right 0;
+  right: 0;
+}
+
+.emotion-0 .emotion-3 {
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .emotion-0 .emotion-3 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-2 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-4 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  font-size: 1.4rem;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.emotion-6>span {
+  color: #9CB1DC;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.6621rem;
+  color: #3150A2;
+  line-height: 1.2;
+  font-size: 3.2rem;
+}
+
+.emotion-10 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  margin-top: 1.6rem;
+}
+
+@media (min-width:768px) {
+  .emotion-10 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-10 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-10 {
+    display: none;
+  }
+}
+
+.emotion-12 {
+  display: block;
+  border-radius: 9999px;
+  max-width: 100%;
+  width: 224px;
+}
+
+@media (min-width:992px) {
+  .emotion-12 {
+    width: 304px;
+  }
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  color: #3150A2;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  max-width: 425px;
+}
+
+.emotion-16 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 192px;
+  display: none;
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 224px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-16 {
+    margin-left: 60px;
+    width: 304px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-16 {
+    display: block;
+  }
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="PageHeader"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <header>
+            <h2
+              class="emotion-6 emotion-7"
+            >
+              Brand
+            </h2>
+            <h1
+              class="emotion-8 emotion-9"
+            >
+              Velveteen
+            </h1>
+          </header>
+          <figure
+            aria-hidden="true"
+            class="emotion-10 emotion-11"
+          >
+            <img
+              alt="Velveteen"
+              class="emotion-12 emotion-13"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+            />
+          </figure>
+          <p
+            class="emotion-14 emotion-15"
+          >
+            With each collection, Velveteen brings to life their vision of a timeless California childhood filled with days spent exploring hidden pathways, sharing secrets with friends, and building memories. With a focus on the magical balance between soft fabrics, sophisticated color palettes, and carefully chosen accents and details, Velveteen's clothes are finely crafted with meticulous attention to detail. These are bright, globally-inspired clothes made for the child in all of us.
+          </p>
+        </div>
+        <figure
+          class="emotion-16 emotion-11"
+        >
+          <img
+            alt="Velveteen"
+            class="emotion-12 emotion-13"
+            src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/580279/category_item_retina/6.jpg?1566855351"
+          />
+        </figure>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

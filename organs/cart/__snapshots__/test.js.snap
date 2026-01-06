@@ -1,0 +1,2900 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a closed cart drawer renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background: #FFFFFF;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  padding: 2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: hidden;
+  -webkit-transition: -webkit-transform 200ms linear,visibility 400ms;
+  -webkit-transition: transform 200ms linear,visibility 400ms;
+  transition: transform 200ms linear,visibility 400ms;
+  z-index: 5000;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    left: 50%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    left: 65%;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 4rem;
+  left: 1rem;
+  outline: 0;
+  position: absolute;
+}
+
+.emotion-5:active {
+  outline: 0;
+}
+
+.emotion-5:hover {
+  opacity: 0.75;
+}
+
+.emotion-5[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-5 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-5 svg {
+  padding: 1rem;
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-9 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.9297rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.emotion-11 {
+  padding-top: 2.5rem;
+  overflow: auto;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-11 {
+    padding-top: 5rem;
+  }
+}
+
+.emotion-13 {
+  margin-bottom: 3rem;
+  width: 10rem;
+}
+
+.emotion-15 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.emotion-17 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 3rem;
+  max-width: 40rem;
+}
+
+.emotion-20 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  text-align: center;
+  width: 26rem;
+}
+
+.emotion-20:active {
+  outline: 0;
+}
+
+.emotion-20:hover {
+  opacity: 0.75;
+}
+
+.emotion-20[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-20 span {
+  line-height: 2rem;
+}
+
+.emotion-22 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.emotion-25 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  text-align: center;
+  width: 26rem;
+}
+
+.emotion-25:active {
+  outline: 0;
+}
+
+.emotion-25:hover {
+  opacity: 0.75;
+}
+
+.emotion-25[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-25 span {
+  line-height: 2rem;
+}
+
+<body
+    style="overflow: auto;"
+  >
+    <div>
+      <aside
+        class="emotion-0 emotion-1"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <button
+            aria-label="close bag"
+            class="emotion-4 emotion-5 emotion-6"
+            type="button"
+          >
+            <svg
+              class="emotion-7 emotion-8"
+              data-test-id="Icon"
+            />
+          </button>
+          <h2
+            class="emotion-9 emotion-10"
+          >
+            My Bag
+          </h2>
+        </div>
+        <div
+          class="emotion-11 emotion-12"
+        >
+          <img
+            alt="Empty Cart"
+            class="emotion-13 emotion-14"
+            src="https://assets.stg.env.maisonette.com/images/maisonette-cart-empty.png"
+          />
+          <h3
+            class="emotion-15 emotion-10"
+          >
+            It’s in the bag. This way to the good stuff...
+          </h3>
+          <p
+            class="emotion-17 emotion-18"
+          >
+            Forgetting anything? Log into your account to view the items you saved in your bag!
+          </p>
+          <a
+            class="emotion-19 emotion-20 emotion-21"
+            href="/login"
+          >
+            Log in
+          </a>
+          <span
+            class="emotion-22 emotion-23"
+          >
+            or
+          </span>
+          <a
+            class="emotion-19 emotion-25 emotion-21"
+            href="/signup"
+          >
+            Create new account
+          </a>
+        </div>
+      </aside>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background: #FFFFFF;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  padding: 2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: hidden;
+  -webkit-transition: -webkit-transform 200ms linear,visibility 400ms;
+  -webkit-transition: transform 200ms linear,visibility 400ms;
+  transition: transform 200ms linear,visibility 400ms;
+  z-index: 5000;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    left: 50%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-0 {
+    left: 65%;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 4rem;
+  left: 1rem;
+  outline: 0;
+  position: absolute;
+}
+
+.emotion-5:active {
+  outline: 0;
+}
+
+.emotion-5:hover {
+  opacity: 0.75;
+}
+
+.emotion-5[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-5 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-5 svg {
+  padding: 1rem;
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-9 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.9297rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.emotion-11 {
+  padding-top: 2.5rem;
+  overflow: auto;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .emotion-11 {
+    padding-top: 5rem;
+  }
+}
+
+.emotion-13 {
+  margin-bottom: 3rem;
+  width: 10rem;
+}
+
+.emotion-15 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.emotion-17 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.875rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 3rem;
+  max-width: 40rem;
+}
+
+.emotion-20 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0.2rem solid #3150A2;
+  color: #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  text-align: center;
+  width: 26rem;
+}
+
+.emotion-20:active {
+  outline: 0;
+}
+
+.emotion-20:hover {
+  opacity: 0.75;
+}
+
+.emotion-20[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-20 span {
+  line-height: 2rem;
+}
+
+.emotion-22 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.emotion-25 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  text-align: center;
+  width: 26rem;
+}
+
+.emotion-25:active {
+  outline: 0;
+}
+
+.emotion-25:hover {
+  opacity: 0.75;
+}
+
+.emotion-25[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-25 span {
+  line-height: 2rem;
+}
+
+<div>
+    <aside
+      class="emotion-0 emotion-1"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <button
+          aria-label="close bag"
+          class="emotion-4 emotion-5 emotion-6"
+          type="button"
+        >
+          <svg
+            class="emotion-7 emotion-8"
+            data-test-id="Icon"
+          />
+        </button>
+        <h2
+          class="emotion-9 emotion-10"
+        >
+          My Bag
+        </h2>
+      </div>
+      <div
+        class="emotion-11 emotion-12"
+      >
+        <img
+          alt="Empty Cart"
+          class="emotion-13 emotion-14"
+          src="https://assets.stg.env.maisonette.com/images/maisonette-cart-empty.png"
+        />
+        <h3
+          class="emotion-15 emotion-10"
+        >
+          It’s in the bag. This way to the good stuff...
+        </h3>
+        <p
+          class="emotion-17 emotion-18"
+        >
+          Forgetting anything? Log into your account to view the items you saved in your bag!
+        </p>
+        <a
+          class="emotion-19 emotion-20 emotion-21"
+          href="/login"
+        >
+          Log in
+        </a>
+        <span
+          class="emotion-22 emotion-23"
+        >
+          or
+        </span>
+        <a
+          class="emotion-19 emotion-25 emotion-21"
+          href="/signup"
+        >
+          Create new account
+        </a>
+      </div>
+    </aside>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`an opened cart drawer renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  background: #111111;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: 5000;
+  opacity: 0.5;
+  height: 100%;
+}
+
+.emotion-2 {
+  background: #FFFFFF;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  padding: 2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  visibility: visible;
+  -webkit-transition: -webkit-transform 200ms linear,visibility 400ms;
+  -webkit-transition: transform 200ms linear,visibility 400ms;
+  transition: transform 200ms linear,visibility 400ms;
+  z-index: 5000;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    left: 50%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-2 {
+    left: 65%;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 4rem;
+  left: 1rem;
+  outline: 0;
+  position: absolute;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-7 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-7 svg {
+  padding: 1rem;
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-11 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.9297rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.emotion-13 {
+  border-bottom: 1px solid #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 1.5rem;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.emotion-15 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-17 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-17.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-19 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-21>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-25 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-27 .emotion-30:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-29 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-29>span {
+  color: #3150A2;
+}
+
+.emotion-31 {
+  font-size: 1.2rem;
+}
+
+.emotion-33 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  color: #9CB1DC;
+  padding-right: 1rem;
+}
+
+.emotion-35 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+}
+
+.emotion-35>select {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 3px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #3150A2;
+  cursor: pointer;
+  height: 100%;
+  outline: 0;
+  padding-right: 1.5rem;
+  position: relative;
+}
+
+.emotion-37 {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.emotion-39 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  line-height: 1.3;
+  min-height: 2rem;
+}
+
+.emotion-39 img[role="img"] {
+  display: inline-block;
+}
+
+.emotion-39>p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-41 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-41>span {
+  color: #3150A2;
+}
+
+.emotion-43 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+}
+
+.emotion-45 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-45~.emotion-45 {
+  margin-top: 0.5rem;
+}
+
+.emotion-47 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-47 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-49 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-51 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+.emotion-54 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.emotion-54:active {
+  outline: 0;
+}
+
+.emotion-54:hover {
+  opacity: 0.75;
+}
+
+.emotion-54[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-54:hover {
+  opacity: 1;
+}
+
+.emotion-54 svg {
+  height: 0.8rem;
+  width: 0.8rem;
+  stroke-width: 10;
+  stroke: #3150A2;
+  margin-right: 0.5rem;
+}
+
+.emotion-58 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: auto;
+  position: relative;
+}
+
+.emotion-58:after {
+  background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff);
+  content: "";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: -3.6rem;
+  width: 100%;
+}
+
+.emotion-61 {
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.emotion-63 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #C84D19;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 1.5rem;
+  background-image: url(https://assets.stg.env.maisonette.com/images/wings-left.svg),url(https://assets.stg.env.maisonette.com/images/wings-right.svg);
+  background-position: 0,100%;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+.emotion-65 {
+  color: #3150A2;
+  margin-bottom: 1.5rem;
+}
+
+.emotion-67 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-67 dt {
+  min-width: 5rem;
+  padding-right: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-71 {
+  border: 0;
+  border-top: 1px solid #3150A2;
+  margin: 1rem 0;
+}
+
+.emotion-75 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  min-width: 5rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+}
+
+.emotion-77 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  margin: 1.6rem auto;
+  color: #3150A2;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 85%;
+}
+
+@media (min-width:992px) {
+  .emotion-77 {
+    width: auto;
+  }
+}
+
+.emotion-79 {
+  margin: 0 0.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.emotion-84 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: none;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #008761;
+  border: 0.2rem solid #008761;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-bottom: 1rem;
+  outline: 0;
+  text-align: center;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+}
+
+.emotion-84:active {
+  outline: 0;
+}
+
+.emotion-84:hover {
+  opacity: 0.75;
+}
+
+.emotion-84[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-84 span {
+  line-height: 2rem;
+}
+
+.emotion-86 {
+  display: block;
+}
+
+.emotion-88 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-88>div {
+  -webkit-flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+}
+
+.emotion-88>div+div {
+  margin: 0 0 0 1rem;
+}
+
+<body
+    style="overflow: hidden;"
+  >
+    <div>
+      <span
+        class="emotion-0 emotion-1"
+      />
+      <aside
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <button
+            aria-label="close bag"
+            class="emotion-6 emotion-7 emotion-8"
+            type="button"
+          >
+            <svg
+              class="emotion-9 emotion-10"
+              data-test-id="Icon"
+            />
+          </button>
+          <h2
+            class="emotion-11 emotion-12"
+          >
+            My Bag
+          </h2>
+        </div>
+        <div
+          class="emotion-13 emotion-14"
+        >
+          <div
+            class=" emotion-15 emotion-16"
+            data-test-id="order-product-card"
+            tabindex="0"
+          >
+            <img
+              alt="Robot Monkey"
+              class="emotion-17 emotion-18"
+              src="https://assets.gotdoodle.com/spree/images/attachments/000/160/601/product/zq9ahunarmexiod1dqxn.jpg?1605132291"
+            />
+            <div
+              class="emotion-19 emotion-20"
+            >
+              <div
+                class=" emotion-21 emotion-22"
+                data-test-id="order-product-title"
+              >
+                <a
+                  class="emotion-23 emotion-24"
+                  href="/brands/monroe-workshop"
+                >
+                  Monroe Workshop
+                </a>
+                <a
+                  class="emotion-25 emotion-26"
+                  href="/product/robot-monkey"
+                >
+                  Robot Monkey
+                </a>
+              </div>
+              <span
+                class="emotion-27 emotion-28"
+                data-test-id="order-product-info"
+              >
+                <p
+                  class="emotion-29 emotion-30"
+                >
+                  Size
+                  :
+                  OS
+                </p>
+                <dl
+                  class="emotion-31 emotion-32"
+                  data-test-id="QuantitySelect"
+                >
+                  <dt
+                    class="emotion-33 emotion-34"
+                  >
+                    Qty
+                  </dt>
+                  <dd
+                    class="emotion-35 emotion-36"
+                  >
+                    <label
+                      class="emotion-37 emotion-38"
+                      for="quantity-select"
+                    >
+                      Quantity Select
+                    </label>
+                    <select
+                      id="quantity-select"
+                    >
+                      <option
+                        data-test-id="createOptions"
+                        value="1"
+                      >
+                        1
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="2"
+                      >
+                        2
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="3"
+                      >
+                        3
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="4"
+                      >
+                        4
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="5"
+                      >
+                        5
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="6"
+                      >
+                        6
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="7"
+                      >
+                        7
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="8"
+                      >
+                        8
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="9"
+                      >
+                        9
+                      </option>
+                      <option
+                        data-test-id="createOptions"
+                        value="10"
+                      >
+                        10
+                      </option>
+                    </select>
+                  </dd>
+                </dl>
+              </span>
+              <div
+                class=" emotion-39 emotion-40"
+              >
+                <p
+                  class="emotion-41 emotion-42"
+                >
+                  <span
+                    class="emotion-43 emotion-44"
+                  >
+                    Ships from:
+                  </span>
+                   
+                  Acorn Toy Shop
+                   
+                  <img
+                    alt="US Flag"
+                    height="16"
+                    role="img"
+                    src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg"
+                    width="16"
+                  />
+                </p>
+              </div>
+              <p
+                class="emotion-45 emotion-46"
+                data-test-id="order-product-lead-time"
+              >
+                Shipping Note: Ships within
+                 
+                1 day
+              </p>
+            </div>
+            <div
+              class="emotion-47 emotion-48"
+            >
+              <p
+                class="emotion-49 emotion-50"
+                data-test-id="order-product-price"
+                title="original price"
+              >
+                $50.00
+              </p>
+            </div>
+            <div
+              class="emotion-51 emotion-183"
+            >
+              <button
+                class="emotion-53 emotion-54 emotion-8"
+                type="button"
+              >
+                <svg
+                  class="emotion-9 emotion-10"
+                  data-test-id="Icon"
+                />
+                Remove
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-58 emotion-59"
+        >
+          <section
+            class=" emotion-60 emotion-61 emotion-62"
+          >
+            <p
+              class="emotion-63 emotion-64"
+            >
+              DOMESTIC GROUND SHIPPING'S ON US
+            </p>
+          </section>
+          <dl
+            class=" emotion-65 emotion-66"
+            data-test-id="order-summary"
+            id="cart-order-summary"
+          >
+            <div
+              class="emotion-67 emotion-68"
+            >
+              <dt>
+                Subtotal
+              </dt>
+              <dd
+                data-test-id="order-subtotal"
+              >
+                $50.00
+              </dd>
+            </div>
+            <div
+              class="emotion-67 emotion-68"
+            >
+              <dt>
+                Shipping
+                 
+              </dt>
+              <dd
+                data-test-id="order-shipping-total"
+              >
+                Shipping Calculated at Checkout
+              </dd>
+            </div>
+            <hr
+              class="emotion-71 emotion-72"
+            />
+            <div
+              class="emotion-67 emotion-68"
+            >
+              <p
+                class="emotion-75 emotion-76"
+              >
+                Total
+              </p>
+              <dd
+                data-test-id="order-total"
+              >
+                $50.00
+              </dd>
+            </div>
+          </dl>
+          <p
+            class="emotion-77 emotion-78"
+          >
+            Pay in 4 interest-free installments of $12.50 with
+            <img
+              alt="Afterpay Logo"
+              class="emotion-79 emotion-80"
+              src="https://assets.stg.env.maisonette.com/images/checkout/afterpay.png"
+            />
+            or
+            <img
+              alt="PayPal Logo"
+              class="emotion-79 emotion-80"
+              src="https://assets.stg.env.maisonette.com/images/checkout/pp-with-logo.png"
+            />
+            *
+          </p>
+          <a
+            class="emotion-83 emotion-84 emotion-85"
+            data-test-id="checkout"
+            href="/checkout"
+          >
+            Proceed to checkout
+          </a>
+          <div
+            class="emotion-86 emotion-87"
+          >
+            <div
+              class="emotion-88 emotion-30"
+            />
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>,
+  "container": @keyframes animation-0 {
+  0% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  25% {
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(0deg) scale(1.025);
+    -ms-transform: rotate(0deg) scale(1.025);
+    transform: rotate(0deg) scale(1.025);
+  }
+
+  75% {
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+
+.emotion-0 {
+  background: #111111;
+  bottom: 0;
+  height: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: 5000;
+  opacity: 0.5;
+  height: 100%;
+}
+
+.emotion-2 {
+  background: #FFFFFF;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  left: 0;
+  padding: 2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  visibility: visible;
+  -webkit-transition: -webkit-transform 200ms linear,visibility 400ms;
+  -webkit-transition: transform 200ms linear,visibility 400ms;
+  transition: transform 200ms linear,visibility 400ms;
+  z-index: 5000;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    left: 50%;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-2 {
+    left: 65%;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background-color: #FFFFFF;
+  border: 0;
+  height: 4rem;
+  left: 1rem;
+  outline: 0;
+  position: absolute;
+}
+
+.emotion-7:active {
+  outline: 0;
+}
+
+.emotion-7:hover {
+  opacity: 0.75;
+}
+
+.emotion-7[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-7 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-7 svg {
+  padding: 1rem;
+  stroke-width: 6;
+  stroke: #3150A2;
+}
+
+.emotion-11 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.9297rem;
+  color: #3150A2;
+  position: relative;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.emotion-13 {
+  border-bottom: 1px solid #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 1.5rem;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.emotion-15 {
+  border-top: 1px solid #9CB1DC;
+  display: grid;
+  grid-template-areas: "image info price" ". final-sale .";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto;
+  padding: 1.5rem 0;
+}
+
+.emotion-17 {
+  display: block;
+  grid-area: image;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+.emotion-17.--wiggle {
+  -webkit-animation: animation-0 600ms;
+  animation: animation-0 600ms;
+}
+
+.emotion-19 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  grid-area: info;
+  padding: 0 1.5rem;
+}
+
+.emotion-21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-21>a {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #5971B4;
+  display: inline-block;
+  line-height: 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-25 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: inline-block;
+  line-height: 1.5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-27 .emotion-30:first-of-type {
+  margin-right: 1.5rem;
+}
+
+.emotion-29 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-29>span {
+  color: #3150A2;
+}
+
+.emotion-31 {
+  font-size: 1.2rem;
+}
+
+.emotion-33 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  color: #9CB1DC;
+  padding-right: 1rem;
+}
+
+.emotion-35 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+}
+
+.emotion-35>select {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 3px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #3150A2;
+  cursor: pointer;
+  height: 100%;
+  outline: 0;
+  padding-right: 1.5rem;
+  position: relative;
+}
+
+.emotion-37 {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.emotion-39 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  line-height: 1.3;
+  min-height: 2rem;
+}
+
+.emotion-39 img[role="img"] {
+  display: inline-block;
+}
+
+.emotion-39>p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-41 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+}
+
+.emotion-41>span {
+  color: #3150A2;
+}
+
+.emotion-43 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+}
+
+.emotion-45 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 1.5;
+}
+
+.emotion-45~.emotion-45 {
+  margin-top: 0.5rem;
+}
+
+.emotion-47 {
+  grid-area: price;
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  .emotion-47 {
+    padding: 0 0 0 1.5rem;
+  }
+}
+
+.emotion-49 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  text-align: right;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-51 {
+  grid-area: final-sale;
+  padding: 0 1.5rem;
+}
+
+.emotion-54 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.emotion-54:active {
+  outline: 0;
+}
+
+.emotion-54:hover {
+  opacity: 0.75;
+}
+
+.emotion-54[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-54:hover {
+  opacity: 1;
+}
+
+.emotion-54 svg {
+  height: 0.8rem;
+  width: 0.8rem;
+  stroke-width: 10;
+  stroke: #3150A2;
+  margin-right: 0.5rem;
+}
+
+.emotion-58 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: auto;
+  position: relative;
+}
+
+.emotion-58:after {
+  background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff);
+  content: "";
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: -3.6rem;
+  width: 100%;
+}
+
+.emotion-61 {
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.emotion-63 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #C84D19;
+  -webkit-letter-spacing: 0.1em;
+  -moz-letter-spacing: 0.1em;
+  -ms-letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 1.5rem;
+  background-image: url(https://assets.stg.env.maisonette.com/images/wings-left.svg),url(https://assets.stg.env.maisonette.com/images/wings-right.svg);
+  background-position: 0,100%;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+.emotion-65 {
+  color: #3150A2;
+  margin-bottom: 1.5rem;
+}
+
+.emotion-67 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-67 dt {
+  min-width: 5rem;
+  padding-right: 1rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-71 {
+  border: 0;
+  border-top: 1px solid #3150A2;
+  margin: 1rem 0;
+}
+
+.emotion-75 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  min-width: 5rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+}
+
+.emotion-77 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  margin: 1.6rem auto;
+  color: #3150A2;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 85%;
+}
+
+@media (min-width:992px) {
+  .emotion-77 {
+    width: auto;
+  }
+}
+
+.emotion-79 {
+  margin: 0 0.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.emotion-84 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: none;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #008761;
+  border: 0.2rem solid #008761;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-bottom: 1rem;
+  outline: 0;
+  text-align: center;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+}
+
+.emotion-84:active {
+  outline: 0;
+}
+
+.emotion-84:hover {
+  opacity: 0.75;
+}
+
+.emotion-84[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-84 span {
+  line-height: 2rem;
+}
+
+.emotion-86 {
+  display: block;
+}
+
+.emotion-88 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-88>div {
+  -webkit-flex: 1 1 50%;
+  -ms-flex: 1 1 50%;
+  flex: 1 1 50%;
+}
+
+.emotion-88>div+div {
+  margin: 0 0 0 1rem;
+}
+
+<div>
+    <span
+      class="emotion-0 emotion-1"
+    />
+    <aside
+      class="emotion-2 emotion-3"
+    >
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <button
+          aria-label="close bag"
+          class="emotion-6 emotion-7 emotion-8"
+          type="button"
+        >
+          <svg
+            class="emotion-9 emotion-10"
+            data-test-id="Icon"
+          />
+        </button>
+        <h2
+          class="emotion-11 emotion-12"
+        >
+          My Bag
+        </h2>
+      </div>
+      <div
+        class="emotion-13 emotion-14"
+      >
+        <div
+          class=" emotion-15 emotion-16"
+          data-test-id="order-product-card"
+          tabindex="0"
+        >
+          <img
+            alt="Robot Monkey"
+            class="emotion-17 emotion-18"
+            src="https://assets.gotdoodle.com/spree/images/attachments/000/160/601/product/zq9ahunarmexiod1dqxn.jpg?1605132291"
+          />
+          <div
+            class="emotion-19 emotion-20"
+          >
+            <div
+              class=" emotion-21 emotion-22"
+              data-test-id="order-product-title"
+            >
+              <a
+                class="emotion-23 emotion-24"
+                href="/brands/monroe-workshop"
+              >
+                Monroe Workshop
+              </a>
+              <a
+                class="emotion-25 emotion-26"
+                href="/product/robot-monkey"
+              >
+                Robot Monkey
+              </a>
+            </div>
+            <span
+              class="emotion-27 emotion-28"
+              data-test-id="order-product-info"
+            >
+              <p
+                class="emotion-29 emotion-30"
+              >
+                Size
+                :
+                OS
+              </p>
+              <dl
+                class="emotion-31 emotion-32"
+                data-test-id="QuantitySelect"
+              >
+                <dt
+                  class="emotion-33 emotion-34"
+                >
+                  Qty
+                </dt>
+                <dd
+                  class="emotion-35 emotion-36"
+                >
+                  <label
+                    class="emotion-37 emotion-38"
+                    for="quantity-select"
+                  >
+                    Quantity Select
+                  </label>
+                  <select
+                    id="quantity-select"
+                  >
+                    <option
+                      data-test-id="createOptions"
+                      value="1"
+                    >
+                      1
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="2"
+                    >
+                      2
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="3"
+                    >
+                      3
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="4"
+                    >
+                      4
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="5"
+                    >
+                      5
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="6"
+                    >
+                      6
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="7"
+                    >
+                      7
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="8"
+                    >
+                      8
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="9"
+                    >
+                      9
+                    </option>
+                    <option
+                      data-test-id="createOptions"
+                      value="10"
+                    >
+                      10
+                    </option>
+                  </select>
+                </dd>
+              </dl>
+            </span>
+            <div
+              class=" emotion-39 emotion-40"
+            >
+              <p
+                class="emotion-41 emotion-42"
+              >
+                <span
+                  class="emotion-43 emotion-44"
+                >
+                  Ships from:
+                </span>
+                 
+                Acorn Toy Shop
+                 
+                <img
+                  alt="US Flag"
+                  height="16"
+                  role="img"
+                  src="https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/US.svg"
+                  width="16"
+                />
+              </p>
+            </div>
+            <p
+              class="emotion-45 emotion-46"
+              data-test-id="order-product-lead-time"
+            >
+              Shipping Note: Ships within
+               
+              1 day
+            </p>
+          </div>
+          <div
+            class="emotion-47 emotion-48"
+          >
+            <p
+              class="emotion-49 emotion-50"
+              data-test-id="order-product-price"
+              title="original price"
+            >
+              $50.00
+            </p>
+          </div>
+          <div
+            class="emotion-51 emotion-183"
+          >
+            <button
+              class="emotion-53 emotion-54 emotion-8"
+              type="button"
+            >
+              <svg
+                class="emotion-9 emotion-10"
+                data-test-id="Icon"
+              />
+              Remove
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-58 emotion-59"
+      >
+        <section
+          class=" emotion-60 emotion-61 emotion-62"
+        >
+          <p
+            class="emotion-63 emotion-64"
+          >
+            DOMESTIC GROUND SHIPPING'S ON US
+          </p>
+        </section>
+        <dl
+          class=" emotion-65 emotion-66"
+          data-test-id="order-summary"
+          id="cart-order-summary"
+        >
+          <div
+            class="emotion-67 emotion-68"
+          >
+            <dt>
+              Subtotal
+            </dt>
+            <dd
+              data-test-id="order-subtotal"
+            >
+              $50.00
+            </dd>
+          </div>
+          <div
+            class="emotion-67 emotion-68"
+          >
+            <dt>
+              Shipping
+               
+            </dt>
+            <dd
+              data-test-id="order-shipping-total"
+            >
+              Shipping Calculated at Checkout
+            </dd>
+          </div>
+          <hr
+            class="emotion-71 emotion-72"
+          />
+          <div
+            class="emotion-67 emotion-68"
+          >
+            <p
+              class="emotion-75 emotion-76"
+            >
+              Total
+            </p>
+            <dd
+              data-test-id="order-total"
+            >
+              $50.00
+            </dd>
+          </div>
+        </dl>
+        <p
+          class="emotion-77 emotion-78"
+        >
+          Pay in 4 interest-free installments of $12.50 with
+          <img
+            alt="Afterpay Logo"
+            class="emotion-79 emotion-80"
+            src="https://assets.stg.env.maisonette.com/images/checkout/afterpay.png"
+          />
+          or
+          <img
+            alt="PayPal Logo"
+            class="emotion-79 emotion-80"
+            src="https://assets.stg.env.maisonette.com/images/checkout/pp-with-logo.png"
+          />
+          *
+        </p>
+        <a
+          class="emotion-83 emotion-84 emotion-85"
+          data-test-id="checkout"
+          href="/checkout"
+        >
+          Proceed to checkout
+        </a>
+        <div
+          class="emotion-86 emotion-87"
+        >
+          <div
+            class="emotion-88 emotion-30"
+          />
+        </div>
+      </div>
+    </aside>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

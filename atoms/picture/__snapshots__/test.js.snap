@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a picture renders correctly 1`] = `
+.emotion-0 {
+    display: block;
+  position: relative;
+}
+
+.emotion-0 img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+<div>
+  <picture
+    alt="best image in the world!"
+    class="emotion-0 emotion-1"
+    data-test-id="Picture"
+  >
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small-super-retina.jpg 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small-retina.jpg 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small.jpg
+    "
+      media="(max-width: 767px)"
+      type="image/jpg"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium-super-retina.jpg 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium-retina.jpg 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium.jpg
+    "
+      media="(min-width: 768px) and (max-width: 991px)"
+      type="image/jpg"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large-super-retina.jpg 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large-retina.jpg 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large.jpg
+    "
+      media="(min-width: 992px)"
+      type="image/jpg"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small-super-retina.jp2 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small-retina.jp2 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small.jp2
+    "
+      media="(max-width: 767px)"
+      type="image/jp2"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium-super-retina.jp2 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium-retina.jp2 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium.jp2
+    "
+      media="(min-width: 768px) and (max-width: 991px)"
+      type="image/jp2"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large-super-retina.jp2 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large-retina.jp2 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large.jp2
+    "
+      media="(min-width: 992px)"
+      type="image/jp2"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small-super-retina.webp 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small-retina.webp 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-small.webp
+    "
+      media="(max-width: 767px)"
+      type="image/webp"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium-super-retina.webp 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium-retina.webp 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-medium.webp
+    "
+      media="(min-width: 768px) and (max-width: 991px)"
+      type="image/webp"
+    />
+    <source
+      data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large-super-retina.webp 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large-retina.webp 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large.webp
+    "
+      media="(min-width: 992px)"
+      type="image/webp"
+    />
+    <img
+      alt="best image in the world!"
+      class="lazyload"
+      data-src="https://assets.stg.env.maisonette.com/media/has4-v41u3/image-large.webp"
+      data-test-id="defaultImage"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+    />
+  </picture>
+</div>
+`;

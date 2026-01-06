@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a strapi privacy component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  color: #3150A2;
+  margin-bottom: -2rem;
+}
+
+.emotion-0.bb {
+  border-bottom: 1px solid #3150A2;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    margin-bottom: -3rem;
+  }
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+}
+
+.emotion-2 b {
+  font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2:not(:first-of-type) {
+    margin-top: 0;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.emotion-4:last-of-type {
+  margin-bottom: 3rem;
+}
+
+.emotion-4 b {
+  font-weight: bold;
+}
+
+<body>
+    <div>
+      <section
+        class=" emotion-0 emotion-1"
+        data-test-id="Privacy"
+      >
+        <h2
+          class="emotion-2 emotion-3"
+        >
+          Information Collection
+        </h2>
+        <div
+          class="emotion-4 emotion-5"
+          data-test-id="Privacy"
+        >
+          “Personal Information” means any information that can be used to identify you individually. We collect Personal Information you voluntarily provide us. including, without limitation, your name; your billing and shipping address(es); your email address; your phone number; and your credit card information. You may refuse to provide Personal Information, but some parts of the Site may not be fully available or functional without submitting such information. Even if you do not register with us, when you interact with our Site, we may collect the following: your IP address, device type, operating system, browser, and other Site usage details such as page views, clicks, and duration of page visits.
+        </div>
+        <div
+          class="emotion-4 emotion-5"
+          data-test-id="Privacy"
+        >
+          In addition to Personal Information, our servers automatically collect certain anonymous, aggregate and/or technical information that does not identify you personally (“Anonymous Data”).
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  color: #3150A2;
+  margin-bottom: -2rem;
+}
+
+.emotion-0.bb {
+  border-bottom: 1px solid #3150A2;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    margin-bottom: -3rem;
+  }
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+}
+
+.emotion-2 b {
+  font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-2:not(:first-of-type) {
+    margin-top: 0;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.emotion-4:last-of-type {
+  margin-bottom: 3rem;
+}
+
+.emotion-4 b {
+  font-weight: bold;
+}
+
+<div>
+    <section
+      class=" emotion-0 emotion-1"
+      data-test-id="Privacy"
+    >
+      <h2
+        class="emotion-2 emotion-3"
+      >
+        Information Collection
+      </h2>
+      <div
+        class="emotion-4 emotion-5"
+        data-test-id="Privacy"
+      >
+        “Personal Information” means any information that can be used to identify you individually. We collect Personal Information you voluntarily provide us. including, without limitation, your name; your billing and shipping address(es); your email address; your phone number; and your credit card information. You may refuse to provide Personal Information, but some parts of the Site may not be fully available or functional without submitting such information. Even if you do not register with us, when you interact with our Site, we may collect the following: your IP address, device type, operating system, browser, and other Site usage details such as page views, clicks, and duration of page visits.
+      </div>
+      <div
+        class="emotion-4 emotion-5"
+        data-test-id="Privacy"
+      >
+        In addition to Personal Information, our servers automatically collect certain anonymous, aggregate and/or technical information that does not identify you personally (“Anonymous Data”).
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

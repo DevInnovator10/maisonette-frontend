@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "id": "brand",
+    "label": "Brand"
+  },
+  "color": {
+    "id": "color",
+    "label": "Color"
+  },
+  "gender": {
+    "id": "gender",
+    "label": "Gender"
+  },
+  "product_type": {
+    "id": "category",
+    "label": "Category"
+  },
+  "variants.age_range": {
+    "id": "agerange",
+    "label": "Age Range"
+  },
+  "variants.clothing_sizes": {
+    "id": "clothingsizes",
+    "label": "Clothing Sizes"
+  },
+  "variants.maisonette_sale": {
+    "id": "sprice",
+    "label": "Price"
+  },
+  "variants.shoe_sizes": {
+    "id": "shoesizes",
+    "label": "Shoe Sizes"
+  },
+  "trends": {
+    "id": "trends",
+    "label": "Trend"
+  },
+  "trends_slug": {
+    "id": "trends_slug",
+    "label": "Trend"
+  }
+}

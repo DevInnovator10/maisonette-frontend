@@ -1,0 +1,599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-2 {
+  color: #2F4DA1;
+  text-align: center;
+  padding: 6.4rem 0;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 6.4rem;
+  }
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-4 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-4 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 -5%;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0;
+  }
+}
+
+.emotion-8 {
+  margin: 1.6rem 5%;
+  width: 40%;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    width: 18%;
+    max-width: 145px;
+    margin: 1.6rem 2%;
+  }
+}
+
+.emotion-10 {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 0.8rem;
+  height: auto;
+}
+
+.emotion-12 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="Content"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <h1
+            class="emotion-4 emotion-5"
+          >
+            Meet the team
+          </h1>
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="MeetTheTeam"
+            >
+              <img
+                alt="Sylvana Durrett"
+                class="emotion-10 emotion-11"
+                src="/images/execs/sylvana-durrett.png"
+              />
+              <h3
+                class="emotion-12 emotion-13"
+              >
+                Sylvana Durrett
+              </h3>
+              <p
+                class="emotion-14 emotion-15"
+              >
+                Co-founder, ceo
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="MeetTheTeam"
+            >
+              <img
+                alt="Luisana Mendoza"
+                class="emotion-10 emotion-11"
+                src="/images/execs/luisana-mendoza.png"
+              />
+              <h3
+                class="emotion-12 emotion-13"
+              >
+                Luisana Mendoza
+              </h3>
+              <p
+                class="emotion-14 emotion-15"
+              >
+                co-founder, president
+              </p>
+            </div>
+          </div>
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="MeetTheTeam"
+            >
+              <img
+                alt="AJ Nicholas"
+                class="emotion-10 emotion-11"
+                src="/images/execs/aj-nicholas.png"
+              />
+              <h3
+                class="emotion-12 emotion-13"
+              >
+                AJ Nicholas
+              </h3>
+              <p
+                class="emotion-14 emotion-15"
+              >
+                Chief Operating Officer
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="MeetTheTeam"
+            >
+              <img
+                alt="Myra Cortado"
+                class="emotion-10 emotion-11"
+                src="/images/execs/myra-cortado.png"
+              />
+              <h3
+                class="emotion-12 emotion-13"
+              >
+                Myra Cortado
+              </h3>
+              <p
+                class="emotion-14 emotion-15"
+              >
+                chief financial officer
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="MeetTheTeam"
+            >
+              <img
+                alt="Taro Naruse"
+                class="emotion-10 emotion-11"
+                src="/images/execs/taro-naruse.png"
+              />
+              <h3
+                class="emotion-12 emotion-13"
+              >
+                Taro Naruse
+              </h3>
+              <p
+                class="emotion-14 emotion-15"
+              >
+                Senior vice president of product
+              </p>
+            </div>
+            <div
+              class="emotion-8 emotion-9"
+              data-test-id="MeetTheTeam"
+            >
+              <img
+                alt="Victoria Kasumu"
+                class="emotion-10 emotion-11"
+                src="/images/execs/victoria-kasumu.png"
+              />
+              <h3
+                class="emotion-12 emotion-13"
+              >
+                Victoria Kasumu
+              </h3>
+              <p
+                class="emotion-14 emotion-15"
+              >
+                chief people officer
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding-bottom: 2.9297rem;
+    padding-top: 2.9297rem;
+  }
+}
+
+.emotion-2 {
+  color: #2F4DA1;
+  text-align: center;
+  padding: 6.4rem 0;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    padding: 6.4rem;
+  }
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-4 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-4 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 -5%;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0;
+  }
+}
+
+.emotion-8 {
+  margin: 1.6rem 5%;
+  width: 40%;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    width: 18%;
+    max-width: 145px;
+    margin: 1.6rem 2%;
+  }
+}
+
+.emotion-10 {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 0.8rem;
+  height: auto;
+}
+
+.emotion-12 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.emotion-14 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.4rem;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="Content"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <h1
+          class="emotion-4 emotion-5"
+        >
+          Meet the team
+        </h1>
+        <div
+          class="emotion-6 emotion-7"
+        >
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="MeetTheTeam"
+          >
+            <img
+              alt="Sylvana Durrett"
+              class="emotion-10 emotion-11"
+              src="/images/execs/sylvana-durrett.png"
+            />
+            <h3
+              class="emotion-12 emotion-13"
+            >
+              Sylvana Durrett
+            </h3>
+            <p
+              class="emotion-14 emotion-15"
+            >
+              Co-founder, ceo
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="MeetTheTeam"
+          >
+            <img
+              alt="Luisana Mendoza"
+              class="emotion-10 emotion-11"
+              src="/images/execs/luisana-mendoza.png"
+
+            />
+            <h3
+              class="emotion-12 emotion-13"
+            >
+              Luisana Mendoza
+            </h3>
+            <p
+              class="emotion-14 emotion-15"
+            >
+              co-founder, president
+            </p>
+          </div>
+        </div>
+        <div
+          class="emotion-6 emotion-7"
+        >
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="MeetTheTeam"
+          >
+            <img
+              alt="AJ Nicholas"
+              class="emotion-10 emotion-11"
+              src="/images/execs/aj-nicholas.png"
+            />
+            <h3
+              class="emotion-12 emotion-13"
+            >
+              AJ Nicholas
+            </h3>
+            <p
+              class="emotion-14 emotion-15"
+            >
+              Chief Operating Officer
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="MeetTheTeam"
+          >
+            <img
+              alt="Myra Cortado"
+              class="emotion-10 emotion-11"
+              src="/images/execs/myra-cortado.png"
+            />
+            <h3
+              class="emotion-12 emotion-13"
+            >
+              Myra Cortado
+            </h3>
+            <p
+              class="emotion-14 emotion-15"
+            >
+              chief financial officer
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="MeetTheTeam"
+          >
+            <img
+              alt="Taro Naruse"
+              class="emotion-10 emotion-11"
+              src="/images/execs/taro-naruse.png"
+            />
+            <h3
+              class="emotion-12 emotion-13"
+            >
+              Taro Naruse
+            </h3>
+            <p
+              class="emotion-14 emotion-15"
+            >
+              Senior vice president of product
+            </p>
+          </div>
+          <div
+            class="emotion-8 emotion-9"
+            data-test-id="MeetTheTeam"
+          >
+            <img
+              alt="Victoria Kasumu"
+              class="emotion-10 emotion-11"
+              src="/images/execs/victoria-kasumu.png"
+            />
+            <h3
+              class="emotion-12 emotion-13"
+            >
+              Victoria Kasumu
+            </h3>
+            <p
+              class="emotion-14 emotion-15"
+            >
+              chief people officer
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

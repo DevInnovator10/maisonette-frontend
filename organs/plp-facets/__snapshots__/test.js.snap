@@ -1,0 +1,4130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a plp facet renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background: #3150A2;
+  visibility: hidden;
+  height: 100%;
+  left: 0;
+  overflow: scroll;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  -webkit-transform: translate(0,-100%);
+  -ms-transform: translate(0,-100%);
+  transform: translate(0,-100%);
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-transition: transform 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: transform 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  height: 3.5rem;
+  margin-top: 4rem;
+  margin-left: auto;
+  width: 3.5rem;
+}
+
+.emotion-6 {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-6 {
+    border-bottom: 1px solid #3150A2;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-8>span {
+  color: #9CB1DC;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  margin-left: auto;
+  text-transform: none;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-8 {
+    color: #3150A2;
+  }
+}
+
+.emotion-10 {
+  padding-bottom: 1rem;
+}
+
+.emotion-13 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-height: 3rem;
+  position: relative;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.emotion-13:active {
+  outline: 0;
+}
+
+.emotion-13:hover {
+  opacity: 0.75;
+}
+
+.emotion-13[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-13:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-13 {
+    background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+    background-position: right 1px center;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+  }
+}
+
+.emotion-15 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 3rem;
+  padding-right: 1rem;
+}
+
+.emotion-17 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  line-height: 3rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-17 {
+    color: #3150A2;
+  }
+}
+
+.emotion-19 {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-19 {
+    border-bottom: 1px solid #3150A2;
+  }
+}
+
+.emotion-21 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  background-color: transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  line-height: 4rem;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-21 {
+    background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+    background-position: right 1px center;
+    background-repeat: no-repeat;
+    background-size: 8px 4px;
+    color: #3150A2;
+  }
+}
+
+.emotion-27 {
+  overflow: hidden;
+  padding: 0 10%;
+  max-height: 0;
+  -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+  transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-27 {
+    padding: 0;
+  }
+}
+
+.emotion-27 .emotion-30 {
+  visibility: hidden;
+}
+
+.emotion-29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 14rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: visible;
+  padding: 0 0.8rem;
+}
+
+.emotion-31 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-31 .emotion-34 {
+  margin-left: -0.8rem;
+}
+
+.emotion-31 .emotion-36 {
+  margin-left: auto;
+  margin-right: -0.8rem;
+}
+
+.emotion-33 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-33 {
+    color: #3150A2;
+  }
+}
+
+.emotion-35 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-35 {
+    color: #3150A2;
+  }
+}
+
+.emotion-37 .input-range {
+  height: 1.6rem;
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.emotion-37 .input-range__label {
+  display: none;
+}
+
+.emotion-37 .input-range__label-container {
+  pointer-events: none;
+}
+
+.emotion-37 .input-range__slider {
+  background: #FFFFFF;
+  border: 2px solid #3150A2;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1.6em;
+  margin-left: -0.8em;
+  margin-top: -1em;
+  position: absolute;
+  width: 1.6em;
+}
+
+.emotion-37 .input-range__slider-container {
+  -webkit-transition: left 300ms ease-out;
+  transition: left 300ms ease-out;
+}
+
+.emotion-37 .input-range__track {
+  background: #9CB1DC;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: block;
+  height: 0.5em;
+  position: relative;
+  -webkit-transition: left 300ms ease-out,width 300ms ease-out;
+  transition: left 300ms ease-out,width 300ms ease-out;
+}
+
+.emotion-37 .input-range__track--active {
+  background: #FFFFFF;
+}
+
+.emotion-37 .input-range__track--background {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-37 .input-range__slider {
+    background: #FFFFFF;
+    border: 2px solid #3150A2;
+  }
+
+  .emotion-37 .input-range__track {
+    background: #9CB1DC;
+  }
+
+  .emotion-37 .input-range__track--active {
+    background: #3150A2;
+  }
+}
+
+.emotion-40 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-top: 1rem;
+  border-color: #FFFFFF;
+}
+
+.emotion-40:active {
+  outline: 0;
+}
+
+.emotion-40:hover {
+  opacity: 0.75;
+}
+
+.emotion-40[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-42 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0 -1rem;
+}
+
+.emotion-45 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 2rem 1rem 0 1rem;
+  outline: 0;
+  padding: 0 1rem;
+}
+
+.emotion-45:active {
+  outline: 0;
+}
+
+.emotion-45:hover {
+  opacity: 0.75;
+}
+
+.emotion-45[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-54 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background: none;
+}
+
+.emotion-56 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-56>span {
+  color: #9CB1DC;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  margin-left: auto;
+  text-transform: none;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-56 {
+    color: #3150A2;
+  }
+}
+
+.emotion-58 {
+  border-bottom: 1px solid #3150A2;
+  border-top: 1px solid #FFFFFF;
+  height: auto;
+  padding-top: 1rem;
+  position: initial;
+  width: auto;
+}
+
+.emotion-58>button {
+  display: none;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-58 {
+    padding-top: 0;
+    border-bottom: 1px solid #3150A2;
+    border-top: 1px solid #3150A2;
+  }
+
+  .emotion-58>button {
+    display: block;
+  }
+}
+
+.emotion-60 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  background-color: transparent;
+  border: 0 none;
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  line-height: 4rem;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-62 {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+    transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+    visibility: hidden;
+  }
+}
+
+.emotion-64 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-64 {
+    max-height: 16rem;
+    margin: 2rem 0;
+  }
+}
+
+.emotion-67 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  color: #3150A2;
+  color: #FFFFFF;
+}
+
+.emotion-67::after,
+.emotion-67::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-67::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-67::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-67::after {
+  opacity: 1;
+}
+
+.emotion-67::before {
+  border-color: #3150A2;
+}
+
+.emotion-67 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-67::before {
+  border-color: #FFFFFF;
+}
+
+.emotion-67::after {
+  background: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-67 {
+    color: #3150A2;
+  }
+
+  .emotion-67::before {
+    border-color: #3150A2;
+  }
+
+  .emotion-67::after {
+    background: #3150A2;
+  }
+}
+
+.emotion-70 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.emotion-70::after,
+.emotion-70::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-70::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-70::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-70 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-70::before {
+  border-color: #FFFFFF;
+}
+
+.emotion-70::after {
+  background: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-70 {
+    color: #3150A2;
+  }
+
+  .emotion-70::before {
+    border-color: #3150A2;
+  }
+
+  .emotion-70::after {
+    background: #3150A2;
+  }
+}
+
+.emotion-81 {
+  display: none;
+}
+
+@media screen and (min-width:320px) {
+  .emotion-81 {
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 'filters sorts';
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-81 {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 5rem;
+    min-width: 25%;
+  }
+
+  .emotion-81>*:not(:last-child):not(section) {
+    margin-bottom: 5rem;
+  }
+}
+
+.emotion-148 {
+  display: none;
+  margin-bottom: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-148 {
+    display: block;
+  }
+}
+
+.emotion-148 ol ol {
+  margin-left: 2rem;
+}
+
+.emotion-150 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #3150A2;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  min-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-152 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-152:hover {
+  color: #3150A2;
+}
+
+.emotion-154 {
+  position: relative;
+  outline: 0;
+}
+
+.emotion-154 ol {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.emotion-154 summary {
+  outline: none;
+  line-height: 3rem;
+}
+
+.emotion-154 summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 3rem;
+  width: 100%;
+  -webkit-transition: background-image 200ms;
+  transition: background-image 200ms;
+}
+
+.emotion-154 summary::-webkit-details-marker,
+.emotion-154 summary::before {
+  display: none!important;
+}
+
+.emotion-154[open]>summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgNCBMOCA0IEw0IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+}
+
+.emotion-156 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-156:hover {
+  color: #3150A2;
+}
+
+<body
+    style="overflow: auto;"
+  >
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="MobileModal"
+      >
+        <button
+          aria-label="close modal"
+          class="emotion-2 emotion-3"
+          type="button"
+        />
+        <form
+          class="emotion-4 emotion-5"
+          data-test-id="FiltersTemplate"
+          tabindex="0"
+        >
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <label
+              aria-level="2"
+              class="emotion-8 emotion-9"
+              role="heading"
+            >
+              Filters (1)
+              <span>
+                71 items
+              </span>
+            </label>
+            <div
+              class="emotion-10 emotion-11"
+            >
+              <button
+                aria-label="remove filter, Category Games"
+                class="emotion-12 emotion-13 emotion-14"
+                data-test-id="FilterListRemove"
+                type="button"
+              >
+                <p
+                  class="emotion-15 emotion-16"
+                >
+                  Category
+                </p>
+                <p
+                  class="emotion-17 emotion-18"
+                >
+                  Games
+                </p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="emotion-19 emotion-20"
+            data-test-id="FiltersTemplate"
+          >
+            <button
+              aria-expanded="false"
+              class=" emotion-21 emotion-22"
+              data-test-id="FilterListLabel"
+              type="button"
+            >
+              Category
+            </button>
+          </div>
+          <div
+            class="emotion-19 emotion-20"
+          >
+            <button
+              aria-expanded="false"
+              class=" emotion-21 emotion-22"
+              data-test-id="FilterListLabel"
+              type="button"
+            >
+              Price
+            </button>
+            <div
+              class="emotion-27 emotion-28"
+              data-test-id="FilterRange"
+            >
+              <div
+                aria-hidden="true"
+                class="emotion-29 emotion-30"
+              >
+                <div
+                  class="emotion-31 emotion-32"
+                >
+                  <span
+                    class="emotion-33 emotion-34"
+                  >
+                    $9
+                  </span>
+                  <span
+                    class="emotion-35 emotion-36"
+                  >
+                    $30
+                  </span>
+                </div>
+                <div
+                  class="emotion-37 emotion-38"
+                >
+                  <div
+                    aria-disabled="true"
+                    class="input-range input-range--disabled"
+                  >
+                    <span
+                      class="input-range__label input-range__label--min"
+                    >
+                      <span
+                        class="input-range__label-container"
+                      >
+                        9
+                      </span>
+                    </span>
+                    <div
+                      class="input-range__track input-range__track--background"
+                    >
+                      <div
+                        class="input-range__track input-range__track--active"
+                        style="left: 0%; width: 100%;"
+                      />
+                      <span
+                        class="input-range__slider-container"
+                        style="position: absolute; left: 0%;"
+                      >
+                        <span
+                          class="input-range__label input-range__label--value"
+                        >
+                          <span
+                            class="input-range__label-container"
+                          >
+                            9
+                          </span>
+                        </span>
+                        <div
+                          aria-valuemax="30"
+                          aria-valuemin="9"
+                          aria-valuenow="9"
+                          class="input-range__slider"
+                          draggable="false"
+                          role="slider"
+                          tabindex="0"
+                        />
+                      </span>
+                      <span
+                        class="input-range__slider-container"
+                        style="position: absolute; left: 100%;"
+                      >
+                        <span
+                          class="input-range__label input-range__label--value"
+                        >
+                          <span
+                            class="input-range__label-container"
+                          >
+                            30
+                          </span>
+                        </span>
+                        <div
+                          aria-valuemax="30"
+                          aria-valuemin="9"
+                          aria-valuenow="30"
+                          class="input-range__slider"
+                          draggable="false"
+                          role="slider"
+                          tabindex="0"
+                        />
+                      </span>
+                    </div>
+                    <span
+                      class="input-range__label input-range__label--max"
+                    >
+                      <span
+                        class="input-range__label-container"
+                      >
+                        30
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <button
+                  class="emotion-39 emotion-40 emotion-14"
+                  disabled=""
+                  type="button"
+                >
+                  Apply Price Filter
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div
+          class="emotion-42 emotion-43"
+        >
+          <button
+            class="emotion-44 emotion-45 emotion-14"
+            type="button"
+          >
+            Apply Filters
+          </button>
+          <button
+            class="emotion-44 emotion-45 emotion-14"
+            type="button"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="MobileModal"
+      >
+        <button
+          aria-label="close modal"
+          class="emotion-2 emotion-3"
+          type="button"
+        />
+        <form
+          class="emotion-54 emotion-55"
+          tabindex="0"
+        >
+          <label
+            aria-level="2"
+            class="emotion-56 emotion-57"
+            role="heading"
+          >
+            Sort By
+          </label>
+          <div
+            class="emotion-58 emotion-59"
+          >
+            <button
+              aria-expanded="false"
+              class=" emotion-60 emotion-61"
+              data-test-id="SortListLabel"
+              type="button"
+            >
+              Best Match
+            </button>
+            <div
+              class="emotion-62 emotion-63"
+              data-test-id="SortList"
+            >
+              <div
+                class="emotion-64 emotion-65"
+              >
+                <label
+                  class=" emotion-66 emotion-67 emotion-68"
+                  for="sort-mobile-best-match"
+                  name="sort-best-match"
+                >
+                  <input
+                    checked=""
+                    id="sort-mobile-best-match"
+                    name="sort-best-match"
+                    type="radio"
+                  />
+                  Best Match
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-mobile-best-sellers"
+                  name="sort-best-sellers"
+                >
+                  <input
+                    id="sort-mobile-best-sellers"
+                    name="sort-best-sellers"
+                    type="radio"
+                  />
+                  Best Sellers
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-mobile-just-in"
+                  name="sort-just-in"
+                >
+                  <input
+                    id="sort-mobile-just-in"
+                    name="sort-just-in"
+                    type="radio"
+                  />
+                  Just In
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-mobile-price-asc"
+                  name="sort-price-asc"
+                >
+                  <input
+                    id="sort-mobile-price-asc"
+                    name="sort-price-asc"
+                    type="radio"
+                  />
+                  Price: Low to High
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-mobile-price-desc"
+                  name="sort-price-desc"
+                >
+                  <input
+                    id="sort-mobile-price-desc"
+                    name="sort-price-desc"
+                    type="radio"
+                  />
+                  Price High to Low
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        class="emotion-81 emotion-82"
+      >
+        <form
+          class="emotion-54 emotion-55"
+          tabindex="0"
+        >
+          <label
+            aria-level="2"
+            class="emotion-56 emotion-57"
+            role="heading"
+          >
+            Sort By
+          </label>
+          <div
+            class="emotion-58 emotion-59"
+          >
+            <button
+              aria-expanded="false"
+              class=" emotion-60 emotion-61"
+              data-test-id="SortListLabel"
+              type="button"
+            >
+              Best Match
+            </button>
+            <div
+              class="emotion-62 emotion-63"
+              data-test-id="SortList"
+            >
+              <div
+                class="emotion-64 emotion-65"
+              >
+                <label
+                  class=" emotion-66 emotion-67 emotion-68"
+                  for="sort-best-match"
+                  name="sort-best-match"
+                >
+                  <input
+                    checked=""
+                    id="sort-best-match"
+                    name="sort-best-match"
+                    type="radio"
+                  />
+                  Best Match
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-best-sellers"
+                  name="sort-best-sellers"
+                >
+                  <input
+                    id="sort-best-sellers"
+                    name="sort-best-sellers"
+                    type="radio"
+                  />
+                  Best Sellers
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-just-in"
+                  name="sort-just-in"
+                >
+                  <input
+                    id="sort-just-in"
+                    name="sort-just-in"
+                    type="radio"
+                  />
+                  Just In
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-price-asc"
+                  name="sort-price-asc"
+                >
+                  <input
+                    id="sort-price-asc"
+                    name="sort-price-asc"
+                    type="radio"
+                  />
+                  Price: Low to High
+                </label>
+                <label
+                  class=" emotion-66 emotion-70 emotion-68"
+                  for="sort-price-desc"
+                  name="sort-price-desc"
+                >
+                  <input
+                    id="sort-price-desc"
+                    name="sort-price-desc"
+                    type="radio"
+                  />
+                  Price High to Low
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <form
+          class="emotion-4 emotion-5"
+          data-test-id="FiltersTemplate"
+          tabindex="0"
+        >
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <label
+              aria-level="2"
+              class="emotion-8 emotion-9"
+              role="heading"
+            >
+              Filters (1)
+              <span>
+                71 items
+              </span>
+            </label>
+            <div
+              class="emotion-10 emotion-11"
+            >
+              <button
+                aria-label="remove filter, Category Games"
+                class="emotion-12 emotion-13 emotion-14"
+                data-test-id="FilterListRemove"
+                type="button"
+              >
+                <p
+                  class="emotion-15 emotion-16"
+                >
+                  Category
+                </p>
+                <p
+                  class="emotion-17 emotion-18"
+                >
+                  Games
+                </p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="emotion-19 emotion-20"
+            data-test-id="FiltersTemplate"
+          >
+            <button
+              aria-expanded="false"
+              class=" emotion-21 emotion-22"
+              data-test-id="FilterListLabel"
+              type="button"
+            >
+              Category
+            </button>
+          </div>
+          <div
+            class="emotion-19 emotion-20"
+          >
+            <button
+              aria-expanded="false"
+              class=" emotion-21 emotion-22"
+              data-test-id="FilterListLabel"
+              type="button"
+            >
+              Price
+            </button>
+            <div
+              class="emotion-27 emotion-28"
+              data-test-id="FilterRange"
+            >
+              <div
+                aria-hidden="true"
+                class="emotion-29 emotion-30"
+              >
+                <div
+                  class="emotion-31 emotion-32"
+                >
+                  <span
+                    class="emotion-33 emotion-34"
+                  >
+                    $9
+                  </span>
+                  <span
+                    class="emotion-35 emotion-36"
+                  >
+                    $30
+                  </span>
+                </div>
+                <div
+                  class="emotion-37 emotion-38"
+                >
+                  <div
+                    aria-disabled="true"
+                    class="input-range input-range--disabled"
+                  >
+                    <span
+                      class="input-range__label input-range__label--min"
+                    >
+                      <span
+                        class="input-range__label-container"
+                      >
+                        9
+                      </span>
+                    </span>
+                    <div
+                      class="input-range__track input-range__track--background"
+                    >
+                      <div
+                        class="input-range__track input-range__track--active"
+                        style="left: 0%; width: 100%;"
+                      />
+                      <span
+                        class="input-range__slider-container"
+                        style="position: absolute; left: 0%;"
+                      >
+                        <span
+                          class="input-range__label input-range__label--value"
+                        >
+                          <span
+                            class="input-range__label-container"
+                          >
+                            9
+                          </span>
+                        </span>
+                        <div
+                          aria-valuemax="30"
+                          aria-valuemin="9"
+                          aria-valuenow="9"
+                          class="input-range__slider"
+                          draggable="false"
+                          role="slider"
+                          tabindex="0"
+                        />
+                      </span>
+                      <span
+                        class="input-range__slider-container"
+                        style="position: absolute; left: 100%;"
+                      >
+                        <span
+                          class="input-range__label input-range__label--value"
+                        >
+                          <span
+                            class="input-range__label-container"
+                          >
+                            30
+                          </span>
+                        </span>
+                        <div
+                          aria-valuemax="30"
+                          aria-valuemin="9"
+                          aria-valuenow="30"
+                          class="input-range__slider"
+                          draggable="false"
+                          role="slider"
+                          tabindex="0"
+                        />
+                      </span>
+                    </div>
+                    <span
+                      class="input-range__label input-range__label--max"
+                    >
+                      <span
+                        class="input-range__label-container"
+                      >
+                        30
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <button
+                  class="emotion-39 emotion-40 emotion-14"
+                  disabled=""
+                  type="button"
+                >
+                  Apply Price Filter
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <section
+          class="emotion-148 emotion-149"
+          data-test-id="FacetBreadcrumbs"
+        >
+          <h2
+            class="emotion-150 emotion-151"
+          >
+            Categories
+          </h2>
+          <ol>
+            <li>
+              <a
+                active="true"
+                class="emotion-152 emotion-153"
+                href="/shop"
+              >
+                All
+              </a>
+            </li>
+            <li
+              data-test-id="CategoryList"
+            >
+              <details
+                class="emotion-154 emotion-155"
+              >
+                <summary
+                  class="emotion-156 emotion-153"
+                >
+                  Play
+                </summary>
+                <ol>
+                  <li>
+                    <a
+                      class="emotion-156 emotion-153"
+                      href="/shop/play"
+                    >
+                      All Play
+                    </a>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        Learning
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning"
+                          >
+                            All Learning
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning/games"
+                          >
+                            Games
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning/educational-toys"
+                          >
+                            Educational Toys
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning/puzzles"
+                          >
+                            Puzzles
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning/books"
+                          >
+                            Books
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning/arts-crafts"
+                          >
+                            Arts & Crafts
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning/blocks-sorters-stackers"
+                          >
+                            Blocks, Sorters & Stackers
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/learning/stem-toys"
+                          >
+                            STEM Toys
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        Kids
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/kids"
+                          >
+                            All Kids
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/kids/plush"
+                          >
+                            Plush
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/kids/play-food-accessories"
+                          >
+                            Play Food & Accessories
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        Outdoor
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/outdoor"
+                          >
+                            All Outdoor
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/outdoor/sports"
+                          >
+                            Sports
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/outdoor/backyard-park"
+                          >
+                            Backyard & Park
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        Baby
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/baby"
+                          >
+                            All Baby
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/play/baby/infant-development"
+                          >
+                            Infant Development
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                </ol>
+              </details>
+            </li>
+            <li
+              data-test-id="CategoryList"
+            >
+              <details
+                class="emotion-154 emotion-155"
+              >
+                <summary
+                  class="emotion-156 emotion-153"
+                >
+                  Gifts
+                </summary>
+                <ol>
+                  <li>
+                    <a
+                      class="emotion-156 emotion-153"
+                      href="/shop/gifts"
+                    >
+                      All Gifts
+                    </a>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        By Price
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-price"
+                          >
+                            All By Price
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-price/gifts-under-50"
+                          >
+                            Gifts Under $50
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-price/gifts-under-250"
+                          >
+                            Gifts Under $250
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-price/over-the-top"
+                          >
+                            Over the Top
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-price/gifts-under-100"
+                          >
+                            Gifts Under $100
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        By Age
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-age"
+                          >
+                            All By Age
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-age/gifts-for-kids"
+                          >
+                            Gifts for Kids
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/gifts/by-age/gifts-for-moms"
+                          >
+                            Gifts for Moms
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                </ol>
+              </details>
+            </li>
+            <li
+              data-test-id="CategoryList"
+            >
+              <details
+                class="emotion-154 emotion-155"
+              >
+                <summary
+                  class="emotion-156 emotion-153"
+                >
+                  Holiday
+                </summary>
+                <ol>
+                  <li>
+                    <a
+                      class="emotion-156 emotion-153"
+                      href="/shop/holiday"
+                    >
+                      All Holiday
+                    </a>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        Gifts
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/holiday/gifts"
+                          >
+                            All Gifts
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/holiday/gifts/over-the-top"
+                          >
+                            Over the Top!
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                </ol>
+              </details>
+            </li>
+            <li
+              data-test-id="CategoryList"
+            >
+              <details
+                class="emotion-154 emotion-155"
+              >
+                <summary
+                  class="emotion-156 emotion-153"
+                >
+                  Home
+                </summary>
+                <ol>
+                  <li>
+                    <a
+                      class="emotion-156 emotion-153"
+                      href="/shop/home"
+                    >
+                      All Home
+                    </a>
+                  </li>
+                  <li
+                    data-test-id="CategoryList"
+                  >
+                    <details
+                      class="emotion-154 emotion-155"
+                    >
+                      <summary
+                        class="emotion-156 emotion-153"
+                      >
+                        Decor
+                      </summary>
+                      <ol>
+                        <li>
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/home/decor"
+                          >
+                            All Decor
+                          </a>
+                        </li>
+                        <li
+                          data-test-id="CategoryList"
+                        >
+                          <a
+                            class="emotion-156 emotion-153"
+                            href="/shop/home/decor/accents"
+                          >
+                            Accents
+                          </a>
+                        </li>
+                      </ol>
+                    </details>
+                  </li>
+                </ol>
+              </details>
+            </li>
+          </ol>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background: #3150A2;
+  visibility: hidden;
+  height: 100%;
+  left: 0;
+  overflow: scroll;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  -webkit-transform: translate(0,-100%);
+  -ms-transform: translate(0,-100%);
+  transform: translate(0,-100%);
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-transition: transform 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: transform 200ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+  z-index: -1;
+}
+
+.emotion-2 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  height: 3.5rem;
+  margin-top: 4rem;
+  margin-left: auto;
+  width: 3.5rem;
+}
+
+.emotion-6 {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-6 {
+    border-bottom: 1px solid #3150A2;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-8>span {
+  color: #9CB1DC;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  margin-left: auto;
+  text-transform: none;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-8 {
+    color: #3150A2;
+  }
+}
+
+.emotion-10 {
+  padding-bottom: 1rem;
+}
+
+.emotion-13 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-height: 3rem;
+  position: relative;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.emotion-13:active {
+  outline: 0;
+}
+
+.emotion-13:hover {
+  opacity: 0.75;
+}
+
+.emotion-13[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-13:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-13 {
+    background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+    background-position: right 1px center;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+  }
+}
+
+.emotion-15 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 3rem;
+  padding-right: 1rem;
+}
+
+.emotion-17 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  line-height: 3rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-17 {
+    color: #3150A2;
+  }
+}
+
+.emotion-19 {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-19 {
+    border-bottom: 1px solid #3150A2;
+  }
+}
+
+.emotion-21 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  background-color: transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  line-height: 4rem;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-21 {
+    background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+    background-position: right 1px center;
+    background-repeat: no-repeat;
+    background-size: 8px 4px;
+    color: #3150A2;
+  }
+}
+
+.emotion-27 {
+  overflow: hidden;
+  padding: 0 10%;
+  max-height: 0;
+  -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+  transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-27 {
+    padding: 0;
+  }
+}
+
+.emotion-27 .emotion-30 {
+  visibility: hidden;
+}
+
+.emotion-29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 14rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: visible;
+  padding: 0 0.8rem;
+}
+
+.emotion-31 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-31 .emotion-34 {
+  margin-left: -0.8rem;
+}
+
+.emotion-31 .emotion-36 {
+  margin-left: auto;
+  margin-right: -0.8rem;
+}
+
+.emotion-33 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-33 {
+    color: #3150A2;
+  }
+}
+
+.emotion-35 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-35 {
+    color: #3150A2;
+  }
+}
+
+.emotion-37 .input-range {
+  height: 1.6rem;
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.emotion-37 .input-range__label {
+  display: none;
+}
+
+.emotion-37 .input-range__label-container {
+  pointer-events: none;
+}
+
+.emotion-37 .input-range__slider {
+  background: #FFFFFF;
+  border: 2px solid #3150A2;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1.6em;
+  margin-left: -0.8em;
+  margin-top: -1em;
+  position: absolute;
+  width: 1.6em;
+}
+
+.emotion-37 .input-range__slider-container {
+  -webkit-transition: left 300ms ease-out;
+  transition: left 300ms ease-out;
+}
+
+.emotion-37 .input-range__track {
+  background: #9CB1DC;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: block;
+  height: 0.5em;
+  position: relative;
+  -webkit-transition: left 300ms ease-out,width 300ms ease-out;
+  transition: left 300ms ease-out,width 300ms ease-out;
+}
+
+.emotion-37 .input-range__track--active {
+  background: #FFFFFF;
+}
+
+.emotion-37 .input-range__track--background {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-37 .input-range__slider {
+    background: #FFFFFF;
+    border: 2px solid #3150A2;
+  }
+
+  .emotion-37 .input-range__track {
+    background: #9CB1DC;
+  }
+
+  .emotion-37 .input-range__track--active {
+    background: #3150A2;
+  }
+}
+
+.emotion-40 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-top: 1rem;
+  border-color: #FFFFFF;
+}
+
+.emotion-40:active {
+  outline: 0;
+}
+
+.emotion-40:hover {
+  opacity: 0.75;
+}
+
+.emotion-40[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-42 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0 -1rem;
+}
+
+.emotion-45 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 2rem 1rem 0 1rem;
+  outline: 0;
+  padding: 0 1rem;
+}
+
+.emotion-45:active {
+  outline: 0;
+}
+
+.emotion-45:hover {
+  opacity: 0.75;
+}
+
+.emotion-45[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-54 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background: none;
+}
+
+.emotion-56 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-56>span {
+  color: #9CB1DC;
+  -webkit-letter-spacing: initial;
+  -moz-letter-spacing: initial;
+  -ms-letter-spacing: initial;
+  letter-spacing: initial;
+  margin-left: auto;
+  text-transform: none;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-56 {
+    color: #3150A2;
+  }
+}
+
+.emotion-58 {
+  border-bottom: 1px solid #3150A2;
+  border-top: 1px solid #FFFFFF;
+  height: auto;
+  padding-top: 1rem;
+  position: initial;
+  width: auto;
+}
+
+.emotion-58>button {
+  display: none;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-58 {
+    padding-top: 0;
+    border-bottom: 1px solid #3150A2;
+    border-top: 1px solid #3150A2;
+  }
+
+  .emotion-58>button {
+    display: block;
+  }
+}
+
+.emotion-60 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzMxNTBBMiIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  background-color: transparent;
+  border: 0 none;
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  line-height: 4rem;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-62 {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+    transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+    visibility: hidden;
+  }
+}
+
+.emotion-64 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-64 {
+    max-height: 16rem;
+    margin: 2rem 0;
+  }
+}
+
+.emotion-67 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  color: #3150A2;
+  color: #FFFFFF;
+}
+
+.emotion-67::after,
+.emotion-67::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-67::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-67::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-67::after {
+  opacity: 1;
+}
+
+.emotion-67::before {
+  border-color: #3150A2;
+}
+
+.emotion-67 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-67::before {
+  border-color: #FFFFFF;
+}
+
+.emotion-67::after {
+  background: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-67 {
+    color: #3150A2;
+  }
+
+  .emotion-67::before {
+    border-color: #3150A2;
+  }
+
+  .emotion-67::after {
+    background: #3150A2;
+  }
+}
+
+.emotion-70 {
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.emotion-70::after,
+.emotion-70::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-70::after {
+  background: #3150A2;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 3px;
+  opacity: 0;
+  top: 11px;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: 0.5em;
+}
+
+.emotion-70::before {
+  border-color: #9CB1DC;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-70 input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-70::before {
+  border-color: #FFFFFF;
+}
+
+.emotion-70::after {
+  background: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-70 {
+    color: #3150A2;
+  }
+
+  .emotion-70::before {
+    border-color: #3150A2;
+  }
+
+  .emotion-70::after {
+    background: #3150A2;
+  }
+}
+
+.emotion-81 {
+  display: none;
+}
+
+@media screen and (min-width:320px) {
+  .emotion-81 {
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 'filters sorts';
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-81 {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 5rem;
+    min-width: 25%;
+  }
+
+  .emotion-81>*:not(:last-child):not(section) {
+    margin-bottom: 5rem;
+  }
+}
+
+.emotion-148 {
+  display: none;
+  margin-bottom: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-148 {
+    display: block;
+  }
+}
+
+.emotion-148 ol ol {
+  margin-left: 2rem;
+}
+
+.emotion-150 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #3150A2;
+  color: #3150A2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-letter-spacing: 0.2rem;
+  -moz-letter-spacing: 0.2rem;
+  -ms-letter-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+  min-height: 4rem;
+  text-transform: uppercase;
+}
+
+.emotion-152 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-152:hover {
+  color: #3150A2;
+}
+
+.emotion-154 {
+  position: relative;
+  outline: 0;
+}
+
+.emotion-154 ol {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.emotion-154 summary {
+  outline: none;
+  line-height: 3rem;
+}
+
+.emotion-154 summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgMCBMNCA0IEw4IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 3rem;
+  width: 100%;
+  -webkit-transition: background-image 200ms;
+  transition: background-image 200ms;
+}
+
+.emotion-154 summary::-webkit-details-marker,
+.emotion-154 summary::before {
+  display: none!important;
+}
+
+.emotion-154[open]>summary::after {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgOCA0Ij4KICAgICAgPHBhdGggZmlsbD0iIzlDQjFEQyIgZD0iTTAgNCBMOCA0IEw0IDAgWiIgLz4KICAgIDwvc3ZnPgogIA==);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 4px;
+}
+
+.emotion-156 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  cursor: pointer;
+  display: block;
+  line-height: 3rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms;
+  transition: color 400ms;
+}
+
+.emotion-156:hover {
+  color: #3150A2;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="MobileModal"
+    >
+      <button
+        aria-label="close modal"
+        class="emotion-2 emotion-3"
+        type="button"
+      />
+      <form
+        class="emotion-4 emotion-5"
+        data-test-id="FiltersTemplate"
+        tabindex="0"
+      >
+        <div
+          class="emotion-6 emotion-7"
+        >
+          <label
+            aria-level="2"
+            class="emotion-8 emotion-9"
+            role="heading"
+          >
+            Filters (1)
+            <span>
+              71 items
+            </span>
+          </label>
+          <div
+            class="emotion-10 emotion-11"
+          >
+            <button
+              aria-label="remove filter, Category Games"
+              class="emotion-12 emotion-13 emotion-14"
+              data-test-id="FilterListRemove"
+              type="button"
+            >
+              <p
+                class="emotion-15 emotion-16"
+              >
+                Category
+              </p>
+              <p
+                class="emotion-17 emotion-18"
+              >
+                Games
+              </p>
+            </button>
+          </div>
+        </div>
+        <div
+          class="emotion-19 emotion-20"
+          data-test-id="FiltersTemplate"
+        >
+          <button
+            aria-expanded="false"
+            class=" emotion-21 emotion-22"
+            data-test-id="FilterListLabel"
+            type="button"
+          >
+            Category
+          </button>
+        </div>
+        <div
+          class="emotion-19 emotion-20"
+        >
+          <button
+            aria-expanded="false"
+            class=" emotion-21 emotion-22"
+            data-test-id="FilterListLabel"
+            type="button"
+          >
+            Price
+          </button>
+          <div
+            class="emotion-27 emotion-28"
+            data-test-id="FilterRange"
+          >
+            <div
+              aria-hidden="true"
+              class="emotion-29 emotion-30"
+            >
+              <div
+                class="emotion-31 emotion-32"
+              >
+                <span
+                  class="emotion-33 emotion-34"
+                >
+                  $9
+                </span>
+                <span
+                  class="emotion-35 emotion-36"
+                >
+                  $30
+                </span>
+              </div>
+              <div
+                class="emotion-37 emotion-38"
+              >
+                <div
+                  aria-disabled="true"
+                  class="input-range input-range--disabled"
+                >
+                  <span
+                    class="input-range__label input-range__label--min"
+                  >
+                    <span
+                      class="input-range__label-container"
+                    >
+                      9
+                    </span>
+                  </span>
+                  <div
+                    class="input-range__track input-range__track--background"
+                  >
+                    <div
+                      class="input-range__track input-range__track--active"
+                      style="left: 0%; width: 100%;"
+                    />
+                    <span
+                      class="input-range__slider-container"
+                      style="position: absolute; left: 0%;"
+                    >
+                      <span
+                        class="input-range__label input-range__label--value"
+                      >
+                        <span
+                          class="input-range__label-container"
+                        >
+                          9
+                        </span>
+                      </span>
+                      <div
+                        aria-valuemax="30"
+                        aria-valuemin="9"
+                        aria-valuenow="9"
+                        class="input-range__slider"
+                        draggable="false"
+                        role="slider"
+                        tabindex="0"
+                      />
+                    </span>
+                    <span
+                      class="input-range__slider-container"
+                      style="position: absolute; left: 100%;"
+                    >
+                      <span
+                        class="input-range__label input-range__label--value"
+                      >
+                        <span
+                          class="input-range__label-container"
+                        >
+                          30
+                        </span>
+                      </span>
+                      <div
+                        aria-valuemax="30"
+                        aria-valuemin="9"
+                        aria-valuenow="30"
+                        class="input-range__slider"
+                        draggable="false"
+                        role="slider"
+                        tabindex="0"
+                      />
+                    </span>
+                  </div>
+                  <span
+                    class="input-range__label input-range__label--max"
+                  >
+                    <span
+                      class="input-range__label-container"
+                    >
+                      30
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <button
+                class="emotion-39 emotion-40 emotion-14"
+                disabled=""
+                type="button"
+              >
+                Apply Price Filter
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div
+        class="emotion-42 emotion-43"
+      >
+        <button
+          class="emotion-44 emotion-45 emotion-14"
+          type="button"
+        >
+          Apply Filters
+        </button>
+        <button
+          class="emotion-44 emotion-45 emotion-14"
+          type="button"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="MobileModal"
+    >
+      <button
+        aria-label="close modal"
+        class="emotion-2 emotion-3"
+        type="button"
+      />
+      <form
+        class="emotion-54 emotion-55"
+        tabindex="0"
+      >
+        <label
+          aria-level="2"
+          class="emotion-56 emotion-57"
+          role="heading"
+        >
+          Sort By
+        </label>
+        <div
+          class="emotion-58 emotion-59"
+        >
+          <button
+            aria-expanded="false"
+            class=" emotion-60 emotion-61"
+            data-test-id="SortListLabel"
+            type="button"
+          >
+            Best Match
+          </button>
+          <div
+            class="emotion-62 emotion-63"
+            data-test-id="SortList"
+          >
+            <div
+              class="emotion-64 emotion-65"
+            >
+              <label
+                class=" emotion-66 emotion-67 emotion-68"
+                for="sort-mobile-best-match"
+                name="sort-best-match"
+              >
+                <input
+                  checked=""
+                  id="sort-mobile-best-match"
+                  name="sort-best-match"
+                  type="radio"
+                />
+                Best Match
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-mobile-best-sellers"
+                name="sort-best-sellers"
+              >
+                <input
+                  id="sort-mobile-best-sellers"
+                  name="sort-best-sellers"
+                  type="radio"
+                />
+                Best Sellers
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-mobile-just-in"
+                name="sort-just-in"
+              >
+                <input
+                  id="sort-mobile-just-in"
+                  name="sort-just-in"
+                  type="radio"
+                />
+                Just In
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-mobile-price-asc"
+                name="sort-price-asc"
+              >
+                <input
+                  id="sort-mobile-price-asc"
+                  name="sort-price-asc"
+                  type="radio"
+                />
+                Price: Low to High
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-mobile-price-desc"
+                name="sort-price-desc"
+              >
+                <input
+                  id="sort-mobile-price-desc"
+                  name="sort-price-desc"
+                  type="radio"
+                />
+                Price High to Low
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      class="emotion-81 emotion-82"
+    >
+      <form
+        class="emotion-54 emotion-55"
+        tabindex="0"
+      >
+        <label
+          aria-level="2"
+          class="emotion-56 emotion-57"
+          role="heading"
+        >
+          Sort By
+        </label>
+        <div
+          class="emotion-58 emotion-59"
+        >
+          <button
+            aria-expanded="false"
+            class=" emotion-60 emotion-61"
+            data-test-id="SortListLabel"
+            type="button"
+          >
+            Best Match
+          </button>
+          <div
+            class="emotion-62 emotion-63"
+            data-test-id="SortList"
+          >
+            <div
+              class="emotion-64 emotion-65"
+            >
+              <label
+                class=" emotion-66 emotion-67 emotion-68"
+                for="sort-best-match"
+                name="sort-best-match"
+              >
+                <input
+                  checked=""
+                  id="sort-best-match"
+                  name="sort-best-match"
+                  type="radio"
+                />
+                Best Match
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-best-sellers"
+                name="sort-best-sellers"
+              >
+                <input
+                  id="sort-best-sellers"
+                  name="sort-best-sellers"
+                  type="radio"
+                />
+                Best Sellers
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-just-in"
+                name="sort-just-in"
+              >
+                <input
+                  id="sort-just-in"
+                  name="sort-just-in"
+                  type="radio"
+                />
+                Just In
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-price-asc"
+                name="sort-price-asc"
+              >
+                <input
+                  id="sort-price-asc"
+                  name="sort-price-asc"
+                  type="radio"
+                />
+                Price: Low to High
+              </label>
+              <label
+                class=" emotion-66 emotion-70 emotion-68"
+                for="sort-price-desc"
+                name="sort-price-desc"
+              >
+                <input
+                  id="sort-price-desc"
+                  name="sort-price-desc"
+                  type="radio"
+                />
+                Price High to Low
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+      <form
+        class="emotion-4 emotion-5"
+        data-test-id="FiltersTemplate"
+        tabindex="0"
+      >
+        <div
+          class="emotion-6 emotion-7"
+        >
+          <label
+            aria-level="2"
+            class="emotion-8 emotion-9"
+            role="heading"
+          >
+            Filters (1)
+            <span>
+              71 items
+            </span>
+          </label>
+          <div
+            class="emotion-10 emotion-11"
+          >
+            <button
+              aria-label="remove filter, Category Games"
+              class="emotion-12 emotion-13 emotion-14"
+              data-test-id="FilterListRemove"
+              type="button"
+            >
+              <p
+                class="emotion-15 emotion-16"
+              >
+                Category
+              </p>
+              <p
+                class="emotion-17 emotion-18"
+              >
+                Games
+              </p>
+            </button>
+          </div>
+        </div>
+        <div
+          class="emotion-19 emotion-20"
+          data-test-id="FiltersTemplate"
+        >
+          <button
+            aria-expanded="false"
+            class=" emotion-21 emotion-22"
+            data-test-id="FilterListLabel"
+            type="button"
+          >
+            Category
+          </button>
+        </div>
+        <div
+          class="emotion-19 emotion-20"
+        >
+          <button
+            aria-expanded="false"
+            class=" emotion-21 emotion-22"
+            data-test-id="FilterListLabel"
+            type="button"
+          >
+            Price
+          </button>
+          <div
+            class="emotion-27 emotion-28"
+            data-test-id="FilterRange"
+          >
+            <div
+              aria-hidden="true"
+              class="emotion-29 emotion-30"
+            >
+              <div
+                class="emotion-31 emotion-32"
+              >
+                <span
+                  class="emotion-33 emotion-34"
+                >
+                  $9
+                </span>
+                <span
+                  class="emotion-35 emotion-36"
+                >
+                  $30
+                </span>
+              </div>
+              <div
+                class="emotion-37 emotion-38"
+              >
+                <div
+                  aria-disabled="true"
+                  class="input-range input-range--disabled"
+                >
+                  <span
+                    class="input-range__label input-range__label--min"
+                  >
+                    <span
+                      class="input-range__label-container"
+                    >
+                      9
+                    </span>
+                  </span>
+                  <div
+                    class="input-range__track input-range__track--background"
+                  >
+                    <div
+                      class="input-range__track input-range__track--active"
+                      style="left: 0%; width: 100%;"
+                    />
+                    <span
+                      class="input-range__slider-container"
+                      style="position: absolute; left: 0%;"
+                    >
+                      <span
+                        class="input-range__label input-range__label--value"
+                      >
+                        <span
+                          class="input-range__label-container"
+                        >
+                          9
+                        </span>
+                      </span>
+                      <div
+                        aria-valuemax="30"
+                        aria-valuemin="9"
+                        aria-valuenow="9"
+                        class="input-range__slider"
+                        draggable="false"
+                        role="slider"
+                        tabindex="0"
+                      />
+                    </span>
+                    <span
+                      class="input-range__slider-container"
+                      style="position: absolute; left: 100%;"
+                    >
+                      <span
+                        class="input-range__label input-range__label--value"
+                      >
+                        <span
+                          class="input-range__label-container"
+                        >
+                          30
+                        </span>
+                      </span>
+                      <div
+                        aria-valuemax="30"
+                        aria-valuemin="9"
+                        aria-valuenow="30"
+                        class="input-range__slider"
+                        draggable="false"
+                        role="slider"
+                        tabindex="0"
+                      />
+                    </span>
+                  </div>
+                  <span
+                    class="input-range__label input-range__label--max"
+                  >
+                    <span
+                      class="input-range__label-container"
+                    >
+                      30
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <button
+                class="emotion-39 emotion-40 emotion-14"
+                disabled=""
+                type="button"
+              >
+                Apply Price Filter
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <section
+        class="emotion-148 emotion-149"
+        data-test-id="FacetBreadcrumbs"
+      >
+        <h2
+          class="emotion-150 emotion-151"
+        >
+          Categories
+        </h2>
+        <ol>
+          <li>
+            <a
+              active="true"
+              class="emotion-152 emotion-153"
+              href="/shop"
+            >
+              All
+            </a>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-154 emotion-155"
+            >
+              <summary
+                class="emotion-156 emotion-153"
+              >
+                Play
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-156 emotion-153"
+                    href="/shop/play"
+                  >
+                    All Play
+                  </a>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      Learning
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning"
+                        >
+                          All Learning
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning/games"
+                        >
+                          Games
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning/educational-toys"
+                        >
+                          Educational Toys
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning/puzzles"
+                        >
+                          Puzzles
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning/books"
+                        >
+                          Books
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning/arts-crafts"
+                        >
+                          Arts & Crafts
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning/blocks-sorters-stackers"
+                        >
+                          Blocks, Sorters & Stackers
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/learning/stem-toys"
+                        >
+                          STEM Toys
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      Kids
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/kids"
+                        >
+                          All Kids
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/kids/plush"
+                        >
+                          Plush
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/kids/play-food-accessories"
+                        >
+                          Play Food & Accessories
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      Outdoor
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/outdoor"
+                        >
+                          All Outdoor
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/outdoor/sports"
+                        >
+                          Sports
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/outdoor/backyard-park"
+                        >
+                          Backyard & Park
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      Baby
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/baby"
+                        >
+                          All Baby
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/play/baby/infant-development"
+                        >
+                          Infant Development
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-154 emotion-155"
+            >
+              <summary
+                class="emotion-156 emotion-153"
+              >
+                Gifts
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-156 emotion-153"
+                    href="/shop/gifts"
+                  >
+                    All Gifts
+                  </a>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      By Price
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-price"
+                        >
+                          All By Price
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-price/gifts-under-50"
+                        >
+                          Gifts Under $50
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-price/gifts-under-250"
+                        >
+                          Gifts Under $250
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-price/over-the-top"
+                        >
+                          Over the Top
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-price/gifts-under-100"
+                        >
+                          Gifts Under $100
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      By Age
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-age"
+                        >
+                          All By Age
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-age/gifts-for-kids"
+                        >
+                          Gifts for Kids
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/gifts/by-age/gifts-for-moms"
+                        >
+                          Gifts for Moms
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-154 emotion-155"
+            >
+              <summary
+                class="emotion-156 emotion-153"
+              >
+                Holiday
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-156 emotion-153"
+                    href="/shop/holiday"
+                  >
+                    All Holiday
+                  </a>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      Gifts
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/holiday/gifts"
+                        >
+                          All Gifts
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/holiday/gifts/over-the-top"
+                        >
+                          Over the Top!
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+              </ol>
+            </details>
+          </li>
+          <li
+            data-test-id="CategoryList"
+          >
+            <details
+              class="emotion-154 emotion-155"
+            >
+              <summary
+                class="emotion-156 emotion-153"
+              >
+                Home
+              </summary>
+              <ol>
+                <li>
+                  <a
+                    class="emotion-156 emotion-153"
+                    href="/shop/home"
+                  >
+                    All Home
+                  </a>
+                </li>
+                <li
+                  data-test-id="CategoryList"
+                >
+                  <details
+                    class="emotion-154 emotion-155"
+                  >
+                    <summary
+                      class="emotion-156 emotion-153"
+                    >
+                      Decor
+                    </summary>
+                    <ol>
+                      <li>
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/home/decor"
+                        >
+                          All Decor
+                        </a>
+                      </li>
+                      <li
+                        data-test-id="CategoryList"
+                      >
+                        <a
+                          class="emotion-156 emotion-153"
+                          href="/shop/home/decor/accents"
+                        >
+                          Accents
+                        </a>
+                      </li>
+                    </ol>
+                  </details>
+                </li>
+              </ol>
+            </details>
+          </li>
+        </ol>
+      </section>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

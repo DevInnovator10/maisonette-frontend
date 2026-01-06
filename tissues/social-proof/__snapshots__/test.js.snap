@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #fff;
+  padding: 0 0.8rem 6.4rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 3.2rem 1.6rem 12.8rem;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-2 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-4 {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.6rem 0.8rem;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    gap: 3.2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 7.2rem 3.2rem 7.2rem;
+  }
+}
+
+.emotion-6 {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  display: block;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    display: block;
+  }
+}
+
+.emotion-14 {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-14 {
+    display: block;
+  }
+}
+
+.emotion-18 {
+  background: url('/images/icon/Arrow-Offsite.svg') right -4px no-repeat;
+  padding-right: 4.2rem;
+  display: inline-block;
+  text-underline-position: under;
+  text-underline-offset: 8px;
+  -webkit-text-decoration-thickness: 0.075em;
+  text-decoration-thickness: 0.075em;
+  font-size: 1.6rem;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    background-position: right 4px;
+    font-size: 2.4rem;
+    text-underline-offset: 4px;
+    padding-left: 4.8rem;
+  }
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="SocialProof"
+      >
+        <h1
+          class="emotion-2 emotion-3"
+        >
+          Social posts
+        </h1>
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <a
+            data-test-id="SocialProof"
+            href="https://www.instagram.com/p/Cgj0D9mj8t7"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              alt="French baby names"
+              class="emotion-6 emotion-7"
+              src="/images/social-proof/french_baby_names.jpg"
+            />
+          </a>
+          <a
+            data-test-id="SocialProof"
+            href="https://www.instagram.com/p/CgHwtG9Fxqv"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              alt="Everything is possible"
+              class="emotion-6 emotion-7"
+              src="/images/social-proof/everything_possible.jpg"
+            />
+          </a>
+          <a
+            data-test-id="SocialProof"
+            href="https://www.instagram.com/p/Cf-E3rcjZZN"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              alt="Things in life"
+              class="emotion-6 emotion-7"
+              src="/images/social-proof/things_in_life.png"
+            />
+          </a>
+          <a
+            data-test-id="SocialProof"
+            href="https://www.instagram.com/p/CeuKIothYnP"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              alt="Visit Paris"
+              class="emotion-6 emotion-7"
+              src="/images/social-proof/visit_paris.jpg"
+            />
+          </a>
+          <a
+            data-test-id="SocialProof"
+            href="https://www.instagram.com/p/CgAjhKxhmCH"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              alt="Paint ideas"
+              class="emotion-14 emotion-7"
+              src="/images/social-proof/paint_ideas.jpg"
+            />
+          </a>
+          <a
+            data-test-id="SocialProof"
+            href="https://www.instagram.com/p/Cc_mRZIhkxz"
+            rel="noopener noreferrer nofollow"
+            target="_blank"
+          >
+            <img
+              alt="Absence makes the heart grow fonder"
+              class="emotion-14 emotion-7"
+              src="/images/social-proof/absence_heart_fonder.jpg"
+            />
+          </a>
+        </div>
+        <a
+          aria-label="Visit the Maisonette Instagram page"
+          class="emotion-18 emotion-19"
+          href="https://www.instagram.com/maisonetteworld"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          Follow us on Instagram
+        </a>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #fff;
+  padding: 0 0.8rem 6.4rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 3.2rem 1.6rem 12.8rem;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-2 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-4 {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.6rem 0.8rem;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    gap: 3.2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 7.2rem 3.2rem 7.2rem;
+  }
+}
+
+.emotion-6 {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  display: block;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    display: block;
+  }
+}
+
+.emotion-14 {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  display: none;
+}
+
+@media (min-width:992px) {
+  .emotion-14 {
+    display: block;
+  }
+}
+
+.emotion-18 {
+  background: url('/images/icon/Arrow-Offsite.svg') right -4px no-repeat;
+  padding-right: 4.2rem;
+  display: inline-block;
+  text-underline-position: under;
+  text-underline-offset: 8px;
+  -webkit-text-decoration-thickness: 0.075em;
+  text-decoration-thickness: 0.075em;
+  font-size: 1.6rem;
+}
+
+@media (min-width:992px) {
+  .emotion-18 {
+    background-position: right 4px;
+    font-size: 2.4rem;
+    text-underline-offset: 4px;
+    padding-left: 4.8rem;
+  }
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="SocialProof"
+    >
+      <h1
+        class="emotion-2 emotion-3"
+      >
+        Social posts
+      </h1>
+      <div
+        class="emotion-4 emotion-5"
+      >
+        <a
+          data-test-id="SocialProof"
+          href="https://www.instagram.com/p/Cgj0D9mj8t7"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          <img
+            alt="French baby names"
+            class="emotion-6 emotion-7"
+            src="/images/social-proof/french_baby_names.jpg"
+          />
+        </a>
+        <a
+          data-test-id="SocialProof"
+          href="https://www.instagram.com/p/CgHwtG9Fxqv"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          <img
+            alt="Everything is possible"
+            class="emotion-6 emotion-7"
+            src="/images/social-proof/everything_possible.jpg"
+          />
+        </a>
+        <a
+          data-test-id="SocialProof"
+          href="https://www.instagram.com/p/Cf-E3rcjZZN"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          <img
+            alt="Things in life"
+            class="emotion-6 emotion-7"
+            src="/images/social-proof/things_in_life.png"
+          />
+        </a>
+        <a
+          data-test-id="SocialProof"
+          href="https://www.instagram.com/p/CeuKIothYnP"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          <img
+            alt="Visit Paris"
+            class="emotion-6 emotion-7"
+            src="/images/social-proof/visit_paris.jpg"
+          />
+        </a>
+        <a
+          data-test-id="SocialProof"
+          href="https://www.instagram.com/p/CgAjhKxhmCH"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          <img
+            alt="Paint ideas"
+            class="emotion-14 emotion-7"
+            src="/images/social-proof/paint_ideas.jpg"
+          />
+        </a>
+        <a
+          data-test-id="SocialProof"
+          href="https://www.instagram.com/p/Cc_mRZIhkxz"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          <img
+            alt="Absence makes the heart grow fonder"
+            class="emotion-14 emotion-7"
+            src="/images/social-proof/absence_heart_fonder.jpg"
+          />
+        </a>
+      </div>
+      <a
+        aria-label="Visit the Maisonette Instagram page"
+        class="emotion-18 emotion-19"
+        href="https://www.instagram.com/maisonetteworld"
+        rel="noopener noreferrer nofollow"
+        target="_blank"
+      >
+        Follow us on Instagram
+      </a>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,10 @@
+{
+  "Address not found": "We're unable to verify your address.",
+  "House number is missing": "Does this address require a house number?",
+  "House number is invalid": "Is this the correct house number?",
+  "Missing secondary information(Apt/Suite#)": "Do you need to specify an apt/suite/unit?",
+  "Invalid secondary information(Apt/Suite#)": "Is this the correct apt/suite/unit?",
+  "Street is missing": "Does this address require a street?",
+  "Street is invalid": "Is this the correct street?",
+  "default": "We apologize. We’re unable to find your shipping address. Make sure the information is correct so we can deliver your unique products to the right place. If your address seems correct, please proceed with \"Continue with Address.\""
+}

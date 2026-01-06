@@ -1,0 +1,556 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`newsletter sign up renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    margin: 0 auto;
+    max-width: 520px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1;
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  color: #FFFFFF;
+  display: block;
+  -webkit-flex: 0 100%;
+  -ms-flex: 0 100%;
+  flex: 0 100%;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-4 {
+    margin-bottom: 3rem;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-6>span {
+  color: white;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-6 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: #3150A2;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  height: 4.7rem;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  padding-left: 3.6rem;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  outline: 0;
+  padding: 0 3.6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-9::placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media (max-width:992px) {
+  .emotion-9:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-9 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+.emotion-12 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 4.7rem;
+  max-height: 4.7rem;
+  min-width: 145px;
+}
+
+.emotion-12:active {
+  outline: 0;
+}
+
+.emotion-12:hover {
+  opacity: 0.75;
+}
+
+.emotion-12[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <form
+        action="#"
+        class="emotion-0 emotion-1"
+        data-test-id="NewsletterSignUp"
+      >
+        <div
+          class="emotion-2 emotion-3"
+        >
+          <label
+            class="emotion-4 emotion-5"
+            for="newsletter-email"
+          >
+            Inspiration in your inbox
+          </label>
+          <div
+            class="emotion-6 emotion-7"
+          >
+            <input
+              autocomplete="email"
+              class="emotion-8 emotion-9 emotion-10"
+              data-test-id="InputEmail"
+              id="newsletter-email"
+              name="email"
+              placeholder="Your Email"
+              type="email"
+              value=""
+            />
+            <button
+              aria-label="submit join newsletter list"
+              class="emotion-11 emotion-12 emotion-13"
+              type="submit"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-0 {
+    margin: 0 auto;
+    max-width: 520px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1;
+}
+
+.emotion-4 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 2.3438rem;
+  color: #FFFFFF;
+  display: block;
+  -webkit-flex: 0 100%;
+  -ms-flex: 0 100%;
+  flex: 0 100%;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width:1200px) {
+  .emotion-4 {
+    margin-bottom: 3rem;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-6>span {
+  color: white;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-6 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+.emotion-9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: #3150A2;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  height: 4.7rem;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  padding-left: 3.6rem;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  outline: 0;
+  padding: 0 3.6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-9::-webkit-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-9::-moz-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-9:-ms-input-placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.emotion-9::placeholder {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+@media (max-width:992px) {
+  .emotion-9:focus {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .emotion-9 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+.emotion-12 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 4.7rem;
+  max-height: 4.7rem;
+  min-width: 145px;
+}
+
+.emotion-12:active {
+  outline: 0;
+}
+
+.emotion-12:hover {
+  opacity: 0.75;
+}
+
+.emotion-12[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <form
+      action="#"
+      class="emotion-0 emotion-1"
+      data-test-id="NewsletterSignUp"
+    >
+      <div
+        class="emotion-2 emotion-3"
+      >
+        <label
+          class="emotion-4 emotion-5"
+          for="newsletter-email"
+        >
+          Inspiration in your inbox
+        </label>
+        <div
+          class="emotion-6 emotion-7"
+        >
+          <input
+            autocomplete="email"
+            class="emotion-8 emotion-9 emotion-10"
+            data-test-id="InputEmail"
+            id="newsletter-email"
+            name="email"
+            placeholder="Your Email"
+            type="email"
+            value=""
+          />
+          <button
+            aria-label="submit join newsletter list"
+            class="emotion-11 emotion-12 emotion-13"
+            type="submit"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

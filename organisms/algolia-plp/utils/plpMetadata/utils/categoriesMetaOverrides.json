@@ -1,0 +1,685 @@
+{
+  "baby": {
+    "heading": "Baby Clothes",
+    "title": "Baby Clothes - Newborn & More Baby Clothing | Maisonette",
+    "description": "Maisonette is your one-stop shop for newborn, infant, and baby clothes. Shop baby clothing, essentials, and more from new trends to proven favorites."
+  },
+  "baby > bath-body": {
+    "heading": "Baby Bath & Skin Care Essentials",
+    "title": "Baby Bath & Skin Care Essentials | Maisonette",
+    "description": "Keep baby cozy and clean with your favorite baby bath and skin care essentials. Shop all baby skin care and bath products in the Maisonette Marketplace."
+  },
+  "baby > bath-body > bath-bubbles": {
+    "heading": "Baby Bath & Bubbles",
+    "title": "Baby Bath Bubbles - Baby Bath Time Essentials | Maisonette",
+    "description": "Make bath time enjoyable for all with baby bath bubbles and essentials from your favorite Maisonette baby brands. Shop all baby bath time essentials."
+  },
+  "baby > boy-accessories": {
+    "heading": "Baby Boy Accessories",
+    "title": "Newborn & Baby Boy Accessories | Maisonette",
+    "description": "Complete his style with the coolest newborn and baby boy accessories. Shop all clothing and head accessories for baby boy in the Maisonette Marketplace."
+  },
+  "baby > boy-accessories > bloomers": {
+    "heading": "Baby Boy Bloomers",
+    "title": "Shop Baby Boy Bloomers & Diaper Covers | Maisonette",
+    "description": "Shop baby boy bloomers and diaper covers in Maisonette's Marketplace. From monogrammable styles and more, get your favorite brands from our one-stop shop."
+  },
+  "baby > boy-accessories > socks": {
+    "heading": "Baby Boy Socks",
+    "title": "Baby Boy Socks - Newborn & Baby Socks | Maisonette",
+    "description": "Discover Maisonette's selection of baby boy and newborn boy socks. From individual pairs to multi-packs and gift boxes, shop all newborn and baby boy socks."
+  },
+  "baby > boy-clothing": {
+    "heading": "Baby Boy Clothing",
+    "title": "Baby Boy Clothing - Newborn & Baby Boy Clothes | Maisonette",
+    "description": "Shop newborn and baby boy clothes from Maisonette. Browse our one-stop shop for your favorite baby boy clothing brands that keep him stylish from day one."
+  },
+  "baby > boy-clothing > outerwear": {
+    "heading": "Baby Boy Coats & Jackets",
+    "title": "Newborn & Baby Boy Coats & Jackets | Maisonette",
+    "description": "Keep your little one warm this season with Maisonette's baby boy coats and jackets. Discover the coziest newborn coats for boys all in one simple place."
+  },
+  "baby > boy-clothing > pants": {
+    "heading": "Baby Boy Pants",
+    "title": "Baby Boy Pants - Baby Boy Joggers & Leggings | Maisonette",
+    "description": "Shop baby boy pants from your favorite baby brands at Maisonette. Dress your littles with ease in our baby boy and newborn joggers and leggings."
+  },
+  "baby > boy-clothing > rompers": {
+    "heading": "Baby Boy Rompers & Jumpsuits",
+    "title": "Baby Boy Rompers & Jumpsuits - Shop Baby Clothing | Maisonette",
+    "description": "Shop baby boy rompers and jumpsuits from your favorite newborn, infant and baby brands at Maisonette. Your one-stop shop for baby clothing and more."
+  },
+  "baby > boy-clothing > shorts": {
+    "heading": "Baby Boy Shorts",
+    "title": "Baby Boy Shorts - Infant & Newborn Shorts | Maisonette",
+    "description": "Shop baby boy shorts from your favorite baby brands at Maisonette. Discover the best infant and newborn boy shorts to keep your little cool for summer."
+  },
+  "baby > boy-clothing > sleepwear": {
+    "heading": "Baby Boy Pajamas",
+    "title": "Baby Boy Pajamas - Shop Footed, Footless, Fleece & More | Maisonette",
+    "description": "Shop baby boy pajamas from your favorite baby brands at Maisonette. Shop our selection from baby boy footed pajamas to cozy fleece pajamas in a one-stop shop."
+  },
+  "baby > boy-clothing > swim": {
+    "heading": "Baby Boy Swimwear",
+    "title": "Baby Boy Swimwear, Swim Trunks & Swimsuits | Maisonette",
+    "description": "Dive in with baby boy swimwear at Maisonette. Shop baby boy swim trunks and swimsuits in bright colors and patterns for your little man's pool-side summer."
+  },
+  "baby > boy-clothing > tops": {
+    "heading": "Baby Boy Tops",
+    "title": "Baby Boy Tops, Sweaters & Shirts | Maisonette",
+    "description": "Discover Maisonette's entire selection of baby boy tops including sweaters and shirts. Shop your favorite brands for baby boy t-shirts and tops."
+  },
+  "baby > boy-clothing > sweaters": {
+    "heading": "Baby Boy Sweaters",
+    "title": "Baby Boy Sweaters, Sweatshirts & Hoodies | Maisonette",
+    "description": "Discover Maisonette's baby boy sweaters, sweatshirts, hoodies and more. Shop your favorite brands for baby boy sweaters all in one place."
+  },
+  "baby > girl-accessories": {
+    "heading": "Baby Girl Accessories",
+    "title": "Newborn & Baby Girl Accessories | Maisonette",
+    "description": "Complete her style with the cutest newborn and baby girl accessories. Shop all baby girl hair and clothing accessories in the Maisonette Marketplace."
+  },
+  "baby > girl-accessories > bloomers": {
+    "heading": "Baby Girl Bloomers",
+    "title": "Baby Girl Bloomers & Diaper Covers | Maisonette",
+    "description": "Shop baby girl bloomers and diaper covers from your favorite newborn, infant and baby brands at Maisonette. Your one-stop shop for  baby gear and more."
+  },
+  "baby > girl-accessories > bows": {
+    "heading": "Baby Girl Headbands & Bows",
+    "title": "Baby Girl Headbands & Bows - Shop Baby Accessories | Maisonette",
+    "description": "Shop Baby Girl Headbands and Bows from your favorite newborn, infant and baby brands at Maisonette. Your one-stop shop for Baby Accessories and more."
+  },
+  "baby > girl-accessories > shoes-booties": {
+    "heading": "Baby Girl Shoes & Booties",
+    "title": "Baby Girl Shoes, Booties & Sandals | Maisonette",
+    "description": "Shop baby girl shoes, booties, and sandals from your favorite newborn, infant and baby brands at Maisonette. Your one-stop shop for baby gear and more."
+  },
+  "baby > girl-accessories > tights-socks": {
+    "heading": "Baby Girl Socks & Tights",
+    "title": "Baby Girl Socks & Tights - Shop Baby Accessories | Maisonette",
+    "description": "Shop newborn and baby girl socks and tights from your favorite brands. From patterns to solids, Maisonette is your one-stop shop for baby gear and more."
+  },
+  "baby > girl-clothing": {
+    "heading": "Baby Girl Clothing",
+    "title": "Baby Girl Clothing - Newborn & More Baby Girl Clothes | Maisonette",
+    "description": "Shop baby girl clothing hand-picked by Maisonette's marketplace. Get baby girl clothes for all ages from newborns to toddlers, all in one easy destination."
+  },
+  "baby > girl-clothing > rompers": {
+    "heading": "Baby Girl Rompers",
+    "title": "Baby Girl Rompers & Bodysuits | Maisonette",
+    "description": "Make space for baby girl rompers from Maisonette. From classic baby girl bodysuits, Take Me Home sets, and more, keep her stylish from day one."
+  },
+  "baby > girl-clothing > dresses": {
+    "heading": "Baby Girl Dresses",
+    "title": "Baby Dresses - Newborn Baby Girl Dresses | Maisonette",
+    "description": "Stop the search for the perfect baby dress, Maisonette has the selection you're looking for! Get newborn baby girl dresses and dress sets in our online shop."
+  },
+  "baby > girl-clothing > sleepwear": {
+    "heading": "Baby Girl Pajamas & Sleepers",
+    "title": "Baby Girl Pajamas, Sleepers & Nightgowns | Maisonette",
+    "description": "Shop baby girl pajamas and sleepers that keep her cozy while she's dreaming. From newborn sleepers to baby girl nightgowns, find everything at Maisonette!"
+  },
+  "baby > girl-clothing > swim": {
+    "heading": "Baby Girl Swimsuits",
+    "title": "Baby Girl Swimsuits - Infant & Baby Swimwear | Maisonette",
+    "description": "Shop summer favorites including baby girl swimsuits at Maisonette. Our curation of infant and baby girl swimwear and bathing suits combine style and function."
+  },
+  "baby > girl-clothing > tops": {
+    "heading": "Baby Girl Shirts",
+    "title": "Baby Girl Shirts, Sweaters & Blouses | Maisonette",
+    "description": "Discover Maisonette's entire selection of baby girl shirts, sweaters and blouses. Shop your favorite brands for baby girl t-shirts and tops, all in one place."
+  },
+  "baby > girl-clothing > outerwear": {
+    "heading": "Baby Girl Coats & Jackets",
+    "title": "Newborn & Baby Girl Coats & Jackets | Maisonette",
+    "description": "Keep your little one warm this season with Maisonette's newborn and baby girl jackets. Discover the coziest baby girl coats all in one simple place."
+  },
+  "baby > girl-clothing > sweaters": {
+    "heading": "Baby Girl Sweaters",
+    "title": "Baby Girl Sweaters, Sweatshirts & Cardigans | Maisonette",
+    "description": "Discover Maisonette's baby girl sweaters, sweatshirts, cardigans and more. Shop your favorite brands for baby girl sweaters all in one place."
+  },
+  "kids": {
+    "heading": "Kids",
+    "title": "Kids Clothes - Shop Children's Clothing | Maisonette",
+    "description": "Maisonette is your one-stop shop for kids clothes including boys and girls clothing, accessories and more. Shop children's clothing from your favorite brands."
+  },
+  "kids > bath-body": {
+    "heading": "Kids Bath Products",
+    "title": "Kids Bath Products & Sets - Soaps, Shampoos & More | Maisonette",
+    "description": "Make bathtime a splash with kids bath products and bath sets from Maisonette. Shop everything from kids shampoo, soaps, bath bombs, robes, and more."
+  },
+  "kids > boy-accessories": {
+    "heading": "Boys Accessories",
+    "title": "Toddler & Little Boys Accessories | Maisonette",
+    "description": "Complete his style with the coolest toddler and little boys accessories. Shop all clothing and hair accessories for boys in the Maisonette Marketplace."
+  },
+  "kids > boy-accessories > bags": {
+    "heading": "Boys' Backpacks",
+    "title": "Boys' Backpacks - All Backpacks for Boys | Maisonette",
+    "description": "Shop boys' backpacks from your favorite kids brands at Maisonette. Discover the best backpacks and accessories for boys in a one-stop-shop"
+  },
+  "kids > boy-clothing": {
+    "heading": "Boy Clothes & Outfits",
+    "title": "Boys' Clothes - Toddler & Little Boys Outfits | Maisonette",
+    "description": "Shop boys clothing and outfits for toddlers and little boys. Browse Maisonette's one-stop shop for your favorite brands that keep him stylish from day one."
+  },
+  "kids > boy-clothing > shorts": {
+    "heading": "Boys' Shorts",
+    "title": "Boys' Shorts - All Shorts for Boys | Maisonette",
+    "description": "Shop little boys' shorts from your favorite kids brands at Maisonette. Discover the best shorts for boys to keep your little one cool for summer."
+  },
+  "kids > boy-clothing > sleepwear": {
+    "heading": "Boys Pajamas",
+    "title": "Boys' Pajamas - Shop All Boys' Pajama Sets | Maisonette",
+    "description": "Shop boys' pajamas from your favorite kid and toddler brands at Maisonette. Discover toddler and boys pajama sets in a one-stop shop for kids' sleepwear and more."
+  },
+  "kids > boy-clothing > swim": {
+    "heading": "Boys Swimwear",
+    "title": "Boys Swim Trunks, Swimwear & Bathing Suits | Maisonette",
+    "description": "Shop Maisonette's selection of boys swim trunks and swimwear. Keep your little swimmer stylish this summer in the latest boys swimsuits and bathing suits."
+  },
+  "kids > boy-clothing > tops": {
+    "heading": "Boys' Tops",
+    "title": "Boys Tops - Boys Shirts, Sweaters & More | Maisonette",
+    "description": "Shop boys tops from your favorite kids' brands at Maisonette. From boys shirts and sweaters to button-downs and vests, find boys' tops all in one place."
+  },
+  "kids > boy-clothing > outerwear": {
+    "heading": "Boys Coats & Jackets",
+    "title": "Boys Coats - Kids Jackets for Boys | Maisonette",
+    "description": "Shop your favorite brands of boys coats and jackets at Maisonette. Discover cool styles and the coziest kids coats for boys all in one simple place."
+  },
+  "kids > boy-clothing > sweaters": {
+    "heading": "Boys Sweaters",
+    "title": "Boys Sweaters, Hoodies, Cardigans & More | Maisonette",
+    "description": "Discover Maisonette's selection of boys sweaters, hoodies, cardigans and more. Shop your favorite brands for boys sweaters all in one place."
+  },
+  "kids > girl-clothing": {
+    "heading": "Girls Clothes",
+    "title": "Girls' Clothes - Toddler & Little Girls Clothes | Maisonette",
+    "description": "Shop girls' clothing for toddlers and little girls, hand-picked by Maisonette. Get little girl clothes for every stage and style, all in one easy place."
+  },
+  "kids > girl-clothing > outerwear": {
+    "heading": "Girls Coats & Jackets",
+    "title": "Kids Jackets for Girls - Girls Coats | Maisonette",
+    "description": "Shop Maisonette's selection of kids coats and jackets for girls. Stay warm all season by discovering fun and cozy designs of girls coats in one simple place."
+  },
+  "kids > girl-clothing > skirts": {
+    "heading": "Girls' Skirts",
+    "title": "Girls' Skirts - All Skirts for Girls | Maisonette",
+    "description": "Shop little girls' skirts from your favorite kids brands at Maisonette. Discover the best skirts for girls to keep your little one cool for summer."
+  },
+  "kids > girl-clothing > sleepwear": {
+    "heading": "Girls Pajamas",
+    "title": "Girls' Pajamas - Shop All Girls' Pajama Sets | Maisonette",
+    "description": "Shop girls' pajamas from your favorite kid and toddler brands at Maisonette. Discover toddler and girls pajama sets in a one-stop shop for kids' sleepwear and more."
+  },
+  "kids > girl-clothing > swim": {
+    "heading": "Girls Swimsuits",
+    "title": "Girls Swimsuits, Swimwear & Bathing Suits | Maisonette",
+    "description": "Shop our curated selection of little girls swimsuits and swimwear at Maisonette. Your favorite girls bathing suits will keep them feeling cool in the pool."
+  },
+  "kids > girl-clothing > sweaters": {
+    "heading": "Girls Sweaters",
+    "title": "Girls Sweaters, Cardigans, Hoodies & More | Maisonette",
+    "description": "Discover Maisonette's selection of girls sweaters, cardigans, hoodies and more. Shop your favorite brands for girls sweaters all in one place."
+  },
+  "kids > girl-accessories": {
+    "heading": "Accessories for Girls",
+    "title": "Accessories for Girls, Little Girls & Toddlers | Maisonette",
+    "description": "Complete her style with the cutest accessories for girls. Shop toddler and little girl accessories, from purses to hair accessories from Maisonette."
+  },
+  "kids > girl-accessories > bags": {
+    "heading": "Girls' Backpacks",
+    "title": "Girls' Backpacks - All Backpacks for Girls | Maisonette",
+    "description": "Shop girls' backpacks from your favorite kids brands at Maisonette. Discover the best backpacks and accessories for girls in a one-stop-shop"
+  },
+  "gear": {
+    "heading": "Kids & Baby Gear",
+    "title": "Kids & Baby Gear & Products | Maisonette",
+    "description": "Whether shopping gear for kids, or baby products for your little one, Maisonette has everything you need. Shop all kids and baby gear in one simple stop."
+  },
+  "gifts": {
+    "heading": "Gifts",
+    "title": "Baby & Kids Gifts - Shop All Gifts | Maisonette",
+    "description": "Shop Maisonette's curated selection of gifts. From kids and baby gifts for boys and girls or gifts for mom and more. Get everything you need in one stop."
+  },
+  "home": {
+    "heading": "Home Store",
+    "title": "Home Store - Shop All Home Products | Maisonette",
+    "description": "Shop all home products in Maisonette's home store. From décor to furniture, Maisonette has everything you need to make your house a home in a one easy shop."
+  },
+  "home > bedding-bath": {
+    "heading": "Bedding & Bath",
+    "title": "Bedding & Bath for Kids, Babies & More | Maisonette",
+    "description": "Shop all your bedding and bath needs with Maisonette. From swaddle sets and sheets to towel blankets, shop kids and baby bedding and more in one stop."
+  },
+  "home > bedding-bath > blankets-quilts": {
+    "heading": "Baby Blankets & Quilts",
+    "title": "Baby Blankets & Quilts - All Baby & Kids Blankets | Maisonette",
+    "description": "Shop baby Blankets and Quilts from your favorite kids brands at Maisonette. Discover all blankets and quilts for both babies and kids in a one-stop shop."
+  },
+  "home > decor": {
+    "heading": "Home Decor",
+    "title": "Interior & Home Decor - Kids Decor | Maisonette",
+    "description": "Make your house a home with Maisonette's curated selection of home decor. Shop all home interior and décor items for kids and the whole family in one stop."
+  },
+  "home > decor > storage": {
+    "heading": "Kids Storage",
+    "title": "Kids Storage Bins & Containers | Maisonette",
+    "description": "Keep everything neatly tucked away with storage and organization essentials from Maisonette. Shop kids storage bins, containers, baskets, shelving and more."
+  },
+  "home > furniture > outdoor": {
+    "heading": "Outdoor Patio Furniture",
+    "title": "Outdoor Patio Furniture & Seating | Maisonette",
+    "description": "Upgrade your backyard for your summer staycation with our selection outdoor patio furniture. Shop all outdoor seating and furniture from Maisonette."
+  },
+  "home > household-essentials": {
+    "heading": "Household Essentials",
+    "title": "Household Essentials - Shop Home | Maisonette",
+    "description": "Shop Maisonette's curated selection of household essentials. Your one-stop shop for cleaning supplies, kitchen, laundry detergent and more from your favorite brands."
+  },
+  "home > household-essentials > pantry": {
+    "heading": "Pantry Staples",
+    "title": "Pantry Staples & Essentials | Maisonette",
+    "description": "Shop Maisonette's collection of pantry staples for your little one. Whether you're looking for baby food in jars, pouches or snacks, we have you covered."
+  },
+  "home > household-essentials > home-fragrance": {
+    "heading": "Home Fragrance",
+    "title": "Air Freshener & Home Fragrance | Maisonette",
+    "description": "Shop air fresheners and home fragrance from Maisonette. Browse our one stop shop for your favorite candles, diffusers and room spray."
+  },
+  "home > household-essentials > cleaning": {
+    "heading": "Household & Cleaning Supplies",
+    "title": "Household & Cleaning Supplies | Maisonette",
+    "description": "Shop Maisonette's curated selection of household and cleaning supplies. Your one-stop shop for everything you need to keep your kitchen, bathroom and laundry in order."
+  },
+  "home > furniture > cribs-bassinets": {
+    "heading": "Baby Cribs & Bassinets",
+    "title": "Baby Cribs & Bassinets | Maisonette",
+    "description": "Nest in style with Maisonette's curated selection of baby cribs and bassinets. Shop all nursery furniture from railings to conversion kits and more."
+  },
+  "home > seasonal": {
+    "heading": "Seasonal Home Décor",
+    "title": "Christmas, Hanukkah, & Seasonal Home Décor | Maisonette",
+    "description": "Shop Christmas, Hanukkah, and seasonal home décor including Accents, Ornaments & Toppers, Stockings & Tree Skirts, Party & Tabletop, and many more decorations."
+  },
+  "home > seasonal > christmas": {
+    "heading": "Christmas Home Decor",
+    "title": "Christmas Home Decor | Maisonette",
+    "description": "Shop Maisonette's Christmas home decor from pillows to table runners, ornaments and more. You one-stop shop for holiday decor from your favorite brands."
+  },
+  "home > seasonal > easter": {
+    "heading": "Easter Home Décor",
+    "title": "Easter Decorations - Home & Table Décor | Maisonette",
+    "description": "Shop Maisonette's Easter decorations from curated Easter home décor, table settings, party supplies and more. Your one-stop shop for top kids brands and more."
+  },
+  "home > seasonal > halloween": {
+    "party-decor": {
+      "heading": "Halloween Party Decor & Supplies",
+      "title": "Halloween Party Decorations, Table Decor & Supplies | Maisonette",
+      "description": "Shop Maisonette's Halloween party decorations. Get festive with Halloween Table Decor, party supplies and more to make your home the spookiest on the block."
+    },
+    "default": {
+      "heading": "Halloween Home Decor",
+      "title": "Halloween Decor - Indoor Halloween Decorations | Maisonette",
+      "description": "Bring the festivities indoors with Maisonette's Halloween decor. From festive fabric and velvet pumpkins to haunted houses and more, shop Halloween home decor."
+    }
+  },
+  "home > seasonal > thanksgiving": {
+    "heading": "Thanksgiving Décor",
+    "title": "Thanksgiving Décor - Home & Table Décor | Maisonette",
+    "description": "Host Thanksgiving dinner with Maisonette's curated selection of Thanksgiving home and table décor. We're your one-stop shop for making this season unforgettable."
+  },
+  "home > seasonal > accents-decor": {
+    "heading": "Seasonal Home Décor",
+    "title": "Seasonal Home Décor | Maisonette",
+    "description": "Shop Christmas, Hanukkah, and seasonal home décor for accents that bring out the details in your decorating. Make your home festive with Maisonette."
+  },
+  "home > seasonal > advent-calendars": {
+    "heading": "Kids Advent Calendars",
+    "title": "Kids Advent Calendars | Maisonette",
+    "description": "Start the tradition of having an advent calendar for your kids. From chocolate-filled to paper and other crafty styles, shop advent calendars from Maisonette."
+  },
+  "home > seasonal > hanukkah": {
+    "heading": "Hanukkah Home Décor",
+    "title": "Hanukkah Home Décor, Table Settings, Candle Holders & More | Maisonette",
+    "description": "Shop Maisonette's curated selection of Hanukkah Home Décor including table settings, candles & candle holders, dreidels, menorahs, and more."
+  },
+  "home > seasonal > nutcrackers": {
+    "heading": "Christmas Nutcrackers",
+    "title": "Decorative Christmas Nutcrackers | Maisonette",
+    "description": "Shop Maisonette's wooden decorative Christmas nutcrackers, each a collection item and beautiful gift option for lovers of The Nutcracker and the ballet."
+  },
+  "home > seasonal > ornaments-toppers": {
+    "heading": "Christmas Ornaments & Tree Toppers",
+    "title": "Christmas Ornaments & Tree Toppers | Maisonette",
+    "description": "Shop Maisonette's selection of Christmas Ornaments and Tree Toppers. Your one-stop shop for seasonal home décor from your favorite kids brands and more."
+  },
+  "home > seasonal > paper-goods": {
+    "heading": "Wrapping Paper, Gift Tags & More",
+    "title": "Wrapping Paper, Gift Tags & More | Maisonette",
+    "description": "Your gift will make a statement before its even unwrapped with Maisonette's Seasonal Paper Goods. Shop wrapping paper, gift tags, paper decor and more."
+  },
+  "home > seasonal > party-tabletop": {
+    "heading": "Holiday Table Décor & Party Supplies",
+    "title": "Holiday Table Décor & Party Supplies - Christmas, Halloween & More | Maisonette",
+    "description": "Shop Maisonette's Holiday Table Décor and Party Supplies. From Christmas table decorations to Halloween and more, get all of your seasonal party needs."
+  },
+  "home > seasonal > stockings-tree-skirts": {
+    "heading": "Christmas Stockings & Tree Skirts",
+    "title": "Christmas Stockings & Tree Skirts | Maisonette",
+    "description": "Bring out the magic of the holidays with Christmas stockings and tree skirts. Shop Maisonette's curated selection of holiday home décor and more."
+  },
+  "home > seasonal > wreaths-garlands": {
+    "heading": "Wreaths & Garlands",
+    "title": "Wreaths & Garlands - Christmas, Fall & More | Maisonette",
+    "description": "Shop Maisonette's holiday wreaths and garlands. From fall and Christmas wreaths to wooden beaded garlands, we're your one-stop shop for holiday home décor."
+  },
+  "home > seasonal > valentines-day": {
+    "heading": "Valentine's Day Decor",
+    "title": "Valentine's Day Home Decor & Party Supplies | Maisonette",
+    "description": "Shop Maisonette's curated selection of Valentine's Day Decor from party supplies to table decor. Your one-stop shop for Valentine's Day home décor and more."
+  },
+  "gear > diapers-wipes": {
+    "heading": "Diapers & Diapering Essentials",
+
+    "title": "Diapers & Essentials - Wipes, Diaper Bags & More | Maisonette",
+    "description": "Shop for all your diapers and diapering essentials with Maisonette. We have you covered for diapers for baby and newborn, wipes, changing pads, diaper bags and more."
+  },
+  "gear > diaper-bags-luggage": {
+    "heading": "Diaper Bags & Luggage",
+    "title": "Diaper Bags, Diaper Backpacks & Luggage | Maisonette",
+    "description": "Travel in style with Maisonette's selection of diaper bags, diaper backpacks and luggage. Shop everything you need from kids luggage, stroller caddies, and more."
+  },
+  "gear > sleep-sacks": {
+    "heading": "Sleep Sacks",
+    "title": "Sleep Sacks & Wearable Blankets | Maisonette",
+    "description": "Shop sleep sacks and wearable blankets from your favorite luxury brands at Maisonette. Discover the best sleep bags to ensure you and your little one has a great night's sleep."
+  },
+  "gear > strollers": {
+    "heading": "Strollers",
+    "title": "Strollers - Best Strollers for Babies, Toddlers & More | Maisonette",
+    "description": "Shop strollers from your favorite luxury brands at Maisonette. Discover the best strollers for babies and toddlers in a one-stop shop."
+  },
+  "gear > swaddles": {
+    "heading": "Swaddles",
+    "title": "Swaddles - All Baby Swaddle Blankets & Wraps | Maisonette",
+    "description": "Shop swaddle wraps and blankets from your favorite baby brands at Maisonette. Discover the best selection of swaddles in a one-stop shop."
+  },
+  "gifts > featured > monogrammed-gifts": {
+    "heading": "Monogrammed & Personalized Gifts",
+    "title": "Monogrammed & Personalized Gifts | Maisonette",
+    "description": "Shop Maisonette's curated selection of Monogrammed and Personalized Gifts. Your one-stop shop for Featured Gifts from your favorite kids brands and more."
+  },
+  "gifts > featured > gift-sets": {
+    "heading": "Gift Sets",
+    "title": "Gift Sets - Shop Featured Gifts | Maisonette",
+    "description": "Shop Maisonette's curated selection of Gift Sets. Your one-stop shop for Featured Gifts from your favorite kids brands and more."
+  },
+  "gifts > featured > unique-gifts": {
+    "heading": "Unique Gifts & Gift Ideas",
+    "title": "Unique Gifts & Gift Ideas | Maisonette",
+    "description": "Shop Maisonette's curated selection of unique gifts for the whole family. Your one-stop shop for unique gifts from your favorite kids brands and more."
+  },
+  "gifts > by-age": {
+    "heading": "Gifts By Age",
+    "title": "Gifts by Age - Shop Gifts for All Ages | Maisonette",
+    "description": "Shop with confidence with Maisonette's curated selection of gifts by age. Rest assured you're choosing age appropriate gifts they'll love and appreciate."
+  },
+  "gifts > by-age > gifts-for-teens": {
+    "heading": "Gifts for Teens",
+    "title": "Gifts for Teens - Best Gifts for Teen Boys & Teen Girls | Maisonette",
+    "description": "Shop the best gifts for teens from our favorite brands. Your one-stop shop for teen boy and teen girl gifts from your favorite teen brands and more."
+  },
+  "gifts > by-age > gifts-for-toddlers": {
+    "heading": "Toddler Gifts",
+    "title": "Toddler Gifts - Gifts for Toddler Girls & Boys | Maisonette",
+    "description": "Shop your favorite brands from Maisonette's selection of toddler gifts. Discover the coolest gifts for toddler girls and boys."
+  },
+  "gifts > by-age > gifts-for-newborns": {
+    "heading": "Newborn Baby Gifts",
+    "title": "Newborn Baby Gifts - Baby Boy & Baby Girl Gifts | Maisonette",
+    "description": "Shop newborn baby gifts from our favorite brands. Welcome the little one to the world with Maisonette's selection of newborn baby girl and boy gifts."
+  },
+  "gifts > by-age > gifts-for-kids": {
+    "heading": "Gifts for Kids",
+    "title": "Best Gifts for Kids | Maisonette",
+    "description": "Shop Maisonette's curated selection of gifts for kids. Your one-stop shop for gifts from your favorite kids brands and more."
+  },
+  "gifts > by-age > gifts-for-moms": {
+    "Necklaces": {
+      "heading": "Necklaces for Moms and Kids",
+      "title": "Necklaces - Shop Jewelry for Moms & Kids | Maisonette",
+      "description": "Shop Maisonette's selection of necklaces for moms and kids. From sterling silver and gold necklaces to colorful beaded jewelry for your little, gift it here."
+    },
+    "Bracelets": {
+      "heading": "Bracelets for Moms & Kids",
+      "title": "Bracelets for Moms & Kids - Shop Jewelry | Maisonette",
+      "description": "Shop Maisonette's selection of bracelets for moms and kids. Choose from 14K gold and diamond name bracelets to fun charm bracelets for your little and more."
+    },
+    "Earrings": {
+      "heading": "Earrings for Moms and Kids",
+      "title": "Earrings for Moms & Kids - Shop Jewelry | Maisonette",
+      "description": "Shop Maisonette's curated selection of earrings for moms and kids. Gift them something special from beautiful diamond hoops to fun fruit-shaped studs."
+    },
+    "Rings": {
+      "heading": "Rings for Moms & Kids",
+      "title": "Rings for Moms & Kids - Shop Jewelry | Maisonette",
+      "description": "Shop Maisonette's rings for moms and kids. Give them a gift to match like a rose gold heart ring that they'll both love. Your one-stop shop for jewelry and more."
+    },
+    "default": {
+      "heading": "Gifts for Mom",
+      "title": "Best Gifts for Mom | Maisonette",
+      "description": "Moms make our world go round. Whether it's for her birthday or just because, shop Maisonette's curated selection of the best gifts for the mom in your life."
+    }
+  },
+  "gifts > by-age > gifts-for-pets": {
+    "heading": "Pet Gifts",
+    "title": "Pet Gifts - Gifts for Dogs & Cats | Maisonette",
+    "description": "Shop Maisonette's curated selection of pet gifts. Your one-stop shop for dog and cat gifts from your favorite kids brands and more."
+  },
+  "gifts > by-price": {
+    "heading": "Gifts By Price",
+    "title": "Gifts by Price - All Gifts for Every Budget | Maisonette",
+    "description": "Shop gifts for every budget with Maisonette's curated selection of gifts by price. Discover gifts everyone will love without breaking the bank."
+  },
+  "gifts > by-price > gifts-under-50": {
+    "heading": "Kids Gifts Under $50",
+    "title": "Kids & Baby Gifts Under $50 | Maisonette",
+    "description": "Shop Maisonette's curated selection of kids gifts under $50. Your one-stop shop for gifts from your favorite kids brands and more."
+  },
+  "gifts > by-price > gifts-under-100": {
+    "heading": "Kids Gifts Under $100",
+    "title": "Kids & Baby Gifts Under $100 | Maisonette",
+    "description": "Shop Maisonette's curated selection of kids gifts under $100. Your one-stop shop for gifts from your favorite kids brands and more."
+  },
+  "gifts > by-price > gifts-under-250": {
+    "heading": "Kids Gifts Under $250",
+    "title": "Kids & Baby Gifts Under $250 | Maisonette",
+    "description": "Shop Maisonette's curated selection of kids gifts under $250. Your one-stop shop for gifts from your favorite kids brands and more."
+  },
+  "gifts > by-price > over-the-top": {
+    "heading": "Over the Top Gifts for Kids",
+    "title": "Over the Top Gifts for Kids | Maisonette",
+    "description": "Shop Maisonette's high quality and over the top inspired gifts for kids. Created by your favorite brands, make this season of giving unforgettable."
+  },
+  "play": {
+    "price:21300-73600": {
+      "heading": "Over the Top Gifts for Kids",
+      "title": "Over the Top Gifts for Kids | Maisonette",
+      "description": "Shop Maisonette's high quality and over the top inspired gifts for kids. Created by your favorite brands, make this season of giving unforgettable."
+    },
+    "Best Sellers This Season": {
+      "heading": "Trending Toys",
+      "title": "Trending & Best Selling Kids Toys | Maisonette",
+      "description": "Discover the trending and best selling kids toys in Maisonette's curated marketplace. Shop all trending toys for girls and boys all in one simple place."
+    },
+    "Just In": {
+      "heading": "New Toys",
+      "title": "New Toys for Kids - Just In | Maisonette",
+      "description": "Discover the new toys for kids that have just arrived in Maisonette's curated marketplace. Shop all new toys for boys and girls all in one simple place."
+    },
+    "On Sale": {
+      "heading": "Toy Sale",
+      "title": "Kids Toy Sale - Toys on Sale | Maisonette",
+      "description": "Discover the best toy deals and toys on sale with Maisonette. Shop our entire kids toy sale all in one simple place and keep your little entertained for less."
+    },
+    "Toddler Toys": {
+      "heading": "Toddler Toys",
+      "title": "Toddler Toys for Boys & Girls | Maisonette",
+      "description": "Shop Maisonette's toys for toddlers. Spark their imagination with music toys, puzzles and more. Find fun and unique toddler toys for boys and girls."
+    },
+    "Teen Toys": {
+      "heading": "Toys for Teens",
+      "title": "Toys for Teens | Maisonette",
+      "description": "Shop Maisonette's toys for teens and young adults. Find cool toys for teenagers that tailor to all personalities, from sports to creativity and more."
+    },
+    "default": {
+      "heading": "Toys",
+      "title": "Boys & Girls Toys - Shop Toys for Kids & Babies | Maisonette",
+      "description": "Shop your favorite toys for kids with Maisonette. From educational to just-for-fun toys, you'll find the perfect girl and boy toys to keep them entertained."
+    }
+  },
+  "play > baby": {
+    "newborn": {
+      "heading": "Newborn Toys",
+      "title": "Newborn Toys - Shop All Toys for Newborns | Maisonette",
+      "description": "Shop newborn toys from your favorite baby brands at Maisonette. Discover the best toys for newborns from rattles and teethers to activity gyms in a one-stop shop."
+    },
+    "default": {
+      "heading": "Baby Toys",
+      "title": "Baby Toys - Baby Girl & Baby Boy Toys | Maisonette",
+      "description": "Shop infant and baby toys from Maisonette. Discover baby girl and baby boy toys from chewbeads to water play mats. Your one-stop shop for toys and more."
+    }
+  },
+  "play > baby > activity-gyms-playmats": {
+    "heading": "Baby Play Mats & Activity Gyms",
+    "title": "Baby Play Mats & Activity Gyms | Maisonette",
+    "description": "Baby play mats and activity gyms can help spark your littles' development and creativity. Shop Maisonette's full selection of play mats and activity gyms."
+  },
+  "play > baby > bath-toys": {
+    "heading": "Bath Toys",
+    "title": "Bath Toys for Kids - All Bathtub Toys | Maisonette",
+    "description": "Maisonette's selection of bathtub toys make it fun to stay clean! Discover all kid and toddler bath toys in a one-stop-shop."
+  },
+  "play > baby > push-pull": {
+    "heading": "Baby Walkers",
+    "title": "Baby Walkers - Push & Pull Toys | Maisonette",
+    "description": "Shop baby walkers and toys that help babies walk from Maisonette. Find doll buggies, baby block walkers or adorable wooden push and pull toys all in one place."
+  },
+  "play > baby > teethers-rattles": {
+    "heading": "Baby Teethers & Rattles",
+    "title": "Baby Teethers & Rattles | Maisonette",
+    "description": "Shop Baby Teethers and Rattles from your favorite baby, toddler and kids brands at Maisonette. Your one-stop shop for Baby Toys and more."
+  },
+  "play > kids": {
+    "Costumes": {
+      "heading": "Kids Costumes & Dress Up Clothes",
+      "title": "Kids Costumes & Dress Up Clothes | Maisonette",
+      "description": "Spark creativity and imagination with Maisonette's full selection of kids costumes and dress up clothes. Shop all costumes for kids in our one-stop shop."
+    },
+    "default": {
+      "heading": "Toys for Kids",
+      "title": "Toys for Kids - Older & Little Kids Toys | Maisonette",
+      "description": "Discover the best toys for kids of all ages with Maisonette. Whether shopping for toys for older kids, or little kids, find all child toys in one place."
+    }
+  },
+  "play > kids > dolls-doll-accessories": {
+    "heading": "Baby Dolls & Baby Doll Accessories",
+    "title": "Baby Dolls - Shop Baby Doll Toys, Accessories, & More | Maisonette",
+    "description": "Shop baby dolls from your favorite baby, toddler and kids brands at Maisonette. Shop our selection of baby doll accessories and baby doll toys in a one-stop shop."
+  },
+  "play > kids > play-kitchens": {
+    "heading": "Play Kitchens",
+    "title": "Play Kitchens - Shop Kids Toy Kitchens | Maisonette",
+    "description": "Shop kids play kitchens from your favorite brands at Maisonette. Discover the best toy kitchens for kids to help build their imaginations in a one-stop shop."
+  },
+  "play > learning": {
+    "heading": "Learning Toys",
+    "title": "Learning Toys for Toddlers, Babies & Kids | Maisonette",
+    "description": "Make learning fun with Maisonette's selection of learning toys for toddlers and babies. Shop your favorite kids and baby learning toys all in one place."
+  },
+  "play > learning > building-toys": {
+    "heading": "Model Kits & Building Toys",
+    "title": "Kids Model Kits & Building Toys | Maisonette",
+    "description": "Inspire your little engineer with Maisonette's selection of model kits and building toys. Your one-stop shop for kids model building kits, puzzles and more."
+  },
+  "play > outdoor": {
+    "heading": "Outdoor Toys for Kids & Babies",
+    "title": "Outdoor Toys for Kids & Babies | Maisonette",
+    "description": "Enjoy playing outside with Maisonette's selection of outdoor toys for kids and babies. Shop your favorite baby and kids outdoor toys all in one simple stop."
+  },
+  "play > outdoor > bikes": {
+    "heading": "Kids Bikes, Balance Bikes & Tricycles",
+    "title": "Kids' Bikes, Balance Bikes & Tricycles | Maisonette",
+    "description": "Shop all kids' bikes, balance bikes, and tricycles from Maisonette. From tricycles for toddlers to bikes for big kids, find it all in our one-stop shop."
+  },
+  "play > outdoor > ride-ons": {
+    "heading": "Kids Electric Cars & Ride-On Toys",
+    "title": "Kids Electric Cars & Ride-On Toys | Maisonette",
+    "description": "Shop all kids' ride-on toys to make outdoor play an adventure. From kids electric cars to ponies, Maisonette has everything you need in our one-stop shop."
+  },
+  "play > outdoor > water-play": {
+    "heading": "Water Toys",
+    "title": "Pool & Water Toys for Kids - Accessories | Maisonette",
+    "description": "Take your summer swim to the next level with pool and water toys for kids. Shop all swim and pool accessories for kids in the Maisonette Marketplace."
+  },
+  "whats-new > shops > basics": {
+    "heading": "Basics",
+    "title": "Baby & Kid Basics - Shop Basic Kid & Baby Clothes | Maisonette",
+    "description": "Shop Maisonette's curated selection of baby and kids basics. With basic tees, sweaters, dresses and more we have all the wardrobe staples you need."
+  },
+  "whats-new > shops > maternity-shop": {
+    "heading": "Maternity Clothes & Essentials",
+    "title": "Maternity Clothes & Products - Pregnancy Essentials | Maisonette",
+    "description": "Shop pregnancy essentials for the next nine months. Discover Maisonette's curated selection of pregnancy and maternity clothes, products and more."
+  },
+  "whats-new > shops > mommy-me-shop": {
+    "heading": "Mommy and Me Outfits",
+    "title": "Mommy and Me Outfits, Dresses & More | Maisonette",
+    "description": "Shop Mommy and Me outfits, dresses and more from Maisonette. From matching mom and son outfits to mom and daughter or baby dresses, get your favorite brands."
+  },
+  "whats-new > shops > papa-mini": {
+    "heading": "Papa & Mini",
+    "title": "Dad and Son Matching Outfits, Shirts & More | Maisonette",
+    "description": "Shop Dad and Son matching outfits, shirts and more from your favorite brands from Maisonette. From dad and baby, to dad and daughter shop matching outfits."
+  },
+  "whats-new > shops > the-pet-shop": {
+    "Pet Costumes": {
+      "heading": "Pet Costumes",
+      "title": "Pet Costumes - Shop Pet Halloween Costumes for Dogs | Maisonette",
+      "description": "Let your furry friend be the life of the party this Halloween! Shop Maisonette's selection of pet costumes for your friends both small and large."
+    }
+  },
+  "womens > bath-body > travel-size-toiletries": {
+      "heading": "Travel Size Toiletries & Minis",
+      "title": "Travel Size Toiletries - Shop Bath & Body | Maisonette",
+      "description": "Shop Maisonette's curated selection of travel size toiletries and beauty products. Your one-stop shop for travel toiletries from your favorite brands."
+  },
+  "womens > maternity": {
+    "heading": "Maternity Wear & Outfits",
+    "title": "Shop Maternity Wear & Outfits | Maisonette",
+    "description": "Shop Maternity Wear from your favorite brands at Maisonette. Your one-stop shop for Baby, Kids, Adult Clothing, Accessories, and more."
+},
+  "womens > maternity > clothing": {
+    "heading": "Maternity Clothes & Essentials",
+    "title": "Maternity Clothes & Products - Pregnancy Essentials | Maisonette",
+    "description": "Shop pregnancy essentials for the next nine months. Discover Maisonette's curated selection of pregnancy and maternity clothes, products and more."
+  },
+  "womens > maternity > nursing": {
+      "heading": "Breastfeeding Essentials",
+      "title": "Breastfeeding Essentials & Supplies | Maisonette",
+      "description": "Shop everything you need for breastfeeding and nursing. From nursing bras to nursing covers, Maisonette has all the breastfeeding essentials and products."
+  },
+  "womens > maternity > bath-wellness": {
+      "heading": "Prenatal, Postpartum & Skincare Products",
+      "title": "Shop Prenatal, Postpartum & Skincare Products | Maisonette",
+      "description": "Shop Mama Care Maternity Products from your favorite brands at Maisonette. Your one-stop shop for Baby, Kids, Adult Clothing, Accessories, and more."
+  },
+  "made-by-maisonette": {
+    "heading": "Made by Maisonette: Maisonette Brands",
+    "title": "Made by Maisonette - Maisonette Brands | Maisonette",
+    "description": "Discover your favorite Maisonette brands, Maison Me and Neon Rebels in our Made by Maisonette shop. Find the cutest boys and girls clothes all in one magical place."
+  }
+}

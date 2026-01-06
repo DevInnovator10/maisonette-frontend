@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`an filter list remove remove renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-height: 3rem;
+  position: relative;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.emotion-1:active {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  opacity: 0.75;
+}
+
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-1:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-1 {
+    background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+    background-position: right 1px center;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+  }
+}
+
+.emotion-3 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 3rem;
+  padding-right: 1rem;
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  line-height: 3rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-5 {
+    color: #3150A2;
+  }
+}
+
+<body>
+    <div>
+      <button
+        aria-label="remove filter, Category Shoes"
+        class="emotion-0 emotion-1 emotion-2"
+        data-test-id="FilterListRemove"
+        type="button"
+      >
+        <p
+          class="emotion-3 emotion-4"
+        >
+          Category
+        </p>
+        <p
+          class="emotion-5 emotion-6"
+        >
+          Shoes
+        </p>
+      </button>
+      <button
+        aria-label="remove filter, price, $0
+               to $10"
+        class="emotion-0 emotion-1 emotion-2"
+        type="button"
+      >
+        <p
+          class="emotion-3 emotion-4"
+        >
+          Price
+        </p>
+        <p
+          class="emotion-5 emotion-6"
+        >
+          $0
+           -
+          $10
+        </p>
+      </button>
+    </div>
+  </body>,
+  "container": .emotion-1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #3150A2;
+  border: none;
+  background: transparent;
+  line-height: 1.8rem;
+  -webkit-letter-spacing: 0.05rem;
+  -moz-letter-spacing: 0.05rem;
+  -ms-letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: none;
+  padding: 0;
+
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+  background-position: right 1px center;
+  background-repeat: no-repeat;
+  background-size: 8px 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-height: 3rem;
+  position: relative;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.emotion-1:active {
+  outline: 0;
+}
+
+.emotion-1:hover {
+  opacity: 0.75;
+}
+
+.emotion-1[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-1:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-1 {
+    background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHN0eWxlPSJ3aWR0aDphdXRvIiB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgdmlld0JveD0iLTMgLTMgNTYgNTYiPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSI1MCIgeDI9IjUwIiB5Mj0iMCIvPgogICAgICA8bGluZSBzdHJva2U9IiMzMTUwQTIiIHN0cm9rZS13aWR0aD0iNyIgeDE9IjAiIHkxPSIwIiB4Mj0iNTAiIHkyPSI1MCIvPgogICAgPC9zdmc+CiAg);
+    background-position: right 1px center;
+    background-repeat: no-repeat;
+    background-size: 8px 8px;
+  }
+}
+
+.emotion-3 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  line-height: 3rem;
+  padding-right: 1rem;
+}
+
+.emotion-5 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  line-height: 3rem;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-5 {
+    color: #3150A2;
+  }
+}
+
+<div>
+    <button
+      aria-label="remove filter, Category Shoes"
+      class="emotion-0 emotion-1 emotion-2"
+      data-test-id="FilterListRemove"
+      type="button"
+    >
+      <p
+        class="emotion-3 emotion-4"
+      >
+        Category
+      </p>
+      <p
+        class="emotion-5 emotion-6"
+      >
+        Shoes
+      </p>
+    </button>
+    <button
+      aria-label="remove filter, price, $0
+               to $10"
+      class="emotion-0 emotion-1 emotion-2"
+      type="button"
+    >
+      <p
+        class="emotion-3 emotion-4"
+      >
+        Price
+      </p>
+      <p
+        class="emotion-5 emotion-6"
+      >
+        $0
+         -
+        $10
+      </p>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

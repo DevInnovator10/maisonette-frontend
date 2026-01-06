@@ -1,0 +1,1000 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #fff;
+  padding: 7.2rem 0.8rem;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 9.6rem 1.6rem;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    padding: 5.4rem 3.2rem 0 7.2rem;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-6 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-6 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-6 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  color: #2F4DA1;
+  text-align: center;
+  margin: -0.6rem 0 3.2rem;
+  padding: 0 1.6rem;
+  font-size: 1.8rem;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    text-align: left;
+    width: 296px;
+    margin: -2.4rem 0 3.2rem;
+    font-size: 2.4rem;
+    padding: 0;
+  }
+}
+
+.emotion-10 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-12 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-12 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-12 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-12 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-12 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-12 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-12 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+.emotion-12 .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-12 .carousel-cell {
+  margin: 0 3.2rem 2.4rem 0;
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-12 .carousel-cell {
+    width: 33%;
+  }
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-16 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-18 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.emotion-20 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  color: #5971B4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.emotion-22 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.2rem;
+  color: #2F4DA1;
+  text-transform: capitalize;
+  line-height: 4rem;
+  text-align: left;
+  font-size: 2.4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-22 {
+    font-size: 3.2rem;
+  }
+}
+
+.emotion-54 {
+  border: 1px solid #2F4DA1;
+  cursor: pointer;
+  font-size: 1.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 1.5rem 4.5rem;
+  margin: 1.6rem auto 0;
+  display: table;
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="BuiltInNyc"
+      >
+        <section
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <h1
+              class="emotion-6 emotion-7"
+            >
+              Built in NYC
+            </h1>
+            <p
+              class="emotion-8 emotion-9"
+            >
+              People are talking about Maisonette. Read the latest here.
+            </p>
+          </div>
+          <div
+            class="emotion-10 emotion-11"
+          >
+            <div
+              class="emotion-12 emotion-13 flickity-enabled is-draggable"
+              tabindex="0"
+            >
+              <div
+                class="flickity-viewport"
+                style="height: 2.4px;"
+              >
+                <div
+                  class="flickity-slider"
+                  style="left: 0px; transform: translateX(-Infinity%);"
+                >
+                  <div
+                    class="carousel-cell emotion-14 emotion-15 is-selected"
+                    data-test-id="BuiltInNycCarousel"
+                    style="position: absolute;"
+                  >
+                    <a
+                      class="emotion-16 emotion-17"
+                      href="https://www.builtinnyc.com/spotlight/2021/04/14/exec-dei-sponsor-interview-maisonette"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="DEI Is a Business Imperative"
+                        class="emotion-18 emotion-19"
+                        src="/images/built-in-nyc/DEI_is_a_business_imperative.jpg"
+                      />
+                      <h6
+                        class="emotion-20 emotion-21"
+                      >
+                        insider spotlight
+                      </h6>
+                      <h3
+                        class="emotion-22 emotion-23"
+                      >
+                        At This E-Commerce Company, DEI Is a ‘Business Imperative’
+                      </h3>
+                    </a>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="carousel-cell  emotion-14 emotion-15"
+                    data-test-id="BuiltInNycCarousel"
+                    style="position: absolute;"
+                  >
+                    <a
+                      class="emotion-16 emotion-17"
+                      href="https://www.builtinnyc.com/2022/02/01/22-nyc-startups-to-watch-2022"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="22 NYC Startups to Watch in 2022"
+                        class="emotion-18 emotion-19"
+                        src="/images/built-in-nyc/22_startups_to_watch.jpg"
+                      />
+                      <h6
+                        class="emotion-20 emotion-21"
+                      >
+                        articles we’re in
+                      </h6>
+                      <h3
+                        class="emotion-22 emotion-23"
+                      >
+                        22 NYC Startups to Watch in 2022
+                      </h3>
+                    </a>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="carousel-cell  emotion-14 emotion-15"
+                    data-test-id="BuiltInNycCarousel"
+                    style="position: absolute;"
+                  >
+                    <a
+                      class="emotion-16 emotion-17"
+                      href="https://www.builtinnyc.com/2022/06/28/mastering-art-effective-delegation"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Mastering the Art of Effective Delegation"
+                        class="emotion-18 emotion-19"
+                        src="/images/built-in-nyc/effective_delegation.jpg"
+                      />
+                      <h6
+                        class="emotion-20 emotion-21"
+                      >
+                        articles we’re in
+                      </h6>
+                      <h3
+                        class="emotion-22 emotion-23"
+                      >
+                        Mastering the Art of Effective Delegation
+                      </h3>
+                    </a>
+                  </div>
+                  <div
+                    aria-hidden="true"
+                    class="carousel-cell  emotion-14 emotion-15"
+                    data-test-id="BuiltInNycCarousel"
+                    style="position: absolute;"
+                  >
+                    <a
+                      class="emotion-16 emotion-17"
+                      href="https://www.builtinnyc.com/2021/08/02/nyc-companies-hiring-august-2021"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Now Hiring: 13 NYC Companies Gearing Up for Fall"
+                        class="emotion-18 emotion-19"
+                        src="/images/built-in-nyc/Now_hiring.jpg"
+                      />
+                      <h6
+                        class="emotion-20 emotion-21"
+                      >
+                        articles we’re in
+                      </h6>
+                      <h3
+                        class="emotion-22 emotion-23"
+                      >
+                        Now Hiring: 13 NYC Companies Gearing Up for Fall
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <a
+          class="emotion-54 emotion-55"
+        >
+          See open roles
+        </a>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #fff;
+  padding: 7.2rem 0.8rem;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 9.6rem 1.6rem;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    padding: 5.4rem 3.2rem 0 7.2rem;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-6 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-6 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-6 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  color: #2F4DA1;
+  text-align: center;
+  margin: -0.6rem 0 3.2rem;
+  padding: 0 1.6rem;
+  font-size: 1.8rem;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    text-align: left;
+    width: 296px;
+    margin: -2.4rem 0 3.2rem;
+    font-size: 2.4rem;
+    padding: 0;
+  }
+}
+
+.emotion-10 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-12 {
+  position: relative;
+}
+
+.emotion-12 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-12 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-12 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-12 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-12 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-12 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-12 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-12:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+.emotion-12 .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-12 .carousel-cell {
+  margin: 0 3.2rem 2.4rem 0;
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-12 .carousel-cell {
+    width: 33%;
+  }
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-16 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-18 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.emotion-20 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  color: #5971B4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.emotion-22 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.2rem;
+  color: #2F4DA1;
+  text-transform: capitalize;
+  line-height: 4rem;
+  text-align: left;
+  font-size: 2.4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-22 {
+    font-size: 3.2rem;
+  }
+}
+
+.emotion-54 {
+  border: 1px solid #2F4DA1;
+  cursor: pointer;
+  font-size: 1.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 1.5rem 4.5rem;
+  margin: 1.6rem auto 0;
+  display: table;
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="BuiltInNyc"
+    >
+      <section
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <h1
+            class="emotion-6 emotion-7"
+          >
+            Built in NYC
+          </h1>
+          <p
+            class="emotion-8 emotion-9"
+          >
+            People are talking about Maisonette. Read the latest here.
+          </p>
+        </div>
+        <div
+          class="emotion-10 emotion-11"
+        >
+          <div
+            class="emotion-12 emotion-13 flickity-enabled is-draggable"
+            tabindex="0"
+          >
+            <div
+              class="flickity-viewport"
+              style="height: 2.4px;"
+            >
+              <div
+                class="flickity-slider"
+                style="left: 0px; transform: translateX(-Infinity%);"
+              >
+                <div
+                  class="carousel-cell emotion-14 emotion-15 is-selected"
+                  data-test-id="BuiltInNycCarousel"
+                  style="position: absolute;"
+                >
+                  <a
+                    class="emotion-16 emotion-17"
+                    href="https://www.builtinnyc.com/spotlight/2021/04/14/exec-dei-sponsor-interview-maisonette"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="DEI Is a Business Imperative"
+                      class="emotion-18 emotion-19"
+                      src="/images/built-in-nyc/DEI_is_a_business_imperative.jpg"
+                    />
+                    <h6
+                      class="emotion-20 emotion-21"
+                    >
+                      insider spotlight
+                    </h6>
+                    <h3
+                      class="emotion-22 emotion-23"
+                    >
+                      At This E-Commerce Company, DEI Is a ‘Business Imperative’
+                    </h3>
+                  </a>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="carousel-cell  emotion-14 emotion-15"
+                  data-test-id="BuiltInNycCarousel"
+                  style="position: absolute;"
+                >
+                  <a
+                    class="emotion-16 emotion-17"
+                    href="https://www.builtinnyc.com/2022/02/01/22-nyc-startups-to-watch-2022"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="22 NYC Startups to Watch in 2022"
+                      class="emotion-18 emotion-19"
+                      src="/images/built-in-nyc/22_startups_to_watch.jpg"
+                    />
+                    <h6
+                      class="emotion-20 emotion-21"
+                    >
+                      articles we’re in
+                    </h6>
+                    <h3
+                      class="emotion-22 emotion-23"
+                    >
+                      22 NYC Startups to Watch in 2022
+                    </h3>
+                  </a>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="carousel-cell  emotion-14 emotion-15"
+                  data-test-id="BuiltInNycCarousel"
+                  style="position: absolute;"
+                >
+                  <a
+                    class="emotion-16 emotion-17"
+                    href="https://www.builtinnyc.com/2022/06/28/mastering-art-effective-delegation"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Mastering the Art of Effective Delegation"
+                      class="emotion-18 emotion-19"
+                      src="/images/built-in-nyc/effective_delegation.jpg"
+                    />
+                    <h6
+                      class="emotion-20 emotion-21"
+                    >
+                      articles we’re in
+                    </h6>
+                    <h3
+                      class="emotion-22 emotion-23"
+                    >
+                      Mastering the Art of Effective Delegation
+                    </h3>
+                  </a>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="carousel-cell  emotion-14 emotion-15"
+                  data-test-id="BuiltInNycCarousel"
+                  style="position: absolute;"
+                >
+                  <a
+                    class="emotion-16 emotion-17"
+                    href="https://www.builtinnyc.com/2021/08/02/nyc-companies-hiring-august-2021"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Now Hiring: 13 NYC Companies Gearing Up for Fall"
+                      class="emotion-18 emotion-19"
+                      src="/images/built-in-nyc/Now_hiring.jpg"
+                    />
+                    <h6
+                      class="emotion-20 emotion-21"
+                    >
+                      articles we’re in
+                    </h6>
+                    <h3
+                      class="emotion-22 emotion-23"
+                    >
+                      Now Hiring: 13 NYC Companies Gearing Up for Fall
+                    </h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a
+        class="emotion-54 emotion-55"
+      >
+        See open roles
+      </a>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

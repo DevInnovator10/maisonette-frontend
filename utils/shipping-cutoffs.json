@@ -1,0 +1,12 @@
+[
+  {
+    "message": "Select Standard Expedited to confirm delivery by 12/24",
+    "start": "December 10, 2022, 23:59:59 PST",
+    "end": "December 16, 2022, 23:59:59 PST"
+  },
+  {
+    "message": "Select Express Expedited to confirm delivery by 12/24",
+    "start": "December 17, 2022, 00:00:00 PST",
+    "end": "December 17, 2022, 23:59:59 PST"
+  }
+]
