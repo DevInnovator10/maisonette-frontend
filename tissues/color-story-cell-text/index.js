@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 import Typography from '../../atoms/typography';
 
 const Wrapper = styled.div`
-  align-items: center;
+    align-items: center;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;

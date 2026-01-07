@@ -17,6 +17,7 @@ const cmsPageLogic = async ({ pages }) => {
       || activeContents.length === 0
       || pagePublishDateTime > currentDateTime) {
       return {
+
         notFound: true
       };
     }

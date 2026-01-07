@@ -235,6 +235,7 @@ const Story = (props) => {
                 return data && Object.keys(data).length > 0 ? (
                   <Content
                     className="cms-content"
+
                     template={template}
                     isCMS
                     hasHr={hasHr(data)}
@@ -273,6 +274,7 @@ const Story = (props) => {
               const {
                 Template,
                 data,
+
                 title,
                 position
               } = template;

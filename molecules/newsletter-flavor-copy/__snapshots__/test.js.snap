@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a footer copy component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 33.33333%;
+}
+
+.emotion-3 {
+  display: block;
+  position: relative;
+  display: block;
+  height: 7.5rem;
+  margin: 0 auto 1.5rem;
+  position: relative;
+  width: 7.5rem;
+}
+
+.emotion-3 img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.emotion-3 img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.emotion-5 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-letter-spacing: .25rem;
+  -moz-letter-spacing: .25rem;
+  -ms-letter-spacing: .25rem;
+  letter-spacing: .25rem;
+  line-height: 1.5rem;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="NewsletterFlavorCopy"
+      >
+        <picture
+          alt=""
+          class="emotion-2 emotion-3 emotion-4"
+          data-test-id="Picture"
+        >
+          <source
+            data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-small-super-retina.png 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-small-retina.png 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-small.png
+    "
+            media="(max-width: 767px)"
+            type="image/png"
+          />
+          <source
+            data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-medium-super-retina.png 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-medium-retina.png 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-medium.png
+    "
+            media="(min-width: 768px) and (max-width: 991px)"
+            type="image/png"
+          />
+          <source
+            data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large-super-retina.png 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large-retina.png 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large.png
+    "
+            media="(min-width: 992px)"
+            type="image/png"
+          />
+          <img
+            alt=""
+            class="lazyload"
+            data-src="https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large.png"
+            data-test-id="defaultImage"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+          />
+        </picture>
+        <p
+          class="emotion-5 emotion-6"
+        >
+          CTA works now
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 33.33333%;
+}
+
+.emotion-3 {
+  display: block;
+  position: relative;
+  display: block;
+  height: 7.5rem;
+  margin: 0 auto 1.5rem;
+  position: relative;
+  width: 7.5rem;
+}
+
+.emotion-3 img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.emotion-3 img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.emotion-5 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-letter-spacing: .25rem;
+  -moz-letter-spacing: .25rem;
+  -ms-letter-spacing: .25rem;
+  letter-spacing: .25rem;
+  line-height: 1.5rem;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="NewsletterFlavorCopy"
+    >
+      <picture
+        alt=""
+        class="emotion-2 emotion-3 emotion-4"
+        data-test-id="Picture"
+      >
+        <source
+          data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-small-super-retina.png 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-small-retina.png 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-small.png
+    "
+          media="(max-width: 767px)"
+          type="image/png"
+        />
+        <source
+          data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-medium-super-retina.png 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-medium-retina.png 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-medium.png
+    "
+          media="(min-width: 768px) and (max-width: 991px)"
+          type="image/png"
+        />
+        <source
+          data-srcset="
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large-super-retina.png 3x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large-retina.png 2x,
+      https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large.png
+    "
+          media="(min-width: 992px)"
+          type="image/png"
+        />
+
+        <img
+          alt=""
+          class="lazyload"
+          data-src="https://assets.stg.env.maisonette.com/media/has4-v41u3/newsletter-large.png"
+          data-test-id="defaultImage"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+        />
+      </picture>
+      <p
+        class="emotion-5 emotion-6"
+      >
+        CTA works now
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

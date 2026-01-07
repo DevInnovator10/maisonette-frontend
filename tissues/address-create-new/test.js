@@ -6,7 +6,7 @@ import AddressCreateNew from '.';
 
 const mockStore = configureMockStore();
 const store = mockStore({
-  profile: {
+    profile: {
     email: 'email34@example.com',
     first_name: 'Eric',
     last_name: 'Goncalves',
@@ -59,6 +59,7 @@ const store = mockStore({
       {
         id: 4,
         default: false,
+
         source: {
           id: 4,
           payment_type: 'ApplePayCard',

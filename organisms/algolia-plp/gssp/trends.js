@@ -1,6 +1,6 @@
 const gssp = (context) => {
     const { query: { trend = '' } } = context;
-  return { trend };
+    return { trend };
 };
 
 export default gssp;

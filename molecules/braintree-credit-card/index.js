@@ -371,6 +371,7 @@ const BraintreeCreditCard = (props) => {
               <BrainTreeInput placeholder="1111 1111 1111 1111" type="number" aria-describedby="cc-error" />
               <BrainTreeError id="cc-error" role="alert" element="span" like="dec-1">Please enter a valid credit card number</BrainTreeError>
               <BrainTreeCreditCard ref={cardImageEl} />
+
             </BrainTreeInputWrapper>
 
             <BrainTreeInputWrapper inputType="expirationDate">

@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a filter list renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+  transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+}
+
+.emotion-0 .ps {
+  overflow: hidden!important;
+  overflow-anchor: none;
+  -ms-overflow-style: none;
+  touch-action: auto;
+  -ms-touch-action: auto;
+}
+
+.emotion-0 .ps__rail-x {
+  display: none;
+  position: absolute;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  transition: background-color .2s linear,opacity .2s linear;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  height: 15px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.emotion-0 .ps__rail-x::after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  background: #9CB1DC;
+  opacity: 0.5;
+}
+
+.emotion-0 .ps__rail-y {
+  display: none;
+  position: absolute;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  transition: background-color .2s linear,opacity .2s linear;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  height: 15px;
+  right: 0;
+  position: absolute;
+}
+
+.emotion-0 .ps__rail-y::after {
+  content: "";
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  background: #9CB1DC;
+  opacity: 0.5;
+}
+
+.emotion-0 .ps--active-x>.ps__rail-x,
+.emotion-0 .ps--active-y>.ps__rail-y {
+  display: block;
+  background-color: transparent;
+}
+
+.emotion-0 .ps__thumb-x {
+  background-color: #3150A2;
+  -webkit-transition: background-color .2s linear,height .2s ease-in-out;
+  transition: background-color .2s linear,height .2s ease-in-out;
+  -webkit-transition: background-color .2s linear,height .2s ease-in-out;
+  height: 5px;
+  bottom: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+.emotion-0 .ps__thumb-y {
+  background-color: #3150A2;
+  -webkit-transition: background-color .2s linear,width .2s ease-in-out;
+  transition: background-color .2s linear,width .2s ease-in-out;
+  -webkit-transition: background-color .2s linear,width .2s ease-in-out;
+  width: 5px;
+  right: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+@supports (-ms-overflow-style:none) {
+  .emotion-0 .ps {
+    overflow: auto!important;
+  }
+}
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+  .emotion-0 .ps {
+    overflow: auto!important;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 2rem 0;
+  max-height: 14rem;
+  position: relative;
+}
+
+.emotion-5 {
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #FFFFFF;
+}
+
+.emotion-5::after,
+.emotion-5::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-5::after {
+  background: #3150A2;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  left: -1px;
+  opacity: 0;
+  top: 13px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: calc(1em + 2px);
+}
+
+.emotion-5::before {
+  border-color: #3150A2;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-5 input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-5.is-hidden {
+  display: none;
+}
+
+.emotion-5::before {
+  border-color: #FFFFFF;
+}
+
+.emotion-5::after {
+  background: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-5 {
+    color: #3150A2;
+  }
+
+  .emotion-5::before {
+    border-color: #3150A2;
+  }
+
+  .emotion-5::after {
+    background: #3150A2;
+  }
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="FilterList"
+      >
+        <div
+          class="scrollbar-container ps emotion-2 emotion-3"
+        >
+          <label
+            class=" emotion-4 emotion-5 emotion-6"
+            data-test-id="renderFilters"
+            for="filter-category"
+            id=""
+            name="filter-category"
+          >
+            <input
+              id="filter-category"
+              name="filter-category"
+              type="checkbox"
+              value="Category"
+            />
+            Category
+          </label>
+          <label
+            class=" emotion-4 emotion-5 emotion-6"
+            data-test-id="renderFilters"
+            for="filter-gender"
+            id=""
+            name="filter-gender"
+          >
+            <input
+              id="filter-gender"
+              name="filter-gender"
+              type="checkbox"
+              value="Gender"
+            />
+            Gender
+          </label>
+          <label
+            class=" emotion-4 emotion-5 emotion-6"
+            data-test-id="renderFilters"
+            for="filter-agerange"
+            id=""
+            name="filter-agerange"
+          >
+            <input
+              id="filter-agerange"
+              name="filter-agerange"
+              type="checkbox"
+              value="Age Range"
+            />
+            Age Range
+          </label>
+          <div
+            class="ps__rail-x"
+            style="left: 0px; bottom: 0px;"
+          >
+            <div
+              class="ps__thumb-x"
+              style="left: 0px; width: 0px;"
+              tabindex="0"
+            />
+          </div>
+          <div
+            class="ps__rail-y"
+            style="top: 0px; right: 0px;"
+          >
+            <div
+              class="ps__thumb-y"
+              style="top: 0px; height: 0px;"
+              tabindex="0"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+  transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+}
+
+.emotion-0 .ps {
+  overflow: hidden!important;
+  overflow-anchor: none;
+  -ms-overflow-style: none;
+  touch-action: auto;
+  -ms-touch-action: auto;
+}
+
+.emotion-0 .ps__rail-x {
+  display: none;
+  position: absolute;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  transition: background-color .2s linear,opacity .2s linear;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  height: 15px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.emotion-0 .ps__rail-x::after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  background: #9CB1DC;
+  opacity: 0.5;
+}
+
+.emotion-0 .ps__rail-y {
+  display: none;
+  position: absolute;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  transition: background-color .2s linear,opacity .2s linear;
+  -webkit-transition: background-color .2s linear,opacity .2s linear;
+  height: 15px;
+  right: 0;
+  position: absolute;
+}
+
+.emotion-0 .ps__rail-y::after {
+  content: "";
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  background: #9CB1DC;
+  opacity: 0.5;
+}
+
+.emotion-0 .ps--active-x>.ps__rail-x,
+.emotion-0 .ps--active-y>.ps__rail-y {
+  display: block;
+  background-color: transparent;
+}
+
+.emotion-0 .ps__thumb-x {
+  background-color: #3150A2;
+  -webkit-transition: background-color .2s linear,height .2s ease-in-out;
+  transition: background-color .2s linear,height .2s ease-in-out;
+  -webkit-transition: background-color .2s linear,height .2s ease-in-out;
+  height: 5px;
+  bottom: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+.emotion-0 .ps__thumb-y {
+  background-color: #3150A2;
+  -webkit-transition: background-color .2s linear,width .2s ease-in-out;
+  transition: background-color .2s linear,width .2s ease-in-out;
+  -webkit-transition: background-color .2s linear,width .2s ease-in-out;
+  width: 5px;
+  right: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+@supports (-ms-overflow-style:none) {
+  .emotion-0 .ps {
+    overflow: auto!important;
+  }
+}
+
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+  .emotion-0 .ps {
+    overflow: auto!important;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 2rem 0;
+  max-height: 14rem;
+  position: relative;
+}
+
+.emotion-5 {
+  color: #3150A2;
+  cursor: pointer;
+  display: block;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  line-height: 18px;
+  padding: 0.5rem 0 0.5rem 2em;
+  position: relative;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  color: #FFFFFF;
+}
+
+.emotion-5::after,
+.emotion-5::before {
+  position: absolute;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-5::after {
+  background: #3150A2;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  left: -1px;
+  opacity: 0;
+  top: 13px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: calc(1em + 2px);
+}
+
+.emotion-5::before {
+  border-color: #3150A2;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+  content: "";
+  display: inline-block;
+  height: 1em;
+  left: 0;
+  top: 8px;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  width: 1em;
+}
+
+.emotion-5 input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  position: absolute;
+}
+
+.emotion-5.is-hidden {
+  display: none;
+}
+
+.emotion-5::before {
+  border-color: #FFFFFF;
+}
+
+.emotion-5::after {
+  background: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-5 {
+    color: #3150A2;
+  }
+
+  .emotion-5::before {
+    border-color: #3150A2;
+  }
+
+  .emotion-5::after {
+    background: #3150A2;
+  }
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="FilterList"
+    >
+      <div
+        class="scrollbar-container ps emotion-2 emotion-3"
+      >
+        <label
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="renderFilters"
+          for="filter-category"
+          id=""
+          name="filter-category"
+        >
+          <input
+            id="filter-category"
+            name="filter-category"
+            type="checkbox"
+            value="Category"
+          />
+          Category
+        </label>
+        <label
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="renderFilters"
+          for="filter-gender"
+          id=""
+          name="filter-gender"
+        >
+          <input
+            id="filter-gender"
+            name="filter-gender"
+            type="checkbox"
+            value="Gender"
+          />
+          Gender
+        </label>
+        <label
+          class=" emotion-4 emotion-5 emotion-6"
+          data-test-id="renderFilters"
+          for="filter-agerange"
+          id=""
+          name="filter-agerange"
+        >
+          <input
+            id="filter-agerange"
+            name="filter-agerange"
+            type="checkbox"
+            value="Age Range"
+          />
+          Age Range
+        </label>
+        <div
+          class="ps__rail-x"
+          style="left: 0px; bottom: 0px;"
+        >
+          <div
+            class="ps__thumb-x"
+            style="left: 0px; width: 0px;"
+            tabindex="0"
+          />
+        </div>
+        <div
+          class="ps__rail-y"
+          style="top: 0px; right: 0px;"
+        >
+          <div
+            class="ps__thumb-y"
+            style="top: 0px; height: 0px;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

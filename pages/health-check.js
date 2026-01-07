@@ -3,7 +3,7 @@ import React from 'react';
 import { Page, Content } from '../theme/page';
 
 const HealthCheck = () => (
-  <Page id="maincontent">
+    <Page id="maincontent">
     <Content />
   </Page>
 );

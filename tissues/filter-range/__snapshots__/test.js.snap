@@ -1,0 +1,696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a filter range renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  overflow: hidden;
+  padding: 0 10%;
+  max-height: 18rem;
+  -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+  transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding: 0;
+  }
+}
+
+.emotion-0 .emotion-3 {
+  visibility: visible;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 14rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: visible;
+  padding: 0 0.8rem;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-4 .emotion-7 {
+  margin-left: -0.8rem;
+}
+
+.emotion-4 .emotion-9 {
+  margin-left: auto;
+  margin-right: -0.8rem;
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-6 {
+    color: #3150A2;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-8 {
+    color: #3150A2;
+  }
+}
+
+.emotion-10 .input-range {
+  height: 1.6rem;
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.emotion-10 .input-range__label {
+  display: none;
+}
+
+.emotion-10 .input-range__label-container {
+  pointer-events: none;
+}
+
+.emotion-10 .input-range__slider {
+  background: #FFFFFF;
+  border: 2px solid #3150A2;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1.6em;
+  margin-left: -0.8em;
+  margin-top: -1em;
+  position: absolute;
+  width: 1.6em;
+}
+
+.emotion-10 .input-range__slider-container {
+  -webkit-transition: left 300ms ease-out;
+  transition: left 300ms ease-out;
+}
+
+.emotion-10 .input-range__track {
+  background: #9CB1DC;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: block;
+  height: 0.5em;
+  position: relative;
+  -webkit-transition: left 300ms ease-out,width 300ms ease-out;
+  transition: left 300ms ease-out,width 300ms ease-out;
+}
+
+.emotion-10 .input-range__track--active {
+  background: #FFFFFF;
+}
+
+.emotion-10 .input-range__track--background {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-10 .input-range__slider {
+    background: #FFFFFF;
+    border: 2px solid #3150A2;
+  }
+
+  .emotion-10 .input-range__track {
+    background: #9CB1DC;
+  }
+
+  .emotion-10 .input-range__track--active {
+    background: #3150A2;
+  }
+}
+
+.emotion-13 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-top: 1rem;
+  border-color: #FFFFFF;
+}
+
+.emotion-13:active {
+  outline: 0;
+}
+
+.emotion-13:hover {
+  opacity: 0.75;
+}
+
+.emotion-13[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+        data-test-id="FilterRange"
+      >
+        <div
+          aria-hidden="false"
+          class="emotion-2 emotion-3"
+        >
+          <div
+            class="emotion-4 emotion-5"
+          >
+            <span
+              class="emotion-6 emotion-7"
+            >
+              $0
+            </span>
+            <span
+              class="emotion-8 emotion-9"
+            >
+              $10
+            </span>
+          </div>
+          <div
+            class="emotion-10 emotion-11"
+          >
+            <div
+              aria-disabled="false"
+              class="input-range"
+            >
+              <span
+                class="input-range__label input-range__label--min"
+              >
+                <span
+                  class="input-range__label-container"
+                >
+                  0
+                </span>
+              </span>
+              <div
+                class="input-range__track input-range__track--background"
+              >
+                <div
+                  class="input-range__track input-range__track--active"
+                  style="left: 0%; width: 0.13333333333333333%;"
+                />
+                <span
+                  class="input-range__slider-container"
+                  style="position: absolute; left: 0%;"
+                >
+                  <span
+                    class="input-range__label input-range__label--value"
+                  >
+                    <span
+                      class="input-range__label-container"
+                    >
+                      0
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax="10"
+                    aria-valuemin="0"
+                    aria-valuenow="0"
+                    class="input-range__slider"
+                    draggable="false"
+                    role="slider"
+                    tabindex="0"
+                  />
+                </span>
+                <span
+                  class="input-range__slider-container"
+                  style="position: absolute; left: 0.13333333333333333%;"
+                >
+                  <span
+                    class="input-range__label input-range__label--value"
+                  >
+                    <span
+                      class="input-range__label-container"
+                    >
+                      10
+                    </span>
+                  </span>
+                  <div
+                    aria-valuemax="7500"
+                    aria-valuemin="0"
+                    aria-valuenow="10"
+                    class="input-range__slider"
+                    draggable="false"
+                    role="slider"
+                    tabindex="0"
+                  />
+                </span>
+              </div>
+              <span
+                class="input-range__label input-range__label--max"
+              >
+                <span
+                  class="input-range__label-container"
+                >
+                  7500
+                </span>
+              </span>
+            </div>
+          </div>
+          <button
+            class="emotion-12 emotion-13 emotion-14"
+            type="button"
+          >
+            Apply Price Filter
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  overflow: hidden;
+  padding: 0 10%;
+  max-height: 18rem;
+  -webkit-transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+  transition: 400ms max-height cubic-bezier(0.165,0.840,0.440,1);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-0 {
+    padding: 0;
+  }
+}
+
+.emotion-0 .emotion-3 {
+  visibility: visible;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 14rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: visible;
+  padding: 0 0.8rem;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-4 .emotion-7 {
+  margin-left: -0.8rem;
+}
+
+.emotion-4 .emotion-9 {
+  margin-left: auto;
+  margin-right: -0.8rem;
+}
+
+.emotion-6 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-6 {
+    color: #3150A2;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-8 {
+    color: #3150A2;
+  }
+}
+
+.emotion-10 .input-range {
+  height: 1.6rem;
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.emotion-10 .input-range__label {
+  display: none;
+}
+
+.emotion-10 .input-range__label-container {
+  pointer-events: none;
+}
+
+.emotion-10 .input-range__slider {
+  background: #FFFFFF;
+  border: 2px solid #3150A2;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1.6em;
+  margin-left: -0.8em;
+  margin-top: -1em;
+  position: absolute;
+  width: 1.6em;
+}
+
+.emotion-10 .input-range__slider-container {
+  -webkit-transition: left 300ms ease-out;
+  transition: left 300ms ease-out;
+}
+
+.emotion-10 .input-range__track {
+  background: #9CB1DC;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: block;
+  height: 0.5em;
+  position: relative;
+  -webkit-transition: left 300ms ease-out,width 300ms ease-out;
+  transition: left 300ms ease-out,width 300ms ease-out;
+}
+
+.emotion-10 .input-range__track--active {
+  background: #FFFFFF;
+}
+
+.emotion-10 .input-range__track--background {
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width:992px) {
+  .emotion-10 .input-range__slider {
+    background: #FFFFFF;
+    border: 2px solid #3150A2;
+  }
+
+  .emotion-10 .input-range__track {
+    background: #9CB1DC;
+  }
+
+  .emotion-10 .input-range__track--active {
+    background: #3150A2;
+  }
+}
+
+.emotion-13 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 3.5rem;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  margin-top: 1rem;
+  border-color: #FFFFFF;
+}
+
+.emotion-13:active {
+  outline: 0;
+}
+
+.emotion-13:hover {
+  opacity: 0.75;
+}
+
+.emotion-13[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+      data-test-id="FilterRange"
+    >
+      <div
+        aria-hidden="false"
+        class="emotion-2 emotion-3"
+      >
+        <div
+          class="emotion-4 emotion-5"
+        >
+          <span
+            class="emotion-6 emotion-7"
+          >
+            $0
+          </span>
+          <span
+            class="emotion-8 emotion-9"
+          >
+            $10
+          </span>
+        </div>
+        <div
+          class="emotion-10 emotion-11"
+        >
+          <div
+            aria-disabled="false"
+            class="input-range"
+          >
+            <span
+              class="input-range__label input-range__label--min"
+            >
+              <span
+                class="input-range__label-container"
+              >
+                0
+              </span>
+            </span>
+            <div
+              class="input-range__track input-range__track--background"
+            >
+              <div
+                class="input-range__track input-range__track--active"
+                style="left: 0%; width: 0.13333333333333333%;"
+              />
+              <span
+                class="input-range__slider-container"
+                style="position: absolute; left: 0%;"
+              >
+                <span
+                  class="input-range__label input-range__label--value"
+                >
+                  <span
+                    class="input-range__label-container"
+                  >
+                    0
+                  </span>
+                </span>
+                <div
+                  aria-valuemax="10"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  class="input-range__slider"
+                  draggable="false"
+                  role="slider"
+                  tabindex="0"
+                />
+              </span>
+              <span
+                class="input-range__slider-container"
+                style="position: absolute; left: 0.13333333333333333%;"
+              >
+                <span
+                  class="input-range__label input-range__label--value"
+                >
+                  <span
+                    class="input-range__label-container"
+                  >
+                    10
+                  </span>
+                </span>
+                <div
+                  aria-valuemax="7500"
+                  aria-valuemin="0"
+                  aria-valuenow="10"
+                  class="input-range__slider"
+                  draggable="false"
+                  role="slider"
+                  tabindex="0"
+                />
+              </span>
+            </div>
+            <span
+              class="input-range__label input-range__label--max"
+            >
+              <span
+                class="input-range__label-container"
+              >
+                7500
+              </span>
+            </span>
+          </div>
+        </div>
+        <button
+          class="emotion-12 emotion-13 emotion-14"
+          type="button"
+        >
+          Apply Price Filter
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a global search component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  position: relative;
+}
+
+.emotion-2 {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.emotion-5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.3rem;
+  height: 4rem;
+  padding: 6px 6px 6px 31px;
+  width: 100%;
+  -webkit-appearance: none;
+  background: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.5rem;
+  height: 5.5rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  outline-color: #9CB1DC;
+  outline-offset: 1px;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  z-index: 20;
+}
+
+@media (max-width:992px) {
+  .emotion-5:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-webkit-search-decoration,
+.emotion-5::-webkit-search-cancel-button,
+.emotion-5::-webkit-search-results-button,
+.emotion-5::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.emotion-5:invalid {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.emotion-8 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 3.2rem;
+  overflow: visible;
+  position: absolute;
+  right: 0.2rem;
+  top: 1.2rem;
+  width: 3.2rem;
+  z-index: 3000;
+}
+
+.emotion-8:active {
+  outline: 0;
+}
+
+.emotion-8:hover {
+  opacity: 0.75;
+}
+
+.emotion-8[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-8 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-8 svg {
+  fill: transparent;
+  height: 2.8rem;
+  stroke-width: 3;
+  stroke: #fff;
+  width: 2.8rem;
+}
+
+.emotion-8 svg path {
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.emotion-8:focus svg path,
+.emotion-8:hover:not(:disabled) svg path {
+  -webkit-animation: arrow-head;
+  animation: arrow-head;
+  -webkit-animation-duration: 600ms;
+  animation-duration: 600ms;
+  -webkit-animation-timing-function: cubic-bezier(0.15,0.8,0.3,1.2);
+  animation-timing-function: cubic-bezier(0.15,0.8,0.3,1.2);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+<body>
+    <div>
+      <div
+        class=" emotion-0 emotion-1"
+        data-test-id="GlobalSearch"
+      >
+        <label
+          class="emotion-2 emotion-3"
+          for="w"
+        >
+          Search
+        </label>
+        <input
+          autocomplete="off"
+          class="emotion-4 emotion-5 emotion-6"
+          data-test-id="InputSearch"
+          id="w"
+          name="w"
+          placeholder="Search"
+          required=""
+          type="search"
+          value=""
+        />
+        <button
+          aria-label="submit search"
+          class="emotion-7 emotion-8 emotion-9"
+          disabled=""
+          type="submit"
+          value="search"
+        >
+          <svg
+            class="emotion-10 emotion-11"
+            data-test-id="Icon"
+          />
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  position: relative;
+}
+
+.emotion-2 {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.emotion-5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.3rem;
+  height: 4rem;
+  padding: 6px 6px 6px 31px;
+  width: 100%;
+  -webkit-appearance: none;
+  background: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.5rem;
+  height: 5.5rem;
+  -webkit-letter-spacing: 0.04em;
+  -moz-letter-spacing: 0.04em;
+  -ms-letter-spacing: 0.04em;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  outline-color: #9CB1DC;
+  outline-offset: 1px;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  z-index: 20;
+}
+
+@media (max-width:992px) {
+  .emotion-5:focus {
+    font-size: 16px;
+  }
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5:-ms-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.emotion-5::-webkit-search-decoration,
+.emotion-5::-webkit-search-cancel-button,
+.emotion-5::-webkit-search-results-button,
+.emotion-5::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.emotion-5:invalid {
+  box-shadow: none;
+}
+
+.emotion-5::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.emotion-8 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: #3150A2;
+  border: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 3.2rem;
+  overflow: visible;
+  position: absolute;
+  right: 0.2rem;
+  top: 1.2rem;
+  width: 3.2rem;
+  z-index: 3000;
+}
+
+.emotion-8:active {
+  outline: 0;
+}
+
+.emotion-8:hover {
+  opacity: 0.75;
+}
+
+.emotion-8[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-8 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-8 svg {
+  fill: transparent;
+  height: 2.8rem;
+  stroke-width: 3;
+  stroke: #fff;
+  width: 2.8rem;
+}
+
+.emotion-8 svg path {
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.emotion-8:focus svg path,
+.emotion-8:hover:not(:disabled) svg path {
+  -webkit-animation: arrow-head;
+  animation: arrow-head;
+  -webkit-animation-duration: 600ms;
+  animation-duration: 600ms;
+  -webkit-animation-timing-function: cubic-bezier(0.15,0.8,0.3,1.2);
+  animation-timing-function: cubic-bezier(0.15,0.8,0.3,1.2);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+<div>
+    <div
+      class=" emotion-0 emotion-1"
+      data-test-id="GlobalSearch"
+    >
+      <label
+        class="emotion-2 emotion-3"
+        for="w"
+      >
+        Search
+      </label>
+      <input
+        autocomplete="off"
+        class="emotion-4 emotion-5 emotion-6"
+        data-test-id="InputSearch"
+        id="w"
+        name="w"
+        placeholder="Search"
+        required=""
+        type="search"
+        value=""
+      />
+      <button
+        aria-label="submit search"
+        class="emotion-7 emotion-8 emotion-9"
+        disabled=""
+        type="submit"
+        value="search"
+      >
+        <svg
+          class="emotion-10 emotion-11"
+          data-test-id="Icon"
+        />
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

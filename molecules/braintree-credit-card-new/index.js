@@ -497,6 +497,7 @@ const BraintreeCreditCard = forwardRef((props, ref) => {
               'font-size': '1.2rem',
               'font-family': GlobalTheme.font.sans,
               color: GlobalTheme.color.brand
+
             },
             'input.invalid': {
               color: GlobalTheme.color.redError

@@ -2,7 +2,7 @@ import reducer from './reducer';
 import * as types from './types';
 
 describe('active filter accordion state module', () => {
-  it('should return the initial state', () => {
+    it('should return the initial state', () => {
     expect(reducer(undefined, {})).toEqual({
       filter: null
     });
@@ -13,5 +13,6 @@ describe('active filter accordion state module', () => {
       type: types.ACTIVE_FILTER_ACCORDION_TOGGLE_FILTER,
       filter: 'age_range'
     }).filter).toEqual('age_range');
+
   });
 });

@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the footer contact renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-1 {
+  color: #3150A2;
+  font-family: inherit;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.25em;
+  -moz-letter-spacing: 0.25em;
+  -ms-letter-spacing: 0.25em;
+  letter-spacing: 0.25em;
+  line-height: 1.4rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+  border-bottom: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  margin-bottom: 5rem;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: color .4s cubic-bezier(.39,.575,.565,1);
+  transition: color .4s cubic-bezier(.39,.575,.565,1);
+  min-height: 3.2rem;
+}
+
+.emotion-1:visited {
+  color: #9CB1DC;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-1 {
+    margin-bottom: 5rem;
+  }
+
+  .emotion-1:not(:last-of-type) {
+    text-align: left;
+  }
+}
+
+.emotion-1:visited {
+  color: #FFFFFF;
+}
+
+.emotion-1:hover {
+  color: #9CB1DC;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 2.3438rem;
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #FFFFFF;
+}
+
+.emotion-8 {
+  color: #FFFFFF;
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: color 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-8:hover {
+  color: #9CB1DC;
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-16 svg {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  fill: #FFFFFF;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 1rem 0;
+  width: 4.4rem;
+  cursor: pointer;
+}
+
+.emotion-18:hover svg {
+  fill: #9CB1DC;
+}
+
+<body>
+    <div>
+      <a
+        class=" emotion-0 emotion-1 emotion-2"
+        href="/contact"
+      >
+        Contact Us
+      </a>
+      <ul
+        class="emotion-3 emotion-4 emotion-5"
+        data-test-id="FooterCopy"
+      >
+        <li
+          class="emotion-6 emotion-7"
+        >
+          <a
+            class="emotion-8 emotion-9"
+            href="tel:18446247663"
+          >
+            1 844-MAISONETTE
+            <br />
+            (1 844-624-7663)
+          </a>
+        </li>
+        <li
+          class="emotion-6 emotion-7"
+        >
+          <p>
+            Mon—Fri: 10am—6pm Eastern
+          </p>
+        </li>
+        <li
+          class="emotion-6 emotion-7"
+        >
+          <a
+            class="emotion-8 emotion-9"
+            href="mailto:customercare@maisonette.com"
+          >
+            customercare@maisonette.com
+          </a>
+        </li>
+      </ul>
+      <div
+        class="emotion-16 emotion-17"
+        data-test-id="SocialMediaIcons"
+      >
+        <a
+          aria-label="Visit the Maisonette instagram page"
+          class="emotion-18 emotion-19"
+          data-site="instagram"
+          href="https://www.instagram.com/maisonetteworld"
+          rel="noopener nofollow"
+          target="_blank"
+        >
+          <svg
+            class="emotion-20 emotion-21"
+            data-test-id="Icon"
+            title="instagram"
+          />
+        </a>
+        <a
+          aria-label="Visit the Maisonette twitter page"
+          class="emotion-18 emotion-19"
+          data-site="twitter"
+          href="https://twitter.com/maisonetteworld"
+          rel="noopener nofollow"
+          target="_blank"
+        >
+          <svg
+            class="emotion-20 emotion-25"
+            data-test-id="Icon"
+            title="twitter"
+          />
+        </a>
+        <a
+          aria-label="Visit the Maisonette facebook page"
+          class="emotion-18 emotion-19"
+          data-site="facebook"
+          href="https://www.facebook.com/maisonetteworld"
+          rel="noopener nofollow"
+          target="_blank"
+        >
+          <svg
+            class="emotion-20 emotion-29"
+            data-test-id="Icon"
+            title="facebook"
+          />
+        </a>
+        <a
+          aria-label="Visit the Maisonette pinterest page"
+          class="emotion-18 emotion-19"
+          data-site="pinterest"
+          href="https://www.pinterest.com/maisonetteworld"
+          rel="noopener nofollow"
+          target="_blank"
+        >
+          <svg
+            class="emotion-20 emotion-33"
+            data-test-id="Icon"
+            title="pinterest"
+          />
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-1 {
+  color: #3150A2;
+  font-family: inherit;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.25em;
+  -moz-letter-spacing: 0.25em;
+  -ms-letter-spacing: 0.25em;
+  letter-spacing: 0.25em;
+  line-height: 1.4rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+  border-bottom: 0.2rem solid #3150A2;
+  color: #FFFFFF;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  margin-bottom: 5rem;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: color .4s cubic-bezier(.39,.575,.565,1);
+  transition: color .4s cubic-bezier(.39,.575,.565,1);
+  min-height: 3.2rem;
+}
+
+.emotion-1:visited {
+  color: #9CB1DC;
+}
+
+@media screen and (min-width:992px) {
+  .emotion-1 {
+    margin-bottom: 5rem;
+  }
+
+  .emotion-1:not(:last-of-type) {
+    text-align: left;
+  }
+}
+
+.emotion-1:visited {
+  color: #FFFFFF;
+}
+
+.emotion-1:hover {
+  color: #9CB1DC;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 2.3438rem;
+}
+
+.emotion-6 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #FFFFFF;
+}
+
+.emotion-8 {
+  color: #FFFFFF;
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: color 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+}
+
+.emotion-8:hover {
+  color: #9CB1DC;
+}
+
+.emotion-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.emotion-16 svg {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  fill: #FFFFFF;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 100%;
+}
+
+.emotion-18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 1rem 0;
+  width: 4.4rem;
+  cursor: pointer;
+}
+
+.emotion-18:hover svg {
+  fill: #9CB1DC;
+}
+
+<div>
+    <a
+      class=" emotion-0 emotion-1 emotion-2"
+      href="/contact"
+    >
+      Contact Us
+    </a>
+    <ul
+      class="emotion-3 emotion-4 emotion-5"
+      data-test-id="FooterCopy"
+    >
+      <li
+        class="emotion-6 emotion-7"
+      >
+        <a
+          class="emotion-8 emotion-9"
+          href="tel:18446247663"
+        >
+          1 844-MAISONETTE
+          <br />
+          (1 844-624-7663)
+        </a>
+      </li>
+      <li
+        class="emotion-6 emotion-7"
+      >
+        <p>
+          Mon—Fri: 10am—6pm Eastern
+        </p>
+      </li>
+      <li
+        class="emotion-6 emotion-7"
+      >
+        <a
+          class="emotion-8 emotion-9"
+          href="mailto:customercare@maisonette.com"
+        >
+          customercare@maisonette.com
+        </a>
+      </li>
+    </ul>
+    <div
+      class="emotion-16 emotion-17"
+      data-test-id="SocialMediaIcons"
+    >
+      <a
+        aria-label="Visit the Maisonette instagram page"
+        class="emotion-18 emotion-19"
+        data-site="instagram"
+        href="https://www.instagram.com/maisonetteworld"
+        rel="noopener nofollow"
+        target="_blank"
+      >
+        <svg
+          class="emotion-20 emotion-21"
+          data-test-id="Icon"
+          title="instagram"
+        />
+      </a>
+      <a
+        aria-label="Visit the Maisonette twitter page"
+        class="emotion-18 emotion-19"
+        data-site="twitter"
+        href="https://twitter.com/maisonetteworld"
+        rel="noopener nofollow"
+        target="_blank"
+      >
+        <svg
+          class="emotion-20 emotion-25"
+          data-test-id="Icon"
+          title="twitter"
+        />
+      </a>
+      <a
+        aria-label="Visit the Maisonette facebook page"
+        class="emotion-18 emotion-19"
+        data-site="facebook"
+        href="https://www.facebook.com/maisonetteworld"
+        rel="noopener nofollow"
+        target="_blank"
+      >
+        <svg
+          class="emotion-20 emotion-29"
+          data-test-id="Icon"
+          title="facebook"
+        />
+      </a>
+      <a
+        aria-label="Visit the Maisonette pinterest page"
+        class="emotion-18 emotion-19"
+        data-site="pinterest"
+        href="https://www.pinterest.com/maisonetteworld"
+        rel="noopener nofollow"
+        target="_blank"
+      >
+        <svg
+          class="emotion-20 emotion-33"
+          data-test-id="Icon"
+          title="pinterest"
+        />
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

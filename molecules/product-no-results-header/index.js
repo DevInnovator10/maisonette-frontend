@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 import Typography from '../../atoms/typography';
 
 const Title = styled(Typography)`
-  color: ${(props) => props.theme.color.brand};
+    color: ${(props) => props.theme.color.brand};
 
   line-height: 1.4;
   text-align: center;
@@ -85,6 +85,7 @@ const ProductNoResults = (props) => (
       )
     }
   </>
+
 );
 
 ProductNoResults.defaultProps = {

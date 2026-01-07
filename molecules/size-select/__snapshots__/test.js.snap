@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a size select renders correctly 1`] = `
+.emotion-0 {
+    font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-right: 1rem;
+  line-height: 2rem;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.2rem;
+  color: #9CB1DC;
+  display: inline-block;
+  -webkit-letter-spacing: .04em;
+  -moz-letter-spacing: .04em;
+  -ms-letter-spacing: .04em;
+  letter-spacing: .04em;
+  padding-right: 1rem;
+  line-height: 2rem;
+}
+
+<div>
+  <dt
+    class="emotion-0 emotion-1"
+  >
+    Size:
+  </dt>
+  <dd
+    class="emotion-2 emotion-3"
+  >
+    OS
+  </dd>
+</div>
+`;

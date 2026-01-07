@@ -321,6 +321,7 @@
 					}
 				},
 				"url": {
+
 					"raw": "{{host}}/api/forgot-password",
 					"host": [
 						"{{host}}"
@@ -454,6 +455,7 @@
 				"url": {
 					"raw": "{{host}}/api/minis/{{mini_id}}?user_token={{user_token}}",
 					"host": [
+
 						"{{host}}"
 					],
 					"path": [

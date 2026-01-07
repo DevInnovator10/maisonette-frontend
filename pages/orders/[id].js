@@ -157,6 +157,7 @@ const OrderNumber = styled.p`
 
 const Eligible = styled(Typography)`
   color: ${(props) => props.theme.color.brandLight};
+
   display: block;
   line-height: 2;
   margin-bottom: 0.5rem;

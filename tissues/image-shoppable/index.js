@@ -14,7 +14,7 @@ import Ruler from '../../atoms/ruler';
 const Wrapper = styled.section``;
 
 const Content = styled.div`
-  font-family: ${(props) => props.theme.font.sans};
+    font-family: ${(props) => props.theme.font.sans};
   font-size: 1.4rem;
   padding: 0.3em 0;
   text-align: center;
@@ -23,6 +23,7 @@ const Content = styled.div`
   @media screen and (min-width: ${(props) => props.theme.breakpoint.small}) {
     display: flex;
     text-align: left;
+
   }
 `;
 

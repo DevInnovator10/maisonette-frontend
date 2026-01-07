@@ -15,6 +15,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   updateQuickShopIndex: (index) => dispatch(updateQuickShopIndex(index)),
+
   updateQuickShopProduct: (id) => dispatch(updateQuickShopProduct(id))
 });
 

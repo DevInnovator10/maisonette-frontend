@@ -122,6 +122,7 @@ const CurrentRefinements = ({
           dispatch(updateActiveMini(0));
           global.document.cookie = 'maisonette_active_mini=0; path=/';
         }
+
       }
     }
 

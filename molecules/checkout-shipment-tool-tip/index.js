@@ -6,7 +6,7 @@ import Button from '../../atoms/button';
 import Icon from '../../atoms/icon-cross';
 
 const ToolTip = styled.div`
-  position: absolute;
+    position: absolute;
   width: 100%;
   top: 2rem;
   right: 50%;
@@ -64,6 +64,7 @@ const CloseToolTipButton = styled(Button)`
 
   line-height: normal;
   border: none;
+
   padding: 0;
   color: ${(props) => props.theme.color.brand};
 

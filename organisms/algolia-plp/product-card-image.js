@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Image from 'next/image';
 
 const ImageWithFallback = (props) => {
-  const { src, fallback, ...rest } = props;
+    const { src, fallback, ...rest } = props;
   const [img, set] = useState(src);
 
   const handleOnImageError = () => set(fallback);

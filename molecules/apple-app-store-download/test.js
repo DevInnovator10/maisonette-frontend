@@ -21,6 +21,7 @@ describe('the AppleAppStoreDownload component', () => {
     const copy = componentWrapper.getByText('Download our official app from the app store');
     expect(title).toBeDefined();
     expect(copy).toBeDefined();
+
   });
 
   it('has the correct link with tracking parameters', () => {

@@ -9,6 +9,7 @@ const FullListIngredients = (props) => {
 
   const filteredIngredients = (properties) => (
     properties.filter(
+
       (property) => property.property_name === 'Full list of ingredients'
     )
   );
@@ -26,6 +27,7 @@ const FullListIngredients = (props) => {
 
   useEffect(() => {
     if (pdpVariants && activeColor.length) {
+
       const { maisonette_variant_group_attributes: variant_attributes } = props.product;
 
       const validColor = variant_attributes.find((v) =>

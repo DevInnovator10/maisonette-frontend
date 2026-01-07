@@ -176,6 +176,7 @@ const CardAnchor = styled.a`
         }
         :hover {
           ${FASTLY_ON ? 'picture' : Image} {
+
             opacity: 0;
 
             + ${FASTLY_ON ? 'picture' : Image} {

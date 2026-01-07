@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { connectSortBy } from 'react-instantsearch-dom';
 
 import {
+
   List,
   Accordion,
   AccordionPanel,

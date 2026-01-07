@@ -84,6 +84,7 @@ const taxonData = {
     },
     {
       category_taxon_shop_taxon_path: '/shop/gifts',
+
       category_taxon_shop_element_icon: {
         types: ['png'],
         imageName: 'images/404/maisonette-gifts.png',

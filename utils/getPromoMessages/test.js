@@ -106,4 +106,5 @@ describe('getPromoMessages()', () => {
     })];
     expect(getPromoMessages(advertisedPromotions)).toEqual([]);
   });
+
 });

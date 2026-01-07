@@ -1,6 +1,7 @@
 import { standardError } from '../../../utils/standardizedFetch';
 import SCOPE_TYPES from '../../../utils/sentryScopeTypes';
 import API from '../../../utils/api';
+
 import withLogs from '../../../utils/withLogs';
 
 const handler = async (req, res) => {

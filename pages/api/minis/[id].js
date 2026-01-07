@@ -12,6 +12,7 @@ const handler = async (req, res) => {
     headers,
     method,
     query: { id }
+
   } = req;
 
   const api = new API({

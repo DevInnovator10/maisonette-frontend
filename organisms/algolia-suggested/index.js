@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import Link from 'next/link';
 import {
-  Index, Highlight, connectStateResults, connectHitInsights
+    Index, Highlight, connectStateResults, connectHitInsights
 } from 'react-instantsearch-dom';
 
 // Components
@@ -28,6 +28,7 @@ const Arrow = (props) => (
   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path d="M9.5 9.5L1 1M1 1V5M1 1H5" stroke="#3150A2" />
   </svg>
+
 );
 
 const MagnifyingGlassIcon = styled(MagnifyingGlass)(() => ({
@@ -50,6 +51,7 @@ const ArrowButton = styled.button(() => ({
 
 const SuggestedItem = styled(ListItem)(() => ({
   '.ais-Highlight': {
+
     span: { color: '#4E68AF' },
     strong: { color: '#112E7D' }
   }

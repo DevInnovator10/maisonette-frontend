@@ -44,6 +44,7 @@ const reducer = produce((draft, action) => {
       break;
 
     case types.LISTS_UPDATE_SHAREABLE_LIST_STATUS:
+
       draft.wishedProductsToShareStatus = action.status;
       break;
 

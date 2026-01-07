@@ -50,6 +50,7 @@ const Image = styled.img`
 const YearsWrapper = styled.ul`
   display: flex;
   gap: 6px;
+
   justify-content: center;
   flex-wrap: wrap;
 `;

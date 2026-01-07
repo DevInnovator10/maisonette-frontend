@@ -82,6 +82,7 @@ const DetailsRevamp = (props) => {
   /**
    * get pdpVariants value from siteSpect
    * which is pulled out and replaced with static value for a while
+
    */
   const pdpVariants = false;
   const [currentDetails, setCurrentDetails] = useState(

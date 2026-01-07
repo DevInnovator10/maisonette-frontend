@@ -21,6 +21,7 @@ const handler = async (req, res) => {
       SCOPE_TYPES.API,
       SCOPE_TYPES.SERVICES.SLI
     ],
+
     headers,
     ...cookies
   });

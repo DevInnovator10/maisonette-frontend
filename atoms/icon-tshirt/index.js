@@ -7,6 +7,7 @@ const StyledIcon = styled(svg)``;
 const Icon = (props) => (
 
   <StyledIcon {...props} />
+
 );
 
 export default Icon;

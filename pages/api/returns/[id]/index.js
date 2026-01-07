@@ -4,7 +4,7 @@ import API from '../../../../utils/api';
 import withLogs from '../../../../utils/withLogs';
 
 const handler = async (req, res) => {
-  res.setHeader('X-Cache-Control', ['true']);
+    res.setHeader('X-Cache-Control', ['true']);
 
   const {
     cookies,
@@ -15,6 +15,7 @@ const handler = async (req, res) => {
 
   const api = new API({
     fingerprint: __filename.replace('pages', '').split('.')[0],
+
     base: process.env.SOLIDUS_HOST,
     host: SCOPE_TYPES.SERVICES.SOLIDUS,
     request: req,
@@ -48,6 +49,7 @@ const handler = async (req, res) => {
     method,
     body: req?.body ?? null,
     query: req?.query ?? null,
+
     status: api?.response?.status ?? 500,
     headers,
     uri: `/api/returns/${id}`,

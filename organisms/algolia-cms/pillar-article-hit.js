@@ -17,7 +17,7 @@ const getImagePath = (payload) => {
     try {
     const [imageName, extension] = payload.imageName.split('.');
     return payload.raw
-      ? `${process.env.NEXT_PUBLIC_ASSET_HOST}/${payload.uri}${imageName}.${extension}`
+        ? `${process.env.NEXT_PUBLIC_ASSET_HOST}/${payload.uri}${imageName}.${extension}`
       : `${process.env.NEXT_PUBLIC_ASSET_HOST}/${payload.uri}${imageName}-small.${extension}`;
   } catch (error) {
     return null;

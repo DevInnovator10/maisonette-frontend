@@ -124,6 +124,7 @@ const BraintreeApplePay = (props) => {
       requiredBillingContactFields: ['postalAddress'],
       requiredShippingContactFields: [
         'postalAddress',
+
         'name',
         'phone',
         'email'

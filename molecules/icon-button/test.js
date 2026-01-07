@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { render } from '../../utils/tests/testTheming';
 import IconButton from '.';
 import Heart from '../../atoms/icon-heart';

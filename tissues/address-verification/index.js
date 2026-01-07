@@ -26,7 +26,7 @@ import updateAddressBookInCheckout from '../../utils/updateAddressBookInCheckout
 
 const Overlay = styled.span`
     background: ${(props) => props.theme.color.black};
-  bottom: 0;
+    bottom: 0;
   height: 0;
   opacity: 0;
   position: fixed;
@@ -325,6 +325,7 @@ const AddressVerification = (props) => {
             <CloseButton
               aria-label="close address verification modal"
               type="button"
+
               onClick={handleCloseModal}
             >
               <IconCross />
@@ -391,6 +392,7 @@ const AddressVerification = (props) => {
                   >
                     Edit Address
                   </CTA>
+
                   <CTA
                     onClick={handleContinueWithAddress}
                     outline

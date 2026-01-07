@@ -29,6 +29,7 @@ const modules = {
   social_share: dynamic(() => import('./social-share')),
   story_module: dynamic(() => import('./story-module')),
   story_place: dynamic(() => import('./story-place')),
+
   taxon_products: dynamic(() => import('./taxon-products')),
   three_ways: dynamic(() => import('./three-ways')),
   two_image: dynamic(() => import('./two-image')),

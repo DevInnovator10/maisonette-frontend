@@ -1,0 +1,1054 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`incorrect navigation list renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`incorrect navigation list renders correctly 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #3150A2;
+  height: 100vh;
+  overflow: hidden;
+  left: 0;
+  padding: 5rem 3rem 10rem 3rem;
+  position: absolute;
+  top: 0;
+  width: 28rem;
+  z-index: 3000;
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  -webkit-transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+}
+
+.emotion-0>li>.emotion-3 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDUgTDUgMTAgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  line-height: 4.4rem;
+  padding-left: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    width: 38rem;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] {
+    border-top: 1px solid #3150A2;
+    margin-top: 1rem;
+    -webkit-order: 999;
+    -ms-flex-order: 999;
+    order: 999;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] .emotion-7 {
+    line-height: 4rem;
+  }
+
+  .emotion-0>li>.emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-2 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    font-size: 1.3rem;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+}
+
+.emotion-4>.emotion-7,
+.emotion-4>.emotion-3 {
+  line-height: 3;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    color: red;
+    display: block;
+  }
+
+  .emotion-4>.emotion-7 {
+    color: #3150A2;
+    line-height: 2.5rem;
+    text-align: left;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-4>.emotion-7:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-6 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    font-size: 1.3rem;
+  }
+}
+
+<body>
+    <div>
+      <ul
+        class="emotion-0 emotion-1"
+        role="menu"
+      >
+        <li>
+          <label
+            class="emotion-2 emotion-3"
+            for="3373"
+          >
+            Just In
+          </label>
+        </li>
+        <li
+          class="emotion-4 emotion-5"
+          data-attribute="view-all"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/trends~just-in?td=new"
+          >
+            View All
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #3150A2;
+  height: 100vh;
+  overflow: hidden;
+  left: 0;
+  padding: 5rem 3rem 10rem 3rem;
+  position: absolute;
+  top: 0;
+  width: 28rem;
+  z-index: 3000;
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  -webkit-transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+}
+
+.emotion-0>li>.emotion-3 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDUgTDUgMTAgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  line-height: 4.4rem;
+  padding-left: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    width: 38rem;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] {
+    border-top: 1px solid #3150A2;
+    margin-top: 1rem;
+    -webkit-order: 999;
+    -ms-flex-order: 999;
+    order: 999;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] .emotion-7 {
+    line-height: 4rem;
+  }
+
+  .emotion-0>li>.emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-2 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    font-size: 1.3rem;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+}
+
+.emotion-4>.emotion-7,
+.emotion-4>.emotion-3 {
+  line-height: 3;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    color: red;
+    display: block;
+  }
+
+  .emotion-4>.emotion-7 {
+    color: #3150A2;
+    line-height: 2.5rem;
+    text-align: left;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-4>.emotion-7:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-6 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    font-size: 1.3rem;
+  }
+}
+
+<div>
+    <ul
+      class="emotion-0 emotion-1"
+      role="menu"
+    >
+      <li>
+        <label
+          class="emotion-2 emotion-3"
+          for="3373"
+        >
+          Just In
+        </label>
+      </li>
+      <li
+        class="emotion-4 emotion-5"
+        data-attribute="view-all"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/trends~just-in?td=new"
+        >
+          View All
+        </a>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`navigation tertiary list renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #3150A2;
+  height: 100vh;
+  overflow: hidden;
+  left: 0;
+  padding: 5rem 3rem 10rem 3rem;
+  position: absolute;
+  top: 0;
+  width: 28rem;
+  z-index: 3000;
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  -webkit-transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+}
+
+.emotion-0>li>.emotion-3 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDUgTDUgMTAgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  line-height: 4.4rem;
+  padding-left: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    width: 38rem;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] {
+    border-top: 1px solid #3150A2;
+    margin-top: 1rem;
+    -webkit-order: 999;
+    -ms-flex-order: 999;
+    order: 999;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] .emotion-7 {
+    line-height: 4rem;
+  }
+
+  .emotion-0>li>.emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-2 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    font-size: 1.3rem;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+}
+
+.emotion-4>.emotion-7,
+.emotion-4>.emotion-3 {
+  line-height: 3;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    color: red;
+    display: block;
+  }
+
+  .emotion-4>.emotion-7 {
+    color: #3150A2;
+    line-height: 2.5rem;
+    text-align: left;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-4>.emotion-7:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-6 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    font-size: 1.3rem;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+}
+
+.emotion-8>.emotion-7,
+.emotion-8>.emotion-3 {
+  line-height: 3;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    color: red;
+  }
+
+  .emotion-8>.emotion-7 {
+    color: #3150A2;
+    line-height: 2.5rem;
+    text-align: left;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-8>.emotion-7:hover {
+    color: #9CB1DC;
+  }
+}
+
+<body>
+    <div>
+      <ul
+        class="emotion-0 emotion-1"
+        role="menu"
+      >
+        <li>
+          <label
+            class="emotion-2 emotion-3"
+            for="65"
+          >
+            Just In
+          </label>
+        </li>
+        <li
+          class="emotion-4 emotion-5"
+          data-attribute="view-all"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in"
+          >
+            View All
+          </a>
+        </li>
+        <li
+          class="emotion-8 emotion-5"
+          data-test-id="NavList"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in/new-this-month"
+          >
+            New this Month
+          </a>
+        </li>
+        <li
+          class="emotion-8 emotion-5"
+          data-test-id="NavList"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in/new-dresses"
+          >
+            New Dresses
+          </a>
+        </li>
+        <li
+          class="emotion-8 emotion-5"
+          data-test-id="NavList"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in/new-swim"
+          >
+            New Swim
+          </a>
+        </li>
+        <li
+          class="emotion-8 emotion-5"
+          data-test-id="NavList"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in/for-baby-boy"
+          >
+            For Baby Boy
+          </a>
+        </li>
+        <li
+          class="emotion-8 emotion-5"
+          data-test-id="NavList"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in/for-baby-girl"
+          >
+            For Baby Girl
+          </a>
+        </li>
+        <li
+          class="emotion-8 emotion-5"
+          data-test-id="NavList"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in/for-boy"
+          >
+            For Boy
+          </a>
+        </li>
+        <li
+          class="emotion-8 emotion-5"
+          data-test-id="NavList"
+          role="menuitem"
+        >
+          <a
+            class="emotion-6 emotion-7"
+            href="/shop/whats-new/just-in/for-girl"
+          >
+            For Girl
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #3150A2;
+  height: 100vh;
+  overflow: hidden;
+  left: 0;
+  padding: 5rem 3rem 10rem 3rem;
+  position: absolute;
+  top: 0;
+  width: 28rem;
+  z-index: 3000;
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  -webkit-transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+  transition: transform 200ms cubic-bezier(0.550,0.085,0.68,0.530),visibility 400ms;
+}
+
+.emotion-0>li>.emotion-3 {
+  background-image: url(data:image/svg+xml;base64,CiAgICA8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycgdmVyc2lvbj0nMS4xJyB2aWV3Ym94PSIwIDAgNSAxMCI+CiAgICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0wIDUgTDUgMTAgTDUgMCBaIiAvPgogICAgPC9zdmc+CiAg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #3150A2;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  -webkit-letter-spacing: 0.24em;
+  -moz-letter-spacing: 0.24em;
+  -ms-letter-spacing: 0.24em;
+  letter-spacing: 0.24em;
+  line-height: 4.4rem;
+  padding-left: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+  .emotion-0 {
+    width: 38rem;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    background: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] {
+    border-top: 1px solid #3150A2;
+    margin-top: 1rem;
+    -webkit-order: 999;
+    -ms-flex-order: 999;
+    order: 999;
+  }
+
+  .emotion-0 li[data-attribute="view-all"] .emotion-7 {
+    line-height: 4rem;
+  }
+
+  .emotion-0>li>.emotion-3 {
+    display: none;
+  }
+}
+
+.emotion-2 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+  transition: background-image 200ms cubic-bezier(0.550,0.085,0.68,0.530);
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    font-size: 1.3rem;
+  }
+}
+
+.emotion-4 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+}
+
+.emotion-4>.emotion-7,
+.emotion-4>.emotion-3 {
+  line-height: 3;
+}
+
+@media (min-width:992px) {
+  .emotion-4 {
+    color: red;
+    display: block;
+  }
+
+  .emotion-4>.emotion-7 {
+    color: #3150A2;
+    line-height: 2.5rem;
+    text-align: left;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-4>.emotion-7:hover {
+    color: #9CB1DC;
+  }
+}
+
+.emotion-6 {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.2rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+@media (min-width:992px) {
+  .emotion-6 {
+    font-size: 1.3rem;
+  }
+}
+
+.emotion-8 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+}
+
+.emotion-8>.emotion-7,
+.emotion-8>.emotion-3 {
+  line-height: 3;
+}
+
+@media (min-width:992px) {
+  .emotion-8 {
+    color: red;
+  }
+
+  .emotion-8>.emotion-7 {
+    color: #3150A2;
+    line-height: 2.5rem;
+    text-align: left;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+  }
+
+  .emotion-8>.emotion-7:hover {
+    color: #9CB1DC;
+  }
+}
+
+<div>
+    <ul
+      class="emotion-0 emotion-1"
+      role="menu"
+    >
+      <li>
+        <label
+          class="emotion-2 emotion-3"
+          for="65"
+        >
+          Just In
+        </label>
+      </li>
+      <li
+        class="emotion-4 emotion-5"
+        data-attribute="view-all"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in"
+        >
+          View All
+        </a>
+      </li>
+      <li
+        class="emotion-8 emotion-5"
+        data-test-id="NavList"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in/new-this-month"
+        >
+          New this Month
+        </a>
+      </li>
+      <li
+        class="emotion-8 emotion-5"
+        data-test-id="NavList"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in/new-dresses"
+        >
+          New Dresses
+        </a>
+      </li>
+      <li
+        class="emotion-8 emotion-5"
+        data-test-id="NavList"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in/new-swim"
+        >
+          New Swim
+        </a>
+      </li>
+      <li
+        class="emotion-8 emotion-5"
+        data-test-id="NavList"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in/for-baby-boy"
+        >
+          For Baby Boy
+        </a>
+      </li>
+      <li
+        class="emotion-8 emotion-5"
+        data-test-id="NavList"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in/for-baby-girl"
+        >
+          For Baby Girl
+        </a>
+      </li>
+      <li
+        class="emotion-8 emotion-5"
+        data-test-id="NavList"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in/for-boy"
+        >
+          For Boy
+        </a>
+      </li>
+      <li
+        class="emotion-8 emotion-5"
+        data-test-id="NavList"
+        role="menuitem"
+      >
+        <a
+          class="emotion-6 emotion-7"
+          href="/shop/whats-new/just-in/for-girl"
+        >
+          For Girl
+        </a>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

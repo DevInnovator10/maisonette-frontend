@@ -60,6 +60,7 @@ const NewsletterFlavorCopy = (props) => {
           <NewsletterItemText element="p" like="label-1">{props.title}</NewsletterItemText>
         </NewsletterItemAnchor>
       </Link>
+
     );
   }
 

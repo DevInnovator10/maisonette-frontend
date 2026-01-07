@@ -41,6 +41,7 @@ const TwoImage = (props) => (
         <Image
           {...props.data.two_image_right_image_desktop}
           alt={props.data.two_image_right_alt_text}
+
         />
       )}
     </Wrapper>

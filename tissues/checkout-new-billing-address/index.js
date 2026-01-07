@@ -22,6 +22,7 @@ const StyledField = styled(Field)`
   :before, :after {
     border-color: ${(props) => props.theme.color.brand};
     font-size: 1.2rem;
+
   }
 `;
 
@@ -40,6 +41,7 @@ const AddressBilling = (props) => (
         />
 
         {
+
             !props.values[props.name][props.index].use_billing && (
               <AddressForm
                 isBilling

@@ -10,7 +10,7 @@ import CartDrawer from '.';
 const mockStore = configureMockStore([thunk]);
 
 describe('an opened cart drawer', () => {
-  let componentWrapper;
+    let componentWrapper;
   let componentElement;
 
   const store = mockStore({

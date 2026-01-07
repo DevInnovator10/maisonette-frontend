@@ -32,6 +32,7 @@ const ColorStoryCellProduct = (props) => {
   return product ? (
     <Wrapper>
       {
+
         product && (
           <ProductCard product={product} showQuickShop={false} index={props.data.index} module="color_story" />
         )

@@ -19,6 +19,7 @@ export const PetiteDropdownTrigger = (props) => {
     }
 
     return { name: 'Your Mini', id: -1 };
+
   };
 
   const updatePetiteDropdownState = () => {
@@ -49,6 +50,7 @@ PetiteDropdownTrigger.propTypes = {
   minis: PropTypes.array.isRequired,
   loading: PropTypes.bool.isRequired,
   togglePetiteDropdownState: PropTypes.func.isRequired
+
 };
 
 const mapStateToProps = (state) => ({

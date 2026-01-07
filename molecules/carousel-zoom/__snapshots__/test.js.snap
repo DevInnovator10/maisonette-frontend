@@ -1,0 +1,1002 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a carousel zoom modal renders correctly 1`] = `
+Object {
+    "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  left: 3rem;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 6rem);
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.emotion-0 svg {
+  fill: transparent;
+  stroke-width: 3;
+  stroke: #3150A2;
+}
+
+.emotion-0 img {
+  display: block;
+  max-width: 100%;
+  top: 0;
+}
+
+.emotion-0 .e1wu32ad4 {
+  visibility: hidden;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.emotion-5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: #FFFFFF;
+  border-radius: 100%;
+  outline: 0;
+  margin: 1rem;
+  position: absolute;
+  z-index: 900;
+  right: 0;
+  top: 0;
+}
+
+.emotion-5:active {
+  outline: 0;
+}
+
+.emotion-5:hover {
+  opacity: 0.75;
+}
+
+.emotion-5[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-5 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-5 svg {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.emotion-9 {
+  display: none;
+}
+
+.emotion-9 .iiz {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-9 .iiz>div {
+  -webkit-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  transform: translateY(-80px);
+  height: 100%;
+}
+
+.emotion-9 .iiz img {
+  opacity: 1;
+  -webkit-transform: translateY(80px);
+  -ms-transform: translateY(80px);
+  transform: translateY(80px);
+  margin: 0 auto;
+}
+
+@media (max-width:768px) {
+  .emotion-9 .iiz img {
+    -webkit-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    transform: translateY(15%);
+  }
+}
+
+@media (max-width:560px) {
+  .emotion-9 .iiz img {
+    -webkit-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    transform: translateY(25%);
+  }
+}
+
+.emotion-11 {
+  width: 100%;
+  overflow: hidden;
+  max-height: 1220px;
+  height: 100%;
+}
+
+.emotion-11 .flickity-slider {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:768px) {
+  .emotion-11 {
+    width: 100%;
+    overflow: hidden;
+    max-height: 1220px;
+    height: 90%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-13 {
+  position: relative;
+}
+
+.emotion-13 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-13 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-13 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-13 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-13 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-13 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-13 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-13:not(.no-dots) {
+  margin: 0 3rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-13:not(.no-dots) .flickity-page-dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot::before {
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  background: #2F4DA1;
+}
+
+@media screen and (min-width:769px) {
+  .emotion-13:not(.no-dots) .flickity-page-dots {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-13:not(.no-dots) .flickity-page-dots {
+    margin-top: 25px;
+  }
+}
+
+.emotion-13:not(.no-dots) .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-13:not(.no-dots) .carousel-cell {
+  padding: 2rem;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-13:not(.no-dots) {
+    margin: 0rem;
+  }
+
+  .emotion-13:not(.no-dots) .carousel-cell {
+    padding: 2rem 0rem;
+  }
+}
+
+<body>
+    <div>
+      <div
+        class="emotion-0 emotion-1"
+      >
+        <span
+          class="emotion-2 emotion-3"
+        >
+          NaN / 1
+        </span>
+        <button
+          aria-label="close zoom"
+          class="emotion-4 emotion-5 emotion-6"
+          type="button"
+        >
+          <svg
+            class="emotion-7 emotion-8"
+            data-test-id="Icon"
+          />
+        </button>
+        <div
+          class="emotion-9 emotion-10"
+        >
+          <div
+            class="emotion-11 emotion-12"
+          >
+            <div
+              class="emotion-13 emotion-14 flickity-enabled"
+              tabindex="0"
+            >
+              <div
+                class="flickity-viewport"
+                style="height: 20px;"
+              >
+                <div
+                  class="flickity-slider"
+                  style="left: 0px;"
+                >
+                  <figure
+                    class="iiz carousel-cell is-selected"
+                    style="position: absolute;"
+                  >
+                    <div>
+                      <img
+                        class="iiz__img   "
+                        src="https://vignette.wikia.nocookie.net/en.futurama/images/2/26/Lord_Nibbler.png/revision/latest?cb=20101013083936"
+                        style="transition: opacity 0ms linear 0ms, visibility 0ms linear 0ms;"
+                      />
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <button
+                aria-label="Previous"
+                class="flickity-button flickity-prev-next-button previous"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  class="flickity-button-icon"
+                  viewBox="0 0 100 100"
+                >
+                  <path
+                    class="arrow"
+                    d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Next"
+                class="flickity-button flickity-prev-next-button next"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  class="flickity-button-icon"
+                  viewBox="0 0 100 100"
+                >
+                  <path
+                    class="arrow"
+                    d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                    transform="translate(100, 100) rotate(180) "
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  left: 3rem;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 6rem);
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.emotion-0 svg {
+  fill: transparent;
+  stroke-width: 3;
+  stroke: #3150A2;
+}
+
+.emotion-0 img {
+  display: block;
+  max-width: 100%;
+  top: 0;
+}
+
+.emotion-0 .e1wu32ad4 {
+  visibility: hidden;
+}
+
+.emotion-2 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.emotion-5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: inherit;
+  -webkit-letter-spacing: .24em;
+  -moz-letter-spacing: .24em;
+  -ms-letter-spacing: .24em;
+  letter-spacing: .24em;
+  line-height: 4rem;
+  margin: 0;
+  max-height: 4.4rem;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0;
+  text-transform: uppercase;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  width: auto;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+  -webkit-backface-visibility: hidden;
+  background-color: transparent;
+  border: 0.2rem solid #FFFFFF;
+  color: #FFFFFF;
+  font-family: GT Pressura Web,Arial Narrow,Arial,sans-serif;
+  font-size: 1.2rem;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  transition-timing-function: cubic-bezier(0.390,0.575,0.565,1.000);
+  background: #FFFFFF;
+  border-radius: 100%;
+  outline: 0;
+  margin: 1rem;
+  position: absolute;
+  z-index: 900;
+  right: 0;
+  top: 0;
+}
+
+.emotion-5:active {
+  outline: 0;
+}
+
+.emotion-5:hover {
+  opacity: 0.75;
+}
+
+.emotion-5[disabled] {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.emotion-5 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.emotion-5 svg {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.emotion-9 {
+  display: none;
+}
+
+.emotion-9 .iiz {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-9 .iiz>div {
+  -webkit-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  transform: translateY(-80px);
+  height: 100%;
+}
+
+.emotion-9 .iiz img {
+  opacity: 1;
+  -webkit-transform: translateY(80px);
+  -ms-transform: translateY(80px);
+  transform: translateY(80px);
+  margin: 0 auto;
+}
+
+@media (max-width:768px) {
+  .emotion-9 .iiz img {
+    -webkit-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    transform: translateY(15%);
+  }
+}
+
+@media (max-width:560px) {
+  .emotion-9 .iiz img {
+    -webkit-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    transform: translateY(25%);
+  }
+}
+
+.emotion-11 {
+  width: 100%;
+  overflow: hidden;
+  max-height: 1220px;
+  height: 100%;
+}
+
+.emotion-11 .flickity-slider {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:768px) {
+  .emotion-11 {
+    width: 100%;
+    overflow: hidden;
+    max-height: 1220px;
+    height: 90%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.emotion-13 {
+  position: relative;
+}
+
+.emotion-13 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-13 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-13 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-13 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-13 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-13 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-13 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-13:not(.no-dots) {
+  margin: 0 3rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-13:not(.no-dots) .flickity-page-dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot::before {
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-13:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  background: #2F4DA1;
+}
+
+@media screen and (min-width:769px) {
+  .emotion-13:not(.no-dots) .flickity-page-dots {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-13:not(.no-dots) .flickity-page-dots {
+    margin-top: 25px;
+  }
+}
+
+.emotion-13:not(.no-dots) .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-13:not(.no-dots) .carousel-cell {
+  padding: 2rem;
+}
+
+@media screen and (max-width:425px) {
+  .emotion-13:not(.no-dots) {
+    margin: 0rem;
+  }
+
+  .emotion-13:not(.no-dots) .carousel-cell {
+    padding: 2rem 0rem;
+  }
+}
+
+<div>
+    <div
+      class="emotion-0 emotion-1"
+    >
+      <span
+        class="emotion-2 emotion-3"
+      >
+        NaN / 1
+      </span>
+      <button
+        aria-label="close zoom"
+        class="emotion-4 emotion-5 emotion-6"
+        type="button"
+      >
+        <svg
+          class="emotion-7 emotion-8"
+          data-test-id="Icon"
+        />
+      </button>
+      <div
+        class="emotion-9 emotion-10"
+      >
+        <div
+          class="emotion-11 emotion-12"
+        >
+          <div
+            class="emotion-13 emotion-14 flickity-enabled"
+            tabindex="0"
+          >
+            <div
+              class="flickity-viewport"
+              style="height: 20px;"
+            >
+              <div
+                class="flickity-slider"
+                style="left: 0px;"
+              >
+                <figure
+                  class="iiz carousel-cell is-selected"
+                  style="position: absolute;"
+                >
+                  <div>
+                    <img
+                      class="iiz__img   "
+                      src="https://vignette.wikia.nocookie.net/en.futurama/images/2/26/Lord_Nibbler.png/revision/latest?cb=20101013083936"
+                      style="transition: opacity 0ms linear 0ms, visibility 0ms linear 0ms;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <button
+              aria-label="Previous"
+              class="flickity-button flickity-prev-next-button previous"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="flickity-button-icon"
+                viewBox="0 0 100 100"
+              >
+                <path
+                  class="arrow"
+                  d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Next"
+              class="flickity-button flickity-prev-next-button next"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="flickity-button-icon"
+                viewBox="0 0 100 100"
+              >
+                <path
+                  class="arrow"
+                  d="M 46.19 3.452 L 53.333 10.119 L 18.571 45.357 L 100 45.357 L 100 54.881 L 18.571 54.881 L 53.571 90.119 L 47.381 96.548 L 0 50.357 L 46.19 3.452 Z"
+                  transform="translate(100, 100) rotate(180) "
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

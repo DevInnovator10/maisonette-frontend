@@ -5,7 +5,7 @@ import API from '../../../utils/api';
 import withLogs from '../../../utils/withLogs';
 
 const handler = async (req, res) => {
-  res.setHeader('X-Cache-Control', ['true']);
+    res.setHeader('X-Cache-Control', ['true']);
   const {
     cookies,
     headers,

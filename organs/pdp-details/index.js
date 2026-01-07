@@ -30,6 +30,7 @@ const ProductBadges = styled.div`
 
   > div {
     margin: 1rem 2rem 0 0;
+
   }
 `;
 

@@ -343,6 +343,7 @@ const ProductGrid = (props) => {
         event: 'techEvent',
         eventCategory: 'Site search',
         eventAction: 'No results',
+
         eventLabel: props.searchTerm
       });
     }

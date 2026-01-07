@@ -3,8 +3,8 @@
 exports[`a cart product title renders correctly 1`] = `
 Object {
     "asFragment": [Function],
-  "baseElement": .emotion-0 {
-  display: -webkit-box;
+    "baseElement": .emotion-0 {
+    display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

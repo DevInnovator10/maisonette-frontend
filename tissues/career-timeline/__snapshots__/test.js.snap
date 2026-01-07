@@ -1,0 +1,1320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .emotion-0 {
+  background-color: #fff;
+  padding: 6.4rem 1.6rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 12.8rem 0 12.8rem 6.4rem;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-2 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-6 {
+  width: 153.6px;
+  height: 36px;
+  margin-bottom: 1.6rem;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  line-height: 150%;
+  text-align: center;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.emotion-6:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (max-width:992px) {
+  .emotion-6 {
+    width: 51.2px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.emotion-17 {
+  position: relative;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.emotion-17 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-17 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-17 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-17 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-17 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-17 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-17 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+.emotion-17 .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-17 .carousel-cell {
+  margin: 0 3.2rem 2.4rem 0;
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-17 .carousel-cell {
+    width: 486px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-17 {
+    padding-left: 2.4rem;
+  }
+}
+
+.emotion-19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-21 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  color: #5971B4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.emotion-25 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.2rem;
+  color: #2F4DA1;
+  text-transform: capitalize;
+  line-height: 4rem;
+  text-align: left;
+  font-size: 2.4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-25 {
+    font-size: 3.2rem;
+  }
+}
+
+.emotion-115 {
+  border: 1px solid #2F4DA1;
+  cursor: pointer;
+  font-size: 1.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 1.5rem 4.5rem;
+}
+
+<body>
+    <div>
+      <section
+        class="emotion-0 emotion-1"
+        data-test-id="Timeline"
+      >
+        <h1
+          class="emotion-2 emotion-3"
+        >
+          Maisonette through the years
+        </h1>
+        <ul
+          class="emotion-4 emotion-5"
+        >
+          <li
+            class="emotion-6 emotion-7"
+            data-test-id="TimelineCarousel"
+            style="color: rgb(47, 77, 161); text-decoration: underline;"
+          >
+            2017
+          </li>
+          <li
+            class="emotion-6 emotion-7"
+            data-test-id="TimelineCarousel"
+            style="color: rgb(89, 113, 180); text-decoration: none;"
+          >
+            2018
+          </li>
+          <li
+            class="emotion-6 emotion-7"
+            data-test-id="TimelineCarousel"
+            style="color: rgb(89, 113, 180); text-decoration: none;"
+          >
+            2019
+          </li>
+          <li
+            class="emotion-6 emotion-7"
+            data-test-id="TimelineCarousel"
+            style="color: rgb(89, 113, 180); text-decoration: none;"
+          >
+            2020
+          </li>
+          <li
+            class="emotion-6 emotion-7"
+            data-test-id="TimelineCarousel"
+            style="color: rgb(89, 113, 180); text-decoration: none;"
+          >
+            2021
+          </li>
+        </ul>
+        <div
+          class="emotion-16 emotion-17 emotion-18 flickity-enabled is-draggable"
+          tabindex="0"
+        >
+          <div
+            class="flickity-viewport"
+            style="height: 2.4px;"
+          >
+            <div
+              class="flickity-slider"
+              style="left: 0px; transform: translateX(-Infinity%);"
+            >
+              <div
+                class="carousel-cell emotion-19 emotion-20 is-selected"
+                data-test-id="TimelineCarousel"
+                data-year="2017"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Maisonette launches"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/March2017-Maisonette-Launch.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  March 2017
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Maisonette launches with Apparel, Home, and Toy categories!
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2018"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Mommy & Me Category Launches"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/February2018-Mommy-Me.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  February 2018
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Mommy & Me category launches with Brock Collection collab
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2018"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Series A Raise"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/May2018-SeriesA-Raise.png"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  May 2018
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Series A raise with NEA, Pritzker Group and Thrive Capital
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2018"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Le Scoop Launches"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/June2018-Le-Scoop.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  June 2018
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Our Blog, Le Scoop Launches
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2019"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Maison Me Launches"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/May2019-Maison-Me.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  May 2019
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Our 1st private label, Maison Me launches
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2020"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Bath & Body Category Launches"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/January2020-Bath-Body.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  January 2020
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Bath & Body category launches
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2020"
+                style="position: absolute;"
+              >
+                <img
+                  alt="New Marketplace Platform"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/August2020-Modern-Technology.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  August 2020
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  New marketplace platform launches with modern technology: React, Next.js, AWS, and Ruby on Rails
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2020"
+                style="position: absolute;"
+              >
+                <img
+                  alt="3x Year-Over-Year Growth"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/December2020-3x-Growth.png"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  December 2020
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  3x year-over-year growth
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2021"
+                style="position: absolute;"
+              >
+                <img
+                  alt="1,300+ brands from 600+ integrated vendors"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/January2021-Brands-Vendors.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  January 2021
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  1,300+ brands from 600+ integrated vendors
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2021"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Series B Raise"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/February2021-SeriesB-Raise.png"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  February 2021
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Series B raise with G Squared, NEA and Thrive Capital
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2021"
+                style="position: absolute;"
+              >
+                <img
+                  alt="Maternity and Pet categories launches"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/June2021-Neon-Rebels.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  June 2021
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  Maternity and Pet categories, plus our 2nd private label Neon Rebels, launch
+                </h3>
+              </div>
+              <div
+                aria-hidden="true"
+                class="carousel-cell  emotion-19 emotion-20"
+                data-test-id="TimelineCarousel"
+                data-year="2021"
+                style="position: absolute;"
+              >
+                <img
+                  alt="100 employees, and counting"
+                  class="emotion-21 emotion-22"
+                  src="/images/careers-timeline/July2021-100-Employees.jpg"
+                />
+                <h6
+                  class="emotion-23 emotion-24"
+                >
+                  July 2021
+                </h6>
+                <h3
+                  class="emotion-25 emotion-26"
+                >
+                  100 employees, and counting!
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="emotion-115 emotion-116"
+        >
+          See open roles
+        </a>
+      </section>
+    </div>
+  </body>,
+  "container": .emotion-0 {
+  background-color: #fff;
+  padding: 6.4rem 1.6rem;
+  text-align: center;
+}
+
+@media (min-width:992px) {
+  .emotion-0 {
+    padding: 12.8rem 0 12.8rem 6.4rem;
+  }
+}
+
+.emotion-2 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 4.5776rem;
+  color: #3150A2;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 3.6rem;
+  line-height: 48px;
+}
+
+.emotion-2 a {
+  display: inline;
+}
+
+@media (max-width:992px) {
+  .emotion-2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-6 {
+  width: 153.6px;
+  height: 36px;
+  margin-bottom: 1.6rem;
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 2.4rem;
+  line-height: 150%;
+  text-align: center;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.emotion-6:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (max-width:992px) {
+  .emotion-6 {
+    width: 51.2px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.emotion-17 {
+  position: relative;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+
+.emotion-17 .carousel-cell {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-17 .flickity-prev-next-button {
+  background: transparent;
+  border-radius: 100%;
+  border: 1px solid #3150A2;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 3rem;
+  line-height: 0;
+  opacity: .75;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  stroke: #3150A2;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  -webkit-transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: opacity 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  width: 3rem;
+}
+
+.emotion-17 .flickity-prev-next-button:hover {
+  background: transparent;
+  color: transparent;
+  opacity: 1;
+  outline: none;
+}
+
+.emotion-17 .flickity-prev-next-button svg {
+  fill: #3150A2;
+  height: 1rem;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.emotion-17 .flickity-prev-next-button.previous {
+  left: -3rem;
+}
+
+.emotion-17 .flickity-prev-next-button.next {
+  right: -3rem;
+  left: auto;
+}
+
+.emotion-17 .flickity-prev-next-button:disabled {
+  cursor: not-allowed;
+  opacity: .25;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 2rem;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot::before {
+  background: #9CB1DC;
+  content: '';
+  border-radius: 99999px;
+  -webkit-transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  transition: background 400ms cubic-bezier(0.390,0.575,0.565,1.000);
+  height: 1.0rem;
+  width: 1.0rem;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot:hover::before {
+  opacity: 1;
+  background: #3150A2;
+}
+
+.emotion-17:not(.no-dots) .flickity-page-dots .dot.is-selected::before {
+  opacity: .75;
+  background: #3150A2;
+}
+
+.emotion-17 .flickity-viewport {
+  overflow: hidden;
+}
+
+.emotion-17 .carousel-cell {
+  margin: 0 3.2rem 2.4rem 0;
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (min-width:768px) {
+  .emotion-17 .carousel-cell {
+    width: 486px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-17 {
+    padding-left: 2.4rem;
+  }
+}
+
+.emotion-19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-21 {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.emotion-23 {
+  font-family: GT Walsheim Web,Helvetica,Trebuchet MS,sans-serif;
+  font-size: 1.6rem;
+  color: #5971B4;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.emotion-25 {
+  font-family: Canela Web,Big Caslon,Times New Roman,Times,serif;
+  font-size: 3.2rem;
+  color: #2F4DA1;
+  text-transform: capitalize;
+  line-height: 4rem;
+  text-align: left;
+  font-size: 2.4rem;
+}
+
+@media (min-width:992px) {
+  .emotion-25 {
+    font-size: 3.2rem;
+  }
+}
+
+.emotion-115 {
+  border: 1px solid #2F4DA1;
+  cursor: pointer;
+  font-size: 1.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 1.5rem 4.5rem;
+}
+
+<div>
+    <section
+      class="emotion-0 emotion-1"
+      data-test-id="Timeline"
+    >
+      <h1
+        class="emotion-2 emotion-3"
+      >
+        Maisonette through the years
+      </h1>
+      <ul
+        class="emotion-4 emotion-5"
+      >
+        <li
+          class="emotion-6 emotion-7"
+          data-test-id="TimelineCarousel"
+          style="color: rgb(47, 77, 161); text-decoration: underline;"
+        >
+          2017
+        </li>
+        <li
+          class="emotion-6 emotion-7"
+          data-test-id="TimelineCarousel"
+          style="color: rgb(89, 113, 180); text-decoration: none;"
+        >
+          2018
+        </li>
+        <li
+          class="emotion-6 emotion-7"
+          data-test-id="TimelineCarousel"
+          style="color: rgb(89, 113, 180); text-decoration: none;"
+        >
+          2019
+        </li>
+        <li
+          class="emotion-6 emotion-7"
+          data-test-id="TimelineCarousel"
+          style="color: rgb(89, 113, 180); text-decoration: none;"
+        >
+          2020
+        </li>
+        <li
+          class="emotion-6 emotion-7"
+          data-test-id="TimelineCarousel"
+          style="color: rgb(89, 113, 180); text-decoration: none;"
+        >
+          2021
+        </li>
+      </ul>
+      <div
+        class="emotion-16 emotion-17 emotion-18 flickity-enabled is-draggable"
+        tabindex="0"
+      >
+        <div
+          class="flickity-viewport"
+          style="height: 2.4px;"
+        >
+          <div
+            class="flickity-slider"
+            style="left: 0px; transform: translateX(-Infinity%);"
+          >
+            <div
+              class="carousel-cell emotion-19 emotion-20 is-selected"
+              data-test-id="TimelineCarousel"
+              data-year="2017"
+              style="position: absolute;"
+            >
+              <img
+                alt="Maisonette launches"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/March2017-Maisonette-Launch.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                March 2017
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Maisonette launches with Apparel, Home, and Toy categories!
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2018"
+              style="position: absolute;"
+            >
+              <img
+                alt="Mommy & Me Category Launches"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/February2018-Mommy-Me.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                February 2018
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Mommy & Me category launches with Brock Collection collab
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2018"
+              style="position: absolute;"
+            >
+              <img
+                alt="Series A Raise"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/May2018-SeriesA-Raise.png"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                May 2018
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Series A raise with NEA, Pritzker Group and Thrive Capital
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2018"
+              style="position: absolute;"
+            >
+              <img
+                alt="Le Scoop Launches"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/June2018-Le-Scoop.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                June 2018
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Our Blog, Le Scoop Launches
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2019"
+              style="position: absolute;"
+            >
+              <img
+                alt="Maison Me Launches"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/May2019-Maison-Me.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                May 2019
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Our 1st private label, Maison Me launches
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2020"
+              style="position: absolute;"
+            >
+              <img
+                alt="Bath & Body Category Launches"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/January2020-Bath-Body.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                January 2020
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Bath & Body category launches
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2020"
+              style="position: absolute;"
+            >
+              <img
+                alt="New Marketplace Platform"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/August2020-Modern-Technology.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                August 2020
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                New marketplace platform launches with modern technology: React, Next.js, AWS, and Ruby on Rails
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2020"
+              style="position: absolute;"
+            >
+              <img
+                alt="3x Year-Over-Year Growth"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/December2020-3x-Growth.png"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                December 2020
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                3x year-over-year growth
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2021"
+              style="position: absolute;"
+            >
+              <img
+                alt="1,300+ brands from 600+ integrated vendors"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/January2021-Brands-Vendors.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                January 2021
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                1,300+ brands from 600+ integrated vendors
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2021"
+              style="position: absolute;"
+            >
+              <img
+                alt="Series B Raise"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/February2021-SeriesB-Raise.png"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                February 2021
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Series B raise with G Squared, NEA and Thrive Capital
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2021"
+              style="position: absolute;"
+            >
+              <img
+                alt="Maternity and Pet categories launches"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/June2021-Neon-Rebels.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                June 2021
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                Maternity and Pet categories, plus our 2nd private label Neon Rebels, launch
+              </h3>
+            </div>
+            <div
+              aria-hidden="true"
+              class="carousel-cell  emotion-19 emotion-20"
+              data-test-id="TimelineCarousel"
+              data-year="2021"
+              style="position: absolute;"
+            >
+              <img
+                alt="100 employees, and counting"
+                class="emotion-21 emotion-22"
+                src="/images/careers-timeline/July2021-100-Employees.jpg"
+              />
+              <h6
+                class="emotion-23 emotion-24"
+              >
+                July 2021
+              </h6>
+              <h3
+                class="emotion-25 emotion-26"
+              >
+                100 employees, and counting!
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="emotion-115 emotion-116"
+      >
+        See open roles
+      </a>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
